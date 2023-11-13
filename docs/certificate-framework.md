@@ -147,7 +147,7 @@ Elevate your software development skills in the context of self-driving laborato
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
 Setting up VS Code | Integrated development environments (IDEs), miniconda, VS Code extensions |
-Debugging in VS Code | Setting breakpoints, inspecting variables, stepping through code, debug console, debug configurations |
+Debugging in VS Code | Print statements, setting breakpoints, inspecting variables, stepping through code, debug console, debug configurations |
 Automated unit testing with pytest | Writing test cases, running tests, interpreting test results, fixing tests, test-driven development |
 Automated documentation with Sphinx and Readthedocs | Understanding Documentation, Sphinx Basics, Readthedocs Integration, Autodoc, RestructuredText (RST) Syntax, Hosting Documentation |
 Continuous integration with GitHub actions | Understanding Continuous Integration, GitHub Actions Basics, Running Tests with GitHub Actions, Running Linters with GitHub Actions, Running Documentation Builds with GitHub Actions |
@@ -155,6 +155,8 @@ Project templates with PyScaffold | Understanding PyScaffold, Creating a Project
 Using LLMs to enhance coding workflows via GitHub Copilot Chat | Understanding LLMs, GitHub Copilot Basics, Code Suggestions, Code Completions, Code Refactoring |
 Launching a free cloud server with PythonAnywhere | Serverless computing, PythonAnywhere Basics, Deploying Applications |
 Offline simulations with AWS | Cloud computing, setting up an AWS account, AWS Lambda |  <!-- https://www.w3schools.com/aws/ -->
+
+<!-- note that print statements (similarly cell evaluation outputs for notebooks) are an important beginner method of debugging
 
 ### 🏢 AC training lab capstone project <!-- Alternative emoji: 🏗️ -->
 
