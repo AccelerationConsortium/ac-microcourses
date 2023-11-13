@@ -1,6 +1,6 @@
 # 📜 Autonomous Systems for Discovery Certificate
 
-While advanced materials hold the potential to improve our lives and our world, conventional methods of discovery are slow and expensive. "Self-driving" (i.e., autonomous) laboratories have the power to radically fast-track materials discovery—from an average of 20 years and $100 million to as little as 1 year and $1 million. This paradigm shift requires highly qualified personnel and multidisciplinary expertise. While extensive degree-based training can provide deep expertise in a single field, formal education options which provide needed cross-disciplinary skills are unavailable. This certificate will address this gap with training that introduces self-driving labs, provides deeper dives into data science, robotics, and software development, and facilitates a capstone project. Each course will contain a series of hands-on guided tutorials and coding exercises for participants to adapt and apply what they've learned.
+While advanced materials hold the potential to improve our lives and our world, conventional methods of discovery are slow and expensive. "Self-driving" (i.e., autonomous) laboratories have the power to radically fast-track materials discovery—from an average of 20 years and $100 million to as little as 1 year and $1 million. This paradigm shift requires highly qualified personnel and multidisciplinary expertise. While extensive degree-based training can provide deep expertise in a single field, formal education options which provide needed cross-disciplinary skills are unavailable. This certificate will address this gap with training that introduces self-driving labs, provides deeper dives into data science, robotics, and software development, and facilitates a capstone project. Each course will contain a series of hands-on guided tutorials and coding exercises for participants to adapt and apply what they've learned. <!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
 
 ## 🎯 Certificate Learning Outcomes
 
@@ -27,7 +27,8 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
 - Use MQTT to send commands and receive sensor data over WiFi
 - Store experiment configurations and results in a MongoDB database
 - Implement software on a microcontroller to adjust device power and read sensor data
-- Adapt a script for the Adaptive Experimentation (Ax) Platform to iteratively suggest new colors to try
+- Adapt a script for the Adaptive Experimentation (Ax) Platform to iteratively suggest new colors to try <!-- Bayes opt YouTube video here, in data science, or in both? EDIT: data science -->
+- Adapt a Covalent script to implement workflow orchestration for a color experiment
 - Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements
 
 #### 🛠️ Competencies/Skills
@@ -38,12 +39,14 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
 - Microcontrollers and sensors
 - Hardware/software communication
 
+<!-- I'm not sure I like the module name/topics/LO table format. Perhaps a module name as a subheading -->
+
 #### 🧩 Modules
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
-Running the self-driving lab demo | Database management, Bayesian optimization, microcontrollers, sensors, device communication |
-Blink the LEDs and read sensor data | Microcontrollers, sensors |
-| Bayesian optimization for color matching | Bayesian optimization |
+Running the self-driving lab demo | Database management, Bayesian optimization, microcontrollers, sensors, device communication | Describe key terms and principles of self-driving labs<br>Preview an end-to-end self-driving lab<br>Set up a MongoDB account and database<br>Set up a HiveMQ account and instance<br>Upload software to a microcontroller
+Blink the LEDs and read sensor data |  Microcontrollers, sensors | Gain familiarity with the MicroPython programming language<br>Send commands to a microcontroller<br>Receive sensor data from a microcontroller
+| Bayesian optimization for color matching | Bayesian optimization | Compare grid search vs. random search vs. Bayesian optimization<br>Visualize optimization efficiency as a function of number of experiments<br>Visualize ??? <!-- See hello world tutorial -->
 | Hardware/software communication using MQTT | Device communication |
 | Logging data to MongoDB | Database management |
 | Bring it altogether | Systems design |
@@ -58,7 +61,6 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 - Describe a materials discovery task using data science language and concepts
 - Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
 - Judiciously choose an advanced optimization setup that matches a materials discovery task
-- Adapt a Covalent script to implement workflow orchestration for chocolate chip cookie optimization
 - Programatically upload a completed dataset to figshare, create a benchmark model, and host it on HuggingFace or similar
 
 #### 🛠️ Competencies/Skills
@@ -79,6 +81,8 @@ High-dimensional optimization | Bayesian optimization, curse of dimensionality, 
 Featurization | Bayesian optimization, domain knowledge integration, contextual variables, predefined candidates |
 Multi-fidelity optimization | Bayesian optimization, cost-fidelity tradeoffs, knowledge gradient acquisition function |
 Creating benchmarks using Figshare, scikit-learn, and HuggingFace | Benchmarks, surrogate models, random forest regression, FAIR data, model deployment, application programming interfaces (APIs) |
+
+<!-- In intro, require Bayes opt video and user input for the different questions. This could be a GitHub discussion, comments in a PR, entry in the Canvas course, etc. -->
 
 <!-- Mixed-variable optimization | Numerical parameters, categorical parameters |  -->
 
@@ -126,6 +130,7 @@ Elevate your software development skills in the context of self-driving laborato
 - Identify productivity tools for developers that increase efficiency
 - Use pytest to write unit tests and use them with continuous integration via GitHub actions
 - Create Python documentation using sphinx and rtd
+- Create a project template using PyScaffold
 - Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign
 - Run an offline simulation using AWS
 
@@ -145,6 +150,8 @@ Setting up VS Code | Integrated development environments (IDEs), miniconda, VS C
 Debugging in VS Code | Setting breakpoints, inspecting variables, stepping through code, debug console, debug configurations |
 Automated unit testing with pytest | Writing test cases, running tests, interpreting test results, fixing tests, test-driven development |
 Automated documentation with Sphinx and Readthedocs | Understanding Documentation, Sphinx Basics, Readthedocs Integration, Autodoc, RestructuredText (RST) Syntax, Hosting Documentation |
+Continuous integration with GitHub actions | Understanding Continuous Integration, GitHub Actions Basics, Running Tests with GitHub Actions, Running Linters with GitHub Actions, Running Documentation Builds with GitHub Actions |
+Project templates with PyScaffold | Understanding PyScaffold, Creating a Project Template, Using a Project Template |
 Using LLMs to enhance coding workflows via GitHub Copilot Chat | Understanding LLMs, GitHub Copilot Basics, Code Suggestions, Code Completions, Code Refactoring |
 Launching a free cloud server with PythonAnywhere | Serverless computing, PythonAnywhere Basics, Deploying Applications |
 Offline simulations with AWS | Cloud computing, setting up an AWS account, AWS Lambda |  <!-- https://www.w3schools.com/aws/ -->
