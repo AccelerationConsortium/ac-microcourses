@@ -1,0 +1,484 @@
+[
+    {
+        "Course Title": "💡 Building a 'Hello World' for self-driving labs",
+        "Description": "Discover the essential principles of self-driving laboratories (SDLs) by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data. For participants to complete this course within the expected timeframe (15-20 hours), intermediate proficiency in Python programming is recommended.",
+        "Learning Outcomes": [
+            "Describe key terms and principles of self-driving labs",
+            "Send commands and receive sensor data over WiFi using standard frameworks such as MQTT",
+            "Store experiment configurations and results in a MongoDB database",
+            "Implement software on a microcontroller to adjust device power and read sensor data",
+            "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try",
+            "Implement workflow orchestration for a color experiment using packages such as Covalent",
+            "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
+        ],
+        "Competencies/Skills": [
+            "Basic self-driving lab literacy",
+            "Database management",
+            "Workflow orchestration",
+            "Bayesian optimization",
+            "Microcontrollers and sensors",
+            "Hardware/software communication"
+        ],
+        "Modules": [
+            {
+                "Module Name": "Running the self-driving lab demo",
+                "Topics": [
+                    "Database management",
+                    "Bayesian optimization",
+                    "Microcontrollers",
+                    "Sensors",
+                    "Device communication"
+                ],
+                "Learning Outcomes": [
+                    "Describe key terms and principles of self-driving labs",
+                    "Preview an end-to-end self-driving lab",
+                    "Set up a MongoDB account and database",
+                    "Set up a HiveMQ account and instance",
+                    "Upload software to a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Blink the LEDs and read sensor data",
+                "Topics": [
+                    "Microcontrollers",
+                    "Sensors"
+                ],
+                "Learning Outcomes": [
+                    "Familiarize the MicroPython programming language",
+                    "Send commands to a microcontroller",
+                    "Receive sensor data from a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Bayesian optimization for color matching",
+                "Topics": [
+                    "Design of experiments",
+                    "Bayesian optimization",
+                    "Data visualization"
+                ],
+                "Learning Outcomes": [
+                    "Compare grid and random search vs. Bayesian optimization",
+                    "Visualize optimization efficiency"
+                ]
+            },
+            {
+                "Module Name": "Hardware/software communication",
+                "Topics": [
+                    "MQTT",
+                    "Device communication",
+                    "Host",
+                    "Client"
+                ],
+                "Learning Outcomes": [
+                    "Send commands to a microcontroller",
+                    "Receive sensor data from a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Logging data",
+                "Topics": [
+                    "MongoDB",
+                    "Database management"
+                ],
+                "Learning Outcomes": [
+                    "Set up a MongoDB account and database",
+                    "Upload data directly from microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Piecing the modules together",
+                "Topics": [
+                    "Systems design"
+                ],
+                "Learning Outcomes": [
+                    "Connect the pieces to complete the SDL demo"
+                ]
+            },
+            {
+                "Module Name": "Convert to a lab sensor system",
+                "Topics": [
+                    "Microcontrollers",
+                    "Sensors",
+                    "Device communication",
+                    "Database management"
+                ],
+                "Learning Outcomes": [
+                    "Continuously log temperature, humidity, pressure, light, and accelerometer data"
+                ]
+            }
+        ]
+    },
+    {
+        "Course Title": "📈 Data science for self-driving labs",
+        "Description": "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace. The recommended prerequisite for this course is 'Building a 'Hello World' for Self-Driving Labs'.",
+        "Learning Outcomes": [
+            "Describe a materials discovery task using data science language and concepts",
+            "Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe",
+            "Judiciously choose an advanced optimization setup that matches a materials discovery task",
+            "Programatically upload a completed dataset to Figshare, create a benchmark model, and host it on HuggingFace"
+        ],
+        "Competencies/Skills": [
+            "Data science literacy",
+            "Bayesian optimization",
+            "Advanced Bayesian optimization",
+            "Workflow orchestration",
+            "Benchmarking"
+        ],
+        "Modules": [
+            {
+                "Module Name": "Running the self-driving lab demo",
+                "Topics": [
+                    "Database management",
+                    "Bayesian optimization",
+                    "Microcontrollers",
+                    "Sensors",
+                    "Device communication"
+                ],
+                "Learning Outcomes": [
+                    "Describe key terms and principles of self-driving labs",
+                    "Preview an end-to-end self-driving lab",
+                    "Set up a MongoDB account and database",
+                    "Set up a HiveMQ account and instance",
+                    "Upload software to a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Blink the LEDs and read sensor data",
+                "Topics": [
+                    "Microcontrollers",
+                    "Sensors"
+                ],
+                "Learning Outcomes": [
+                    "Familiarize the MicroPython programming language",
+                    "Send commands to a microcontroller",
+                    "Receive sensor data from a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Bayesian optimization for color matching",
+                "Topics": [
+                    "Design of experiments",
+                    "Bayesian optimization",
+                    "Data visualization"
+                ],
+                "Learning Outcomes": [
+                    "Compare grid and random search vs. Bayesian optimization",
+                    "Visualize optimization efficiency"
+                ]
+            },
+            {
+                "Module Name": "Hardware/software communication",
+                "Topics": [
+                    "MQTT",
+                    "Device communication",
+                    "Host",
+                    "Client"
+                ],
+                "Learning Outcomes": [
+                    "Send commands to a microcontroller",
+                    "Receive sensor data from a microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Logging data",
+                "Topics": [
+                    "MongoDB",
+                    "Database management"
+                ],
+                "Learning Outcomes": [
+                    "Set up a MongoDB account and database",
+                    "Upload data directly from microcontroller"
+                ]
+            },
+            {
+                "Module Name": "Piecing the modules together",
+                "Topics": [
+                    "Systems design"
+                ],
+                "Learning Outcomes": [
+                    "Connect the pieces to complete the SDL demo"
+                ]
+            },
+            {
+                "Module Name": "Convert to a lab sensor system",
+                "Topics": [
+                    "Microcontrollers",
+                    "Sensors",
+                    "Device communication",
+                    "Database management"
+                ],
+                "Learning Outcomes": [
+                    "Continuously log temperature, humidity, pressure, light, and accelerometer data"
+                ]
+            }
+        ]
+    },
+    {
+        "Course Title": "🦾 Robotics for self-driving labs",
+        "Description": "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot. The recommended prerequisite for this course is Building a 'Hello World' for Self-Driving Labs.",
+        "Learning Outcomes": [
+            "Implement software to control a peristaltic pump via a microcontroller and a motor driver",
+            "Build the 'Digital Pipette' and implement software to control the linear actuator",
+            "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)",
+            "Demonstrate control of a mobile cobot using the robot operating system (ROS) framework",
+            "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags",
+            "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
+        ],
+        "Competencies/Skills": [
+            "Motor drivers",
+            "Automated liquid handlers",
+            "Robotic control",
+            "Computer vision",
+            "Automated solid handlers"
+        ],
+        "Modules": [
+            {
+                "Module Name": "Controlling pumps and pipettes",
+                "Topics": [
+                    "Workflow orchestration",
+                    "Microcontrollers",
+                    "Peristaltic pumps",
+                    "Linear actuators",
+                    "Motor drivers"
+                ],
+                "Learning Outcomes": [
+                    "Implement software to control a peristaltic pump via a microcontroller and a motor driver",
+                    "Build the 'Digital Pipette' and implement software to control the linear actuator"
+                ]
+            },
+            {
+                "Module Name": "Automated liquid handlers",
+                "Topics": [
+                    "Workflow orchestration",
+                    "Jubilee",
+                    "Opentrons"
+                ],
+                "Learning Outcomes": [
+                    "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)"
+                ]
+            },
+            {
+                "Module Name": "Mobile robotics",
+                "Topics": [
+                    "ROS"
+                ],
+                "Learning Outcomes": [
+                    "Demonstrate control of a mobile cobot using the Robot Operating System (ROS)"
+                ]
+            },
+            {
+                "Module Name": "Computer vision",
+                "Topics": [
+                    "OpenCV",
+                    "AprilTags"
+                ],
+                "Learning Outcomes": [
+                    "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
+                ]
+            },
+            {
+                "Module Name": "Solid sample transfer",
+                "Topics": [
+                    "Workflow orchestration",
+                    "ROS",
+                    "AprilTags",
+                    "Multi-axis robotics"
+                ],
+                "Learning Outcomes": [
+                    "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
+                ]
+            }
+        ]
+    },
+    {
+        "Course Title": "🧑‍💻 Software development for self-driving labs",
+        "Description": "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting. The recommended prerequisite for this course is Building a 'Hello World' for Self-Driving Labs.",
+        "Learning Outcomes": [
+            "List software development best practices and corresponding benefits",
+            "Identify productivity tools for developers that increase efficiency",
+            "Write unit tests using tools such as pytest",
+            "Create Python documentation using sphinx and rtd",
+            "Implement continuous integration (CI) using tools such as GitHub actions",
+            "Create a project template using PyScaffold",
+            "Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign",
+            "Run an offline simulation using cloud hosting"
+        ],
+        "Competencies/Skills": [
+            "Software development literacy",
+            "Unit testing",
+            "Documentation",
+            "Compute hardware",
+            "Cloud computing"
+        ],
+        "Modules": [
+            {
+                "Module Name": "Setting up VS Code",
+                "Topics": [
+                    "IDEs",
+                    "Miniconda",
+                    "VS Code extensions"
+                ],
+                "Learning Outcomes": [
+                    "Set up VS Code",
+                    "Install Miniconda",
+                    "Install VS Code extensions"
+                ]
+            },
+            {
+                "Module Name": "Debugging in VS Code",
+                "Topics": [
+                    "Print statements",
+                    "Setting breakpoints",
+                    "Inspecting variables",
+                    "Stepping through code",
+                    "Debug console",
+                    "Debug configurations"
+                ],
+                "Learning Outcomes": [
+                    "Use print statements to debug code",
+                    "Set breakpoints",
+                    "Inspect variables",
+                    "Step through code",
+                    "Use the debug console",
+                    "Set up debug configurations"
+                ]
+            },
+            {
+                "Module Name": "Unit testing",
+                "Topics": [
+                    "pytest",
+                    "Test result interpretation",
+                    "Debugging",
+                    "Test-driven development"
+                ],
+                "Learning Outcomes": [
+                    "Explain the purpose of unit tests",
+                    "Write unit tests for the light-mixing demo",
+                    "Run and interpret unit tests to fix code",
+                    "Explain test-driven development"
+                ]
+            },
+            {
+                "Module Name": "Automated documentation",
+                "Topics": [
+                    "Markdown",
+                    "Documentation as code",
+                    "Sphinx",
+                    "Readthedocs"
+                ],
+                "Learning Outcomes": [
+                    "Write documentation in Markdown",
+                    "Explain what documentation as code means",
+                    "Set up a readthedocs account and publish a readthedocs page"
+                ]
+            },
+            {
+                "Module Name": "Continuous integration (CI)",
+                "Topics": [
+                    "Continuous integration",
+                    "GitHub actions",
+                    "Unit tests",
+                    "Documentation"
+                ],
+                "Learning Outcomes": [
+                    "Explain the purpose of continuous integration",
+                    "Set up a GitHub actions workflow",
+                    "Run unit tests and documentation builds on GitHub actions"
+                ]
+            },
+            {
+                "Module Name": "Project templates",
+                "Topics": [
+                    "PyScaffold",
+                    "Cookiecutter",
+                    "Project initialization",
+                    "Project adaptation"
+                ],
+                "Learning Outcomes": [
+                    "Create a project template using PyScaffold",
+                    "Add project content"
+                ]
+            },
+            {
+                "Module Name": "Launching a free cloud server",
+                "Topics": [
+                    "Serverless computing",
+                    "PythonAnywhere",
+                    "Deploying Applications"
+                ],
+                "Learning Outcomes": [
+                    "Launch a free cloud server",
+                    "Deploy a materials discovery campaign on a cloud server"
+                ]
+            },
+            {
+                "Module Name": "On-demand cloud simulations",
+                "Topics": [
+                    "Cloud computing",
+                    "Setting up an AWS account",
+                    "AWS Lambda"
+                ],
+                "Learning Outcomes": [
+                    "Run an on-demand cloud simulation",
+                    "Integrate a cloud simulation into a materials discovery campaign"
+                ]
+            }
+        ]
+    },
+    {
+        "Course Title": "🏢 AC training lab capstone project",
+        "Description": "Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base. The prerequisites for this course are Building a 'Hello World' for Self-Driving Labs, Data Science for Self-Driving Labs, Robotics for Self-Driving Labs, and Software Development for Self-Driving Labs.",
+        "Learning Outcomes": [
+            "Propose a self-driving lab via a schematic figure",
+            "Write a white paper for the self-driving laboratory",
+            "Present the proposal to a team of scientists",
+            "Design and build the proposed self-driving laboratory at the AC training lab",
+            "Provide a project update with proposed next steps",
+            "Share the designs, data, and documentation publicly"
+        ],
+        "Competencies/Skills": [
+            "Scientific communication",
+            "Systems design",
+            "Dissemination",
+            "Interdisciplinary teamwork"
+        ],
+        "Modules": [
+            {
+                "Module Name": "Project proposal",
+                "Topics": [
+                    "Figures",
+                    "White papers",
+                    "Presentations"
+                ],
+                "Learning Outcomes": [
+                    "Propose a self-driving lab via a schematic figure",
+                    "Write a white paper for the self-driving laboratory",
+                    "Present the proposal to a team of scientists"
+                ]
+            },
+            {
+                "Module Name": "Design and build",
+                "Topics": [
+                    "SDL design",
+                    "Implementation",
+                    "Documentation"
+                ],
+                "Learning Outcomes": [
+                    "Design and build the proposed self-driving laboratory at the AC training lab",
+                    "Provide a project update with proposed next steps"
+                ]
+            },
+            {
+                "Module Name": "Dissemination",
+                "Topics": [
+                    "Project update",
+                    "Knowledge sharing",
+                    "Data and documentation"
+                ],
+                "Learning Outcomes": [
+                    "Share the designs, data, and documentation publicly"
+                ]
+            }
+        ]
+    }
+]
