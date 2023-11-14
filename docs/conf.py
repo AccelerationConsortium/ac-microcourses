@@ -188,7 +188,7 @@ html_theme = "sphinx_rtd_theme"
 #     "page_width": "1200px"
 # }
 html_theme_options = {
-    "navigation_depth": 2,
+    "navigation_depth": 3,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
