@@ -6,9 +6,9 @@ This project is currently under development and the official microcredentials co
 
 While advanced materials hold the potential to improve our lives and our world, conventional methods of discovery are slow and expensive. "Self-driving" (i.e., autonomous) laboratories have the power to radically fast-track materials discovery—from an average of 20 years and \$100 million to as little as 1 year and \$1 million. This paradigm shift requires highly qualified personnel and multidisciplinary expertise. While extensive degree-based training can provide deep expertise in a single field, formal education options which provide needed cross-disciplinary skills are sparse. The Acceleration Consortium @ University of Toronto presents the *Autonomous Systems for Discovery* certificate to address this gap. This certificate contains a set of microcourses that introduces self-driving labs, provides deeper dives into data science, robotics, and software development, and facilitates a capstone project. Each course contains a series of hands-on guided tutorials and coding exercises for participants to adapt and apply what they've learned. This certificate will provide familiarity with the terminology, principles, and tools required for the highly interdisciplinary teams necessary to build state-of-the-art self-driving labs.
 
-```{note}
+<!-- ```{note}
 While the certificate option requires formal registration and tuition dues, the course content is made freely available.
-```
+``` -->
 
 <!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
 <!-- description of the microcredentials, and the difference between the microcourse content and the microcredentials certificate -->
