@@ -28,13 +28,6 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
 
 ### 🧩 Modules
 
-<!-- #### Topics
-- Database management
-- Bayesian optimization
-- Microcontrollers
-- Sensors
-- Device communication -->
-
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
 Running the self-driving lab demo | Database management<br>Bayesian optimization<br>Microcontrollers<br>Sensors<br>Device communication | Describe key terms and principles of self-driving labs<br>Preview an end-to-end self-driving lab<br>Set up a MongoDB account and database<br>Set up a HiveMQ account and instance<br>Upload software to a microcontroller
