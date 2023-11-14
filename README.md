@@ -9,7 +9,7 @@
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/ac-microcourses)
 -->
 
-# ac-microcourses
+# AC Microcourses
 
 > Microcourses hosted by the Acceleration Consortium for self-driving lab topics.
 
