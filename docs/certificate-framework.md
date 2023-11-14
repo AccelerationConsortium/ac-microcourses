@@ -30,13 +30,13 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
 
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
-Running the self-driving lab demo | Database management<br>Bayesian optimization<br>Microcontrollers<br>Sensors<br>Device communication | Describe key terms and principles of self-driving labs<br>Preview an end-to-end self-driving lab<br>Set up a MongoDB account and database<br>Set up a HiveMQ account and instance<br>Upload software to a microcontroller
-Blink the LEDs and read sensor data |  Microcontrollers<br>sensors | Familiarize the MicroPython programming language<br>Send commands to a microcontroller<br>Receive sensor data from a microcontroller
-| Bayesian optimization for color matching | Design of experiments<br>Bayesian optimization<br>data visualization | Compare grid and random search vs. Bayesian optimization<br>Visualize optimization efficiency
-| Hardware/software communication | MQTT<br>Device communication<br>Host<br>Client | Send commands to a microcontroller<br>Receive sensor data from a microcontroller
-| Logging data | MongoDB<br>Database management | Set up a MongoDB account and database<br>Upload data directly from microcontroller
-| Piecing the modules together | Systems design | Connect the pieces to complete the SDL demo
-| Convert to a lab sensor system | Microcontrollers<br>Sensors<br>Device communication<br>Database management | Continuously log temperature, humidity, pressure, light, and accelerometer data
+Running the self-driving lab demo | • Database management<br>• Bayesian optimization<br>• Microcontrollers<br>• Sensors<br>• Device communication | • Describe key terms and principles of self-driving labs<br>• Preview an end-to-end self-driving lab<br>• Set up a MongoDB account and database<br>• Set up a HiveMQ account and instance<br>• Upload software to a microcontroller
+Blink the LEDs and read sensor data |  • Microcontrollers<br>• sensors | • Familiarize the MicroPython programming language<br>• Send commands to a microcontroller<br>• Receive sensor data from a microcontroller
+| Bayesian optimization for color matching | • Design of experiments<br>• Bayesian optimization<br>• Data visualization | • Compare grid and random search vs. Bayesian optimization<br>• Visualize optimization efficiency
+| Hardware/software communication | • MQTT<br>• Device communication<br>• Host<br>• Client | • Send commands to a microcontroller<br>• Receive sensor data from a microcontroller
+| Logging data | • MongoDB<br>• Database management | • Set up a MongoDB account and database<br>• Upload data directly from microcontroller
+| Piecing the modules together | • Systems design | • Connect the pieces to complete the SDL demo
+| Convert to a lab sensor system | • Microcontrollers<br>• Sensors<br>• Device communication<br>• Database management | • Continuously log temperature, humidity, pressure, light, and accelerometer data
 
 ## 📈 Data science for self-driving labs
 
@@ -102,8 +102,8 @@ Embark on a journey into the world of robotics and automation for self-driving l
 ### 🧩 Modules
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
-Controlling pumps and pipettes | Workflow orchestration<br>Microcontrollers<br>Peristaltic pumps<br>Linear actuators<br>Motor drivers | Implement software to control a peristaltic pump via a microcontroller and a motor driver<br>Build the "Digital Pipette" and implement software to control the linear actuator
-Automated liquid handlers | Workflow orchestration<br>Jubilee<br>Opentrons | Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
+Controlling pumps and pipettes | • Workflow orchestration<br>• Microcontrollers<br>• Peristaltic pumps<br>• Linear actuators<br>• Motor drivers | • Implement software to control a peristaltic pump via a microcontroller and a motor driver<br>• Build the "Digital Pipette" and implement software to control the linear actuator
+Automated liquid handlers | • Workflow orchestration<br>• Jubilee<br>• Opentrons | Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
 Mobile robotics | ROS | Demonstrate control of a mobile cobot using the Robot Operating System (ROS)
 Computer vision | OpenCV<br>AprilTags | Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
 Solid sample transfer | Workflow orchestration<br>ROS<br>AprilTags<br>Multi-axis robotics | Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
