@@ -33,10 +33,10 @@ Module Name | Topics | Learning Outcomes
 Running the self-driving lab demo | Database management<br>Bayesian optimization<br>Microcontrollers<br>Sensors<br>Device communication | Describe key terms and principles of self-driving labs<br>Preview an end-to-end self-driving lab<br>Set up a MongoDB account and database<br>Set up a HiveMQ account and instance<br>Upload software to a microcontroller
 Blink the LEDs and read sensor data |  Microcontrollers<br>sensors | Familiarize the MicroPython programming language<br>Send commands to a microcontroller<br>Receive sensor data from a microcontroller
 | Bayesian optimization for color matching | Design of experiments<br>Bayesian optimization<br>data visualization | Compare grid and random search vs. Bayesian optimization<br>Visualize optimization efficiency
-| Hardware/software communication using MQTT | Device communication | Send commands to a microcontroller<br>Receive sensor data from a microcontroller
-| Logging data to MongoDB | Database management | Set up a MongoDB account and database<br>Upload data directly from microcontroller
-| Bring it all together | Systems design | Connect the pieces to complete the SDL demo
-| Convert the demo to an all-purpose lab sensor system | Microcontrollers<br>Sensors<br>Device communication<br>Database management | Continuously log temperature, humidity, pressure, light, and accelerometer data
+| Hardware/software communication | MQTT<br>Device communication<br>Host<br>Client | Send commands to a microcontroller<br>Receive sensor data from a microcontroller
+| Logging data | MongoDB<br>Database management | Set up a MongoDB account and database<br>Upload data directly from microcontroller
+| Piecing the modules together | Systems design | Connect the pieces to complete the SDL demo
+| Convert to a lab sensor system | Microcontrollers<br>Sensors<br>Device communication<br>Database management | Continuously log temperature, humidity, pressure, light, and accelerometer data
 
 ## 📈 Data science for self-driving labs
 
@@ -60,13 +60,13 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 
 Module Name | Topics | Learning Outcomes
 --- | --- | ---
-A gentle introduction to Bayesian optimization | Design of experiments<br>Quasi-random search methods<br>Bayesian optimization<br>Expected improvement (EI)<br>Ax Platform<br>Honegumi template generator | Describe a materials discovery task using data science language and concepts<br>Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
-Multi-objective optimization | Bayesian optimization<br>Pareto fronts<br>Expected hypervolume improvement (EHVI)<br>Objective thresholds | Explain the significance of a Pareto front<br>Compare simple scalarization with expected hypervolume improvement<br>Explore the effect of setting objective thresholds  <!-- incorporating domain knowledge through objective thresholds -->
-Constrained optimization | Bayesian optimization<br>Linear constraints<br>Nonlinear constraints<br>Compositional constraints<br>Order constraints | Provide examples of materials discovery tasks with constraints<br>Adapt a Bayesian optimization script to include constraints
-High-dimensional optimization | Bayesian optimization<br>Curse of dimensionality<br>Sparse axis-aligned subspaces Bayesian optimization (SAASBO) | Explain the curse of dimensionality<br>Compare the efficiency of expected improvement and SAASBO as a function of dimensionality
-Featurization | Bayesian optimization<br>Domain knowledge integration<br>Contextual variables<br>Predefined candidates | Explain the advantages and disadvantages of featurization<br>Adapt a Bayesian optimization script to use predefined candidates with featurization<br>Adapt a Bayesian optimization script to use contextual variables
-Multi-fidelity optimization | Bayesian optimization<br>Cost-fidelity tradeoffs<br>Knowledge gradient acquisition function | Explain the effect of cost-fidelity tradeoffs on optimization<br>Assess the efficiency of expected improvement at fixed fidelities with the knowledge gradient acquisition function<br>Adapter a Bayesian optimization script to use the knowledge gradient acquisition function
-Benchmark datasets, models, and deployment | Benchmarks<br>Surrogate models<br>Random forest regression<br>FAIR data<br>Model deployment<br>Application programming interfaces (APIs) | Programatically upload a completed dataset to Figshare<br>Create a benchmark model with scikit-learn<br>Host a model on HuggingFace
+Gentle intro to Bayesian optimization | • Design of experiments<br>• Quasi-random search methods<br>• Bayesian optimization<br>• Expected improvement (EI)<br>• Ax Platform<br>• Honegumi template generator | • Describe a materials discovery task using data science language and concepts<br>• Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
+Multi-objective optimization | • Pareto fronts<br>• Hypervolume<br>• EHVI<br>• Objective thresholds | • Explain the significance of a Pareto front<br>• Compare simple scalarization with expected hypervolume improvement<br>• Explore the effect of setting objective thresholds  <!-- incorporating domain knowledge through objective thresholds -->
+Constrained optimization | • Linear constraints<br>• Nonlinear constraints<br>• Compositional constraints<br>• Order constraints | • Provide examples of materials discovery tasks with constraints<br>• Adapt a Bayesian optimization script to include constraints
+High-dimensional optimization | • Curse of dimensionality<br>• SAASBO | • Explain the curse of dimensionality<br>• Compare the efficiency of expected improvement and SAASBO as a function of dimensionality
+Featurization | • Domain knowledge integration<br>• Contextual variables<br>• Predefined candidates | • Explain the advantages and disadvantages of featurization<br>• Adapt a Bayesian optimization script to use predefined candidates with featurization<br>• Adapt a Bayesian optimization script to use contextual variables
+Multi-fidelity optimization | • Cost-fidelity tradeoffs<br>• Knowledge gradient | • Explain the effect of cost-fidelity tradeoffs on optimization<br>• Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient<br>• Adapte a Bayesian optimization script to use a knowledge gradient
+Benchmark datasets and models | • Benchmarks<br>• Surrogate models<br>• Random forest regression<br>• FAIR data<br>• Model deployment<br>• APIs | • Programatically upload a completed dataset to Figshare<br>• Create a benchmark model with scikit-learn<br>• Host a model on HuggingFace
 
 <!-- In intro, require Bayes opt video and user input for the different questions. This could be a GitHub discussion, comments in a PR, entry in the Canvas course, etc. -->
 
@@ -104,7 +104,7 @@ Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
 Controlling pumps and pipettes | Workflow orchestration<br>Microcontrollers<br>Peristaltic pumps<br>Linear actuators<br>Motor drivers | Implement software to control a peristaltic pump via a microcontroller and a motor driver<br>Build the "Digital Pipette" and implement software to control the linear actuator
 Automated liquid handlers | Workflow orchestration<br>Jubilee<br>Opentrons | Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
-Mobile robotics | The Robot Operating System (ROS) | Demonstrate control of a mobile cobot using ROS
+Mobile robotics | ROS | Demonstrate control of a mobile cobot using the Robot Operating System (ROS)
 Computer vision | OpenCV<br>AprilTags | Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
 Solid sample transfer | Workflow orchestration<br>ROS<br>AprilTags<br>Multi-axis robotics | Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
 
@@ -135,16 +135,17 @@ Elevate your software development skills in the context of self-driving laborato
 
 Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
-Setting up VS Code | Integrated development environments (IDEs)<br>Miniconda<br>VS Code extensions | Set up VS Code<br>Install Miniconda<br>Install VS Code extensions
+Setting up VS Code | IDEs<br>Miniconda<br>VS Code extensions | Set up VS Code<br>Install Miniconda<br>Install VS Code extensions
 Debugging in VS Code | Print statements<br>Setting breakpoints<br>Inspecting variables<br>Stepping through code<br>Debug console<br>Debug configurations | Use print statements to debug code<br>Set breakpoints<br>Inspect variables<br>Step through code<br>Use the debug console<br>Set up debug configurations
-Automated unit testing with pytest | Writing test cases<br>Running tests<br>Interpreting test results<br>Fixing tests<br>Test-driven development | Explain the purpose of unit tests<br>Write unit tests for the light-mixing demo<br>Run and interpret unit tests to fix code<br>Explain test-driven development
-Automated documentation with Sphinx and Readthedocs | Markdown<br>Documentation as code<br>Sphinx<br>Readthedocs | Write documentation in Markdown<br>Explain what documentation as code means<br>Set up a readthedocs account and publish a readthedocs page
-Python packaging with PyPI | Packages<br>PyPI<br>pip<br>Twine | Explain the purpose of packages<br>Set up a PyPI account<br>Upload a package to PyPI
-Continuous integration (CI) with GitHub actions | Continuous integration<br>GitHub actions<br>Unit tests<br>Documentation | Explain the purpose of continuous integration<br>Set up a GitHub actions workflow<br>Run unit tests and documentation builds on GitHub actions
-Project templates with PyScaffold | PyScaffold<br>Project initialization<br>Project adaptation | Create a project template using PyScaffold<br>Add project content
-Using LLMs to enhance coding workflows via GitHub Copilot Chat | Understanding LLMs<br>GitHub Copilot Chat<br>Code Suggestions<br>Code Completions<br>Code Refactoring | Explain the purpose of LLMs<br>Explore the use of GitHub Copilot Chat
+Unit testing| pytest<br>Test result interpretation<br>Debugging<br>Test-driven development | Explain the purpose of unit tests<br>Write unit tests for the light-mixing demo<br>Run and interpret unit tests to fix code<br>Explain test-driven development
+Automated documentation | Markdown<br>Documentation as code<br>Sphinx<br>Readthedocs | Write documentation in Markdown<br>Explain what documentation as code means<br>Set up a readthedocs account and publish a readthedocs page
+Continuous integration (CI) | Continuous integration<br>GitHub actions<br>Unit tests<br>Documentation | Explain the purpose of continuous integration<br>Set up a GitHub actions workflow<br>Run unit tests and documentation builds on GitHub actions
+Project templates | PyScaffold<br>Cookiecutter<br>Project initialization<br>Project adaptation | Create a project template using PyScaffold<br>Add project content
 Launching a free cloud server | Serverless computing<br>PythonAnywhere<br>Deploying Applications | Launch a free cloud server<br>Deploy a materials discovery campaign on a cloud server
-On-demand cloud simulations | Cloud computing<br>setting up an AWS account<br>AWS Lambda | Run an on-demand cloud simulation<br>Integrate a cloud simulation into a materials discovery campaign
+On-demand cloud simulations | Cloud computing<br>Setting up an AWS account<br>AWS Lambda | Run an on-demand cloud simulation<br>Integrate a cloud simulation into a materials discovery campaign
+
+<!-- Python packaging with PyPI | Packages<br>PyPI<br>pip<br>Twine | Explain the purpose of packages<br>Set up a PyPI account<br>Upload a package to PyPI -->
+<!-- Using LLMs to enhance coding workflows via GitHub Copilot Chat | Understanding LLMs<br>GitHub Copilot Chat<br>Code Suggestions<br>Code Completions<br>Code Refactoring | Explain the purpose of LLMs<br>Explore the use of GitHub Copilot Chat -->
 
 <!-- https://www.w3schools.com/aws/ -->
 
@@ -167,7 +168,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 
 - Scientific communication
 - Systems design
-- Knowledge sharing
+- Dissemination
 - Interdisciplinary teamwork
 
 ### 🧩 Modules
@@ -176,4 +177,4 @@ Module Name | Topics | Learning Outcomes
 ---- | ---- | ----
 Project proposal | Figures<br>White papers<br>Presentations | Propose a self-driving lab via a schematic figure<br>Write a white paper for the self-driving laboratory<br>Present the proposal to a team of scientists
 Design and build | SDL design<br>Implementation<br>Documentation | Design and build the proposed self-driving laboratory at the AC training lab<br>Provide a project update with proposed next steps
-Dissemination | Project update<br>Knowledge sharing<br>Public data and documentation | Share the designs, data, and documentation publicly
+Dissemination | Project update<br>Knowledge sharing<br>Data and documentation | Share the designs, data, and documentation publicly
