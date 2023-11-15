@@ -99,11 +99,15 @@ The course begins with an "Introduction to git and GitHub" based on [GitHub Educ
 2. A standalone notebook assignment (graded, 5 points)
 3. A mini project (graded, 10 points)
 
-The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform.
+The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform. A passing grade is considered 50% or greater.
 
 ## 📈 Data science for self-driving labs
 
-Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace. The recommended prerequisite for this course is "Building a 'Hello World' for Self-Driving Labs".
+Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace.
+
+### 🔑 Recommended Prerequisites
+
+The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
 
 ### 🎯 Learning Outcomes
 
@@ -185,11 +189,15 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 
 ### ⚖️ Course Assessments and Grading Schema
 
-This course follows the same format as *Building a "Hello World" for Self-Driving Labs*.
+This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
 
 ## 🦾 Robotics for self-driving labs
 
-Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot. The recommended prerequisite for this course is *Building a "Hello World" for Self-Driving Labs*.
+Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot.
+
+### 🔑 Recommended Prerequisites
+
+The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
 
 ### 🎯 Learning Outcomes
 
@@ -243,6 +251,10 @@ Embark on a journey into the world of robotics and automation for self-driving l
     * Multi-axis robotics
   - * Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
 ```
+
+### ⚖️ Course Assessments and Grading Schema
+
+This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
 
 ## 🧑‍💻 Software development for self-driving labs
 
@@ -348,16 +360,31 @@ Elevate your software development skills in the context of self-driving laborato
 
 <!-- note that print statements (similarly cell evaluation outputs for notebooks) are an important beginner method of debugging -->
 
+### ⚖️ Course Assessments and Grading Schema
+
+This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
+
 ## 🏢 AC training lab capstone project <!-- Alternative emoji: 🏗️ -->
 
-Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base. The prerequisites for this course are *Building a "Hello World" for Self-Driving Labs*, *Data Science for Self-Driving Labs*, *Robotics for Self-Driving Labs*, and *Software Development for Self-Driving Labs*.
+Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base.
+
+### 🔑 Prerequisites
+
+Due to the intensive nature of this course and to maximize the value to the participants, the **prerequisites** for this course are:
+
+- ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
+- [Data Science for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#data-science-for-self-driving-labs)
+- [Robotics for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#robotics-for-self-driving-labs)
+- [Software Development for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#software-development-for-self-driving-labs)
+
+By completing these requirements, participants will be equipped to propose, design, and execute a self-driving laboratory capstone project at the AC Training Lab.
 
 ### 🎯 Learning Outcomes
 
 - Propose a self-driving lab via a schematic figure
 - Write a white paper for the self-driving laboratory
 - Present the proposal to a team of scientists
-- Design and build the proposed self-driving laboratory at the AC training lab
+- Design and execute a capstone project at the AC Training Lab
 - Provide a project update with proposed next steps
 - Share the designs, data, and documentation publicly
 
@@ -383,11 +410,11 @@ Turn your self-driving lab expertise into a real-world project. During this cour
   - * Propose a self-driving lab via a schematic figure
     * Write a white paper for the self-driving laboratory
     * Present the proposal to a team of scientists
-* - Design and build
+* - Design and execution
   - * SDL design
     * Implementation
     * Documentation
-  - * Design and build the proposed self-driving laboratory at the AC training lab
+  - * Design and execute the project at the AC training lab
     * Provide a project update with proposed next steps
 * - Dissemination
   - * Project update
@@ -395,3 +422,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
     * Data and documentation
   - * Share the designs, data, and documentation publicly
 ```
+
+### ⚖️ Course Assessments and Grading Schema
+
+Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and dissemination. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points.
