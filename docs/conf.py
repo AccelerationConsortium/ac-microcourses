@@ -107,6 +107,7 @@ myst_enable_extensions = [
 # with open("variables.json", "r") as f:
 #     myst_substitutions = json.load(f)
 
+
 # The suffix of source filenames.
 source_suffix = [".rst", ".md"]
 
