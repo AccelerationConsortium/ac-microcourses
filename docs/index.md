@@ -54,19 +54,40 @@ Upon completion of this certificate, you will be able to:
 
 <!-- 1. Use a database backend to programatically upload and retrieve materials data -->
 
-Explore the course-level modules, topics, and learning outcomes with the links below. After clicking one of the links, use the navigation pane in the left sidebar to jump between sections.
+To get a better sense of the purpose of the microcourses, start by exploring the certificate outline which includes title, description, prerequisites, learning outcomes, skills, modules, and assessment formats for each of the courses. After clicking one of the links, use the navigation pane in the left sidebar to jump between content.
+
+<!-- Explore the course-level modules, topics, learning outcomes, and other info with the links below. After clicking one of the links, use the navigation pane in the left sidebar to jump between sections. -->
+
+```{toctree}
+:maxdepth: 1
+
+Certificate Outline <certificate-framework>
+```
+
+After reviewing the certificate outline, you can explore the modules for each course below.
 
 ```{toctree}
 :maxdepth: 2
 
-Microcourse Details <certificate-framework>
+Hello, World! <hello-world>
+Data Science <data-science>
+Robotics <robotics>
+Software Development <software-development>
+Capstone Project <capstone-project>
 ```
 
 <!-- Perhaps use nested <details> to keep the content all within the index page -->
 
-## Developer resources
+<!-- ## Additional Resources -->
 
 ```{toctree}
+:maxdepth: 2
+:hidden:
+
+Developer Resources <dev-resources>
+```
+
+<!-- ```{toctree}
 :maxdepth: 2
 
 Contributions & Help <contributing>
@@ -74,13 +95,11 @@ License <license>
 Authors <authors>
 Changelog <changelog>
 Module Reference <api/modules>
-```
+``` -->
 
-## Indices and tables
-
-* {ref}`genindex`
+<!-- * {ref}`genindex`
 * {ref}`modindex`
-* {ref}`search`
+* {ref}`search` -->
 
 [Sphinx]: http://www.sphinx-doc.org/
 [Markdown]: https://daringfireball.net/projects/markdown/

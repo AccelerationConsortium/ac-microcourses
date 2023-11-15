@@ -1,10 +1,11 @@
-# Microcourses
+# 🎓 Microcourse Details
 
 Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats.
 
 ## 💡 Building a "Hello World" for self-driving labs
 
-Discover the essential principles of self-driving laboratories (SDLs) by building a "Hello World" SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data.
+```{include} courses/hello-world/description.md
+```
 
 ### 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
 
