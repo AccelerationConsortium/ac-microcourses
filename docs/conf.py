@@ -210,12 +210,21 @@ html_theme_options = {
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 # html_logo = "Acceleration-Consortium-vectortunnel-colour-black-background.png"
-html_logo = "Acceleration-Consortium-vectortunnel-colour.png"
+html_logo = "logos/Acceleration-Consortium-vectortunnel-colour.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "ac-vector-tunnel-color-black-background-32x32.ico"
+html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
+# html_favicon = "logos/ac-vector-tunnel-color-32x32.ico"
+# html_favicon = "logos/Acceleration-Consortium-vectortunnel-black.ico"
+# html_favicon = "logos/Acceleration-Consortium-vectortunnel-colour-black-glow.ico"
+# html_favicon = "logos/Acceleration-Consortium-vectortunnel-colour-soft-black-glow.ico"
+# html_favicon = "logos/scroll-logo.ico"
+# html_favicon = "logos/ac-red-scroll-logo.ico"
+# html_favicon = (
+#     "logos/Acceleration-Consortium-vectortunnel-colour-circle-black-background.ico"
+# )
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -253,7 +262,7 @@ html_use_smartypants = True
 # html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-# html_show_copyright = True
+html_show_copyright = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
