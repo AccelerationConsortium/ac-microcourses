@@ -11,6 +11,8 @@ import os
 import sys
 import shutil
 
+# import json
+
 import sphinx_rtd_theme  # noqa
 
 # -- Path setup --------------------------------------------------------------
@@ -101,6 +103,9 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
+
+# with open("variables.json", "r") as f:
+#     myst_substitutions = json.load(f)
 
 # The suffix of source filenames.
 source_suffix = [".rst", ".md"]
