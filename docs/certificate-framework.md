@@ -4,9 +4,13 @@ Here, we provide details for the five core microcourses, including title, descri
 
 ## 💡 Building a "Hello World" for self-driving labs
 
-Discover the essential principles of self-driving laboratories (SDLs) by building a "Hello World" SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data. For participants to complete this course within the expected timeframe (15-20 hours), intermediate proficiency in Python programming is recommended.
+Discover the essential principles of self-driving laboratories (SDLs) by building a "Hello World" SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data.
 
-### 🎯 Learning Outcomes <!-- Merge LO and C/S? into table? Maybe not - implies one-to-one correspondence between the lines-->
+### 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
+
+For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
+
+### 🎯 Learning Outcomes
 
 - Describe key terms and principles of self-driving labs
 - Send commands and receive sensor data over WiFi using standard frameworks such as MQTT
@@ -32,6 +36,15 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
 * - Module Name
   - Topics
   - Learning Outcomes
+* - Intro to Git and GitHub (optional)
+  - - Git
+    - GitHub
+    - The GitHub flow
+    - GitHub terminology
+  - - Set up a GitHub account
+    - Clone a GitHub repository
+    - Create a GitHub issue
+    - Create a GitHub pull request
 * - Running the self-driving lab demo
   - - Database management
     - Bayesian optimization
@@ -78,6 +91,16 @@ Discover the essential principles of self-driving laboratories (SDLs) by buildin
   - - Continuously log temperature, humidity, pressure, light, and accelerometer data
 ```
 
+### ⚖️ Course Assessments and Grading Schema
+
+The course begins with an "Introduction to git and GitHub" based on [GitHub Education's starter course](https://github.com/education/github-starter-course). While optional and ungraded, it provides the necessary background to interact with later assignments. Each module thereafter consists of:
+
+1. A guided notebook tutorial (ungraded)
+2. A standalone notebook assignment (graded, 5 points)
+3. A mini project (graded, 10 points)
+
+The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform.
+
 ## 📈 Data science for self-driving labs
 
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace. The recommended prerequisite for this course is "Building a 'Hello World' for Self-Driving Labs".
@@ -109,7 +132,7 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
     - Bayesian optimization
     - Microcontrollers
     - Sensors
-  - Device communication
+    - Device communication
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
     - Set up a MongoDB account and database
@@ -159,6 +182,10 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 <!-- Noisy optimization | Bayesian optimization<br>Observation noise<br>Noisy expected improvement (NEI) | Explain the effect of observation noise on optimization<br>Compare the efficiency of expected improvement and NEI as a function of observation noise -->
 
 <!-- NOTE: Moving workflow orchestration to robotics, with a covalent tutorial in hello world -->
+
+### ⚖️ Course Assessments and Grading Schema
+
+This course follows the same format as *Building a "Hello World" for Self-Driving Labs*.
 
 ## 🦾 Robotics for self-driving labs
 
