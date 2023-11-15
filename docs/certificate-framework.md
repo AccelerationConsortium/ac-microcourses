@@ -1,6 +1,6 @@
 # Microcourses
 
-Here, we provide details for the five core microcourses, including title, description, learning outcomes, skills, and modules.
+Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats.
 
 ## 💡 Building a "Hello World" for self-driving labs
 
@@ -372,12 +372,12 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 
 Due to the intensive nature of this course and to maximize the value to the participants, the **prerequisites** for this course are:
 
-- ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
-- [Data Science for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#data-science-for-self-driving-labs)
-- [Robotics for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#robotics-for-self-driving-labs)
-- [Software Development for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#software-development-for-self-driving-labs)
+- 💡 [Building a "Hello World" for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
+- 📈 [Data Science for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#data-science-for-self-driving-labs)
+- 🦾 [Robotics for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#robotics-for-self-driving-labs)
+- 🧑‍💻 [Software Development for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#software-development-for-self-driving-labs)
 
-By completing these requirements, participants will be equipped to propose, design, and execute a self-driving laboratory capstone project at the AC Training Lab.
+By completing these requirements, participants will be equipped to propose, design, and execute a capstone project at the AC Training Lab.
 
 ### 🎯 Learning Outcomes
 
@@ -425,4 +425,4 @@ By completing these requirements, participants will be equipped to propose, desi
 
 ### ⚖️ Course Assessments and Grading Schema
 
-Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and dissemination. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points.
+Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and  stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points.
