@@ -1,4 +1,4 @@
-# Hello, World!
+# 💡 Hello, World!
 
 ```{include} courses/hello-world/description.md
 ```
