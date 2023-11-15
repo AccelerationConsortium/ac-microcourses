@@ -4,6 +4,7 @@
 # sphinx_rtd_theme
 myst-parser[linkify]
 nbsphinx
+nbsphinx
 nbsphinx-link
 pandoc
 sphinx>=3.2.1
