@@ -104,7 +104,8 @@ The guided notebook tutorial is provided as a Jupyter notebook with embedded ins
 
 ## 📈 Data science for self-driving labs
 
-Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace.
+```{include} courses/data-science/description.md
+```
 
 ### 🔑 Recommended Prerequisites
 
@@ -194,7 +195,8 @@ This course follows the same ["Course Assessments and Grading Schema"](https://a
 
 ## 🦾 Robotics for self-driving labs
 
-Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot.
+```{include} courses/robotics/description.md
+```
 
 ### 🔑 Recommended Prerequisites
 
@@ -259,7 +261,12 @@ This course follows the same ["Course Assessments and Grading Schema"](https://a
 
 ## 🧑‍💻 Software development for self-driving labs
 
-Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting. The recommended prerequisite for this course is *Building a "Hello World" for Self-Driving Labs*.
+```{include} courses/software-development/description.md
+```
+
+### 🔑 Recommended Prerequisites
+
+The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
 
 ### 🎯 Learning Outcomes
 
@@ -367,7 +374,8 @@ This course follows the same ["Course Assessments and Grading Schema"](https://a
 
 ## 🏢 AC training lab capstone project <!-- Alternative emoji: 🏗️ -->
 
-Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base.
+```{include} courses/capstone-project/description.md
+`````
 
 ### 🔑 Prerequisites
 

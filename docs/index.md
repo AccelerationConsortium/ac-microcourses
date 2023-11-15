@@ -13,17 +13,9 @@ While the certificate option requires formal registration and tuition dues, the 
 <!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
 <!-- description of the microcredentials, and the difference between the microcourse content and the microcredentials certificate -->
 
-<!-- In the first course, participants will design and build a "Hello World" for self-driving labs using physical hardware and Python programming. The next three courses provide deeper dives into data science, robotics, and software development topics. These courses  will enable participants to iteratively suggest the next best experiment to perform, use a database backend to programatically upload and retrieve materials data, and orchestrate experimental and computational workflows. Likewise, participants will use software development tools and best practices to maximize efficiency and minimize frustration. The fifth and final course is a capstone project conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment. -->
-
 ## 🎓 Microcourses
 
 The *Autonomous Systems for Discovery* certificate consists of five core microcourses:
-
-<!-- 1️⃣ 💡 Building a "Hello World" for self-driving labs<br>
-2️⃣ 📈 Data science for self-driving labs<br>
-3️⃣ 🦾 Robotics for self-driving labs<br>
-4️⃣ 🧑‍💻 Software development for self-driving labs<br>
-5️⃣ 🏢 Capstone project at the AC training lab -->
 
 > 💡 Building a "Hello World" for self-driving labs<br>
 > 📈 Data science for self-driving labs<br>
@@ -38,11 +30,8 @@ While the first four courses are fully remote and asychronous, the final capston
 
 <!-- link to the AC training lab page -->
 
-<!-- <img src="course-flowchart.png" width=400><br> -->
 ![](course-flowchart.png)
 *Flowchart illustrating course progression for the Autonomous Systems for Discovery certificate*
-
-<!-- ## 🎯 Learning Outcomes -->
 
 Upon completion of this certificate, you will be able to:
 
@@ -52,33 +41,32 @@ Upon completion of this certificate, you will be able to:
 1. 🧑‍💻 Leverage state-of-the-art software development tools and implement best practices
 1. 🏢 Develop, defend, and execute a project proposal for a self-driving lab
 
-<!-- 1. Use a database backend to programatically upload and retrieve materials data -->
+### 🗺️ Certificate Overview  <!-- alternative: 🔍 -->
 
-To get a better sense of the purpose of the microcourses, start by exploring the certificate outline which includes title, description, prerequisites, learning outcomes, skills, modules, and assessment formats for each of the courses. After clicking one of the links, use the navigation pane in the left sidebar to jump between content.
+👉 **First Step:** Start your journey by [**🔗 exploring the certificate overview**](certificate-framework.md). This is your roadmap to the microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats for each of the courses.
 
-<!-- Explore the course-level modules, topics, learning outcomes, and other info with the links below. After clicking one of the links, use the navigation pane in the left sidebar to jump between sections. -->
+After clicking the link, use the navigation pane in the left sidebar to jump between content.
+
+```{toctree}
+:hidden:
+:maxdepth: 2
+
+Certificate Overview <certificate-framework>
+```
+
+## 📚 Course Content
+
+After reviewing the certificate overview, you can explore the modules for each course below.
 
 ```{toctree}
 :maxdepth: 1
 
-Certificate Outline <certificate-framework>
+Hello, World! <courses/hello-world>
+Data Science <courses/data-science>
+Robotics <courses/robotics>
+Software Development <courses/software-development>
+Capstone Project <courses/capstone-project>
 ```
-
-After reviewing the certificate outline, you can explore the modules for each course below.
-
-```{toctree}
-:maxdepth: 2
-
-Hello, World! <hello-world>
-Data Science <data-science>
-Robotics <robotics>
-Software Development <software-development>
-Capstone Project <capstone-project>
-```
-
-<!-- Perhaps use nested <details> to keep the content all within the index page -->
-
-<!-- ## Additional Resources -->
 
 ```{toctree}
 :maxdepth: 2
@@ -86,6 +74,20 @@ Capstone Project <capstone-project>
 
 Developer Resources <dev-resources>
 ```
+
+[Sphinx]: http://www.sphinx-doc.org/
+[Markdown]: https://daringfireball.net/projects/markdown/
+[reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+[MyST]: https://myst-parser.readthedocs.io/en/latest/
+
+
+<!-- 1️⃣ 💡 Building a "Hello World" for self-driving labs<br>
+2️⃣ 📈 Data science for self-driving labs<br>
+3️⃣ 🦾 Robotics for self-driving labs<br>
+4️⃣ 🧑‍💻 Software development for self-driving labs<br>
+5️⃣ 🏢 Capstone project at the AC training lab -->
+
+
 
 <!-- ```{toctree}
 :maxdepth: 2
@@ -101,7 +103,19 @@ Module Reference <api/modules>
 * {ref}`modindex`
 * {ref}`search` -->
 
-[Sphinx]: http://www.sphinx-doc.org/
-[Markdown]: https://daringfireball.net/projects/markdown/
-[reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
-[MyST]: https://myst-parser.readthedocs.io/en/latest/
+
+<!-- Perhaps use nested <details> to keep the content all within the index page -->
+
+<!-- ## Additional Resources -->
+
+<!-- 1. Use a database backend to programatically upload and retrieve materials data -->
+
+<!-- Explore the course-level modules, topics, learning outcomes, and other info with the links below. After clicking one of the links, use the navigation pane in the left sidebar to jump between sections. -->
+
+
+<!-- <img src="course-flowchart.png" width=400><br> -->
+
+<!-- ## 🎯 Learning Outcomes -->
+
+
+<!-- In the first course, participants will design and build a "Hello World" for self-driving labs using physical hardware and Python programming. The next three courses provide deeper dives into data science, robotics, and software development topics. These courses  will enable participants to iteratively suggest the next best experiment to perform, use a database backend to programatically upload and retrieve materials data, and orchestrate experimental and computational workflows. Likewise, participants will use software development tools and best practices to maximize efficiency and minimize frustration. The fifth and final course is a capstone project conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment. -->
