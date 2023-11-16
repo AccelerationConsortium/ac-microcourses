@@ -17,7 +17,7 @@ While the certificate option requires formal registration and tuition dues, the 
 
 ## 🎓 Microcourses
 
-The *Autonomous Systems for Discovery* certificate consists of five core microcourses:
+The *Autonomous Systems for Discovery* certificate consists of five core microcourses and corresponding learning outcomes:
 
 > 💡 Building a "Hello World" for self-driving labs<br>
 > 📈 Data science for self-driving labs<br>
