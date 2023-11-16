@@ -3,7 +3,7 @@
 Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats. Click on the course squares to navigate to the corresponding course overview.
 
 ```{note}
-**The flowchart above is interactive**. Click on the squares to navigate to the corresponding overview section before moving on, or click the "Next ➡️" button at the bottom-right of this page to navigate sequentially.
+**The flowchart below is interactive**. Click on the squares to navigate to the corresponding overview section before moving on, or click the "Next ➡️" button at the bottom-right of this page to navigate sequentially. Alternatively, use the navigation pane on the left sidebar.
 ```
 
 ```{raw} html
