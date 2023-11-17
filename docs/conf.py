@@ -195,10 +195,16 @@ html_theme = "sphinx_rtd_theme"
 # }
 html_theme_options = {
     "navigation_depth": 3,
+    "collapse_navigation": False,
+    # "prev_next_buttons_location": "both",
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
+
+html_js_files = [
+    "custom.js",
+]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".

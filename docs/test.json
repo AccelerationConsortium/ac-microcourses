@@ -126,89 +126,97 @@
         ],
         "Modules": [
             {
-                "Module Name": "Running the self-driving lab demo",
-                "Topics": [
-                    "Database management",
-                    "Bayesian optimization",
-                    "Microcontrollers",
-                    "Sensors",
-                    "Device communication"
-                ],
-                "Learning Outcomes": [
-                    "Describe key terms and principles of self-driving labs",
-                    "Preview an end-to-end self-driving lab",
-                    "Set up a MongoDB account and database",
-                    "Set up a HiveMQ account and instance",
-                    "Upload software to a microcontroller"
-                ]
-            },
-            {
-                "Module Name": "Blink the LEDs and read sensor data",
-                "Topics": [
-                    "Microcontrollers",
-                    "Sensors"
-                ],
-                "Learning Outcomes": [
-                    "Familiarize the MicroPython programming language",
-                    "Send commands to a microcontroller",
-                    "Receive sensor data from a microcontroller"
-                ]
-            },
-            {
-                "Module Name": "Bayesian optimization for color matching",
+                "Module Name": "Gentle intro to Bayesian optimization",
                 "Topics": [
                     "Design of experiments",
+                    "Quasi-random search methods",
                     "Bayesian optimization",
-                    "Data visualization"
+                    "Expected improvement (EI)",
+                    "Ax Platform",
+                    "Honegumi template generator"
                 ],
                 "Learning Outcomes": [
-                    "Compare grid and random search vs. Bayesian optimization",
-                    "Visualize optimization efficiency"
+                    "Describe a materials discovery task using data science language and concepts",
+                    "Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe"
                 ]
             },
             {
-                "Module Name": "Hardware/software communication",
+                "Module Name": "Multi-objective optimization",
                 "Topics": [
-                    "MQTT",
-                    "Device communication",
-                    "Host",
-                    "Client"
+                    "Pareto fronts",
+                    "Hypervolume",
+                    "EHVI",
+                    "Objective thresholds"
                 ],
                 "Learning Outcomes": [
-                    "Send commands to a microcontroller",
-                    "Receive sensor data from a microcontroller"
+                    "Explain the significance of a Pareto front",
+                    "Compare simple scalarization with expected hypervolume improvement",
+                    "Explore the effect of setting objective thresholds"
                 ]
             },
             {
-                "Module Name": "Logging data",
+                "Module Name": "Constrained optimization",
                 "Topics": [
-                    "MongoDB",
-                    "Database management"
+                    "Linear constraints",
+                    "Nonlinear constraints",
+                    "Compositional constraints",
+                    "Order constraints"
                 ],
                 "Learning Outcomes": [
-                    "Set up a MongoDB account and database",
-                    "Upload data directly from microcontroller"
+                    "Provide examples of materials discovery tasks with constraints",
+                    "Adapt a Bayesian optimization script to include constraints"
                 ]
             },
             {
-                "Module Name": "Piecing the modules together",
+                "Module Name": "High-dimensional optimization",
                 "Topics": [
-                    "Systems design"
+                    "Curse of dimensionality",
+                    "SAASBO"
                 ],
                 "Learning Outcomes": [
-                    "Connect the pieces to complete the SDL demo"
+                    "Explain the curse of dimensionality",
+                    "Compare the efficiency of expected improvement and SAASBO as a function of dimensionality"
                 ]
             },
             {
-                "Module Name": "Convert to a lab sensor system",
+                "Module Name": "Featurization",
                 "Topics": [
-                    "Microcontrollers",
-                    "Sensors",
-                    "Device communication",
-                    "Database management"
+                    "Domain knowledge integration",
+                    "Contextual variables",
+                    "Predefined candidates"
                 ],
                 "Learning Outcomes": [
-                    "Continuously log temperature, humidity, pressure, light, and accelerometer data"
+                    "Explain the advantages and disadvantages of featurization",
+                    "Adapt a Bayesian optimization script to use predefined candidates with featurization",
+                    "Adapt a Bayesian optimization script to use contextual variables"
+                ]
+            },
+            {
+                "Module Name": "Multi-fidelity optimization",
+                "Topics": [
+                    "Cost-fidelity tradeoffs",
+                    "Knowledge gradient"
+                ],
+                "Learning Outcomes": [
+                    "Explain the effect of cost-fidelity tradeoffs on optimization",
+                    "Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient",
+                    "Adapte a Bayesian optimization script to use a knowledge gradient"
+                ]
+            },
+            {
+                "Module Name": "Benchmark datasets and models",
+                "Topics": [
+                    "Benchmarks",
+                    "Surrogate models",
+                    "Random forest regression",
+                    "FAIR data",
+                    "Model deployment",
+                    "APIs"
+                ],
+                "Learning Outcomes": [
+                    "Programatically upload a completed dataset to Figshare",
+                    "Create a benchmark model with scikit-learn",
+                    "Host a model on HuggingFace"
                 ]
             }
         ]

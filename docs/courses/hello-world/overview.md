@@ -34,24 +34,18 @@ For participants to complete this course within the expected timeframe (approx. 
   - Topics
   - Learning Outcomes
 * - Intro to Git and GitHub (optional)
-  - - Git
-    - GitHub
-    - The GitHub flow
+  - - The GitHub flow
     - GitHub terminology
-  - - Set up a GitHub account
-    - Clone a GitHub repository
+  - - Clone a GitHub repository
     - Create a GitHub issue
     - Create a GitHub pull request
 * - Running the self-driving lab demo
   - - Database management
     - Bayesian optimization
     - Microcontrollers
-    - Sensors
     - Device communication
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
-    - Set up a MongoDB account and database
-    - Set up a HiveMQ account and instance
     - Upload software to a microcontroller
 * - Blink the LEDs and read sensor data
   - - Microcontrollers
@@ -90,7 +84,7 @@ For participants to complete this course within the expected timeframe (approx. 
 
 ## ⚖️ Course Assessments and Grading Schema
 
-The course begins with an "Introduction to git and GitHub" based on [GitHub Education's starter course](https://github.com/education/github-starter-course). While optional and ungraded, it provides the necessary background to interact with later assignments. Each module thereafter consists of:
+Each module will contain:
 
 1. A guided notebook tutorial (ungraded)
 2. A standalone notebook assignment (graded, 5 points)

@@ -1,13 +1,15 @@
-# 🎓 Microcourse Details
+# 🗺️ Certificate Overview
 
 Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats. Click on the course squares to navigate to the corresponding course overview.
 
+## 🔀 Course Flow
+
 ```{note}
-**The flowchart below is interactive**. Click on the squares to navigate to the corresponding overview section before moving on, or click the "Next ➡️" button at the bottom-right of this page to navigate sequentially.
+**The flowchart is interactive**. Click on the squares to navigate to the corresponding overview section. Alternatively, click the "Next ➡️" button at the bottom-right of this page.
 ```
 
 ```{raw} html
-:file: course-flowchart.svg
+:file: course-flowchart-viewbox.svg
 ```
 
 <!-- <div align="center">
@@ -27,10 +29,28 @@ Here, we provide details for the five core microcourses, including title, descri
 🏢 Capstone Project <courses/capstone/overview>
 ```
 
-## 📚 Course Content
+While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
 
-👉 **Second Step:** Continue your journey by [**🔗 exploring the course content**](course-content.md), which includes modules, tutorials, and assessments.
+<!-- ## 📚 Course Content
 
+👉 **Second Step:** After reviewing the courses, [**🔗 explore the course content**](course-content.md), which includes modules, tutorials, and assessments. -->
+
+
+
+```{raw} html
+<script>
+window.onload = function() {
+    var footer = document.querySelector('div[role="contentinfo"]');
+    if (footer) {
+        var p = document.createElement('p');
+        p.innerHTML = '👉 <strong>Second Step:</strong> Explore <strong><a href="course-content.html">"📚 Course Content"</a></strong> to view modules, tutorials, and assessments.<hr>';
+        p.style.color = 'black';
+        // Prepend the new paragraph to the footer
+        footer.insertBefore(p, footer.firstChild);
+    }
+}
+</script>
+```
 
 <!-- ```{raw} html
 course-flowchart.svg
@@ -71,4 +91,10 @@ courses/software-dev/overview
 :name: overview-link-gallery-3
 
 courses/capstone/overview
+``` -->
+
+<!-- ```{raw} html
+<div class="footer">
+    <p>👉 <strong>Second Step:</strong> After reviewing the courses, <a href="course-content.md"><strong>🔗 explore the course content</strong></a>, which includes modules, tutorials, and assessments.</p>
+</div>
 ``` -->
