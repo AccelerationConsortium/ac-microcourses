@@ -1,5 +1,5 @@
 [![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
-[![ReadTheDocs](https://readthedocs.org/projects/ac-microcourses/badge/?version=latest)](https://ac-microcourses.readthedocs.io/en/stable/)
+[![ReadTheDocs](https://readthedocs.org/projects/ac-microcourses/badge/?version=latest)](https://ac-microcourses.readthedocs.io)
 <!-- These are examples of badges you might also want to add to your README. Update the URLs accordingly.
 [![Built Status](https://api.cirrus-ci.com/github/<USER>/ac-microcourses.svg?branch=main)](https://cirrus-ci.com/github/<USER>/ac-microcourses)
 [![Coveralls](https://img.shields.io/coveralls/github/<USER>/ac-microcourses/main.svg)](https://coveralls.io/r/<USER>/ac-microcourses)
