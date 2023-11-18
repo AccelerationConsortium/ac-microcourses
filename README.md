@@ -15,7 +15,7 @@
 
 This repository houses the framework for the microcredentials courses being developed by the Acceleration Consortium at the University of Toronto to provide instruction and upskilling opportunities in the context of "self-driving" (i.e., autonomous) laboratories.
 
-Please navigate to the [documentation](https://ac-microcourses.readthedocs.io/en/stable/) for more information.
+Please navigate to the [documentation](https://ac-microcourses.readthedocs.io/) for more information.
 
 ## Note
 
