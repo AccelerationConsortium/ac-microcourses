@@ -3,6 +3,14 @@
 ```{include} description.md
 ```
 
+<!-- ```{raw} html
+:file: clslab-light-slideshow.html
+``` -->
+
+![](./clslab-light.gif)
+*Schematic diagram of the "Hello World" demo using LEDs, a light sensor, and a microcontroller.*
+
+
 ## 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
 
 For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
@@ -33,13 +41,7 @@ For participants to complete this course within the expected timeframe (approx. 
 * - Module Name
   - Topics
   - Learning Outcomes
-* - Intro to Git and GitHub (optional)
-  - - The GitHub flow
-    - GitHub terminology
-  - - Clone a GitHub repository
-    - Create a GitHub issue
-    - Create a GitHub pull request
-* - Running the self-driving lab demo
+* - Running the SDL demo
   - - Database management
     - Bayesian optimization
     - Microcontrollers
@@ -47,23 +49,20 @@ For participants to complete this course within the expected timeframe (approx. 
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
     - Upload software to a microcontroller
-* - Blink the LEDs and read sensor data
+* - Blink LEDs and read sensor
   - - Microcontrollers
-    - Sensors
-  - - Familiarize the MicroPython programming language
-    - Send commands to a microcontroller
-    - Receive sensor data from a microcontroller
-* - Bayesian optimization for color matching
+    - MicroPython
+  - - Write MicroPython scripts
+    - Use a microcontroller
+* - Bayesian optimization
   - - Design of experiments
     - Bayesian optimization
     - Data visualization
   - - Compare grid and random search vs. Bayesian optimization
     - Visualize optimization efficiency
-* - Hardware/software communication
+* - Device communication
   - - MQTT
-    - Device communication
-    - Host
-    - Client
+    - Broker/client
   - - Send commands to a microcontroller
     - Receive sensor data from a microcontroller
 * - Logging data
@@ -71,23 +70,22 @@ For participants to complete this course within the expected timeframe (approx. 
     - Database management
   - - Set up a MongoDB account and database
     - Upload data directly from microcontroller
-* - Piecing the modules together
+* - Module integration
   - - Systems design
   - - Connect the pieces to complete the SDL demo
-* - Convert to a lab sensor system
-  - - Microcontrollers
-    - Sensors
-    - Device communication
-    - Database management
-  - - Continuously log temperature, humidity, pressure, light, and accelerometer data
+* - Lab sensor system
+  - - Environmental sensors
+  - - Continuously log temperature, humidity, vibration, etc.
 ```
+
+<!-- Continuously log temperature, humidity, pressure, light, and accelerometer data -->
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain:
+Each module will contain the following:
 
-1. A guided notebook tutorial (ungraded)
-2. A standalone notebook assignment (graded, 5 points)
-3. A mini project (graded, 10 points)
+1. 🧭 A guided notebook tutorial (ungraded)
+2. 📓 A standalone notebook assignment (graded, 5 points)
+3. 🛠️ A mini project (graded, 10 points)
 
-The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform. A passing grade is considered 50% or greater.
+The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform. A passing grade is considered 70% or greater.
