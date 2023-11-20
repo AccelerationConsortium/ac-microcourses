@@ -335,6 +335,91 @@ on [PyPI], the following steps can be used to release a new version for
     to collectively create software are general and can be applied to all sorts
     of environments, including private companies and proprietary code bases.
 
+### Updating the Clickable SVG
+
+The SVG is created using PowerPoint (select all objects, right click, save as picture -> change file format to SVG) and saved to `course-flowchart.svg`. Note that I put 99% transparent white boxes in front of the locations I want to be clickable. Kind of hacky, but with minimal effect. To make it easier to identify objects, these can be renamed either in PowerPoint or in Inkscape.
+
+After opening the SVG file in Inkscape:
+1. click on the mostly transparent rectangle object (might need to double click)
+2. right click and select "Link Properties.." (or create link)
+3. Insert the absolute or relative link into the href field
+  - `courses/hello-world/overview.html`
+  - `courses/data-science/overview.html`
+  - `courses/robotics/overview.html`
+  - `courses/software-dev/overview.html`
+  - `courses/capstone/overview.html`
+4. Save
+5. Open the SVG file (i.e., raw code) in a text editor such as VS Code
+6. Replace:
+
+```html
+   width="XXXX"
+   height="YYYY"
+```
+
+
+with the following:
+
+```html
+   viewBox="0 0 XXXX YYYY"
+   width="100%"
+   height="100%"
+```
+
+For example, replace:
+
+```html
+   width="2965"
+   height="1876"
+```
+
+with:
+
+```html
+   viewBox="0 0 2965 1876"
+   width="100%"
+   height="100%"
+```
+
+1. To add a hover fill effect, add the following to each of the transparent rectangles:
+
+```html
+         onmouseover="evt.target.setAttribute('fill', 'blue'); evt.target.setAttribute('fill-opacity', '0.25');"
+         onmouseout="evt.target.setAttribute('fill', 'white'); evt.target.setAttribute('fill-opacity', '0.01');"
+```
+
+For example, replace:
+
+```html
+       xlink:href="courses/data-science/overview.html"><rect
+         x="1909"
+         y="690"
+         width="388"
+         height="389"
+         fill="#FFFFFF"
+         fill-opacity="0.0117647"
+         id="rect85" /></a><a
+```
+
+with the following:
+
+```html
+       xlink:href="courses/data-science/overview.html"><rect
+         x="1909"
+         y="690"
+         width="388"
+         height="389"
+         fill="#FFFFFF"
+         fill-opacity="0.0117647"
+         onmouseover="evt.target.setAttribute('fill', 'blue'); evt.target.setAttribute('fill-opacity', '0.25');"
+         onmouseout="evt.target.setAttribute('fill', 'white'); evt.target.setAttribute('fill-opacity', '0.01');"
+         id="rect85" /></a><a
+```
+8. Save, build docs to verify, and commit/push to GitHub.
+
+You can search for `hello-world`, `data-science`, etc. to find corresponding locations.
+
+See also https://app.screencast.com/yIypgQZ22BO83 and https://stackoverflow.com/questions/39203857/scaling-svg-produced-with-inkscape
 
 [black]: https://pypi.org/project/black/
 [commonmark]: https://commonmark.org/
@@ -367,5 +452,5 @@ on [PyPI], the following steps can be used to release a new version for
 ```{todo} Please review and change the following definitions:
 ```
 
-[repository]: https://github.com/<USERNAME>/ac-microcourses
-[issue tracker]: https://github.com/<USERNAME>/ac-microcourses/issues
+[repository]: https://github.com/AccelerationConsortium/ac-microcourses
+[issue tracker]: https://github.com/AccelerationConsortium/ac-microcourses/issues

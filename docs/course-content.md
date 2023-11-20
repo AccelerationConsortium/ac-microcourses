@@ -5,13 +5,17 @@
 If you've already completed the [Certificate Overview](certificate-framework.md), you're ready to dive into the course content! If not, we recommend you start there.
 
 ## 🚀 Getting Started
-As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where the typical structure for each module is:
+As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where each module typically has three components:
 
-1. A guided notebook tutorial (ungraded)
-2. A standalone notebook assignment (graded)
-3. A mini project (graded)
 
-To familarize yourself with the assignment structure and to keep everyone on the same page, complete the[🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course).
+|  | Component | Points |
+|---|-------------------|--------|
+| 1. | 🧭 Guided tutorial | 0 |
+| 2. | 📓 Notebook assignment | 5 |
+| 3. | 🛠️ Mini project | 10 |
+
+
+These courses are integrated with coding exercises via GitHub Classroom. To familarize yourself with the assignment structure and keep everyone on the same page, complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course).
 
 <!-- If you've reached this point, and you're wondering what a self-driving lab is in the first place, watch [▶️ "The Future of Chemistry is Self-driving"](). *TODO: Video needs to be edited and uploaded to YouTube. Add this as an embedded iframe perhaps* -->
 
@@ -79,6 +83,10 @@ courses/software-dev/4.8-cloud-computing.ipynb
 ```
 
 ## 🏢 Capstone Project at the AC Training Lab
+
+```{note}
+🔑 Due to the intensive nature of this in-person course and to maximize value to the participants, completion of the previous four courses are mandatory.
+```
 
 ```{include} courses/capstone/description.md
 ```

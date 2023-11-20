@@ -87,6 +87,65 @@ extensions = [
 templates_path = ["_templates"]
 
 
+# # Specify the root directory
+# root_dir = 'courses'
+
+# # Initialize the dictionary
+# nbsphinx_thumbnails = {}
+
+# # Walk through the directory
+# for dirpath, dirnames, filenames in os.walk(root_dir):
+#     for filename in filenames:
+#         # Check if the file is a notebook
+#         if filename.endswith('.ipynb'):
+#             # Construct the key by removing the root directory and the file extension
+#             key = os.path.join(dirpath, filename)[len(root_dir)+1:-len('.ipynb')]
+#             # Construct the value by replacing the slashes with dashes and adding the directory and extension
+#             value = '_static/' + key.replace('/', '-') + '.png'
+#             # Add the key-value pair to the dictionary
+#             nbsphinx_thumbnails[key] = value
+
+# # Print the dictionary
+# print("nbsphinx_thumbnails = ", nbsphinx_thumbnails)
+
+# nbsphinx_thumbnails = {
+#     "courses/hello-world/1.1-running-the-demo": "_static/1.1-running-the-demo.png",
+#     ...
+# }
+
+nbsphinx_thumbnails = {
+    "courses/hello-world/1.1-running-the-demo": "../../_images/sdl-demo/star-protocols-graphical-abstract.png",
+    "courses/hello-world/1.2-blink-and-read": "../../_images/sdl-demo/green-led.jpg",
+    "courses/hello-world/1.3-bayesian-optimization": "../../_images/sdl-demo/grid-vs-random-vs-bayesian.png",
+    "courses/hello-world/1.4-hardware-software-communication": "../../_images/mqtt-workflow.png",
+    "courses/hello-world/1.5-logging-data": "../../_images/1.5-logging-data.png",
+    "courses/hello-world/1.6-piecing-the-modules-together": "../../_images/1.6-piecing-the-modules-together.png",
+    "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "../../_images/1.7-convert-to-a-lab-sensor-system.png",
+    "courses/data-science/2.1-gentle-intro-bayesian": "../../_images/2.1-gentle-intro-bayesian.png",
+    "courses/data-science/2.2-multi-objective-opt": "../../_images/2.2-multi-objective-opt.png",
+    "courses/data-science/2.3-constrained-opt": "../../_images/2.3-constrained-opt.png",
+    "courses/data-science/2.4-high-dimensional-opt": "../../_images/2.4-high-dimensional-opt.png",
+    "courses/data-science/2.5-multi-fidelity-opt": "../../_images/2.5-multi-fidelity-opt.png",
+    "courses/data-science/2.6-predefined-candidates": "../../_images/2.6-predefined-candidates.png",
+    "courses/data-science/2.7-benchmarks": "../../_images/2.7-benchmarks.png",
+    "courses/robotics/3.1-pumps-and-pipettes": "../../_images/3.1-pumps-and-pipettes.png",
+    "courses/robotics/3.2-liquid-handlers": "../../_images/3.2-liquid-handlers.png",
+    "courses/robotics/3.3-mobile-robotics": "../../_images/3.3-mobile-robotics.png",
+    "courses/robotics/3.4-computer-vision": "../../_images/3.4-computer-vision.png",
+    "courses/robotics/3.5-solid-sample-transfer": "../../_images/3.5-solid-sample-transfer.png",
+    "courses/software-dev/4.1-vscode-setup": "../../_images/4.1-vscode-setup.png",
+    "courses/software-dev/4.2-vscode-debugging": "../../_images/4.2-vscode-debugging.png",
+    "courses/software-dev/4.3-unit-testing": "../../_images/4.3-unit-testing.png",
+    "courses/software-dev/4.4-automated-docs": "../../_images/4.4-automated-docs.png",
+    "courses/software-dev/4.5-continuous-integration": "../../_images/4.5-continuous-integration.png",
+    "courses/software-dev/4.6-project-templates": "../../_images/4.6-project-templates.png",
+    "courses/software-dev/4.7-cloud-servers": "../../_images/4.7-cloud-servers.png",
+    "courses/software-dev/4.8-cloud-computing": "../../_images/4.8-cloud-computing.png",
+    "courses/capstone/5.1-project-proposal": "../../_images/5.1-project-proposal.png",
+    "courses/capstone/5.2-design-and-execution": "../../_images/5.2-design-and-execution.png",
+    "courses/capstone/5.3-dissemination": "../../_images/5.3-dissemination.png",
+}
+
 # Enable markdown
 extensions.append("myst_parser")
 
