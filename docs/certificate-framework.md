@@ -9,7 +9,7 @@ Here, we provide details for the five core microcourses, including title, descri
 ```
 
 ```{raw} html
-:file: course-flowchart-viewbox.svg
+:file: course-flowchart.svg
 ```
 
 <!-- <div align="center">
