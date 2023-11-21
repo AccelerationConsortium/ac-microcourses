@@ -14,15 +14,18 @@ As [mentioned in the overview](/courses/hello-world/overview.md), each course is
 | 2. | 📓 Notebook assignment | 5 |
 | 3. | 🛠️ Mini project | 10 |
 
+These courses are integrated with coding exercises via GitHub Classroom. To use these, you will need to [create a GitHub account](https://github.com/join). Typical conventions for GitHub usernames are first initial, middle initial, last name (e.g., John H. Smith → `jhsmith`) or first name, last name (e.g., Jane M. Doe → `jane-doe`).
 
-These courses are integrated with coding exercises via GitHub Classroom. To familarize yourself with the assignment structure and keep everyone on the same page, complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course).
+```{note}
+**👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page
+```
 
 <!-- If you've reached this point, and you're wondering what a self-driving lab is in the first place, watch [▶️ "The Future of Chemistry is Self-driving"](). *TODO: Video needs to be edited and uploaded to YouTube. Add this as an embedded iframe perhaps* -->
 
 ## 💡 Building a "Hello World" for self-driving labs
-```{note}
-🔑 This course is a recommended prerequisite for all other courses in the certificate, and a mandatory prerequisite for the in-person capstone project.
-```
+<!-- ```{note}
+🔑 The "Hello World" course is a **recommended prerequisite** for all other courses in the certificate, and a mandatory prerequisite for the in-person capstone project.
+``` -->
 
 ```{include} courses/hello-world/description.md
 ```
