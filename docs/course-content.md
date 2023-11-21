@@ -5,20 +5,24 @@
 If you've already completed the [Certificate Overview](certificate-framework.md), you're ready to dive into the course content! If not, we recommend you start there.
 
 ## 🚀 Getting Started
-As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where each module typically has three components:
+
+<!-- As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where each module typically has three components:
 
 
 |  | Component | Points |
 |---|-------------------|--------|
 | 1. | 🧭 Guided tutorial | 0 |
 | 2. | 📓 Notebook assignment | 5 |
-| 3. | 🛠️ Mini project | 10 |
+| 3. | 🛠️ Mini project | 10 | -->
 
-These courses are integrated with coding exercises via GitHub Classroom. To use these, you will need to [create a GitHub account](https://github.com/join). Typical conventions for GitHub usernames are first initial, middle initial, last name (e.g., John H. Smith → `jhsmith`) or first name, last name (e.g., Jane M. Doe → `jane-doe`).
+These courses are integrated with coding exercises via GitHub Classroom, so you will need [a (free) GitHub account](https://github.com/join). Typical conventions for GitHub usernames are first initial, middle initial, last name (e.g., John H. Smith → `jhsmith`) or first name, last name (e.g., Jane M. Doe → `jane-doe`).
 
-```{note}
+
+<!-- ```{note} -->
+
 **👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page
-```
+
+<!-- ``` -->
 
 <!-- If you've reached this point, and you're wondering what a self-driving lab is in the first place, watch [▶️ "The Future of Chemistry is Self-driving"](). *TODO: Video needs to be edited and uploaded to YouTube. Add this as an embedded iframe perhaps* -->
 
