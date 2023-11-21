@@ -1,3 +1,5 @@
+<!-- ![](logos/ac-uot-logo.svg) -->
+
 # 📜 Autonomous Systems for Discovery
 
 <!--- Removed "Certificate" from title --->
@@ -14,6 +16,18 @@ While the certificate option requires formal registration and tuition dues, the 
 
 <!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
 <!-- description of the microcredentials, and the difference between the microcourse content and the microcredentials certificate -->
+
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
+data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
+AccelerationConsortium/ac-microcourses on GitHub">Star</a>
+<a class="github-button"
+href="https://github.com/AccelerationConsortium" data-size="large" data-show-count="true"
+aria-label="Follow @AccelerationConsortium on GitHub">Follow</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/issues"
+data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
+aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Discuss</a>
+<!-- <br><br> -->
 
 ## 🎓 Microcourses
 
@@ -67,6 +81,7 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 :hidden:
 
 🛠️ Developer Resources <dev-resources>
+🌐 GitHub Source <https://github.com/AccelerationConsortium/ac-microcourses>
 ```
 
 [Sphinx]: http://www.sphinx-doc.org/
@@ -74,6 +89,8 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 [reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 [MyST]: https://myst-parser.readthedocs.io/en/latest/
 
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- 1️⃣ 💡 Building a "Hello World" for self-driving labs<br>
 2️⃣ 📈 Data science for self-driving labs<br>
@@ -164,3 +181,8 @@ See https://app.screencast.com/yIypgQZ22BO83
 5. 🏢 Develop, defend, and execute a project proposal for a self-driving lab -->
 
 <!-- alternative: 🔍 -->
+
+
+<!-- <a class="github-button"
+href="https://github.com/sgbaird" data-size="large" data-show-count="true"
+aria-label="Follow @sgbaird on GitHub">Follow @sgbaird</a> -->
