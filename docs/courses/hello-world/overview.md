@@ -45,18 +45,16 @@ For participants to complete this course within the expected timeframe (approx. 
   - - Database management
     - Bayesian optimization
     - Microcontrollers
-    - Device communication
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
     - Upload software to a microcontroller
-* - Blink LEDs and read sensor
+* - Blink LEDs/Read sensor
   - - Microcontrollers
     - MicroPython
   - - Write MicroPython scripts
     - Use a microcontroller
 * - Bayesian optimization
   - - Design of experiments
-    - Bayesian optimization
     - Data visualization
   - - Compare grid and random search vs. Bayesian optimization
     - Visualize optimization efficiency
