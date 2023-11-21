@@ -81,6 +81,8 @@ extensions = [
     "nbsphinx",
     "nbsphinx_link",
     "sphinx_gallery.load_style",
+    # "myst_parser", # auto-activated by myst_nb
+    "myst_nb",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -145,9 +147,6 @@ nbsphinx_thumbnails = {
     "courses/capstone/5.2-design-and-execution": "../../_images/5.2-design-and-execution.png",
     "courses/capstone/5.3-dissemination": "../../_images/5.3-dissemination.png",
 }
-
-# Enable markdown
-extensions.append("myst_parser")
 
 # Configure MyST-Parser
 myst_enable_extensions = [
