@@ -7,13 +7,16 @@
 :file: clslab-light-slideshow.html
 ``` -->
 
-![](./clslab-light.gif)
-*Schematic diagram of the "Hello World" demo using LEDs, a light sensor, and a microcontroller.*
+![](./images/clslab-light.gif)
+*Animated schematic diagram of the "Hello World" demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself.*
 
 
 ## 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
 
 For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
+
+```{include} ./hardware-note.md
+```
 
 ## 🎯 Learning Outcomes
 
@@ -45,18 +48,16 @@ For participants to complete this course within the expected timeframe (approx. 
   - - Database management
     - Bayesian optimization
     - Microcontrollers
-    - Device communication
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
     - Upload software to a microcontroller
-* - Blink LEDs and read sensor
+* - Blink LEDs/Read sensor
   - - Microcontrollers
     - MicroPython
   - - Write MicroPython scripts
     - Use a microcontroller
 * - Bayesian optimization
   - - Design of experiments
-    - Bayesian optimization
     - Data visualization
   - - Compare grid and random search vs. Bayesian optimization
     - Visualize optimization efficiency

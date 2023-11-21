@@ -2,33 +2,44 @@
 
 <!-- All modules, all on one page via nbgallery? -->
 
+```{warning}
 If you've already completed the [Certificate Overview](certificate-framework.md), you're ready to dive into the course content! If not, we recommend you start there.
+```
 
 ## 🚀 Getting Started
-As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where each module typically has three components:
+
+<!-- As [mentioned in the overview](/courses/hello-world/overview.md), each course is comprised of modules, where each module typically has three components:
 
 
 |  | Component | Points |
 |---|-------------------|--------|
 | 1. | 🧭 Guided tutorial | 0 |
 | 2. | 📓 Notebook assignment | 5 |
-| 3. | 🛠️ Mini project | 10 |
+| 3. | 🛠️ Mini project | 10 | -->
 
+These courses are integrated with coding exercises via GitHub Classroom, so you will need [a GitHub account](https://github.com/join) (naming convention: John H. Smith → `jhsmith` or Jane M. Doe → `jane-doe`).
 
-These courses are integrated with coding exercises via GitHub Classroom. To familarize yourself with the assignment structure and keep everyone on the same page, complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course).
+**👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page.
 
 <!-- If you've reached this point, and you're wondering what a self-driving lab is in the first place, watch [▶️ "The Future of Chemistry is Self-driving"](). *TODO: Video needs to be edited and uploaded to YouTube. Add this as an embedded iframe perhaps* -->
 
 ## 💡 Building a "Hello World" for self-driving labs
-```{note}
-🔑 This course is a recommended prerequisite for all other courses in the certificate, and a mandatory prerequisite for the in-person capstone project.
+
+<!-- ```{note}
+**This tutorial requires physical hardware and a 2.4 GHz WPA-2 wireless network**. If you do not have the hardware, see the ⭐ DigiKey Order link at the bottom-left of the [hackaday page](https://hackaday.io/project/186289-autonomous-research-laboratories). If you do not have the required wireless network, you can use a mobile hotspot (see [recommendations](https://github.com/sparks-baird/self-driving-lab-demo/discussions/83)).
+``` -->
+
+<!-- ```{note}
+🔑 The "Hello World" course is a **recommended prerequisite** for all other courses in the certificate, and a mandatory prerequisite for the in-person capstone project.
+``` -->
+
+```{include} ./courses/hello-world/hardware-note.md
 ```
 
 ```{include} courses/hello-world/description.md
 ```
 
 ```{nbgallery}
-:hidden:
 courses/hello-world/1.1-running-the-demo.ipynb
 courses/hello-world/1.2-blink-and-read.ipynb
 courses/hello-world/1.3-bayesian-optimization.ipynb

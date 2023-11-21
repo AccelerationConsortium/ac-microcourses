@@ -81,6 +81,8 @@ extensions = [
     "nbsphinx",
     "nbsphinx_link",
     "sphinx_gallery.load_style",
+    # "myst_parser", # auto-activated by myst_nb
+    "myst_nb",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -116,12 +118,12 @@ templates_path = ["_templates"]
 nbsphinx_thumbnails = {
     "courses/hello-world/1.1-running-the-demo": "../../_images/sdl-demo/star-protocols-graphical-abstract.png",
     "courses/hello-world/1.2-blink-and-read": "../../_images/sdl-demo/green-led.jpg",
-    "courses/hello-world/1.3-bayesian-optimization": "../../_images/sdl-demo/grid-vs-random-vs-bayesian.png",
+    "courses/hello-world/1.3-bayesian-optimization": "../../_images/sdl-demo/grid-vs-random-vs-bayesian-ax-logo.png",
     "courses/hello-world/1.4-hardware-software-communication": "../../_images/mqtt-workflow.png",
-    "courses/hello-world/1.5-logging-data": "../../_images/1.5-logging-data.png",
-    "courses/hello-world/1.6-piecing-the-modules-together": "../../_images/1.6-piecing-the-modules-together.png",
-    "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "../../_images/1.7-convert-to-a-lab-sensor-system.png",
-    "courses/data-science/2.1-gentle-intro-bayesian": "../../_images/2.1-gentle-intro-bayesian.png",
+    "courses/hello-world/1.5-logging-data": "../../_images/mongodb.png",
+    "courses/hello-world/1.6-piecing-the-modules-together": "../../_images/connecting-pieces.png",
+    "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "../../_images/lab-sensor-system.png",
+    "courses/data-science/2.1-gentle-intro-bayesian": "../../_images/bayes-opt-1d.png",
     "courses/data-science/2.2-multi-objective-opt": "../../_images/2.2-multi-objective-opt.png",
     "courses/data-science/2.3-constrained-opt": "../../_images/2.3-constrained-opt.png",
     "courses/data-science/2.4-high-dimensional-opt": "../../_images/2.4-high-dimensional-opt.png",
@@ -145,9 +147,6 @@ nbsphinx_thumbnails = {
     "courses/capstone/5.2-design-and-execution": "../../_images/5.2-design-and-execution.png",
     "courses/capstone/5.3-dissemination": "../../_images/5.3-dissemination.png",
 }
-
-# Enable markdown
-extensions.append("myst_parser")
 
 # Configure MyST-Parser
 myst_enable_extensions = [

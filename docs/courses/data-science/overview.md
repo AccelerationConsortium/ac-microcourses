@@ -3,6 +3,10 @@
 ```{include} description.md
 ```
 
+![](./images/ax-repo/bo_1d_opt.gif)
+
+*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*
+
 ## 🔑 Recommended Prerequisites
 
 The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
@@ -82,17 +86,6 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
        * Create a benchmark model with scikit-learn
        * Host a model on HuggingFace
 ```
-
-<!-- Module Name | Topics | Learning Outcomes
---- | --- | ---
-Gentle intro to Bayesian optimization | <ul><li>Design of experiments</li><li>Quasi-random search methods</li><li>Bayesian optimization</li><li>Expected improvement (EI)</li><li>Ax Platform</li><li>Honegumi template generator</li></ul> | <ul><li>Describe a materials discovery task using data science language and concepts</li><li>Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe</li></ul>
-Multi-objective optimization | <ul><li>Pareto fronts</li><li>Hypervolume</li><li>EHVI</li><li>Objective thresholds</li></ul> | <ul><li>Explain the significance of a Pareto front</li><li>Compare simple scalarization with expected hypervolume improvement</li><li>Explore the effect of setting objective thresholds</li></ul>
-Constrained optimization | <ul><li>Linear constraints</li><li>Nonlinear constraints</li><li>Compositional constraints</li><li>Order constraints</li></ul> | <ul><li>Provide examples of materials discovery tasks with constraints</li><li>Adapt a Bayesian optimization script to include constraints</li></ul>
-High-dimensional optimization | <ul><li>Curse of dimensionality</li><li>SAASBO</li></ul> | <ul><li>Explain the curse of dimensionality</li><li>Compare the efficiency of expected improvement and SAASBO as a function of dimensionality</li></ul>
-Featurization | <ul><li>Domain knowledge integration</li><li>Contextual variables</li><li>Predefined candidates</li></ul> | <ul><li>Explain the advantages and disadvantages of featurization</li><li>Adapt a Bayesian optimization script to use predefined candidates with featurization</li><li>Adapt a Bayesian optimization script to use contextual variables</li></ul>
-Multi-fidelity optimization | <ul><li>Cost-fidelity tradeoffs</li><li>Knowledge gradient</li></ul> | <ul><li>Explain the effect of cost-fidelity tradeoffs on optimization</li><li>Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient</li><li>Adapte a Bayesian optimization script to use a knowledge gradient</li></ul>
-Benchmark datasets and models | <ul><li>Benchmarks</li><li>Surrogate models</li><li>Random forest regression</li><li>FAIR data</li><li>Model deployment</li><li>APIs</li></ul> | <ul><li>Programatically upload a completed dataset to Figshare</li><li>Create a benchmark model with scikit-learn</li><li>Host a model on HuggingFace</li></ul> -->
-
 
 <!-- In intro, require Bayes opt video and user input for the different questions. This could be a GitHub discussion, comments in a PR, entry in the Canvas course, etc. -->
 
