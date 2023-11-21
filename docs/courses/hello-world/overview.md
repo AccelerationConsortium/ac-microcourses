@@ -13,7 +13,10 @@
 
 ## 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
 
-For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended. A [CLSLab:Light](https://doi.org/10.1016/j.xpro.2023.102329) kit is required.
+For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
+
+```{include} ./hardware-note.md
+```
 
 ## 🎯 Learning Outcomes
 
