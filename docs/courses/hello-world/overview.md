@@ -7,13 +7,13 @@
 :file: clslab-light-slideshow.html
 ``` -->
 
-![](./clslab-light.gif)
+![](./images/clslab-light.gif)
 *Animated schematic diagram of the "Hello World" demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself.*
 
 
 ## 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
 
-For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
+For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended. A [CLSLab:Light](https://doi.org/10.1016/j.xpro.2023.102329) kit is required.
 
 ## 🎯 Learning Outcomes
 
