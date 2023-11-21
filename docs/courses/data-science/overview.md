@@ -5,7 +5,7 @@
 
 ![](./ax-repo/bo_1d_opt.gif)
 
-*1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. The process occurs iteratively: as new data points are added, the surrogate model and acquisition function are recalculated before suggesting the next experiment.*
+*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*
 
 ## 🔑 Recommended Prerequisites
 

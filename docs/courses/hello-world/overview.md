@@ -8,7 +8,7 @@
 ``` -->
 
 ![](./clslab-light.gif)
-*Schematic diagram of the "Hello World" demo using LEDs, a light sensor, and a microcontroller.*
+*Animated schematic diagram of the "Hello World" demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself.*
 
 
 ## 🔑 Recommended Prerequisites <!-- alternative: ✅ -->
