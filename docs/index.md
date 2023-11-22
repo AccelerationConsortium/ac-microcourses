@@ -23,12 +23,6 @@ data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
 aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Discuss</a>
 
-<!-- </div> -->
-
-<!-- ```{note}
-While the certificate option requires formal registration and tuition dues, the course content is made freely available.
-``` -->
-
 <!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
 <!-- description of the microcredentials, and the difference between the microcourse content and the microcredentials certificate -->
 
