@@ -53,7 +53,7 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 
 ## 🗺️ Certificate Overview
 
-👉 **First Step:** Start your journey by [**🔗 exploring the certificate overview**](certificate-framework.md). This is your roadmap to the microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats.
+👉 **First Step:** Start your journey by [**🔗 exploring the certificate overview**](certificate-framework.md). This is your roadmap to the microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats. abc
 
 <!-- 👉 **First Step:** Click the "Next ➡️" button at the bottom-right of this page to explore the course titles, descriptions, prerequisites, and more. -->
 
