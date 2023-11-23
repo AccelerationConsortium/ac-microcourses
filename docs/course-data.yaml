@@ -1,0 +1,330 @@
+hello-world:
+  course_title: "Building a 'Hello World' for self-driving labs"
+  course_emoji: "💡"
+  description: "Discover the essential principles of self-driving laboratories (SDLs) by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data."
+  media_command: "![](./images/clslab-light.gif)"
+  media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
+  recommended_prerequisites: "For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended."
+  learning_outcomes:
+    - "Describe key terms and principles of self-driving labs"
+    - "Send commands and receive sensor data over WiFi using standard frameworks such as MQTT"
+    - "Store experiment configurations and results in a MongoDB database"
+    - "Implement software on a microcontroller to adjust device power and read sensor data"
+    - "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try"
+    - "Implement workflow orchestration for a color experiment using packages such as Covalent"
+    - "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
+  competencies_skills:
+    - "Basic self-driving lab literacy"
+    - "Database management"
+    - "Workflow orchestration"
+    - "Bayesian optimization"
+    - "Microcontrollers and sensors"
+    - "Hardware/software communication"
+  modules:
+    - module_name: "Running the SDL demo"
+      topics:
+        - "Database management"
+        - "Bayesian optimization"
+        - "Microcontrollers"
+      learning_outcomes:
+        - "Describe key terms and principles of self-driving labs"
+        - "Preview an end-to-end self-driving lab"
+        - "Upload software to a microcontroller"
+      assessments:
+        - "Check for matched terms with definitions in Quercus"
+        - "Ask questions that demonstrate they finished reading the manuscript, for example, what platforms are used for each of the steps. This could be another matching from the topics to the platforms as a complement to the previous quiz"
+        - "Check that source code from the zip file is copy-pasted into a certain file"
+        - "Check that a 'test' demo database entry exists that contains their course ID or something specific to them"
+    - module_name: "Blink and Read"
+      topics:
+        - "Microcontrollers"
+        - "MicroPython"
+      learning_outcomes:
+        - "Write MicroPython scripts"
+        - "Use a microcontroller"
+      assessments:
+        - "Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
+        - "Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
+    - module_name: "Bayesian optimization"
+      topics:
+        - "Design of experiments"
+        - "Data visualization"
+      learning_outcomes:
+        - "Compare grid and random search vs. Bayesian optimization"
+        - "Visualize optimization efficiency"
+      assessments:
+        - "Match terms with definitions"
+        - "Verify that the filled in code for grid search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., verify that two floats match)."
+        - "Verify that the filled in code for random search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
+        - "Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
+        - "Verify that the data to be placed in a matplotlib figure for 'best result so far' vs. iteration number matches the answer key for a specific set of seeds"
+    - module_name: "Device communication"
+      topics:
+        - "MQTT"
+        - "Broker/client"
+      learning_outcomes:
+        - "Send commands to a microcontroller"
+        - "Receive sensor data from a microcontroller"
+      assessments:
+        - "Match terms with definitions"
+        - "Check that users added personal HiveMQ credentials as repository secrets"
+        - "Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me"
+    - module_name: "Logging data"
+      topics:
+        - "MongoDB"
+        - "Database management"
+      learning_outcomes:
+        - "Set up a MongoDB account and database"
+        - "Upload data directly from microcontroller"
+      assessments:
+        - "Check that users added personal MongoDB credentials as repository secrets"
+        - "Verify that an entry can be added using the MongoDB secrets and that it's not the one provided publicly by me"
+    - module_name: "Module integration"
+      topics:
+        - "Systems design"
+      learning_outcomes:
+        - "Connect the pieces to complete the SDL demo"
+    - module_name: "Lab sensor system"
+      topics:
+        - "Environmental sensors"
+      learning_outcomes:
+        - "Continuously log temperature, humidity, vibration, etc."
+  course_assessments_and_grading_schema: "Each module will contain the following: 1. 🧭 A guided notebook tutorial (ungraded)<br>2. 📓 A standalone notebook assignment (graded, 5 points)<br>3. 🛠️ A mini project (graded, 10 points)"
+
+data-science:
+  course_title: "Data science for self-driving labs"
+  course_emoji: "📊"
+  description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace."
+  recommended_prerequisites: "{{hello-world}}"
+  learning_outcomes:
+    - "Describe a materials discovery task using data science language and concepts"
+    - "Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe"
+    - "Judiciously choose an advanced optimization setup that matches a materials discovery task"
+    - "Programatically upload a completed dataset to Figshare, create a benchmark model, and host it on HuggingFace"
+  competencies_skills:
+    - "Data science literacy"
+    - "Bayesian optimization"
+    - "Advanced Bayesian optimization"
+    - "Workflow orchestration"
+    - "Benchmarking"
+  modules:
+    - module_name: "Gentle intro to Bayesian optimization"
+      topics:
+        - "Design of experiments"
+        - "Quasi-random search methods"
+        - "Bayesian optimization"
+        - "Expected improvement (EI)"
+        - "Ax Platform"
+        - "Honegumi template generator"
+      learning_outcomes:
+        - "Describe a materials discovery task using data science language and concepts"
+        - "Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe"
+  course_assessments_and_grading_schema:
+    format: "Building a 'Hello World' for Self-Driving Labs"
+    link: "https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema"
+
+robotics:
+  course_title: "Robotics for self-driving labs"
+  course_emoji: "🦾"
+  description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot."
+  media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+  media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
+  recommended_prerequisites: "The **recommended prerequisite** for this course is [\"Building a 'Hello World' for Self-Driving Labs\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)."
+  learning_outcomes:
+    - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
+    - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
+    - "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)"
+    - "Demonstrate control of a mobile cobot using the robot operating system (ROS) framework"
+    - "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
+    - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
+  competencies_skills:
+    - "Motor drivers"
+    - "Automated liquid handlers"
+    - "Robotic control"
+    - "Computer vision"
+    - "Automated solid handlers"
+  modules:
+    - module_name: "Controlling pumps and pipettes"
+      topics:
+        - "Workflow orchestration"
+        - "Microcontrollers"
+        - "Peristaltic pumps"
+        - "Linear actuators"
+        - "Motor drivers"
+      learning_outcomes:
+        - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
+        - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
+    - module_name: "Automated liquid handlers"
+      topics:
+        - "Workflow orchestration"
+        - "Jubilee"
+        - "Opentrons"
+      learning_outcomes:
+        - "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)"
+    - module_name: "Mobile robotics"
+      topics:
+        - "ROS"
+      learning_outcomes:
+        - "Demonstrate control of a mobile cobot using the Robot Operating System (ROS)"
+    - module_name: "Computer vision"
+      topics:
+        - "OpenCV"
+        - "AprilTags"
+      learning_outcomes:
+        - "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
+    - module_name: "Solid sample transfer"
+      topics:
+        - "Workflow orchestration"
+        - "ROS"
+        - "AprilTags"
+        - "Multi-axis robotics"
+      learning_outcomes:
+        - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
+  course_assessments_and_grading_schema: "This course follows the same [\"Course Assessments and Grading Schema\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a \"Hello World\" for Self-Driving Labs*."
+
+"software_dev":
+  course_title: "Software development for self-driving labs"
+  course_emoji: "👩‍💻"
+  description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
+  recommended_prerequisites: "The **recommended prerequisite** for this course is [{{hello-world}}](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)."
+  learning_outcomes:
+    - "List software development best practices and corresponding benefits"
+    - "Identify productivity tools for developers that increase efficiency"
+    - "Write unit tests using tools such as pytest"
+    - "Create Python documentation using sphinx and rtd"
+    - "Implement continuous integration (CI) using tools such as GitHub actions"
+    - "Create a project template using PyScaffold"
+    - "Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign"
+    - "Run an offline simulation using cloud hosting"
+  competencies_skills:
+    - "Software development literacy"
+    - "Unit testing"
+    - "Documentation"
+    - "Compute hardware"
+    - "Cloud computing"
+  modules:
+    - module_name: "Setting up VS Code"
+      topics:
+        - "IDEs"
+        - "Miniconda"
+        - "VS Code extensions"
+      learning_outcomes:
+        - "Set up VS Code"
+        - "Install Miniconda"
+        - "Install VS Code extensions"
+    - module_name: "Debugging in VS Code"
+      topics:
+        - "Print statements"
+        - "Setting breakpoints"
+        - "Inspecting variables"
+        - "Stepping through code"
+        - "Debug console"
+        - "Debug configurations"
+      learning_outcomes:
+        - "Use print statements to debug code"
+        - "Set breakpoints"
+        - "Inspect variables"
+        - "Step through code"
+        - "Use the debug console"
+        - "Set up debug configurations"
+    - module_name: "Unit testing"
+      topics:
+        - "pytest"
+        - "Test result interpretation"
+        - "Debugging"
+        - "Test-driven development"
+      learning_outcomes:
+        - "Explain the purpose of unit tests"
+        - "Write unit tests for the light-mixing demo"
+        - "Run and interpret unit tests to fix code"
+        - "Explain test-driven development"
+    - module_name: "Automated documentation"
+      topics:
+        - "Markdown"
+        - "Documentation as code"
+        - "Sphinx"
+        - "Readthedocs"
+      learning_outcomes:
+        - "Write documentation in Markdown"
+        - "Explain what documentation as code means"
+        - "Set up a readthedocs account and publish a readthedocs page"
+    - module_name: "Continuous integration (CI)"
+      topics:
+        - "Continuous integration"
+        - "GitHub actions"
+        - "Unit tests"
+        - "Documentation"
+      learning_outcomes:
+        - "Explain the purpose of continuous integration"
+        - "Set up a GitHub actions workflow"
+        - "Run unit tests and documentation builds on GitHub actions"
+    - module_name: "Project templates"
+      topics:
+        - "PyScaffold"
+        - "Cookiecutter"
+        - "Project initialization"
+        - "Project adaptation"
+      learning_outcomes:
+        - "Create a project template using PyScaffold"
+        - "Add project content"
+    - module_name: "Launching a free cloud server"
+      topics:
+        - "Serverless computing"
+        - "PythonAnywhere"
+        - "Deploying Applications"
+      learning_outcomes:
+        - "Launch a free cloud server"
+        - "Deploy a materials discovery campaign on a cloud server"
+    - module_name: "On-demand cloud simulations"
+      topics:
+        - "Cloud computing"
+        - "Setting up an AWS account"
+        - "AWS Lambda"
+      learning_outcomes:
+        - "Run an on-demand cloud simulation"
+        - "Integrate a cloud simulation into a materials discovery campaign"
+  course_assessments_and_grading_schema: "This course follows the same [\"Course Assessments and Grading Schema\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a \"Hello World\" for Self-Driving Labs*."
+
+capstone:
+  course_title: "AC training lab capstone project"
+  course_emoji: "🏢"
+  description: "description.md"
+  recommended_prerequisites: "💡 [Building a 'Hello World' for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)<br>📈 [Data Science for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#data-science-for-self-driving-labs)<br>🦾 [Robotics for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#robotics-for-self-driving-labs)<br>🧑‍💻 [Software Development for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#software-development-for-self-driving-labs)"
+  learning_outcomes:
+    - "Propose a self-driving lab via a schematic figure"
+    - "Write a white paper for the self-driving laboratory"
+    - "Present the proposal to a team of scientists"
+    - "Design and execute a capstone project at the AC Training Lab"
+    - "Provide a project update with proposed next steps"
+    - "Share the designs, data, and documentation publicly"
+  competencies_skills:
+    - "Scientific communication"
+    - "Systems design"
+    - "Dissemination"
+    - "Interdisciplinary teamwork"
+  modules:
+    - module_name: "Project proposal"
+      topics:
+        - "Figures"
+        - "White papers"
+        - "Presentations"
+      learning_outcomes:
+        - "Propose a self-driving lab via a schematic figure"
+        - "Write a white paper for the self-driving laboratory"
+        - "Present the proposal to a team of scientists"
+    - module_name: "Design and execution"
+      topics:
+        - "SDL design"
+        - "Implementation"
+        - "Documentation"
+      learning_outcomes:
+        - "Design and execute the project at the AC training lab"
+        - "Provide a project update with proposed next steps"
+    - module_name: "Dissemination"
+      topics:
+        - "Project update"
+        - "Knowledge sharing"
+        - "Data and documentation"
+      learning_outcomes:
+        - "Share the designs, data, and documentation publicly"
+  course_assessments_and_grading_schema: "Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points."
