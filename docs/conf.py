@@ -240,24 +240,30 @@ todo_emit_warnings = True
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = "alabaster"
-# html_theme = "sphinx_rtd_theme"
+# The theme to use for HTML and HTML Help pages.  See the documentation for a
+# list of builtin themes. Theme options are theme-specific and customize the
+# look and feel of a theme further.  For a list of options available for each
+# theme, see the documentation.
 
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-html_theme_options = {
-    # "sidebar_width": "300px",
-    # "page_width": "1200px",
-    "nosidebar": True,
-}
+# html_theme = "alabaster"
+# html_theme_options = {
+#     # "sidebar_width": "300px",
+#     # "page_width": "1200px",
+#     "nosidebar": True,
+# }
+
+# html_theme = "sphinx_rtd_theme"
 # html_theme_options = {
 #     "navigation_depth": 2,
 #     "collapse_navigation": False,
 #     # "prev_next_buttons_location": "both",
 # }
+
+html_theme = "pydata_sphinx_theme"
+html_sidebars = {
+    "path/to/page": [],
+}
+html_theme_options = {"show_prev_next": False, "nosidebar": True}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []

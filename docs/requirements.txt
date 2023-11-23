@@ -8,6 +8,7 @@ nbsphinx
 nbsphinx
 nbsphinx-link
 pandoc
+pydata-sphinx-theme
 sphinx>=3.2.1
 sphinx-gallery
 sphinx_copybutton
