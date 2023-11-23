@@ -1,20 +1,6 @@
 # 🗺️ Certificate Overview
 
-Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats. Click on the course squares to navigate to the corresponding course overview.
-
-```{note}
-🔀 **The course flowchart is interactive**. Click on the buttons to navigate to the corresponding overview section. Alternatively, click the "Next →" button at the bottom-right of this page.
-```
-
-```{raw} html
-:file: course-flowchart.svg
-```
-
-<!-- <div align="center">
-
-*Interactive Course Flowchart*
-
-</div> -->
+Here, we provide details for the five core microcourses, including title, description, prerequisites, learning outcomes, skills, modules, and assessment formats.
 
 ```{toctree}
 :maxdepth: 1
@@ -27,7 +13,25 @@ Here, we provide details for the five core microcourses, including title, descri
 🏢 Capstone Project <courses/capstone/overview>
 ```
 
-While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
+```{note}
+🔀 **The course flowchart is interactive**. Click on the buttons to navigate to the corresponding overview section.
+```
+
+<!-- ![](./course-flowchart-black-border.png) -->
+
+<!-- Click on the links below to navigate to each course overview. -->
+
+```{raw} html
+:file: course-flowchart.svg
+```
+
+*The microcourses progress in three stages: introduction, deeper dives, and capstone. While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.*
+
+<!-- <div align="center">
+
+*Interactive Course Flowchart*
+
+</div> -->
 
 <!-- ## 📚 Course Content
 
