@@ -51,7 +51,7 @@ For participants to complete this course within the expected timeframe (approx. 
   - - Describe key terms and principles of self-driving labs
     - Preview an end-to-end self-driving lab
     - Upload software to a microcontroller
-* - Blink LEDs/Read sensor
+* - Blink and Read
   - - Microcontrollers
     - MicroPython
   - - Write MicroPython scripts
