@@ -90,3 +90,9 @@ Each module will contain the following:
 3. 🛠️ A mini project (graded, 10 points)
 
 The guided notebook tutorial is provided as a Jupyter notebook with embedded instructions and code snippets. The standalone notebook assignment is provided as a Jupyter notebook with instructions and partially filled code snippets. The mini project is an opportunity to directly apply the skills from the notebooks in an isolated environment within an interactive GitHub repository. Autograding of the notebook and mini project is performed via GitHub actions, and grades are automatically reported to GitHub Classroom. To see how that works, watch ["GitHub Classroom: How students complete assignments"](https://www.youtube.com/watch?v=ObaFRGp_Eko). Grades from GitHub Classroom are then periodically synced to Quercus, the University of Toronto's learning management system which is based on Instructure's open-source Canvas platform. A passing grade is considered 70% or greater.
+
+<div align="center">
+
+[⬅️ Return to list of microcourses](../../index.md#microcourses)
+
+</div>

@@ -76,6 +76,11 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
 
 This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
 
+<div align="center">
+
+[⬅️ Return to list of microcourses](../../index.md#microcourses)
+
+</div>
 
 <!-- ![](./ac-website/robot-loop.gif) -->
 

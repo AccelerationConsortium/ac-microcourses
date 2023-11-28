@@ -63,3 +63,11 @@ By completing these requirements, participants will be equipped to propose, desi
 ## ⚖️ Course Assessments and Grading Schema
 
 Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and  stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points.
+
+##
+
+<div align="center">
+
+[⬅️ Return to certificate overview](../../index.md)
+
+</div>
