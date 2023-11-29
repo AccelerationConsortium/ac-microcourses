@@ -21,6 +21,21 @@ hello-world:
     - "Microcontrollers and sensors"
     - "Hardware/software communication"
   modules:
+    - module_name: "Intro to Git and GitHub"
+      topics:
+        - "Git"
+        - "GitHub"
+        - "Version control"
+      learning_outcomes:
+        - "Describe the purpose of Git and GitHub"
+        - "Create a GitHub account"
+        - "Create a repository"
+        - "Clone a repository"
+        - "Commit changes"
+        - "Push changes"
+        - "Pull changes"
+      assessments:
+        - "Quiz: Match terms with definitions"
     - module_name: "Running the SDL demo"
       topics:
         - "Database management"
