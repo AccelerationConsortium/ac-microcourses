@@ -1,0 +1,48 @@
+# {{ course_emoji }} {{ course_title }}
+
+{{description}}
+
+{{ media_command }} {{ media_caption }}
+
+## 🔑 Recommended Prerequisites
+
+{{ recommended_prerequisites }}
+
+{# ```{include} ./hardware-note.md
+``` #}
+
+## 🎯 Learning Outcomes
+
+{% for outcome in learning_outcomes %}
+
+- {{ outcome }} {% endfor %}
+
+## 🛠️ Competencies/Skills
+
+{% for skill in competencies_skills %}
+
+- {{ skill }} {% endfor %}
+
+## 🧩 Modules
+
+```{list-table}
+:header-rows: 1
+
+* - Module Name
+  - Topics
+  - Learning Outcomes
+{% for module in modules %}
+* - {{ module.module_name }}
+  - {% for topic in module.topics %}- {{ topic }}{% endfor %}
+  - {% for outcome in module.learning_outcomes %}- {{ outcome }}{% endfor %}
+{% endfor %}
+
+## ⚖️ Course Assessments and Grading Schema
+
+{{ course_assessments_and_grading_schema }}
+
+<div align="center">
+
+[⬅️ Return to list of microcourses](../../index.md#microcourses)
+
+</div>
