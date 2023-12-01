@@ -68,6 +68,6 @@ Performance in this course is assessed via rubrics that evaluate the quality of 
 
 <div align="center">
 
-[⬅️ Return to certificate overview](../../index.md)
+[⬅️ Return to list of microcourses](../../index.md#microcourses)
 
 </div>
