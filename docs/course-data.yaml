@@ -20,6 +20,9 @@ hello-world:
     - "Bayesian optimization"
     - "Microcontrollers and sensors"
     - "Hardware/software communication"
+  orientation:
+    - "Course overview"
+    - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
   modules:
     - module_name: "Intro to Git and GitHub"
       topics:
@@ -35,7 +38,23 @@ hello-world:
         - "Push changes"
         - "Pull changes"
       assessments:
+        - "Quiz: Enter your GitHub classroom ID and your GitHub username"
         - "Quiz: Match terms with definitions"
+    - module_name: "Intro to GitHub Classroom Assignments"
+      topics:
+        - "GitHub Classroom"
+        - "Codespaces"
+        - "pytest"
+        - "Python modules"
+        - "GitHub actions"
+      learning_outcomes:
+        - "Run a unit test"
+        - "Fix a simple Python function"
+        - "Define continuous integration"
+      assessments:
+        - "Pytest: Update a Python file to return the correct string"
+        - "Quiz: Self-report the overall GitHub Classroom score"
+        - "Quiz: Type the correct string"
     - module_name: "Running the SDL demo"
       topics:
         - "Database management"
@@ -45,11 +64,17 @@ hello-world:
         - "Describe key terms and principles of self-driving labs"
         - "Preview an end-to-end self-driving lab"
         - "Upload software to a microcontroller"
+      tutorial:
+        - "Video: build instructions for the SDL demo https://youtu.be/D54yfxRSY6s?si=fjS6yxr-mKb3yBEp"
+        - "Building a hello world for self-driving labs: https://doi.org/10.1016/j.xpro.2023.102329"
+        - "Additional resource: Accelerate 2022 talk https://youtu.be/LNkRjByzeZg?si=FmyAMy0vELeUOae5"
+        - "Additional resource: What is a minimal working example for a self-driving laboratory? perspective paper https://doi.org/10.1016/j.matt.2022.11.007 (include a static copy and/or a link to the postprint: https://github.com/sparks-baird/self-driving-lab-demo/blob/main/reports/self_driving_optics_demo-rev1.pdf)"
       assessments:
         - "Quiz: Check for matched terms with definitions"
         - "Quiz: Match the term to the specific platform used in CLSLab:Light" # demonstrate reading of manuscript
-        - "Pytest: Check that source code from the zip file is copy-pasted into a certain file"
-        - "Pytest: Check that a 'test' demo database entry exists that contains their course ID or something specific to them"
+        # - "Pytest: Check that source code from a zip file is copy-pasted into a certain file"
+        # - "Pytest: Check that a 'test' demo database entry exists that contains their course identifier"
+        - "Pytest: Check for a test entry with their course identifier from the public database"
     - module_name: "Blink and Read"
       topics:
         - "Microcontrollers"
@@ -61,8 +86,10 @@ hello-world:
         - "Quiz: Enter the name of the file (including extension) that needs to be uploaded to the microcontroller"
         - "Quiz: Enter the names of the MicroPython modules that need to be imported to control the LED"
         - "Quiz: Enter the name of the MicroPython module that lets you interface with the light sensor"
-        - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
-        - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
+        - "Pytest: Verify that a filled in function (that uses a dummy class) returns the expected command"
+        - "Pytest: Verify that a filled in function (that uses a dummy class) returns the expected data"
+        # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
+        # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
     - module_name: "Bayesian optimization"
       topics:
         - "Design of experiments"
@@ -70,15 +97,22 @@ hello-world:
       learning_outcomes:
         - "Compare grid and random search vs. Bayesian optimization"
         - "Visualize optimization efficiency"
+      tutorial:
+        - "Video: A gentle introduction to Bayesian optimization | https://youtu.be/IVaWl2tL06c?si=P5dQFs4pX5TxsYxS"
+        - "grid vs. random vs. Bayes (sort of from scratch) tutorial: https://towardsdatascience.com/grid-search-vs-random-search-vs-bayesian-optimization-2e68f57c3c46"
+        - "Video: Bayes rule by 3Blue1Brown | https://youtu.be/HZGCoVF3YvM?si=Gfoi-0sRvxqsTW2u"
+        - "combining content from random search for a self-driving lab https://github.com/sparks-baird/self-driving-lab-demo/blob/6c0b5f63b37ad2c24dea1a51bab498ac2cc37853/notebooks/2.0-random-search.ipynb grid search and BO https://github.com/sparks-baird/self-driving-lab-demo/blob/567184a073143f129b2ec72607ef0709222e51d4/notebooks/2.3-bayesian-optimization.ipynb and running comparisons of all three https://github.com/sparks-baird/self-driving-lab-demo/blob/112e7e6bfa69c11d61dcbbc4e72a704be0adb87b/notebooks/3.1-random-vs-grid-vs-bayesian.ipynb"
       assessments:
-        - "Quiz: Match terms with definitions (summarized definitions from GPT4). Random number generator seed, "
+        - "Quiz: Match terms with definitions (summarized definitions from GPT4). Random number generator seed, grid search, random search, Bayesian optimization"
         - "Quiz: Ask a simple question about grid search (what are the datapoints for a 1D grid search from 0 to 1 with 3 points)"
         - "Quiz: Describe the number of grid points in 1D, 2D, and 3D with 3 points along each dimension"
         - "Quiz: Rank the typical efficiency of grid search vs. random search vs. quasi-random vs. Bayesian optimization"
         - "Quiz: Enter a random number generated by numpy according to directions in <URL> using a seed of 10 to N decimal points"
-        - "Quiz & ungrade pytest: Verify that the filled in code for grid search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., verify that two floats match). NOTE: ensure that "
-        - "Quiz: Verify that the filled in code for random search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
-        - "Quiz: Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
+        # NOTE: could be paired with Canvas quiz, but difficult to keep synced
+        # NOTE: provide a dummy class for the light-mixing demo
+        - "Pytest: Verify that the filled in code for grid search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., verify that two floats match)."
+        - "Pytest: Verify that the filled in code for random search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
+        - "Pytest: Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)."
         - "Pytest: Verify that the data to be placed in a matplotlib figure for 'best result so far' vs. iteration number matches the answer key for a specific set of seeds"
     - module_name: "Device communication"
       topics:
@@ -110,7 +144,7 @@ hello-world:
         - "Connect the pieces to complete the SDL demo"
       assessments:
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
-        - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a Bayesian optimization search is below some threshold"
+        - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold"
     - module_name: "Lab sensor system"
       topics:
         - "Environmental sensors"
