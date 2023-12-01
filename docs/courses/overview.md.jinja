@@ -1,0 +1,41 @@
+# {{ course.emoji }} {{ course.name }}
+
+```{include} {{ course.description_file }}
+```
+
+![]({{ course.image }})
+*{{ course.image_caption }}*
+
+## 🔑 Recommended Prerequisites
+
+{{ course.prerequisites }}
+
+## 🎯 Learning Outcomes
+
+{% for outcome in course.learning_outcomes %}
+- {{ outcome }}
+{% endfor %}
+
+## 🛠️ Competencies/Skills
+
+{% for skill in course.skills %}
+- {{ skill }}
+{% endfor %}
+
+## 🧩 Modules
+
+```{list-table}
+:header-rows: 1
+
+{% for module in course.modules %}
+* - {{ module.name }}
+  - Topics
+  - Learning Outcomes
+{% endfor %}
+```
+
+## ⚖️ Course Assessments and Grading Schema
+
+{{ course.grading_schema }}
+
+<div align="center">
