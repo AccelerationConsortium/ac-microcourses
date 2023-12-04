@@ -1,25 +1,18 @@
-# 🦾 Robotics for self-driving labs
+# 🦾 Autonomous Systems for Self-Driving Labs
 
-```{include} description.md
-```
+Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot.
 
-<video width="100%" controls autoplay muted>
-  <source src="./../../_static/ac-website/robot-loop.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<!-- ```{image} ./ac-website/robot-loop.gif
-:align: center
-``` -->
-<br>
-
-<sub>*Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)*</sub>
+<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>
+Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)
 
 ## 🔑 Recommended Prerequisites
 
-The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
+The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
+
+
 
 ## 🎯 Learning Outcomes
+
 
 - Implement software to control a peristaltic pump via a microcontroller and a motor driver
 - Build the "Digital Pipette" and implement software to control the linear actuator
@@ -29,6 +22,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
 - Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
 
 ## 🛠️ Competencies/Skills
+
 
 - Motor drivers
 - Automated liquid handlers
@@ -44,6 +38,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
 * - Module Name
   - Topics
   - Learning Outcomes
+
 * - Controlling pumps and pipettes
   - * Workflow orchestration
     * Microcontrollers
@@ -52,53 +47,37 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
     * Motor drivers
   - * Implement software to control a peristaltic pump via a microcontroller and a motor driver
     * Build the "Digital Pipette" and implement software to control the linear actuator
+
 * - Automated liquid handlers
   - * Workflow orchestration
     * Jubilee
     * Opentrons
   - * Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
+
 * - Mobile robotics
   - * ROS
   - * Demonstrate control of a mobile cobot using the Robot Operating System (ROS)
+
 * - Computer vision
   - * OpenCV
     * AprilTags
   - * Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
+
 * - Solid sample transfer
   - * Workflow orchestration
     * ROS
     * AprilTags
     * Multi-axis robotics
   - * Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
+
 ```
 
 ## ⚖️ Course Assessments and Grading Schema
 
-This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
+Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>
 
 <div align="center">
 
 [⬅️ Return to list of microcourses](../../index.md#microcourses)
 
 </div>
-
-<!-- ![](./ac-website/robot-loop.gif) -->
-
-<!-- <div style="display: flex; justify-content: center;">
-  <img src="./ac-website/robot-loop.gif" alt="Robot Loop" style="width:100%;">
-</div> -->
-
-<!-- <p style="text-align: center;"><img src="./ac-website/robot-loop.gif"></p> -->
-
-<!-- ```{figure} ./ac-website/robot-loop.gif
-:align: center
-
-<sub>*VIDEO LOOP: 1. ADA at the University of British Columbia (Curtis Berlinguette, Jason Hein, Alán Aspuru-Guzik); 2. Artificial Chemist synthesizes made-to-measure inoroganic perovskite quantum dots (Milad Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform performs multistep chemical syntheses planned in part by AI (Connor Coley, MIT); 4. Chemputer, a computer-driven automated chemistry lab (Lee Cronin, University of Glasgow); 5. Mobile robot chemist (Andy Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)*</sub>
-``` -->
-
-<!-- ```{raw} html
-    <video width="100%" controls>
-        <source src="./ac-website/robot-loop.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-``` -->

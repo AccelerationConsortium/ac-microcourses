@@ -1,13 +1,18 @@
-# 🧑‍💻 Software development for self-driving labs
+# 👩‍💻 Software development for self-driving labs
 
-```{include} description.md
-```
+Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
+
+
+
 
 ## 🔑 Recommended Prerequisites
 
-The **recommended prerequisite** for this course is ["Building a 'Hello World' for Self-Driving Labs"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs).
+The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
+
+
 
 ## 🎯 Learning Outcomes
+
 
 - List software development best practices and corresponding benefits
 - Identify productivity tools for developers that increase efficiency
@@ -19,6 +24,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
 - Run an offline simulation using cloud hosting
 
 ## 🛠️ Competencies/Skills
+
 
 - Software development literacy
 - Unit testing
@@ -34,6 +40,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
 * - Module Name
   - Topics
   - Learning Outcomes
+
 * - Setting up VS Code
   - * IDEs
     * Miniconda
@@ -41,6 +48,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
   - * Set up VS Code
     * Install Miniconda
     * Install VS Code extensions
+
 * - Debugging in VS Code
   - * Print statements
     * Setting breakpoints
@@ -54,6 +62,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
     * Step through code
     * Use the debug console
     * Set up debug configurations
+
 * - Unit testing
   - * pytest
     * Test result interpretation
@@ -63,6 +72,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
     * Write unit tests for the light-mixing demo
     * Run and interpret unit tests to fix code
     * Explain test-driven development
+
 * - Automated documentation
   - * Markdown
     * Documentation as code
@@ -71,6 +81,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
   - * Write documentation in Markdown
     * Explain what documentation as code means
     * Set up a readthedocs account and publish a readthedocs page
+
 * - Continuous integration (CI)
   - * Continuous integration
     * GitHub actions
@@ -79,6 +90,7 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
   - * Explain the purpose of continuous integration
     * Set up a GitHub actions workflow
     * Run unit tests and documentation builds on GitHub actions
+
 * - Project templates
   - * PyScaffold
     * Cookiecutter
@@ -86,30 +98,26 @@ The **recommended prerequisite** for this course is ["Building a 'Hello World' f
     * Project adaptation
   - * Create a project template using PyScaffold
     * Add project content
+
 * - Launching a free cloud server
   - * Serverless computing
     * PythonAnywhere
     * Deploying Applications
   - * Launch a free cloud server
     * Deploy a materials discovery campaign on a cloud server
+
 * - On-demand cloud simulations
   - * Cloud computing
     * Setting up an AWS account
     * AWS Lambda
   - * Run an on-demand cloud simulation
     * Integrate a cloud simulation into a materials discovery campaign
+
 ```
-
-<!-- Python packaging with PyPI | Packages<br>PyPI<br>pip<br>Twine | Explain the purpose of packages<br>Set up a PyPI account<br>Upload a package to PyPI -->
-<!-- Using LLMs to enhance coding workflows via GitHub Copilot Chat | Understanding LLMs<br>GitHub Copilot Chat<br>Code Suggestions<br>Code Completions<br>Code Refactoring | Explain the purpose of LLMs<br>Explore the use of GitHub Copilot Chat -->
-
-<!-- https://www.w3schools.com/aws/ -->
-
-<!-- note that print statements (similarly cell evaluation outputs for notebooks) are an important beginner method of debugging -->
 
 ## ⚖️ Course Assessments and Grading Schema
 
-This course follows the same ["Course Assessments and Grading Schema"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a "Hello World" for Self-Driving Labs*.
+Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>
 
 <div align="center">
 
