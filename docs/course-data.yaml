@@ -1,5 +1,6 @@
 hello-world:
-  course_title: "Building a 'Hello World' for self-driving labs"
+  # course_title: "Building a 'Hello World' for self-driving labs"
+  course_title: "Introduction to AI for Discovery using Self-driving Labs"
   course_emoji: "💡"
   description: "Discover the essential principles of self-driving laboratories (SDLs) by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data."
   media_command: "![](./images/clslab-light.gif)"
@@ -159,13 +160,15 @@ hello-world:
       assessments:
         - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
         - "Pytest: Programatically access the (up-and-running) machine and validate the schema of the data"
-  course_assessments_and_grading_schema: "Each module will contain the following: 1. 🧭 A guided notebook tutorial (ungraded)<br>2. 📓 A standalone notebook assignment (graded, 5 points)<br>3. 🛠️ A mini project (graded, 10 points)"
+  course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>"
 
 data-science:
-  course_title: "Data science for self-driving labs"
+  course_title: "AI and Materials Databases for Self-Driving Labs"
   course_emoji: "📊"
   description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace."
-  recommended_prerequisites: "{{hello-world}}"
+  media_command: "![](./images/ax-repo/bo_1d_opt.gif)"
+  media_caption: "*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*"
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
   learning_outcomes:
     - "Describe a materials discovery task using data science language and concepts"
     - "Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe"
@@ -290,17 +293,15 @@ data-science:
         - "Quiz: Provide a link to the HuggingFace model (TBD)"
         - "Pytest: Download a user's dataset via a DOI link and verify that the data is of the correct type and follows the correct schema"
         - "Pytest: Verify that the HuggingFace model can be accessed to return results"
-  course_assessments_and_grading_schema:
-    format: "Building a 'Hello World' for Self-Driving Labs"
-    link: "https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema"
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
 robotics:
-  course_title: "Robotics for self-driving labs"
+  course_title: "Autonomous Systems for Self-Driving Labs"
   course_emoji: "🦾"
   description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
   media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
-  recommended_prerequisites: "The **recommended prerequisite** for this course is [\"Building a 'Hello World' for Self-Driving Labs\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)."
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
   learning_outcomes:
     - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
     - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
@@ -351,13 +352,15 @@ robotics:
         - "Multi-axis robotics"
       learning_outcomes:
         - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
-  course_assessments_and_grading_schema: "This course follows the same [\"Course Assessments and Grading Schema\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a \"Hello World\" for Self-Driving Labs*."
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
-"software_dev":
+"software-dev":
   course_title: "Software development for self-driving labs"
   course_emoji: "👩‍💻"
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
-  recommended_prerequisites: "The **recommended prerequisite** for this course is [{{hello-world}}](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)."
+  media_command: ""
+  media_caption: ""
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
   learning_outcomes:
     - "List software development best practices and corresponding benefits"
     - "Identify productivity tools for developers that increase efficiency"
@@ -454,13 +457,15 @@ robotics:
       learning_outcomes:
         - "Run an on-demand cloud simulation"
         - "Integrate a cloud simulation into a materials discovery campaign"
-  course_assessments_and_grading_schema: "This course follows the same [\"Course Assessments and Grading Schema\"](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#course-assessments-and-grading-schema) format as *Building a \"Hello World\" for Self-Driving Labs*."
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
 capstone:
-  course_title: "AC training lab capstone project"
+  course_title: "AC Training Lab Design Project"
   course_emoji: "🏢"
-  description: "description.md"
-  recommended_prerequisites: "💡 [Building a 'Hello World' for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#building-a-hello-world-for-self-driving-labs)<br>📈 [Data Science for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#data-science-for-self-driving-labs)<br>🦾 [Robotics for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#robotics-for-self-driving-labs)<br>🧑‍💻 [Software Development for Self-Driving Labs](https://ac-microcourses.readthedocs.io/en/latest/certificate-framework.html#software-development-for-self-driving-labs)"
+  description: "Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base."
+  media_command: ""
+  media_caption: ""
+  recommended_prerequisites: "💡 {{ hello-world }}<br>📈 {{ data-science }}<br>🦾 {{ robotics }}<br>🧑‍💻 {{ software-dev }}"
   learning_outcomes:
     - "Propose a self-driving lab via a schematic figure"
     - "Write a white paper for the self-driving laboratory"

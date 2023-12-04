@@ -15,13 +15,11 @@
 ## 🎯 Learning Outcomes
 
 {% for outcome in learning_outcomes %}
-
 - {{ outcome }} {% endfor %}
 
 ## 🛠️ Competencies/Skills
 
 {% for skill in competencies_skills %}
-
 - {{ skill }} {% endfor %}
 
 ## 🧩 Modules
@@ -34,9 +32,16 @@
   - Learning Outcomes
 {% for module in modules %}
 * - {{ module.module_name }}
-  - {% for topic in module.topics %}- {{ topic }}{% endfor %}
-  - {% for outcome in module.learning_outcomes %}- {{ outcome }}{% endfor %}
+  - * {{ module.topics[0] }}
+    {%- for topic in module.topics[1:] %}
+    * {{ topic }}
+    {%- endfor %}
+  - * {{ module.learning_outcomes[0] }}
+    {%- for outcome in module.learning_outcomes[1:] %}
+    * {{ outcome }}
+    {%- endfor %}
 {% endfor %}
+```
 
 ## ⚖️ Course Assessments and Grading Schema
 
