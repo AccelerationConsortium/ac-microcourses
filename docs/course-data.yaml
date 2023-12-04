@@ -24,7 +24,7 @@ hello-world:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
   modules:
-    - module_name: "Intro to Git and GitHub"
+    - module_name: "Intro to Git and GitHub" # I'm not sure whether to put this in orientation or not. Do I want both of these to appear in the course overview?
       topics:
         - "Git"
         - "GitHub"
@@ -70,7 +70,7 @@ hello-world:
         - "Additional resource: Accelerate 2022 talk https://youtu.be/LNkRjByzeZg?si=FmyAMy0vELeUOae5"
         - "Additional resource: What is a minimal working example for a self-driving laboratory? perspective paper https://doi.org/10.1016/j.matt.2022.11.007 (include a static copy and/or a link to the postprint: https://github.com/sparks-baird/self-driving-lab-demo/blob/main/reports/self_driving_optics_demo-rev1.pdf)"
       assessments:
-        - "Quiz: Check for matched terms with definitions"
+        # - "Quiz: Check for matched terms with definitions"
         - "Quiz: Match the term to the specific platform used in CLSLab:Light" # demonstrate reading of manuscript
         # - "Pytest: Check that source code from a zip file is copy-pasted into a certain file"
         # - "Pytest: Check that a 'test' demo database entry exists that contains their course identifier"
@@ -82,12 +82,18 @@ hello-world:
       learning_outcomes:
         - "Write MicroPython scripts"
         - "Use a microcontroller"
+      tutorial:
+        - "Blink LED on Pico W tutorial (Getting started with the Pico W or similar)"
+        - "NeoPixel tutorial"
+        - "Maker Pi Pico neopixel tutorial"
+        - "AS7341 Adafruit tutorial"
+        - "main.py from tutorial https://github.com/sparks-baird/self-driving-lab-demo/blob/2f4bf8c27cf80776821306ce443244d11fae8968/src/public_mqtt_sdl_demo/main.py"
       assessments:
-        - "Quiz: Enter the name of the file (including extension) that needs to be uploaded to the microcontroller"
-        - "Quiz: Enter the names of the MicroPython modules that need to be imported to control the LED"
-        - "Quiz: Enter the name of the MicroPython module that lets you interface with the light sensor"
-        - "Pytest: Verify that a filled in function (that uses a dummy class) returns the expected command"
-        - "Pytest: Verify that a filled in function (that uses a dummy class) returns the expected data"
+        # - "Quiz: Enter the name of the file (including extension) that needs to be uploaded to the microcontroller"
+        - "Quiz: Enter the names of the MicroPython module and class that need to be imported to control the LED (machine.Pin, neopixel.NeoPixel)"
+        - "Quiz: Enter the name of the MicroPython module and class that lets you interface with the light sensor (as7341_sensor.Sensor)"
+        - "Pytest: Verify that a filled in function (that uses a dummy class for machine.Pin) returns the expected command"
+        - "Pytest: Verify that a filled in function (that uses a dummy class for AS7341) returns the expected data"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
     - module_name: "Bayesian optimization"
