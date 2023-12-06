@@ -88,3 +88,10 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── .isort.cfg              <- Configuration for git hook that sorts imports.
 └── .pre-commit-config.yaml <- Configuration of pre-commit git hooks.
 ```
+
+## Developer Notes
+
+In order to provide students with organization-owned Codespaces, the corresponding setting must be selected in the organization settings.
+
+![image](https://github.com/AccelerationConsortium/ac-microcourses/assets/45469701/3a713dc2-4c75-4cc9-bb74-46fde6a4bbcd)
+
