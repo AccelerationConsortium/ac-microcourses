@@ -101,9 +101,11 @@ hello-world:
     - module_name: "Bayesian optimization"
       topics:
         - "Design of experiments"
+        - "Bayesian optimization"
         - "Data visualization"
       learning_outcomes:
-        - "Compare grid and random search vs. Bayesian optimization"
+        - "Adapt a Bayesian optimization script to perform color-matching"
+        - "Compare Bayesian optimization with other search methods"
         - "Visualize optimization efficiency"
       tutorial:
         - "Video: A gentle introduction to Bayesian optimization | https://youtu.be/IVaWl2tL06c?si=P5dQFs4pX5TxsYxS"
@@ -119,7 +121,7 @@ hello-world:
         # NOTE: could be paired with Canvas quiz, but difficult to keep synced
         # NOTE: provide a dummy class for the light-mixing demo
         - "Pytest: Verify that the filled in code for grid search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., verify that two floats match) for Branin function"
-        - "Pytest: Verify that the filled in code for random search with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)  for Branin function."
+        - "Pytest: Verify that the filled in code for random search with a specific set of seeds reaches a particular outcome (i.e., match the numbers) for Branin function."
         - "Pytest: Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)  for Branin function."
         - "Pytest: Verify that the data to be placed in a matplotlib figure for 'best result so far' vs. iteration number matches the answer key for a specific set of seeds for Branin function"
     - module_name: "Device communication"
