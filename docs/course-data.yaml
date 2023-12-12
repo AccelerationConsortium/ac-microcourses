@@ -25,6 +25,13 @@ hello-world:
   orientation:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
+  module_note: |
+    Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met. ABC
+
+    ```
+    {include} ./hardware-note.md
+    ```
+
   modules:
     - module_name: "Intro to Git and GitHub" # I'm not sure whether to put this in orientation or not. Do I want both of these to appear in the course overview?
       topics:
@@ -183,6 +190,7 @@ data-science:
     - "Advanced Bayesian optimization"
     - "Workflow orchestration"
     - "Benchmarking"
+  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Gentle intro to Bayesian optimization"
       topics:
@@ -318,6 +326,7 @@ robotics:
     - "Robotic control"
     - "Computer vision"
     - "Automated solid handlers"
+  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Controlling pumps and pipettes"
       topics:
@@ -379,6 +388,7 @@ robotics:
     - "Documentation"
     - "Compute hardware"
     - "Cloud computing"
+  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Setting up VS Code"
       topics:
@@ -481,6 +491,7 @@ capstone:
     - "Systems design"
     - "Dissemination"
     - "Interdisciplinary teamwork"
+  module_note: "This course is expected to take approximately 40 hours to complete."
   modules:
     - module_name: "Project proposal"
       topics:
