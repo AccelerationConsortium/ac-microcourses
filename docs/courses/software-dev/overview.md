@@ -1,3 +1,6 @@
+<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
+in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+
 # 👩‍💻 Software development for self-driving labs
 
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
@@ -33,6 +36,8 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 - Cloud computing
 
 ## 🧩 Modules
+
+Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met.
 
 ```{list-table}
 :header-rows: 1

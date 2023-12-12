@@ -1,3 +1,6 @@
+<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
+in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+
 # 🏢 AC Training Lab Design Project
 
 Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base.
@@ -30,6 +33,8 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 - Interdisciplinary teamwork
 
 ## 🧩 Modules
+
+This course is expected to take approximately 40 hours to complete.
 
 ```{list-table}
 :header-rows: 1

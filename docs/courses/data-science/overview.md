@@ -1,3 +1,6 @@
+<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
+in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+
 # 📊 AI and Materials Databases for Self-Driving Labs
 
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace.
@@ -29,6 +32,8 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 - Benchmarking
 
 ## 🧩 Modules
+
+Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met.
 
 ```{list-table}
 :header-rows: 1

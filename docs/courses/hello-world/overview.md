@@ -1,6 +1,9 @@
+<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
+in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+
 # 💡 Introduction to AI for Discovery using Self-driving Labs
 
-Discover the essential principles of self-driving laboratories (SDLs) by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication via MQTT, database integration via MongoDB, microcontroller programming with a Raspberry Pi Pico W, and optimization via the Adaptive Experimentation (Ax) Platform. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data.
+Self-driving laboratories (SDLs) incorporate AI and automation into scientific laboratories to speed up the discovery of new materials for applications such as clean energy and cancer drugs. Discover the essential principles of SDLs by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication, database integration, microcontroller programming, and Bayesian optimization. Each of these are important components of an SDL, and you will get a taste of these in the course modules. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data.
 
 ![](./images/clslab-light.gif)
 Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself.
@@ -16,10 +19,11 @@ For participants to complete this course within the expected timeframe (approx. 
 
 - Describe key terms and principles of self-driving labs
 - Send commands and receive sensor data over WiFi using standard frameworks such as MQTT
-- Store experiment configurations and results in a MongoDB database
-- Implement software on a microcontroller to adjust device power and read sensor data
+- Store experiment configurations and results in databases such as MongoDB
+- Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data
 - Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try
 - Implement workflow orchestration for a color experiment using packages such as Covalent
+- Integrate the individual SDL components to finalize the 'Hello World' demo
 - Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements
 
 ## 🛠️ Competencies/Skills
@@ -33,6 +37,13 @@ For participants to complete this course within the expected timeframe (approx. 
 - Hardware/software communication
 
 ## 🧩 Modules
+
+Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met. ABC
+
+```
+{include} ./hardware-note.md
+```
+
 
 ```{list-table}
 :header-rows: 1
@@ -79,8 +90,10 @@ For participants to complete this course within the expected timeframe (approx. 
 
 * - Bayesian optimization
   - * Design of experiments
+    * Bayesian optimization
     * Data visualization
-  - * Compare grid and random search vs. Bayesian optimization
+  - * Adapt a Bayesian optimization script to perform color-matching
+    * Compare Bayesian optimization with other search methods
     * Visualize optimization efficiency
 
 * - Device communication
