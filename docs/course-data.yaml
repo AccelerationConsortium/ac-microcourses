@@ -5,7 +5,13 @@ hello-world:
   description: "Self-driving laboratories (SDLs) incorporate AI and automation into scientific laboratories to speed up the discovery of new materials for applications such as clean energy and cancer drugs. Discover the essential principles of SDLs by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication, database integration, microcontroller programming, and Bayesian optimization. Each of these are important components of an SDL, and you will get a taste of these in the course modules. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data."
   media_command: "![](./images/clslab-light.gif)"
   media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
-  recommended_prerequisites: "For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended."
+  recommended_prerequisites: |
+
+    ```{include} ./hardware-note.md
+    ```
+
+    For participants to complete this course within the expected timeframe (approx. 20 hours), beginner proficiency in Python programming is recommended.
+
   learning_outcomes:
     - "Describe key terms and principles of self-driving labs"
     - "Send commands and receive sensor data over WiFi using standard frameworks such as MQTT"
@@ -25,45 +31,26 @@ hello-world:
   orientation:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
-  module_note: |
-    The orientation modules are expected to take less than an hour total. The modules after that are expected to take approximately 2-3 hours each, assuming that the recommended prerequisites have been met.
-
-    ```
-    {include} ./hardware-note.md
-    ```
-
+  module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
-    - module_name: "Orientation: Intro to Git and GitHub" # I'm not sure whether to put this in orientation or not. Do I want both of these to appear in the course overview?
+    - module_name: "Orientation"
       topics:
         - "Git"
         - "GitHub"
         - "Version control"
+        - "GitHub Classroom"
+        - "Codespaces"
       learning_outcomes:
         - "Describe the purpose of Git and GitHub"
-        - "Create a GitHub account"
-        - "Create a repository"
-        - "Clone a repository"
-        - "Commit changes"
-        - "Push changes"
-        - "Pull changes"
+        - "Create a GitHub account and a repository"
+        - "Commit, push, and pull changes"
+        - "Run a unit test and fix a simple Python function"
+        - "Define continuous integration"
       assessments:
         - "Quiz: Enter your GitHub classroom ID and your GitHub username"
         - "Quiz: Match terms with definitions"
-    - module_name: "Orientation: Intro to GitHub Classroom Assignments"
-      topics:
-        - "GitHub Classroom"
-        - "Codespaces"
-        - "pytest"
-        - "Python modules"
-        - "GitHub actions"
-      learning_outcomes:
-        - "Run a unit test"
-        - "Fix a simple Python function"
-        - "Define continuous integration"
-      assessments:
         - "Pytest: Update a Python file to return the correct string"
         - "Quiz: Self-report the overall GitHub Classroom score"
-        - "Quiz: Type the correct string"
     - module_name: "Running the SDL demo"
       topics:
         - "Database management"

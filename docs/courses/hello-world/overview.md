@@ -10,7 +10,12 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 
 ## 🔑 Recommended Prerequisites
 
-For participants to complete this course within the expected timeframe (approx. 20 hours), intermediate proficiency in Python programming is recommended.
+
+```{include} ./hardware-note.md
+```
+
+For participants to complete this course within the expected timeframe (approx. 20 hours), beginner proficiency in Python programming is recommended.
+
 
 
 
@@ -38,12 +43,7 @@ For participants to complete this course within the expected timeframe (approx. 
 
 ## 🧩 Modules
 
-Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met. ABC
-
-```
-{include} ./hardware-note.md
-```
-
+The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met.
 
 ```{list-table}
 :header-rows: 1
@@ -52,26 +52,16 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
-* - Intro to Git and GitHub
+* - Orientation
   - * Git
     * GitHub
     * Version control
-  - * Describe the purpose of Git and GitHub
-    * Create a GitHub account
-    * Create a repository
-    * Clone a repository
-    * Commit changes
-    * Push changes
-    * Pull changes
-
-* - Intro to GitHub Classroom Assignments
-  - * GitHub Classroom
+    * GitHub Classroom
     * Codespaces
-    * pytest
-    * Python modules
-    * GitHub actions
-  - * Run a unit test
-    * Fix a simple Python function
+  - * Describe the purpose of Git and GitHub
+    * Create a GitHub account and a repository
+    * Commit, push, and pull changes
+    * Run a unit test and fix a simple Python function
     * Define continuous integration
 
 * - Running the SDL demo
