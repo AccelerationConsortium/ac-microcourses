@@ -125,10 +125,20 @@ hello-world:
       learning_outcomes:
         - "Send commands to a microcontroller"
         - "Receive sensor data from a microcontroller"
+      tutorial:
+        - "Video: What is MQTT? (or some equivalent, keep it to ~5 minutes maybe? Could be part 1 of HiveMQ MQTT essentials https://www.youtube.com/playlist?list=PLRkdoPznE1EMXLW6XoYLGd4uUaB6wB0wd)"
+        - "Create a HiveMQ account and broker"
+        - "Paho MQTT Python client: http://www.steves-internet-guide.com/receiving-messages-mqtt-python-client/ (specifically the part about Queue)"
+        - "Google Colab Link to a Paho MQTT client ?"
+        - "Send a toggle command to the onboard LED and receive the temperature"
       assessments:
-        - "Match terms with definitions"
-        - "Check that users added personal HiveMQ credentials as repository secrets"
-        - "Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me"
+        - "Quiz: Match terms with definitions (MQTT, Broker, Client, Paho MQTT, HiveMQ, micropython-mqtt, First-in first-out (FIFO) queue, Publish, Subscribe, callback, host, JSON, while loop, payload, quality of service)"
+        - "Quiz: Pair the QOS level with the description"
+        - "Quiz: Multiple fill in the blank: Publish the `LED command` to the `LED topic`, `` subscribes to `` on the `` topic. Etc."
+        - "Pytest: Check that users added personal HiveMQ credentials as repository secrets, and that they're not the sgbaird ones"
+        # - "Pytest: Verify the broker is working by running it with the pre-built CLSLab:Light demo (reuse the 'running the demo' pytest)."
+        - "Pytest: Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me. Have it be the sending and receiving of the onboard LED command and the onboard temperature, respectively."
+        - "Pytest: Verify that a user-implemented CLSLab:Light message gets sent/received properly (i.e., adapted optimization pytest from 'running the demo' or just a simple message)"
     - module_name: "Logging data"
       topics:
         - "MongoDB"
