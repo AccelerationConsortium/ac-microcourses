@@ -54,3 +54,4 @@ MANIFEST
 .python-version
 docs/certificate-framework.pdf
 docs/courses/robotics/images/ac-website/robot-loop.gif
+docs/courses/hello-world/micropython/mqtt_as.py
