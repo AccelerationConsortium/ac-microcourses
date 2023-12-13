@@ -14,6 +14,8 @@ dependencies:
   - ipython
   - ipykernel
   - jinja2
+  - paho-mqtt
+  - matplotlib
   - pip:
      - -e .  # install git checkout of ac-microcourses in editable mode
      # add here only pip-packages that are not available in conda/conda-forge! E.g.:
@@ -21,13 +23,9 @@ dependencies:
      - black[jupyter] # not sure if this syntax works for conda
 
   # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
-  - jupyterlab
   - pytest
   - pytest-cov
   - tox
   - pre_commit
-  - nbdime
-  - nbstripout
   - sphinx
-  - recommonmark
   - pandoc
