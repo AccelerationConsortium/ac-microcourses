@@ -33,7 +33,7 @@ hello-world:
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
   module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
-    - module_name: "Orientation"
+    - module_name: "0.1/0.2 Orientation"
       topics:
         - "Git"
         - "GitHub"
@@ -51,7 +51,7 @@ hello-world:
         - "Quiz: Match terms with definitions"
         - "Pytest: Update a Python file to return the correct string"
         - "Quiz: Self-report the overall GitHub Classroom score"
-    - module_name: "Running the SDL demo"
+    - module_name: "1. Running the SDL demo"
       topics:
         - "Database management"
         - "Bayesian optimization"
@@ -71,7 +71,7 @@ hello-world:
         # - "Pytest: Check that source code from a zip file is copy-pasted into a certain file"
         # - "Pytest: Check that a 'test' demo database entry exists that contains their course identifier"
         - "Pytest: Check for a test entry with their course identifier from the public database"
-    - module_name: "Blink and Read"
+    - module_name: "2. Blink and Read"
       topics:
         - "Microcontrollers"
         - "MicroPython"
@@ -92,7 +92,7 @@ hello-world:
         - "Pytest: Verify that a filled in function (that uses a dummy class for AS7341) returns the expected data"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
-    - module_name: "Bayesian optimization"
+    - module_name: "3. Bayesian optimization"
       topics:
         - "Design of experiments"
         - "Bayesian optimization"
@@ -118,7 +118,7 @@ hello-world:
         - "Pytest: Verify that the filled in code for random search with a specific set of seeds reaches a particular outcome (i.e., match the numbers) for Branin function."
         - "Pytest: Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)  for Branin function."
         - "Pytest: Verify that the data to be placed in a matplotlib figure for 'best result so far' vs. iteration number matches the answer key for a specific set of seeds for Branin function"
-    - module_name: "Device communication"
+    - module_name: "4. Device communication"
       topics:
         - "MQTT"
         - "Broker/client"
@@ -139,7 +139,7 @@ hello-world:
         # - "Pytest: Verify the broker is working by running it with the pre-built CLSLab:Light demo (reuse the 'running the demo' pytest)."
         - "Pytest: Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me. Have it be the sending and receiving of the onboard LED command and the onboard temperature, respectively."
         - "Pytest: Verify that a user-implemented CLSLab:Light message gets sent/received properly (i.e., adapted optimization pytest from 'running the demo' or just a simple message)"
-    - module_name: "Logging data"
+    - module_name: "5. Logging data"
       topics:
         - "MongoDB"
         - "Database management"
@@ -151,7 +151,7 @@ hello-world:
         - "Quiz: Check for a match between a pre-uploaded (by me) specific database entry and the user input"
         - "Pytest: Check that users added personal MongoDB credentials as repository secrets"
         - "Pytest: Verify that an entry can be added using the MongoDB secrets and that it's not the one provided publicly by me"
-    - module_name: "Module integration"
+    - module_name: "6. Module integration"
       topics:
         - "Systems design"
       learning_outcomes:
@@ -159,7 +159,7 @@ hello-world:
       assessments:
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
         - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold"
-    - module_name: "Lab sensor system"
+    - module_name: "7. Lab sensor system"
       topics:
         - "Environmental sensors"
       learning_outcomes:
