@@ -52,7 +52,7 @@ The orientation modules are intended to be completed in under one hour in total.
   - Topics
   - Learning Outcomes
 
-* - Orientation
+* - 0.1/0.2 Orientation
   - * Git
     * GitHub
     * Version control
@@ -64,7 +64,7 @@ The orientation modules are intended to be completed in under one hour in total.
     * Run a unit test and fix a simple Python function
     * Define continuous integration
 
-* - Running the SDL demo
+* - 1. Running the SDL demo
   - * Database management
     * Bayesian optimization
     * Microcontrollers
@@ -72,13 +72,13 @@ The orientation modules are intended to be completed in under one hour in total.
     * Preview an end-to-end self-driving lab
     * Upload software to a microcontroller
 
-* - Blink and Read
+* - 2. Blink and Read
   - * Microcontrollers
     * MicroPython
   - * Write MicroPython scripts
     * Use a microcontroller
 
-* - Bayesian optimization
+* - 3. Bayesian optimization
   - * Design of experiments
     * Bayesian optimization
     * Data visualization
@@ -86,23 +86,23 @@ The orientation modules are intended to be completed in under one hour in total.
     * Compare Bayesian optimization with other search methods
     * Visualize optimization efficiency
 
-* - Device communication
+* - 4. Device communication
   - * MQTT
     * Broker/client
   - * Send commands to a microcontroller
     * Receive sensor data from a microcontroller
 
-* - Logging data
+* - 5. Logging data
   - * MongoDB
     * Database management
   - * Set up a MongoDB account and database
     * Upload data directly from microcontroller
 
-* - Module integration
+* - 6. Module integration
   - * Systems design
   - * Connect the pieces to complete the SDL demo
 
-* - Lab sensor system
+* - 7. Lab sensor system
   - * Environmental sensors
   - * Continuously log temperature, humidity, vibration, etc.
 
