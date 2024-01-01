@@ -52,7 +52,7 @@ The orientation modules are intended to be completed in under one hour in total.
   - Topics
   - Learning Outcomes
 
-* - 0.1/0.2 Orientation
+* - 0. Orientation
   - * Git
     * GitHub
     * Version control

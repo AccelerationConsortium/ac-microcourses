@@ -33,7 +33,7 @@ hello-world:
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
   module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
-    - module_name: "0.1/0.2 Orientation"
+    - module_name: "0. Orientation"
       topics:
         - "Git"
         - "GitHub"
