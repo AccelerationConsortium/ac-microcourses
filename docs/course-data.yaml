@@ -185,7 +185,7 @@ hello-world:
   course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>"
 
 data-science:
-  course_title: "AI and Materials Databases for Self-Driving Labs"
+  course_title: "AI and Materials Databases for Self-driving Labs"
   course_emoji: "📊"
   description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace."
   media_command: "![](./images/ax-repo/bo_1d_opt.gif)"
@@ -319,7 +319,7 @@ data-science:
   course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
 robotics:
-  course_title: "Autonomous Systems for Self-Driving Labs"
+  course_title: "Autonomous Systems for Self-driving Labs"
   course_emoji: "🦾"
   description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
@@ -379,7 +379,7 @@ robotics:
   course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
 "software-dev":
-  course_title: "Software development for self-driving labs"
+  course_title: "Software Development for Self-driving Labs"
   course_emoji: "👩‍💻"
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
   media_command: ""
