@@ -139,18 +139,28 @@ hello-world:
         # - "Pytest: Verify the broker is working by running it with the pre-built CLSLab:Light demo (reuse the 'running the demo' pytest)."
         - "Pytest: Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me. Have it be the sending and receiving of the onboard LED command and the onboard temperature, respectively."
         - "Pytest: Verify that a user-implemented CLSLab:Light message gets sent/received properly (i.e., adapted optimization pytest from 'running the demo' or just a simple message)"
-    - module_name: "5. Logging data"
+    - module_name: "5. Data logging"
       topics:
         - "MongoDB"
         - "Database management"
       learning_outcomes:
         - "Set up a MongoDB account and database"
         - "Upload data directly from microcontroller"
+      tutorial:
+        - "Video: What is FAIR data"
+        - "What does FAIR data look like in chemistry and materials science?"
+        - "What is MongoDB, and why are we using it instead of other solutions? (e.g., origins in Materials Project)"
+        - "Create your own MongoDB free-tier database (Build instructions manuscript)"
+        - "MongoDB data API tutorial (using your own credentials) - insertOne and findOne"
+        # - "PyMongo tutorial (using credentials I provide)"
       assessments:
-        - "Quiz: Match terms with definitions"
-        - "Quiz: Check for a match between a pre-uploaded (by me) specific database entry and the user input"
+        - "Quiz: Match terms with definitions, FAIR, findable, accessible, interoperable, reusable, database, collection, document, field, key, value, schema, JSON, MongoDB, Atlas, pymongo, insert_one, find_one, find, SQL, REST, Indexing, NoSQL, Replica set, Metadata, Ontology, Figshare, DOI, Provenance, Licenses, query"
+        - "Quiz: Check for a match between a pre-uploaded, specific database entry and the user input"
         - "Pytest: Check that users added personal MongoDB credentials as repository secrets"
-        - "Pytest: Verify that an entry can be added using the MongoDB secrets and that it's not the one provided publicly by me"
+        - "Pytest: Verify that an entry can be added using the MongoDB secrets"
+        - "Pytest: Verify that an entry can be retrieved using the MongoDB secrets"
+        - "Pytest: Verify that code students write uploads some sensor data to the database"
+        - "Pytest: Verify that code students write extracts a database entry and created a pandas dataframe from it"
     - module_name: "6. Module integration"
       topics:
         - "Systems design"
@@ -158,7 +168,11 @@ hello-world:
         - "Connect the pieces to complete the SDL demo"
       assessments:
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
-        - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold"
+        - "Pytest: Verify that valid sensor data is received in response to a command"
+        - "Pytest: Verify that the BO evaluation function is using MQTT to send commands to the microcontroller and receive sensor data"
+        - "Pytest: Verify that MongoDB is getting updated with data at each iteration of the BO loop"
+        - "Pytest: Verify that an AxClient exists and is being used correctly"
+        - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold, MongoDB and HiveMQ are functioning properly, and the microcontroller commands are correct"
     - module_name: "7. Lab sensor system"
       topics:
         - "Environmental sensors"
@@ -166,7 +180,8 @@ hello-world:
         - "Continuously log temperature, humidity, vibration, etc."
       assessments:
         - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
-        - "Pytest: Programatically access the (up-and-running) machine and validate the schema of the data"
+        - "Pytest: verify that a capped collection has been set up per instructions"
+        - "Pytest: verify that the data is being actively logged to the database and validate the schema"
   course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>"
 
 data-science:
