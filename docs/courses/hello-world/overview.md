@@ -92,19 +92,16 @@ The orientation modules are intended to be completed in under one hour in total.
   - * Send commands to a microcontroller
     * Receive sensor data from a microcontroller
 
-* - 5. Logging data
+* - 5. Data logging
   - * MongoDB
     * Database management
   - * Set up a MongoDB account and database
     * Upload data directly from microcontroller
+    * Extract and collate data from database
 
 * - 6. Module integration
   - * Systems design
   - * Connect the pieces to complete the SDL demo
-
-* - 7. Lab sensor system
-  - * Environmental sensors
-  - * Continuously log temperature, humidity, vibration, etc.
 
 ```
 
