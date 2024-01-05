@@ -173,15 +173,15 @@ hello-world:
         - "Pytest: Verify that MongoDB is getting updated with data at each iteration of the BO loop"
         - "Pytest: Verify that an AxClient exists and is being used correctly"
         - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold, MongoDB and HiveMQ are functioning properly, and the microcontroller commands are correct"
-    - module_name: "7. Lab sensor system"
-      topics:
-        - "Environmental sensors"
-      learning_outcomes:
-        - "Continuously log temperature, humidity, vibration, etc."
-      assessments:
-        - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
-        - "Pytest: verify that a capped collection has been set up per instructions"
-        - "Pytest: verify that the data is being actively logged to the database and validate the schema"
+    # - module_name: "7. Lab sensor system"
+    #   topics:
+    #     - "Environmental sensors"
+    #   learning_outcomes:
+    #     - "Continuously log temperature, humidity, vibration, etc."
+    #   assessments:
+    #     - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
+    #     - "Pytest: verify that a capped collection has been set up per instructions"
+    #     - "Pytest: verify that the data is being actively logged to the database and validate the schema"
   course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>"
 
 data-science:
