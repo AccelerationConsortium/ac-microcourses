@@ -146,6 +146,7 @@ hello-world:
       learning_outcomes:
         - "Set up a MongoDB account and database"
         - "Upload data directly from microcontroller"
+        - "Extract and collate data from database"
       tutorial:
         - "Video: What is FAIR data"
         - "What does FAIR data look like in chemistry and materials science?"
