@@ -1,7 +1,7 @@
 <!--- This is an auto-generated file. Please do not edit directly. Instead, edit
 in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
-# 👩‍💻 Software development for self-driving labs
+# 👩‍💻 Software Development for Self-driving Labs
 
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
 

@@ -1,7 +1,7 @@
 <!--- This is an auto-generated file. Please do not edit directly. Instead, edit
 in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
-# 🦾 Autonomous Systems for Self-Driving Labs
+# 🦾 Autonomous Systems for Self-driving Labs
 
 Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot.
 

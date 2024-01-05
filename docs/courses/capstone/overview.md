@@ -10,7 +10,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 
 ## 🔑 Recommended Prerequisites
 
-💡 Introduction to AI for Discovery using Self-driving Labs<br>📈 AI and Materials Databases for Self-Driving Labs<br>🦾 Autonomous Systems for Self-Driving Labs<br>🧑‍💻 Software development for self-driving labs
+💡 Introduction to AI for Discovery using Self-driving Labs<br>📈 AI and Materials Databases for Self-driving Labs<br>🦾 Autonomous Systems for Self-driving Labs<br>🧑‍💻 Software Development for Self-driving Labs
 
 
 
