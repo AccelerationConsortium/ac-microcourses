@@ -21,6 +21,8 @@ These courses are integrated with coding exercises via GitHub Classroom, so you 
 
 **👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page.
 
+**👉 Second Step**: Complete the [🔗 Intro to GitHub Classroom tutorial](https://github.com/AC-Classroom/intro-github-classroom) to familarize yourself with the assignment structure and keep everyone on the same page.
+
 <!-- If you've reached this point, and you're wondering what a self-driving lab is in the first place, watch [▶️ "The Future of Chemistry is Self-driving"](). *TODO: Video needs to be edited and uploaded to YouTube. Add this as an embedded iframe perhaps* -->
 
 ## 💡 Building a "Hello World" for self-driving labs
