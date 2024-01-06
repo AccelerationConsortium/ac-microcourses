@@ -1,4 +1,7 @@
+ax-platform # for 1.3 notebook
 ipykernel
+jinja2 # for generate_overviews.py script
+matplotlib # for 1.4.1 notebook
 myst-nb
 # Requirements file for ReadTheDocs, check .readthedocs.yml.
 # To build the module reference correctly, make sure every external package
@@ -7,8 +10,12 @@ myst-parser[linkify]
 nbsphinx
 nbsphinx
 nbsphinx-link
+numpy # for 1.3 notebook
+paho-mqtt # for 1.4.1 notebook
+pandas # for 1.5.1 notebook
 pandoc
 pydata-sphinx-theme
+pymongo # for 1.5.1 notebook
 sphinx>=3.2.1
 sphinx-gallery
 sphinx_copybutton

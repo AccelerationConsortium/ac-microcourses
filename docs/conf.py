@@ -10,10 +10,16 @@
 import os
 import sys
 import shutil
+from time import sleep
+import subprocess
 
 # import json
 
 import sphinx_rtd_theme  # noqa
+
+# -- Custom Python script ----------------------------------------------------
+# Run the generate_overview.py script (blocking)
+subprocess.run(["python", "../scripts/generate_overviews.py"])
 
 # -- Path setup --------------------------------------------------------------
 
@@ -88,33 +94,6 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
-
-# # Specify the root directory
-# root_dir = 'courses'
-
-# # Initialize the dictionary
-# nbsphinx_thumbnails = {}
-
-# # Walk through the directory
-# for dirpath, dirnames, filenames in os.walk(root_dir):
-#     for filename in filenames:
-#         # Check if the file is a notebook
-#         if filename.endswith('.ipynb'):
-#             # Construct the key by removing the root directory and the file extension
-#             key = os.path.join(dirpath, filename)[len(root_dir)+1:-len('.ipynb')]
-#             # Construct the value by replacing the slashes with dashes and adding the directory and extension
-#             value = '_static/' + key.replace('/', '-') + '.png'
-#             # Add the key-value pair to the dictionary
-#             nbsphinx_thumbnails[key] = value
-
-# # Print the dictionary
-# print("nbsphinx_thumbnails = ", nbsphinx_thumbnails)
-
-# nbsphinx_thumbnails = {myst
-#     "courses/hello-world/1.1-running-the-demo": "_static/1.1-running-the-demo.png",
-#     ...
-# }
-
 nbsphinx_thumbnails = {
     "courses/hello-world/1.1-running-the-demo": "_static/sdl-demo/star-protocols-graphical-abstract.png",
     "courses/hello-world/1.2-blink-and-read": "_static/sdl-demo/green-led.jpg",
@@ -161,6 +140,18 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
+
+# myst-nb
+nb_execution_timeout = 60  # for long-running notebooks (e.g., Bayes opt)
+nb_execution_excludepatterns = [
+    "1.4-hardware-software-communication.ipynb",  # MicroPython code
+    "1.4.1-onboard-led-temp.ipynb",  # assumes a MCU is actively receiving
+    "1.5-data-logging.ipynb",  # MicroPython code
+    "2.*",  # TODO: Bayes opt notebooks
+    "3.*",  # TODO: Robotics notebooks
+    "4.*",  # TODO: Software dev notebooks
+    "5.*",  # TODO: Capstone notebooks
+]  # list of patterns
 
 # with open("variables.json", "r") as f:
 #     myst_substitutions = json.load(f)
@@ -406,3 +397,34 @@ intersphinx_mapping = {
 }
 
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
+
+
+# %% Code Graveyard
+
+# # Old code for dynamically getting thumbnail images for nbsphinx, easier to hard-code for now
+
+# # Specify the root directory
+# root_dir = 'courses'
+
+# # Initialize the dictionary
+# nbsphinx_thumbnails = {}
+
+# # Walk through the directory
+# for dirpath, dirnames, filenames in os.walk(root_dir):
+#     for filename in filenames:
+#         # Check if the file is a notebook
+#         if filename.endswith('.ipynb'):
+#             # Construct the key by removing the root directory and the file extension
+#             key = os.path.join(dirpath, filename)[len(root_dir)+1:-len('.ipynb')]
+#             # Construct the value by replacing the slashes with dashes and adding the directory and extension
+#             value = '_static/' + key.replace('/', '-') + '.png'
+#             # Add the key-value pair to the dictionary
+#             nbsphinx_thumbnails[key] = value
+
+# # Print the dictionary
+# print("nbsphinx_thumbnails = ", nbsphinx_thumbnails)
+
+# nbsphinx_thumbnails = {myst
+#     "courses/hello-world/1.1-running-the-demo": "_static/1.1-running-the-demo.png",
+#     ...
+# }
