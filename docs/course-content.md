@@ -47,7 +47,7 @@ courses/hello-world/1.2-blink-and-read.ipynb
 courses/hello-world/1.3-bayesian-optimization.ipynb
 courses/hello-world/1.4-hardware-software-communication.ipynb
 courses/hello-world/1.5-data-logging.ipynb
-courses/hello-world/1.6-piecing-the-modules-together.ipynb
+courses/hello-world/1.6-connecting-the-pieces.ipynb
 courses/hello-world/1.7-convert-to-a-lab-sensor-system.ipynb
 ```
 
