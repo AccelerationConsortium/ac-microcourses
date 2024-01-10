@@ -169,11 +169,12 @@ hello-world:
         - "Connect the pieces to complete the SDL demo"
       assessments:
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
-        - "Pytest: Verify that valid sensor data is received in response to a command"
-        - "Pytest: Verify that the BO evaluation function is using MQTT to send commands to the microcontroller and receive sensor data"
-        - "Pytest: Verify that MongoDB is getting updated with data at each iteration of the BO loop"
-        - "Pytest: Verify that an AxClient exists and is being used correctly"
-        - "Pytest: Programatically access their (up-and-running) machine and check that the RMSE for a seeded Bayesian optimization search is below some threshold, MongoDB and HiveMQ are functioning properly, and the microcontroller commands are correct"
+        - "Pytest: Verify that valid sensor data is received in response to a command by subscribing on an MQTT topic"
+        - "Pytest: Verify that the BO evaluation function is using MQTT to send commands to the microcontroller and receive sensor data, rather than it occurring somewhere else, perhaps via timestamps or the experiment IDs"
+        - "Pytest: Verify that MongoDB is getting updated with data at each iteration of the BO loop, again perhaps using timestamps or experiment IDs"
+        - "Pytest: Verify that an AxClient exists and is being used (perhaps via static analysis of the code)"
+        - "Pytest: Programatically access their (up-and-running) machine using the HiveMQ credentials and run a full BO campaign - check that the RMSE is below some threshold, MongoDB and HiveMQ are functioning properly, and the microcontroller commands are correct"
+        - "Pytest: Copy the checks from the blink and read, HiveMQ, and MongoDB for the microcontroller"
     # - module_name: "7. Lab sensor system"
     #   topics:
     #     - "Environmental sensors"
