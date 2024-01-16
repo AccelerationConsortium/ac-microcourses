@@ -18,7 +18,7 @@ hello-world:
     - "Store experiment configurations and results in databases such as MongoDB"
     - "Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data"
     - "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try"
-    - "Implement workflow orchestration for a color experiment using packages such as Covalent"
+    - "Implement workflow orchestration for a color experiment using packages such as Prefect"
     - "Integrate the individual SDL components to finalize the 'Hello World' demo"
     - "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
   competencies_skills:
@@ -323,7 +323,7 @@ data-science:
 robotics:
   course_title: "Autonomous Systems for Self-driving Labs"
   course_emoji: "🦾"
-  description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Covalent workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Covalent, ROS, AprilTags, OpenCV, and a multi-axis robot."
+  description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Prefect workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Prefect, ROS, AprilTags, OpenCV, and a multi-axis robot."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
   media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
   recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
