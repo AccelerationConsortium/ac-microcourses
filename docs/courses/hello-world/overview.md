@@ -27,7 +27,7 @@ For participants to complete this course within the expected timeframe (approx. 
 - Store experiment configurations and results in databases such as MongoDB
 - Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data
 - Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try
-- Implement workflow orchestration for a color experiment using packages such as Covalent
+- Implement workflow orchestration for a color experiment using packages such as Prefect
 - Integrate the individual SDL components to finalize the 'Hello World' demo
 - Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements
 
