@@ -41,7 +41,7 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 | 💡      | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/overview.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor |
 | 📈      | [AI and Materials Databases for Self-driving Labs](courses/data-science/overview.md) | Write Python scripts to iteratively optimize materials and log results to a database |
 | 🦾      | [Autonomous Systems for Self-driving Labs](courses/robotics/overview.md) | Write Python scripts to control robots and orchestrate workflows |
-| 🧑‍💻      | [Software Development for self-driving labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices |
+| 🧑‍💻      | [Software Development for Self-driving Labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices |
 | 🏢      | [AC Training Lab Design Project](courses/capstone/overview.md) | Develop, defend, and execute a project proposal |
 
 <!-- > 💡 Building a "Hello World" for self-driving labs<br>
