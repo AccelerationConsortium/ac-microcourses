@@ -44,6 +44,10 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 | 🧑‍💻      | [Software Development for Self-driving Labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices |
 | 🏢      | [AC Training Lab Design Project](courses/capstone/overview.md) | Develop, defend, and execute a project proposal |
 
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown in the figure below. While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
+
+![flowchart](course-flowchart-black-border.png)
+
 <!-- > 💡 Building a "Hello World" for self-driving labs<br>
 > 📈 Data science for self-driving labs<br>
 > 🦾 Robotics for self-driving labs<br>
