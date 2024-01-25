@@ -2,7 +2,7 @@ hello-world:
   # course_title: "Building a 'Hello World' for self-driving labs"
   course_title: "Introduction to AI for Discovery using Self-driving Labs"
   course_emoji: "💡"
-  description: "Self-driving laboratories (SDLs) incorporate AI and automation into scientific laboratories to speed up the discovery of new materials for applications such as clean energy and cancer drugs. Discover the essential principles of SDLs by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication, database integration, microcontroller programming, and Bayesian optimization. Each of these are important components of an SDL, and you will get a taste of these in the course modules. The course will conclude with an expansion of the demo to the research-relevant task of continuously logging temperature, humidity, pressure, light, and accelerometer data."
+  description: "Self-driving laboratories (SDLs) incorporate AI and automation into scientific laboratories to speed up the discovery of new materials for applications such as clean energy and cancer drugs. Discover the essential principles of SDLs by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication, database integration, microcontroller programming, and Bayesian optimization. Each of these are important components of an SDL, and you will get a taste of these in the course modules. In the final module, you will piece together the individual components to create your very own SDL demo. This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses."
   media_command: "![](./images/clslab-light.gif)"
   media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
   recommended_prerequisites: |
@@ -162,12 +162,29 @@ hello-world:
         - "Pytest: Verify that an entry can be retrieved using the MongoDB secrets"
         - "Pytest: Verify that code students write uploads some sensor data to the database"
         - "Pytest: Verify that code students write extracts a database entry and created a pandas dataframe from it"
+    # - module_name: "6. Workflow orchestration" # standalone module
+    #   topics:
+    #     - "Workflow orchestration"
+    #     - "Prefect"
+    #   learning_outcomes:
+    #     - "Define workflow orchestration concepts"
+    #     - "Describe the importance of workflow orchestration in the context of SDLs"
+    #     - "Create a simple workflow orchestration deployment on a server"
+    #   tutorial:
+    #     - "Video: What is workflow orchestration?"
+    #     - "Video: What is Prefect?"
+    #     - "Create a Prefect account and project"
+    #     - "Create a Prefect flow"
+    #     - "Run a Prefect flow"
+    #   assessments:
+    #     - "Quiz: Match terms with definitions (workflow orchestration, Prefect, flow, task, state, schedule, trigger, parameter, parameterized, flow run, flow run ID, flow run state, flow run log, flow run result, flow run artifact, flow run parameter, flow run parameter value)"
+    #     - "Quiz: Fill-in-the-blank statements (x calls y, y calls z)"
     - module_name: "6. Module integration"
       topics:
         - "Systems design"
       learning_outcomes:
         - "Connect the pieces to complete the SDL demo"
-      assessments:
+      assessments: # Having trouble deciding how to ask learners to structure it
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
         - "Pytest: Verify that valid sensor data is received in response to a command by subscribing on an MQTT topic"
         - "Pytest: Verify that the BO evaluation function is using MQTT to send commands to the microcontroller and receive sensor data, rather than it occurring somewhere else, perhaps via timestamps or the experiment IDs"
@@ -189,7 +206,7 @@ hello-world:
 data-science:
   course_title: "AI and Materials Databases for Self-driving Labs"
   course_emoji: "📊"
-  description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace."
+  description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms."
   media_command: "![](./images/ax-repo/bo_1d_opt.gif)"
   media_caption: "*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*"
   recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
@@ -264,6 +281,24 @@ data-science:
       assessments:
         - "Quiz: Match terms with definitions (SAASBO, curse of dimensionality, discrepancy)"
         - "Quiz: Report the final efficiencies for EI and SAASBO for a given seed for three different dimensionalities"
+        - "Pytest: Verify that the optimization history matches for a fixed seed"
+        - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
+    - module_name: "Sequential, batch, and asynchronous optimization"
+      topics:
+        - "Conditioning"
+        - "Batch optimization"
+        - "Asynchronous optimization"
+        - "Parallelism"
+      learning_outcomes:
+        - "Explain the effect of parallelism on optimization efficiency in terms of wall time and resource utilization"
+        - "Explain what conditioning is in the context of batch and asynchronous BO"
+        - "Adapt a Bayesian optimization script to use batch optimization"
+        - "Adapt a Bayesian optimization script to use asynchronous optimization"
+      assessments:
+        - "Quiz: Match terms with definitions"
+        - "Quiz: Select the cases that have asynchronous optimization"
+        - "Quiz: Select the cases that have batch optimization"
+        - "Quiz: Input the final optimized values for three cases: sequential, batch, and asynchronous optimization with fixed seeds"
         - "Pytest: Verify that the optimization history matches for a fixed seed"
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
     - module_name: "Featurization"
