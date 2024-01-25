@@ -3,7 +3,7 @@ in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 # 📊 AI and Materials Databases for Self-driving Labs
 
-Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts using the Ax Platform, explore advanced optimization topics, and use the Honegumi template generator to create an advanced optimization setup for a materials discovery task. Additionally, you'll learn to share your findings by uploading datasets to FigShare, creating benchmark models with scikit-learn, and hosting models on HuggingFace.
+Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms.
 
 ![](./images/ax-repo/bo_1d_opt.gif)
 *Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*
@@ -74,6 +74,16 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
     * SAASBO
   - * Explain the curse of dimensionality
     * Compare the efficiency of expected improvement and SAASBO as a function of dimensionality
+
+* - Sequential, batch, and asynchronous optimization
+  - * Conditioning
+    * Batch optimization
+    * Asynchronous optimization
+    * Parallelism
+  - * Explain the effect of parallelism on optimization efficiency in terms of wall time and resource utilization
+    * Explain what conditioning is in the context of batch and asynchronous BO
+    * Adapt a Bayesian optimization script to use batch optimization
+    * Adapt a Bayesian optimization script to use asynchronous optimization
 
 * - Featurization
   - * Domain knowledge integration
