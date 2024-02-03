@@ -18,16 +18,16 @@ hello-world:
     - "Store experiment configurations and results in databases such as MongoDB"
     - "Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data"
     - "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try"
-    - "Implement workflow orchestration for a color experiment using packages such as Prefect"
-    - "Integrate the individual SDL components to finalize the 'Hello World' demo"
-    - "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
+    # - "Implement workflow orchestration for a color experiment using packages such as Prefect"
+    - "Integrate the individual SDL components to orchestrate the full 'Hello World' workflow"
+    # - "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
   competencies_skills:
     - "Basic self-driving lab literacy"
+    - "Microcontrollers and sensors"
+    - "Bayesian optimization"
+    - "Hardware/software communication"
     - "Database management"
     - "Workflow orchestration"
-    - "Bayesian optimization"
-    - "Microcontrollers and sensors"
-    - "Hardware/software communication"
   orientation:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
@@ -183,7 +183,9 @@ hello-world:
       topics:
         - "Systems design"
       learning_outcomes:
-        - "Connect the pieces to complete the SDL demo"
+        - "Describe how individual components of an SDL can be integrated"
+        - "Perform system-level debugging and troubleshooting"
+        - "Conduct a full SDL experimental campaign"
       assessments: # Having trouble deciding how to ask learners to structure it
         - "Quiz: left-middle-right matching statements. E.g., <the Pico W> sends data using the <MQTT> protocol to the <HiveMQ> broker. The <Python client> sends commands using the <MQTT> protocol to the <Pico W> client. The <Pico W> sends data using the <MongoDB> protocol to the <MongoDB> database. The <Ax Platform> sends suggested next experiments to the <Python client> and receives new data from the <Python client>."
         - "Pytest: Verify that valid sensor data is received in response to a command by subscribing on an MQTT topic"
@@ -201,7 +203,7 @@ hello-world:
     #     - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
     #     - "Pytest: verify that a capped collection has been set up per instructions"
     #     - "Pytest: verify that the data is being actively logged to the database and validate the schema"
-  course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>"
+  course_assessments_and_grading_schema: "Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points."
 
 data-science:
   course_title: "AI and Materials Databases for Self-driving Labs"
