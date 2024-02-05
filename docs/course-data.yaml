@@ -17,7 +17,7 @@ hello-world:
     - "Send commands and receive sensor data over WiFi using standard frameworks such as MQTT"
     - "Store experiment configurations and results in databases such as MongoDB"
     - "Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data"
-    - "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try"
+    - "Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new experiments to try"
     # - "Implement workflow orchestration for a color experiment using packages such as Prefect"
     - "Integrate the individual SDL components to orchestrate the full 'Hello World' workflow"
     # - "Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements"
@@ -476,6 +476,9 @@ robotics:
         - "Write unit tests for the light-mixing demo"
         - "Run and interpret unit tests to fix code"
         - "Explain test-driven development"
+    # Coding best practices? (e.g., modularity, readability, PEP8, object-oriented programming, etc.)
+    # Linting and code formatting? (e.g., black, flake8, isort, etc., especially VS Code Extensions)
+    # VS Code extensions? (e.g., Python, Jupyter, Git, etc.)
     - module_name: "Automated documentation"
       topics:
         - "Markdown"
@@ -486,6 +489,8 @@ robotics:
         - "Write documentation in Markdown"
         - "Explain what documentation as code means"
         - "Set up a readthedocs account and publish a readthedocs page"
+      tutorial:
+        - "GitHub-flavored Markdown tutorial"
     - module_name: "Continuous integration (CI)"
       topics:
         - "Continuous integration"
