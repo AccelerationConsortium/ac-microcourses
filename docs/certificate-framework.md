@@ -33,12 +33,12 @@ Here, we provide details for the five core microcourses, including title, descri
 
 </div> -->
 
-<!-- ## 📚 Course Content
+<!-- ## 📚 Course Content -->
 
-👉 **Second Step:** After reviewing the courses, [**🔗 explore the course content**](course-content.md), which includes modules, tutorials, and assessments. -->
+👉 **Second Step:** After reviewing the courses, [**🔗 explore the course content**](course-content.md), which includes modules, tutorials, and assessments.
 
 
-
+<!--
 ```{raw} html
 <script>
 window.onload = function() {
@@ -52,7 +52,7 @@ window.onload = function() {
     }
 }
 </script>
-```
+``` -->
 
 <!-- ```{raw} html
 course-flowchart.svg

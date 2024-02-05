@@ -42,9 +42,17 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ```{toctree}
 :maxdepth: 2
-
 🗺️ Certificate Overview <../certificate-framework>
 ```
+
+<!-- ```{toctree}
+:maxdepth: 1
+💡 Hello World Overview <../courses/hello-world/overview>
+📈 Data Science Overview <../courses/data-science/overview>
+🦾 Robotics Overview <../courses/data-science/overview>
+🧑‍💻 Software Development Overview <../courses/software-dev/overview>
+🏢 Design Project Overview <../courses/capstone/overview>
+``` -->
 
 ```{toctree}
 :maxdepth: 2
