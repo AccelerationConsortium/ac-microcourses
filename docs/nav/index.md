@@ -41,14 +41,12 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 ![flowchart](../course-flowchart-black-border.png)
 
 ```{toctree}
-:hidden:
 :maxdepth: 2
 
 🗺️ Certificate Overview <../certificate-framework>
 ```
 
 ```{toctree}
-:hidden:
 :maxdepth: 2
 
 📚 Course Content <../course-content>
@@ -56,7 +54,6 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ```{toctree}
 :maxdepth: 2
-:hidden:
 
 🛠️ Developer Resources <../dev-resources>
 🌐 GitHub Source <https://github.com/AccelerationConsortium/ac-microcourses>
