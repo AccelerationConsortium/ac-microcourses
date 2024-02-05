@@ -44,7 +44,7 @@ try:  # for Sphinx >= 1.7
 except ImportError:
     from sphinx import apidoc
 
-output_dir = os.path.join(__location__, "api")
+output_dir = os.path.join(__location__, "../api")
 module_dir = os.path.join(__location__, "../../src/ac_microcourses")
 try:
     shutil.rmtree(output_dir)
@@ -93,39 +93,39 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ["_templates"]
+templates_path = ["../_templates"]
 
 nbsphinx_thumbnails = {
-    "courses/hello-world/1.1-running-the-demo": "_static/sdl-demo/star-protocols-graphical-abstract.png",
-    "courses/hello-world/1.2-blink-and-read": "_static/sdl-demo/green-led.jpg",
-    "courses/hello-world/1.3-bayesian-optimization": "_static/sdl-demo/grid-vs-random-vs-bayesian-ax-logo.png",
-    "courses/hello-world/1.4-hardware-software-communication": "_static/mqtt-workflow.png",
-    "courses/hello-world/1.5-logging-data": "_static/mongodb.png",
-    "courses/hello-world/1.6-connecting-the-pieces": "_static/connecting-pieces.png",
-    "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "_static/lab-sensor-system.png",
-    "courses/data-science/2.1-gentle-intro-bayesian": "_static/bayes-opt-1d.png",
-    "courses/data-science/2.2-multi-objective-opt": "_static/2.2-multi-objective-opt.png",
-    "courses/data-science/2.3-constrained-opt": "_static/2.3-constrained-opt.png",
-    "courses/data-science/2.4-high-dimensional-opt": "_static/2.4-high-dimensional-opt.png",
-    "courses/data-science/2.5-multi-fidelity-opt": "_static/2.5-multi-fidelity-opt.png",
-    "courses/data-science/2.6-predefined-candidates": "_static/2.6-predefined-candidates.png",
-    "courses/data-science/2.7-benchmarks": "_static/2.7-benchmarks.png",
-    "courses/robotics/3.1-pumps-and-pipettes": "_static/3.1-pumps-and-pipettes.png",
-    "courses/robotics/3.2-liquid-handlers": "_static/3.2-liquid-handlers.png",
-    "courses/robotics/3.3-mobile-robotics": "_static/3.3-mobile-robotics.png",
-    "courses/robotics/3.4-computer-vision": "_static/3.4-computer-vision.png",
-    "courses/robotics/3.5-solid-sample-transfer": "_static/3.5-solid-sample-transfer.png",
-    "courses/software-dev/4.1-vscode-setup": "_static/4.1-vscode-setup.png",
-    "courses/software-dev/4.2-vscode-debugging": "_static/4.2-vscode-debugging.png",
-    "courses/software-dev/4.3-unit-testing": "_static/4.3-unit-testing.png",
-    "courses/software-dev/4.4-automated-docs": "_static/4.4-automated-docs.png",
-    "courses/software-dev/4.5-continuous-integration": "_static/4.5-continuous-integration.png",
-    "courses/software-dev/4.6-project-templates": "_static/4.6-project-templates.png",
-    "courses/software-dev/4.7-cloud-servers": "_static/4.7-cloud-servers.png",
-    "courses/software-dev/4.8-cloud-computing": "_static/4.8-cloud-computing.png",
-    "courses/capstone/5.1-project-proposal": "_static/5.1-project-proposal.png",
-    "courses/capstone/5.2-design-and-execution": "_static/5.2-design-and-execution.png",
-    "courses/capstone/5.3-dissemination": "_static/5.3-dissemination.png",
+    "courses/hello-world/1.1-running-the-demo": "../_static/sdl-demo/star-protocols-graphical-abstract.png",
+    "courses/hello-world/1.2-blink-and-read": "../_static/sdl-demo/green-led.jpg",
+    "courses/hello-world/1.3-bayesian-optimization": "../_static/sdl-demo/grid-vs-random-vs-bayesian-ax-logo.png",
+    "courses/hello-world/1.4-hardware-software-communication": "../_static/mqtt-workflow.png",
+    "courses/hello-world/1.5-logging-data": "../_static/mongodb.png",
+    "courses/hello-world/1.6-connecting-the-pieces": "../_static/connecting-pieces.png",
+    "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "../_static/lab-sensor-system.png",
+    "courses/data-science/2.1-gentle-intro-bayesian": "../_static/bayes-opt-1d.png",
+    "courses/data-science/2.2-multi-objective-opt": "../_static/2.2-multi-objective-opt.png",
+    "courses/data-science/2.3-constrained-opt": "../_static/2.3-constrained-opt.png",
+    "courses/data-science/2.4-high-dimensional-opt": "../_static/2.4-high-dimensional-opt.png",
+    "courses/data-science/2.5-multi-fidelity-opt": "../_static/2.5-multi-fidelity-opt.png",
+    "courses/data-science/2.6-predefined-candidates": "../_static/2.6-predefined-candidates.png",
+    "courses/data-science/2.7-benchmarks": "../_static/2.7-benchmarks.png",
+    "courses/robotics/3.1-pumps-and-pipettes": "../_static/3.1-pumps-and-pipettes.png",
+    "courses/robotics/3.2-liquid-handlers": "../_static/3.2-liquid-handlers.png",
+    "courses/robotics/3.3-mobile-robotics": "../_static/3.3-mobile-robotics.png",
+    "courses/robotics/3.4-computer-vision": "../_static/3.4-computer-vision.png",
+    "courses/robotics/3.5-solid-sample-transfer": "../_static/3.5-solid-sample-transfer.png",
+    "courses/software-dev/4.1-vscode-setup": "../_static/4.1-vscode-setup.png",
+    "courses/software-dev/4.2-vscode-debugging": "../_static/4.2-vscode-debugging.png",
+    "courses/software-dev/4.3-unit-testing": "../_static/4.3-unit-testing.png",
+    "courses/software-dev/4.4-automated-docs": "../_static/4.4-automated-docs.png",
+    "courses/software-dev/4.5-continuous-integration": "../_static/4.5-continuous-integration.png",
+    "courses/software-dev/4.6-project-templates": "../_static/4.6-project-templates.png",
+    "courses/software-dev/4.7-cloud-servers": "../_static/4.7-cloud-servers.png",
+    "courses/software-dev/4.8-cloud-computing": "../_static/4.8-cloud-computing.png",
+    "courses/capstone/5.1-project-proposal": "../_static/5.1-project-proposal.png",
+    "courses/capstone/5.2-design-and-execution": "../_static/5.2-design-and-execution.png",
+    "courses/capstone/5.3-dissemination": "../_static/5.3-dissemination.png",
 }
 
 # Configure MyST-Parser
@@ -165,7 +165,7 @@ source_suffix = [".rst", ".md"]
 # source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = "index"
+master_doc = "../index"
 
 # General information about the project.
 project = "ac-microcourses"
@@ -274,12 +274,12 @@ html_theme_options = {
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 # html_logo = "Acceleration-Consortium-vectortunnel-colour-black-background.png"
-html_logo = "logos/Acceleration-Consortium-vectortunnel-colour.png"
+html_logo = "../logos/Acceleration-Consortium-vectortunnel-colour.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
+html_favicon = "../logos/ac-vector-tunnel-color-black-background-32x32.ico"
 # html_favicon = "logos/ac-vector-tunnel-color-32x32.ico"
 # html_favicon = "logos/Acceleration-Consortium-vectortunnel-black.ico"
 # html_favicon = "logos/Acceleration-Consortium-vectortunnel-colour-black-glow.ico"
@@ -293,7 +293,7 @@ html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+html_static_path = ["../_static"]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
