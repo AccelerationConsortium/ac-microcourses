@@ -59,6 +59,7 @@ repos:
   rev: 6.1.0
   hooks:
   - id: flake8
+    files: ^docs/nav/conf.py$
   ## You can add flake8 plugins via `additional_dependencies`:
   #  additional_dependencies: [flake8-bugbear]
 
