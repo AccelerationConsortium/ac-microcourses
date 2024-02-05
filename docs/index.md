@@ -10,8 +10,6 @@ This project is under development. If you would like to participate or are inter
 
 Advanced materials hold the potential to improve our lives and our world, but traditional methods of discovery are slow and expensive. "Self-driving" laboratories (SDLs) have the power to fast-track materials discovery by using AI and robotics to run lab experiments autonomously. State-of-the-art SDLs require interdisciplinary teams and skillsets that traditional degree-based programs do not provide. To address this gap, the [Acceleration Consortium @ University of Toronto](https://acceleration.utoronto.ca/) presents the *Autonomous Systems for Discovery* certificate containing short, hands-on courses that will provide familiarity with the terminology, principles, and tools of SDLs.
 
-<!-- <div style="text-align: center;"> -->
-
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
 data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
 AccelerationConsortium/ac-microcourses on GitHub">Star</a>
@@ -22,8 +20,6 @@ aria-label="Follow @AccelerationConsortium on GitHub">Follow</a>
 data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
 aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Discuss</a>
-
-<!-- </div> -->
 
 <!-- ```{note}
 While the certificate option requires formal registration and tuition dues, the course content is made freely available.
