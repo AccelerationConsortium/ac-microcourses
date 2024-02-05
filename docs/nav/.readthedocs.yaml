@@ -6,7 +6,7 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: docs/conf_nav.py
+  configuration: docs/nav/conf.py
 
 # Build documentation with MkDocs
 #mkdocs:
