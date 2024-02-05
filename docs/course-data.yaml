@@ -360,10 +360,11 @@ data-science:
 robotics:
   course_title: "Autonomous Systems for Self-driving Labs"
   course_emoji: "🦾"
-  description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a Pico W microcontroller, a motor driver, and the Prefect workflow orchestration package. You'll also learn to control mobile cobots using the Robot Operating System (ROS) framework and to perform spatial referencing and ID recognition via AprilTags and OpenCV. The course will conclude with a solid sample transfer workflow using Prefect, ROS, AprilTags, OpenCV, and a multi-axis robot."
+  description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a microcontroller, a motor driver, and a workflow orchestration package. You'll also learn to control mobile cobots and perform spatial referencing and ID recognition via computer vision. The course will conclude with a solid sample transfer workflow using a multi-axis robot. Remotely accessible resources will be provided as necessary."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
   media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
   recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
+  # I am also thinking about adding: **This course requires physical hardware and a 2.4 GHz WPA-2 wireless network**. If you do not have the hardware, you will need to purchase the physical hardware associated with “Introduction to AI for Discovery using Self-driving Labs” and the the [required components](https://github.com/ac-rad/digital-pipette) for the “Digital Pipette”, replacing the 6V DC power supply with the correct style for your country (e.g., European type C), if necessary. If you do not have the required wireless network, you can use a mobile hotspot in extended compatibility mode or a SIM-enabled router (see [recommendations](https://github.com/sparks-baird/self-driving-lab-demo/discussions/83) for more information).
   learning_outcomes:
     - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
     - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
@@ -429,7 +430,7 @@ robotics:
     - "Identify productivity tools for developers that increase efficiency"
     - "Write unit tests using tools such as pytest"
     - "Create Python documentation using sphinx and rtd"
-    - "Implement continuous integration (CI) using tools such as GitHub actions"
+    - "Implement continuous integration (CI) using tools such as GitHub Actions"
     - "Create a project template using PyScaffold"
     - "Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign"
     - "Run an offline simulation using cloud hosting"
