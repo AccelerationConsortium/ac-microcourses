@@ -476,6 +476,8 @@ robotics:
         - "Write unit tests for the light-mixing demo"
         - "Run and interpret unit tests to fix code"
         - "Explain test-driven development"
+      tutorial:
+        - "gentle introduction to unit tests: https://colab.research.google.com/gist/sgbaird/46f29843ac1634653a2f9a530eb78c74/gentle-intro-to-unit-tests.ipynb"
     # Coding best practices? (e.g., modularity, readability, PEP8, object-oriented programming, etc.)
     # Linting and code formatting? (e.g., black, flake8, isort, etc., especially VS Code Extensions)
     # VS Code extensions? (e.g., Python, Jupyter, Git, etc.)
