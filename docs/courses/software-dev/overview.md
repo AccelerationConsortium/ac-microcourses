@@ -21,7 +21,7 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 - Identify productivity tools for developers that increase efficiency
 - Write unit tests using tools such as pytest
 - Create Python documentation using sphinx and rtd
-- Implement continuous integration (CI) using tools such as GitHub actions
+- Implement continuous integration (CI) using tools such as GitHub Actions
 - Create a project template using PyScaffold
 - Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign
 - Run an offline simulation using cloud hosting
@@ -122,7 +122,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>
+Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
 
 <div align="center">
 

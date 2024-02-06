@@ -26,20 +26,18 @@ For participants to complete this course within the expected timeframe (approx. 
 - Send commands and receive sensor data over WiFi using standard frameworks such as MQTT
 - Store experiment configurations and results in databases such as MongoDB
 - Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data
-- Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new colors to try
-- Implement workflow orchestration for a color experiment using packages such as Prefect
-- Integrate the individual SDL components to finalize the 'Hello World' demo
-- Modify the system to record temperature, humidity, barometric pressure, and accelerometer measurements
+- Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new experiments to try
+- Integrate the individual SDL components to orchestrate the full 'Hello World' workflow
 
 ## 🛠️ Competencies/Skills
 
 
 - Basic self-driving lab literacy
+- Microcontrollers and sensors
+- Bayesian optimization
+- Hardware/software communication
 - Database management
 - Workflow orchestration
-- Bayesian optimization
-- Microcontrollers and sensors
-- Hardware/software communication
 
 ## 🧩 Modules
 
@@ -101,13 +99,15 @@ The orientation modules are intended to be completed in under one hour in total.
 
 * - 6. Module integration
   - * Systems design
-  - * Connect the pieces to complete the SDL demo
+  - * Describe how individual components of an SDL can be integrated
+    * Perform system-level debugging and troubleshooting
+    * Conduct a full SDL experimental campaign
 
 ```
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>
+Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
 
 <div align="center">
 

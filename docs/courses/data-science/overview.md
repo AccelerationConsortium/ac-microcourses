@@ -101,6 +101,12 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
     * Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient
     * Adapt a Bayesian optimization script to use a knowledge gradient
 
+* - Mechanics
+  - * Attaching existing data
+    * Storing and retrieving data from a persistent database
+    * Custom generation strategies
+  - * Utilize the 'plumbing' needed by optimization scripts in real-world lab settings
+
 * - Benchmark datasets and models
   - * Benchmarks
     * Surrogate models
@@ -117,7 +123,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points)</li></ul>
+Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
 
 <div align="center">
 
