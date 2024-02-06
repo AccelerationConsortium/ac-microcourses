@@ -250,7 +250,7 @@ data-science:
       topics:
         - "Pareto fronts"
         - "Hypervolume"
-        - "EHVI"
+        - "Expected Hypervolume Improvement (EHVI)"
         - "Objective thresholds"
       learning_outcomes:
         - "Explain the significance of a Pareto front"
@@ -342,8 +342,8 @@ data-science:
     - module_name: "Mechanics"
       topics:
         - "Attaching existing data"
-        - "Storing and retrieving data from a persistent database"
-        - "Custom generation strategies"
+        - "Human-in-the-loop"
+        - "Generation strategies"
       learning_outcomes:
         - "Utilize the 'plumbing' needed by optimization scripts in real-world lab settings"
     - module_name: "Benchmark datasets and models"
