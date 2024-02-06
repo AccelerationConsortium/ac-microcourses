@@ -236,19 +236,21 @@ todo_emit_warnings = True
 # look and feel of a theme further.  For a list of options available for each
 # theme, see the documentation.
 
-html_theme = "alabaster"
-html_theme_options = {
-    # "sidebar_width": "300px",
-    # "page_width": "1200px",
-    "nosidebar": True,
-}
-
-# html_theme = "sphinx_rtd_theme"
-# html_theme_options = {
-#     "navigation_depth": 2,
-#     "collapse_navigation": False,
-#     # "prev_next_buttons_location": "both",
-# }
+if os.getenv("NAV"):
+    # tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
+    html_theme = "sphinx_rtd_theme"
+    html_theme_options = {
+        "navigation_depth": 2,
+        "collapse_navigation": False,
+        # "prev_next_buttons_location": "both",
+    }
+else:
+    html_theme = "alabaster"
+    html_theme_options = {
+        # "sidebar_width": "300px",
+        # "page_width": "1200px",
+        "nosidebar": True,
+    }
 
 # html_theme = "pydata_sphinx_theme"
 # html_sidebars = {

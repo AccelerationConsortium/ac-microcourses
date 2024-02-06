@@ -6,7 +6,7 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
-  configuration: docs/nav/conf.py
+  configuration: ../conf.py
 
 # Build documentation with MkDocs
 #mkdocs:
@@ -20,6 +20,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
+  jobs:
+    post_build:
+      - NAV=true
 
 python:
   install:
