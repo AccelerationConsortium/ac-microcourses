@@ -99,7 +99,7 @@ nbsphinx_thumbnails = {
     "courses/hello-world/1.2-blink-and-read": "_static/sdl-demo/green-led.jpg",
     "courses/hello-world/1.3-bayesian-optimization": "_static/sdl-demo/grid-vs-random-vs-bayesian-ax-logo.png",
     "courses/hello-world/1.4-hardware-software-communication": "_static/mqtt-workflow.png",
-    "courses/hello-world/1.5-logging-data": "_static/mongodb.png",
+    "courses/hello-world/1.5-data-logging": "_static/mongodb.png",
     "courses/hello-world/1.6-connecting-the-pieces": "_static/connecting-pieces.png",
     "courses/hello-world/1.7-convert-to-a-lab-sensor-system": "_static/lab-sensor-system.png",
     "courses/data-science/2.1-gentle-intro-bayesian": "_static/bayes-opt-1d.png",
