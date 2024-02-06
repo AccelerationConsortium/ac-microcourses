@@ -59,12 +59,12 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 📈 Data Science <courses/data-science/overview>
 🦾 Robotics <courses/robotics/overview>
 🧑‍💻 Software Development <courses/software-dev/overview>
-🏢 Capstone Project <courses/capstone/overview>
+🏢 Design Project <courses/capstone/overview>
 ```
 
 ```{toctree}
 :hidden:
-:maxdepth: 2
+:maxdepth: 1
 
 📚 Course Content <course-content>
 ```
