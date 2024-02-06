@@ -289,7 +289,7 @@ data-science:
         - "Quiz: Report the final efficiencies for EI and SAASBO for a given seed for three different dimensionalities"
         - "Pytest: Verify that the optimization history matches for a fixed seed"
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
-    - module_name: "Sequential, batch, and asynchronous optimization"
+    - module_name: "Batch/asynchronous optimization"
       topics:
         - "Conditioning"
         - "Batch optimization"
@@ -325,7 +325,7 @@ data-science:
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
         - "Quiz: Input the final optimized values for three cases: without a contextual variable, with an important contextual variable, and with a red-herring contextual variable (could use one of the matsci-opt benchmarks or Vickers hardness, etc.)."
         - "Compare the optimization efficiency, runtime, and resource utilization for three cases: small number of predefined candidates, large number of predefined candidates, and continuous optimization"
-    - module_name: "Multi-fidelity and multi-task optimization"
+    - module_name: "Multi-fidelity/multi-task"
       topics:
         - "Cost-fidelity tradeoffs"
         - "Knowledge gradient"
