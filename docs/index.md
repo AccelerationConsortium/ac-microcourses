@@ -44,11 +44,22 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ![flowchart](course-flowchart-black-border.png)
 
-```{toctree}
+<!-- ```{toctree}
 :hidden:
 :maxdepth: 2
 
 🗺️ Certificate Overview <certificate-framework>
+``` -->
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+💡 Hello, World! <courses/hello-world/overview>
+📈 Data Science <courses/data-science/overview>
+🦾 Robotics <courses/robotics/overview>
+🧑‍💻 Software Development <courses/software-dev/overview>
+🏢 Capstone Project <courses/capstone/overview>
 ```
 
 ```{toctree}
