@@ -42,7 +42,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
-* - Gentle intro to Bayesian optimization
+* - Intro to Bayesian optimization
   - * Design of experiments
     * Quasi-random search methods
     * Bayesian optimization
@@ -55,7 +55,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 * - Multi-objective optimization
   - * Pareto fronts
     * Hypervolume
-    * EHVI
+    * qNEHVI
     * Objective thresholds
   - * Explain the significance of a Pareto front
     * Compare simple scalarization with expected hypervolume improvement
@@ -75,7 +75,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
   - * Explain the curse of dimensionality
     * Compare the efficiency of expected improvement and SAASBO as a function of dimensionality
 
-* - Sequential, batch, and asynchronous optimization
+* - Batch/asynchronous optimization
   - * Conditioning
     * Batch optimization
     * Asynchronous optimization
@@ -93,7 +93,7 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
     * Adapt a Bayesian optimization script to use predefined candidates with featurization
     * Adapt a Bayesian optimization script to use contextual variables
 
-* - Multi-fidelity and multi-task optimization
+* - Multi-fidelity/multi-task
   - * Cost-fidelity tradeoffs
     * Knowledge gradient
   - * Explain the effect of cost-fidelity tradeoffs on optimization
@@ -103,11 +103,11 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 * - Mechanics
   - * Attaching existing data
-    * Storing and retrieving data from a persistent database
-    * Custom generation strategies
+    * Human-in-the-loop
+    * Generation strategies
   - * Utilize the 'plumbing' needed by optimization scripts in real-world lab settings
 
-* - Benchmark datasets and models
+* - Benchmark datasets/models
   - * Benchmarks
     * Surrogate models
     * Random forest regression

@@ -225,7 +225,7 @@ data-science:
     - "Benchmarking"
   module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
   modules:
-    - module_name: "Gentle intro to Bayesian optimization"
+    - module_name: "Intro to Bayesian optimization"
       topics:
         - "Design of experiments"
         - "Quasi-random search methods"
@@ -250,7 +250,7 @@ data-science:
       topics:
         - "Pareto fronts"
         - "Hypervolume"
-        - "Expected Hypervolume Improvement (EHVI)"
+        - "qNEHVI"
         - "Objective thresholds"
       learning_outcomes:
         - "Explain the significance of a Pareto front"
@@ -346,7 +346,7 @@ data-science:
         - "Generation strategies"
       learning_outcomes:
         - "Utilize the 'plumbing' needed by optimization scripts in real-world lab settings"
-    - module_name: "Benchmark datasets and models"
+    - module_name: "Benchmark datasets/models"
       topics:
         - "Benchmarks"
         - "Surrogate models"
