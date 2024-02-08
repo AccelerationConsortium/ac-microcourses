@@ -10,7 +10,7 @@ hello-world:
     ```{include} ./hardware-note.md
     ```
 
-    For participants to complete this course within the expected timeframe (approx. 20 hours), beginner proficiency in Python programming is recommended.
+    For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time.
 
   learning_outcomes:
     - "Describe key terms and principles of self-driving labs"
@@ -31,7 +31,7 @@ hello-world:
   orientation:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
-  module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met."
+  module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 3-4 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
     - module_name: "0. Orientation"
       topics:
@@ -223,7 +223,7 @@ data-science:
     - "Advanced Bayesian optimization"
     - "Workflow orchestration"
     - "Benchmarking"
-  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
+  module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Intro to Bayesian optimization"
       topics:
@@ -389,7 +389,7 @@ robotics:
     - "Robotic control"
     - "Computer vision"
     - "Automated solid handlers"
-  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
+  module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Controlling pumps and pipettes"
       topics:
@@ -429,7 +429,7 @@ robotics:
         - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
   course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
 
-"software-dev":
+software-dev:
   course_title: "Software Development for Self-driving Labs"
   course_emoji: "👩‍💻"
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
@@ -451,7 +451,7 @@ robotics:
     - "Documentation"
     - "Compute hardware"
     - "Cloud computing"
-  module_note: "Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met."
+  module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Setting up VS Code"
       topics:
