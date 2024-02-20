@@ -10,7 +10,7 @@ hello-world:
     ```{include} ./hardware-note.md
     ```
 
-    For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time.
+    For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
   learning_outcomes:
     - "Describe key terms and principles of self-driving labs"
@@ -531,12 +531,16 @@ software-dev:
         - "Deploying Applications"
       learning_outcomes:
         - "Launch a free cloud server"
+        - "Use a container"
+        - "Create a container"
         - "Deploy a materials discovery campaign on a cloud server"
     - module_name: "On-demand cloud simulations"
       topics:
         - "Cloud computing"
         - "Setting up an AWS account"
         - "AWS Lambda"
+        - "Docker containers"
+        - "Apptainer"
       learning_outcomes:
         - "Run an on-demand cloud simulation"
         - "Integrate a cloud simulation into a materials discovery campaign"
