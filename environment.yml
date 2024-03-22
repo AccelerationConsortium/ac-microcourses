@@ -17,12 +17,12 @@ dependencies:
   - paho-mqtt
   - matplotlib
   - conda-forge::pymongo
-  - self-driving-lab-demo
   - pip:
      - -e .  # install git checkout of ac-microcourses in editable mode
      # add here only pip-packages that are not available in conda/conda-forge! E.g.:
      - pyscaffold[all]
      - black[jupyter] # not sure if this syntax works for conda
+     - self-driving-lab-demo
 
   # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
   - pytest
