@@ -385,8 +385,10 @@ robotics:
     - "Configure and utilize ROS, AprilTags, and a multi-axis robot to execute solid sample transfers, demonstrating integrated skills in robotics programming and operation"
   competencies_skills:
     - "Motor drivers"
+    - "Serial communication"
     - "Automated liquid handlers"
     - "Robotic control"
+    - "Robotic simulation"
     - "Computer vision"
     - "Automated solid handlers"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
@@ -401,6 +403,13 @@ robotics:
       learning_outcomes:
         - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
         - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
+    - module_name: "Serial communication"
+      topics:
+        - "Mass balance"
+        - "Serial communication"
+        - "Reading data"
+      learning_outcomes:
+        - "Design and execute software to read data from a mass balance using serial communication"
     - module_name: "Automated liquid handlers"
       topics:
         - "Workflow orchestration"
@@ -411,8 +420,11 @@ robotics:
     - module_name: "Mobile robotics"
       topics:
         - "ROS"
+        - "Isaac Sim"
+        - "Asynchronous task execution"
       learning_outcomes:
-        - "Demonstrate control of a mobile cobot using the Robot Operating System (ROS)"
+        - "Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim"
+        - "Define asynchrony in the context of hardware control for automonous laboratories"
     - module_name: "Computer vision"
       topics:
         - "OpenCV"
@@ -447,17 +459,37 @@ software-dev:
     - "Set up and execute an offline simulation on a cloud hosting service, illustrating the ability to leverage cloud resources for complex computational tasks"
   competencies_skills:
     - "Software development literacy"
+    - "Version control"
     - "Unit testing"
     - "Documentation"
     - "Compute hardware"
     - "Cloud computing"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
+    - module_name: "Deep dive into Git and GitHub"
+      topics:
+        - "GitHub issues"
+        - "Pull requests"
+        - "Collaborative coding"
+        - "Branches"
+        - "Merge conflicts"
+        - "Project management"
+      learning_outcomes:
+        - "Open a GitHub issue on a repository"
+        - "Create a new branch"
+        - "Merge a GitHub pull request"
+        - "Resolve a merge conflict"
     - module_name: "Setting up VS Code"
       topics:
         - "IDEs"
         - "Miniconda"
         - "VS Code extensions"
+        - "Black formatting"
+        - "Pylance"
+        - "GitHub Copilot Chat"
+        - "MicroPico"
+        - "SSH"
+        - "autoDocstring"
       learning_outcomes:
         - "Set up VS Code"
         - "Install Miniconda"
@@ -497,11 +529,13 @@ software-dev:
       topics:
         - "Markdown"
         - "Documentation as code"
+        - "Docstrings"
         - "Sphinx"
         - "Readthedocs"
       learning_outcomes:
         - "Write documentation in Markdown"
         - "Explain what documentation as code means"
+        - "Write a docstring for a Python function"
         - "Set up a readthedocs account and publish a readthedocs page"
       tutorial:
         - "GitHub-flavored Markdown tutorial"
@@ -521,13 +555,19 @@ software-dev:
         - "Cookiecutter"
         - "Project initialization"
         - "Project adaptation"
+        - "Python packages"
+        - "PyPi"
+        - "Dependency management"
       learning_outcomes:
         - "Create a project template using PyScaffold"
         - "Add project content"
+        - "Publish a Python package to PyPI"
+        - "Outline the key benefits of dependency management during software development"
     - module_name: "Launching a free cloud server"
       topics:
         - "Serverless computing"
         - "PythonAnywhere"
+        - "Hugging Face"
         - "Deploying Applications"
       learning_outcomes:
         - "Launch a free cloud server"
@@ -541,6 +581,7 @@ software-dev:
         - "AWS Lambda"
         - "Docker containers"
         - "Apptainer"
+        - "Prefect"
       learning_outcomes:
         - "Run an on-demand cloud simulation"
         - "Integrate a cloud simulation into a materials discovery campaign"
