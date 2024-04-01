@@ -17,25 +17,27 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 ## 🎯 Learning Outcomes
 
 
-- Implement software to control a peristaltic pump via a microcontroller and a motor driver
-- Build the "Digital Pipette" and implement software to control the linear actuator
-- Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
-- Demonstrate control of a mobile cobot using the robot operating system (ROS) framework
-- Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
-- Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
+- Design and execute software to manage a peristaltic pump's operations using a microcontroller and motor driver, demonstrating application and integration skills
+- Construct the "Digital Pipette" and develop software to manipulate the linear actuator, showcasing capabilities in hardware assembly and software programming
+- Operate an automated liquid handler, such as Jubilee or Opentrons, to accurately transfer liquid between vials, demonstrating proficiency in laboratory automation techniques
+- Exhibit the ability to control a mobile collaborative robot (cobot) using the ROS framework, reflecting advanced understanding and operational skills in robotics
+- Showcase the use of OpenCV and AprilTags for spatial referencing and ID lookup, illustrating advanced skills in computer vision and object identification
+- Configure and utilize ROS, AprilTags, and a multi-axis robot to execute solid sample transfers, demonstrating integrated skills in robotics programming and operation
 
 ## 🛠️ Competencies/Skills
 
 
 - Motor drivers
+- Serial communication
 - Automated liquid handlers
 - Robotic control
+- Robotic simulation
 - Computer vision
 - Automated solid handlers
 
 ## 🧩 Modules
 
-Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met.
+Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met.
 
 ```{list-table}
 :header-rows: 1
@@ -53,6 +55,12 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
   - * Implement software to control a peristaltic pump via a microcontroller and a motor driver
     * Build the "Digital Pipette" and implement software to control the linear actuator
 
+* - Serial communication
+  - * Mass balance
+    * Serial communication
+    * Reading data
+  - * Design and execute software to read data from a mass balance using serial communication
+
 * - Automated liquid handlers
   - * Workflow orchestration
     * Jubilee
@@ -61,7 +69,10 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 * - Mobile robotics
   - * ROS
-  - * Demonstrate control of a mobile cobot using the Robot Operating System (ROS)
+    * Isaac Sim
+    * Asynchronous task execution
+  - * Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim
+    * Define asynchrony in the context of hardware control for automonous laboratories
 
 * - Computer vision
   - * OpenCV
@@ -79,7 +90,11 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments</p>.
+
+## 👤 Course developer(s)
+
+['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
 
 <div align="center">
 

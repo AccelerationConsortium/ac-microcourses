@@ -17,19 +17,20 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 ## 🎯 Learning Outcomes
 
 
-- List software development best practices and corresponding benefits
-- Identify productivity tools for developers that increase efficiency
-- Write unit tests using tools such as pytest
-- Create Python documentation using sphinx and rtd
-- Implement continuous integration (CI) using tools such as GitHub Actions
-- Create a project template using PyScaffold
-- Launch a cloud server or server on dedicated local hardware that runs a materials discovery campaign
-- Run an offline simulation using cloud hosting
+- Enumerate and explain software development best practices along with their corresponding benefits, demonstrating understanding and recall
+- Identify and evaluate various productivity tools for developers, highlighting how they enhance efficiency, to demonstrate analytical and selection skill
+- Compose and execute unit tests using pytest to validate code functionality, demonstrating application and analysis skills in software testing
+- Generate comprehensive Python documentation utilizing Sphinx and Read The Docs, illustrating proficiency in documentation practices and tools
+- Design and deploy a continuous integration (CI) pipeline using GitHub Actions, showcasing the ability to integrate and automate software development processes
+- Construct a reusable project template using PyScaffold, demonstrating skills in enhancing project setup efficiency and standardization
+- Initiate and manage a cloud or local hardware server to execute a materials discovery campaign, demonstrating capabilities in server management and deployment for scientific computing
+- Set up and execute an offline simulation on a cloud hosting service, illustrating the ability to leverage cloud resources for complex computational tasks
 
 ## 🛠️ Competencies/Skills
 
 
 - Software development literacy
+- Version control
 - Unit testing
 - Documentation
 - Compute hardware
@@ -37,7 +38,7 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 
 ## 🧩 Modules
 
-Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met.
+Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met.
 
 ```{list-table}
 :header-rows: 1
@@ -46,10 +47,28 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
+* - Deep dive into Git and GitHub
+  - * GitHub issues
+    * Pull requests
+    * Collaborative coding
+    * Branches
+    * Merge conflicts
+    * Project management
+  - * Open a GitHub issue on a repository
+    * Create a new branch
+    * Merge a GitHub pull request
+    * Resolve a merge conflict
+
 * - Setting up VS Code
   - * IDEs
     * Miniconda
     * VS Code extensions
+    * Black formatting
+    * Pylance
+    * GitHub Copilot Chat
+    * MicroPico
+    * SSH
+    * autoDocstring
   - * Set up VS Code
     * Install Miniconda
     * Install VS Code extensions
@@ -81,10 +100,12 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 * - Automated documentation
   - * Markdown
     * Documentation as code
+    * Docstrings
     * Sphinx
     * Readthedocs
   - * Write documentation in Markdown
     * Explain what documentation as code means
+    * Write a docstring for a Python function
     * Set up a readthedocs account and publish a readthedocs page
 
 * - Continuous integration (CI)
@@ -101,20 +122,31 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
     * Cookiecutter
     * Project initialization
     * Project adaptation
+    * Python packages
+    * PyPi
+    * Dependency management
   - * Create a project template using PyScaffold
     * Add project content
+    * Publish a Python package to PyPI
+    * Outline the key benefits of dependency management during software development
 
 * - Launching a free cloud server
   - * Serverless computing
     * PythonAnywhere
+    * Hugging Face
     * Deploying Applications
   - * Launch a free cloud server
+    * Use a container
+    * Create a container
     * Deploy a materials discovery campaign on a cloud server
 
 * - On-demand cloud simulations
   - * Cloud computing
     * Setting up an AWS account
     * AWS Lambda
+    * Docker containers
+    * Apptainer
+    * Prefect
   - * Run an on-demand cloud simulation
     * Integrate a cloud simulation into a materials discovery campaign
 
@@ -122,7 +154,11 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments</p>.
+
+## 👤 Course developer(s)
+
+['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
 
 <div align="center">
 

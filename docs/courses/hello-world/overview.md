@@ -14,7 +14,7 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 ```{include} ./hardware-note.md
 ```
 
-For participants to complete this course within the expected timeframe (approx. 20 hours), beginner proficiency in Python programming is recommended.
+For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
 
 
@@ -22,11 +22,11 @@ For participants to complete this course within the expected timeframe (approx. 
 ## 🎯 Learning Outcomes
 
 
-- Describe key terms and principles of self-driving labs
-- Send commands and receive sensor data over WiFi using standard frameworks such as MQTT
-- Store experiment configurations and results in databases such as MongoDB
-- Implement software on a microcontroller such as Raspberry Pi Pico W to adjust device power and read sensor data
-- Adapt a Bayesian optimization script from packages such as the Ax Platform to iteratively suggest new experiments to try
+- Define and explain key terms and principles of self-driving labs to demonstrate understanding
+- Apply MQTT or similar frameworks to send commands and receive sensor data over WiFi
+- Demonstrate the ability to use MongoDB to store and retrieve experiment configurations and results effectively
+- Develop and implement software on a Raspberry Pi Pico W microcontroller to control device power and read sensor data accurately
+- Modify a Bayesian optimization script using the Ax Platform to iteratively propose new experimental configurations
 - Integrate the individual SDL components to orchestrate the full 'Hello World' workflow
 
 ## 🛠️ Competencies/Skills
@@ -41,7 +41,7 @@ For participants to complete this course within the expected timeframe (approx. 
 
 ## 🧩 Modules
 
-The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 2-3 hours each, assuming that the recommended prerequisites from above have been met.
+The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 3-4 hours each, assuming that the recommended prerequisites from above have been met.
 
 ```{list-table}
 :header-rows: 1
@@ -107,7 +107,11 @@ The orientation modules are intended to be completed in under one hour in total.
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments</p>.
+
+## 👤 Course developer(s)
+
+['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
 
 <div align="center">
 

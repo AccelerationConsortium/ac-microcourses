@@ -17,10 +17,10 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 ## 🎯 Learning Outcomes
 
 
-- Describe a materials discovery task using data science language and concepts
-- Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
-- Judiciously choose an advanced optimization setup that matches a materials discovery task
-- Programatically upload a completed dataset to Figshare, create a benchmark model, and host it on HuggingFace
+- Describe and categorize a materials discovery task using data science language and concepts
+- Customize a Bayesian optimization script to systematically identify the optimal chocolate chip cookie recipe, demonstrating practical application of optimization techniques
+- Evaluate and select an advanced optimization setup that is best suited for a specific materials discovery task, showcasing critical analysis and decision-making skills
+- Develop and execute a program to upload a dataset to a public database, construct a benchmark model, and deploy it online, illustrating proficiency in data sharing and model hosting
 
 ## 🛠️ Competencies/Skills
 
@@ -33,7 +33,7 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 
 ## 🧩 Modules
 
-Each module is intended to take approximately 2-3 hours, assuming that the recommended prerequisites have been met.
+Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met.
 
 ```{list-table}
 :header-rows: 1
@@ -123,7 +123,11 @@ Each module is intended to take approximately 2-3 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Each module will contain the following:<br><br><ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A mini project (graded, 10 points*)</li></ul><br><br>*The final module's project is worth 30 points.
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments</p>.
+
+## 👤 Course developer(s)
+
+['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
 
 <div align="center">
 
