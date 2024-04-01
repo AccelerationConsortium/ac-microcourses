@@ -10,7 +10,6 @@ dependencies:
   - scipy
   - pandas
   - tqdm
-  - click
   - ipython
   - ipykernel
   - jinja2
@@ -30,4 +29,3 @@ dependencies:
   - tox
   - pre_commit
   - sphinx
-  - pandoc
