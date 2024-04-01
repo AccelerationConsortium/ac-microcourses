@@ -127,7 +127,9 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
 
 ## 👤 Course developer(s)
 
-['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
+
+- Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
+
 
 <div align="center">
 

@@ -55,7 +55,9 @@ It does not refer to this (overview.md.jinja) file #}
 
 ## 👤 Course developer(s)
 
-{{ developers }}
+{% for developer in developers %}
+- {{ developer }}
+{% endfor %}
 
 <div align="center">
 

@@ -72,7 +72,9 @@ Performance in this course is assessed via rubrics that evaluate the quality of 
 
 ## 👤 Course developer(s)
 
-['Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)']
+
+- Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
+
 
 <div align="center">
 
