@@ -207,6 +207,7 @@ hello-world:
 
   developers:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
+  registration_link: "https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs"
 
 data-science:
   course_title: "AI and Materials Databases for Self-driving Labs"
