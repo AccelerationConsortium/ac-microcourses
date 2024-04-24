@@ -52,6 +52,11 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - * Describe a materials discovery task using data science language and concepts
     * Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
 
+* - Mechanics
+  - * Attaching existing data
+    * Human-in-the-loop
+  - * Utilize the 'plumbing' needed by optimization scripts in real-world lab settings
+
 * - Multi-objective optimization
   - * Pareto fronts
     * Hypervolume
@@ -100,12 +105,6 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Explain when to use multi-fidelity vs. multi-task optimization
     * Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient
     * Adapt a Bayesian optimization script to use a knowledge gradient
-
-* - Mechanics
-  - * Attaching existing data
-    * Human-in-the-loop
-    * Generation strategies
-  - * Utilize the 'plumbing' needed by optimization scripts in real-world lab settings
 
 * - Benchmark datasets/models
   - * Benchmarks
