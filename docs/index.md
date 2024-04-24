@@ -32,17 +32,19 @@ While the certificate option requires formal registration and tuition dues, the 
 
 The *Autonomous Systems for Discovery* certificate consists of five core microcourses and corresponding learning outcomes:
 
-|  | Course Title | Learning Outcome | Registration Link |
-|--------|--------------|-------------|------------------|
-| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/overview.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) |
-| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/overview.md) | Write Python scripts to iteratively optimize materials and log results to a database | TBD |
-| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/overview.md) | Write Python scripts to control robots and orchestrate workflows | TBD |
-| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices | TBD |
-| 🏢    | [AC Training Lab Design Project](courses/capstone/overview.md) | Develop, defend, and execute a project proposal | TBD |
+|  | Course Title | Learning Outcome | Registration Link | Students |
+|--------|--------------|-------------|------------------| -------- |
+| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/overview.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
+| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/overview.md) | Write Python scripts to iteratively optimize materials and log results to a database | TBD | N/A |
+| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/overview.md) | Write Python scripts to control robots and orchestrate workflows | TBD | N/A |
+| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices | TBD | N/A |
+| 🏢    | [AC Training Lab Design Project](courses/capstone/overview.md) | Develop, defend, and execute a project proposal | TBD | N/A |
 
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown in the figure below. While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
 
 ![flowchart](course-flowchart-black-border.png)
+
+
 
 <!-- ```{toctree}
 :hidden:
@@ -84,3 +86,5 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script src="_static/fetch_student_count.js"></script>
