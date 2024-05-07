@@ -4,6 +4,11 @@ in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 It does not refer to this (overview.md.jinja) file #}
 # {{ course_emoji }} {{ course_title }}
 
+{% if registration_link %}
+```{note} Registration for this course is LIVE! Register [here]({{ registration_link }}).
+```
+{% endif %}
+
 {{description}}
 
 {{ media_command }}
