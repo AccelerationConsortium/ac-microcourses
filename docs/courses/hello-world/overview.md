@@ -21,7 +21,11 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 
 For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
+
+
+
 ## 🎯 Learning Outcomes
+
 
 - Define and explain key terms and principles of self-driving labs to demonstrate understanding
 - Apply MQTT or similar frameworks to send commands and receive sensor data over WiFi
@@ -111,6 +115,7 @@ The orientation modules are intended to be completed in under one hour in total.
 <p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
 ## 👤 Course developer(s)
+
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
 
