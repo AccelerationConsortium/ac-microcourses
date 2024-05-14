@@ -1,10 +1,10 @@
-<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
-in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
+in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 # 💡 Introduction to AI for Discovery using Self-driving Labs
 
 
-```{note} Registration for this course is LIVE! Register [here](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs).
+```{note} Registration for this course is LIVE! Register [here](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs). If you're already registered, your course will be available at https://q.utoronto.ca/.
 ```
 
 

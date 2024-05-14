@@ -1,5 +1,5 @@
-<!--- This is an auto-generated file. Please do not edit directly. Instead, edit
-in course-data.yaml and run the `scripts/generate_overviews.py` file. --->
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
+in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 # 🦾 Autonomous Systems for Self-driving Labs
 
