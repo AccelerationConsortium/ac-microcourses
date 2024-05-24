@@ -59,9 +59,7 @@ repos:
   rev: 6.1.0
   hooks:
   - id: flake8
-    exclude: |
-      ^docs/nav/conf.py$
-      ^docs/courses/hello-world/urequests_2.py$
+    exclude: ^docs/(nav/conf.py|courses/hello-world/urequests_2.py)$
   ## You can add flake8 plugins via `additional_dependencies`:
   #  additional_dependencies: [flake8-bugbear]
 
