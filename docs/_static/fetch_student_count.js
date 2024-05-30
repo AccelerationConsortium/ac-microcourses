@@ -2,18 +2,36 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define an async function to fetch and update student counts
     async function updateStudentCounts() {
         // Initially set the student count elements to show a loading message or spinner
-        const studentCountElements = document.querySelectorAll('helloWorldStudentCount');
+        const studentCountElements = document.querySelectorAll('.helloWorldStudentCount');
         studentCountElements.forEach(element => {
             element.innerHTML = 'Loading...'; // Or use an HTML spinner here
         });
 
-        try {
-            const apiUrl = 'https://jn36gg5cbhv7cagcojjiqitche0waqmc.lambda-url.us-east-2.on.aws/';
-            const response = await fetch(apiUrl);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
+        const apiUrl = 'https://jn36gg5cbhv7cagcojjiqitche0waqmc.lambda-url.us-east-2.on.aws/';
+
+        // Define the retry mechanism
+        async function fetchWithRetry(url, retries = 3, backoff = 3000) {
+            for (let i = 0; i < retries; i++) {
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return await response.json();
+                } catch (error) {
+                    if (i < retries - 1) {
+                        console.warn(`Attempt ${i + 1} failed. Retrying in ${backoff}ms...`);
+                        await new Promise(resolve => setTimeout(resolve, backoff));
+                        backoff *= 2; // Exponential backoff
+                    } else {
+                        throw error;
+                    }
+                }
             }
-            const data = await response.json();
+        }
+
+        try {
+            const data = await fetchWithRetry(apiUrl);
 
             // Assuming the API returns an object like { hello_world_student_count: 100, ... }
             // Update the student count and remove the loading message/spinner
