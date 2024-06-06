@@ -14,9 +14,10 @@ numpy # for 1.3 notebook
 paho-mqtt # for 1.4.1 notebook
 pandas # for 1.5.1 notebook
 pandoc
-pydata-sphinx-theme
+# pydata-sphinx-theme
 pymongo # for 1.5.1 notebook
 sphinx>=3.2.1
 sphinx-gallery
+# sphinx_rtd_theme
+sphinx_book_theme
 sphinx_copybutton
-sphinx_rtd_theme

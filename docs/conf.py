@@ -83,6 +83,7 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.napoleon",
     "sphinx_rtd_theme",
+    "sphinx_book_theme",
     "sphinx_copybutton",
     "nbsphinx",
     "nbsphinx_link",
@@ -236,21 +237,36 @@ todo_emit_warnings = True
 # look and feel of a theme further.  For a list of options available for each
 # theme, see the documentation.
 
-if os.getenv("NAV"):
-    # tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
-    html_theme = "sphinx_rtd_theme"
-    html_theme_options = {
-        "navigation_depth": 2,
-        "collapse_navigation": False,
-        # "prev_next_buttons_location": "both",
-    }
-else:
-    html_theme = "alabaster"
-    html_theme_options = {
-        # "sidebar_width": "300px",
-        # "page_width": "1200px",
-        "nosidebar": True,
-    }
+# if os.getenv("NAV"):
+#     # tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
+#     html_theme = "sphinx_rtd_theme"
+#     html_theme_options = {
+#         "navigation_depth": 2,
+#         "collapse_navigation": False,
+#         # "prev_next_buttons_location": "both",
+#     }
+# else:
+#     html_theme = "alabaster"
+#     html_theme_options = {
+#         # "sidebar_width": "300px",
+#         # "page_width": "1200px",
+#         "nosidebar": True,
+#     }
+
+html_theme = "sphinx_book_theme"
+html_theme_options = {
+    "repository_provider": "github",
+    "repository_url": "https://github.com/AccelerationConsortium/ac-microcourses",
+    "path_to_docs": "docs",
+    "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_source_button": True,
+    "use_issues_button": True,
+    "use_download_button": True,
+    "launch_buttons": {"colab_url": "https://colab.research.google.com"},
+    "home_page_in_toc": True,
+    "show_navbar_depth": 1,  # Adjust based on your structure
+}
 
 # html_theme = "pydata_sphinx_theme"
 # html_sidebars = {
