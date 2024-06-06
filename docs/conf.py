@@ -15,7 +15,7 @@ import subprocess
 
 # import json
 
-import sphinx_rtd_theme  # noqa
+# import sphinx_rtd_theme  # noqa
 
 # -- Custom Python script ----------------------------------------------------
 # Run the generate_overview.py script (blocking)
