@@ -85,6 +85,7 @@ extensions = [
     # "sphinx_rtd_theme",
     "sphinx_book_theme",
     "sphinx_copybutton",
+    "sphinx_design",
     "nbsphinx",
     "nbsphinx_link",
     "sphinx_gallery.load_style",
