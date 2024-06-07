@@ -17,6 +17,7 @@ pandoc
 # pydata-sphinx-theme
 pymongo # for 1.5.1 notebook
 sphinx>=3.2.1
+sphinx-design
 sphinx-gallery
 # sphinx_rtd_theme
 sphinx_book_theme
