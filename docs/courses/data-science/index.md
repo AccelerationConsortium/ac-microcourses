@@ -1,7 +1,9 @@
-## 📈 Data Science for Self-Driving Labs
+# 📈 Data Science for Self-Driving Labs
 
 ```{include} description.md
 ```
+
+## Modules
 
 ```{nbgallery}
 2.1-gentle-intro-bayesian.ipynb

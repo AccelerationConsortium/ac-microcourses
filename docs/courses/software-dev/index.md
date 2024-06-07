@@ -1,7 +1,9 @@
-## 🧑‍💻 Software Development for Self-Driving Labs
+# 🧑‍💻 Software Development for Self-Driving Labs
 
 ```{include} description.md
 ```
+
+## Modules
 
 ```{nbgallery}
 4.1-vscode-setup.ipynb

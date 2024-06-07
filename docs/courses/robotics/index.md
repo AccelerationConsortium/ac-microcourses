@@ -1,7 +1,9 @@
-## 🦾 Robotics for Self-Driving Labs
+# 🦾 Robotics for Self-Driving Labs
 
 ```{include} description.md
 ```
+
+## Modules
 
 ```{nbgallery}
 3.1-pumps-and-pipettes.ipynb

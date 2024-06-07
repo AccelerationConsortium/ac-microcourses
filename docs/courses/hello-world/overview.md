@@ -4,7 +4,7 @@ in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 # 💡 Introduction to AI for Discovery using Self-driving Labs
 
 
-```{note} Registration for this course is LIVE! Register [here](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs). If you're already registered, your course will be available at https://q.utoronto.ca/.
+```{note} Registration for this course is LIVE! Register [here](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs). If you're already registered, your course info, quizzes, and grades will be available through the University of Toronto's learning management system: https://q.utoronto.ca/.
 ```
 
 
@@ -20,8 +20,6 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 ```
 
 For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
-
-
 
 
 ## 🎯 Learning Outcomes
@@ -75,7 +73,7 @@ The orientation modules are intended to be completed in under one hour in total.
     * Preview an end-to-end self-driving lab
     * Upload software to a microcontroller
 
-* - 2. Blink and Read
+* - 2. Blink and read
   - * Microcontrollers
     * MicroPython
   - * Write MicroPython scripts
@@ -102,7 +100,7 @@ The orientation modules are intended to be completed in under one hour in total.
     * Upload data directly from microcontroller
     * Extract and collate data from database
 
-* - 6. Module integration
+* - 6. Connecting the pieces
   - * Systems design
   - * Describe how individual components of an SDL can be integrated
     * Perform system-level debugging and troubleshooting

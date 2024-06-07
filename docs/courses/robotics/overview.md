@@ -14,8 +14,6 @@ Self-driving lab robotic platforms. 1. ADA at the University of British Columbia
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
-
-
 ## 🎯 Learning Outcomes
 
 

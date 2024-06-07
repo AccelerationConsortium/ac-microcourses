@@ -14,8 +14,6 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
-
-
 ## 🎯 Learning Outcomes
 
 

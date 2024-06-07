@@ -14,8 +14,6 @@ Elevate your software development skills in the context of self-driving laborato
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
-
-
 ## 🎯 Learning Outcomes
 
 

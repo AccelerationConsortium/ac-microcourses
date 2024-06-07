@@ -1,4 +1,4 @@
-## 🏢 Capstone Project at the AC Training Lab
+# 🏢 Capstone Project at the AC Training Lab
 
 ```{note}
 🔑 Due to the intensive nature of this in-person course and to maximize value to the participants, completion of the previous four courses are mandatory.
@@ -6,6 +6,8 @@
 
 ```{include} description.md
 ```
+
+## Modules
 
 ```{nbgallery}
 5.1-project-proposal.ipynb

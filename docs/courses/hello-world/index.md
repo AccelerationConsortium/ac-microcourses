@@ -1,16 +1,4 @@
-## 💡 Building a "Hello World" for self-driving labs
-
-<!--
-```{note}
-**This tutorial requires physical hardware and a 2.4 GHz WPA-2 wireless network**. If you do not have the hardware, see the ⭐ DigiKey Order link at the bottom-left of the [hackaday page](https://hackaday.io/project/186289-autonomous-research-laboratories). If you do not have the required wireless network, you can use a mobile hotspot (see [recommendations](https://github.com/sparks-baird/self-driving-lab-demo/discussions/83)).
-```
--->
-
-<!--
-```{note}
-🔑 The "Hello World" course is a **recommended prerequisite** for all other courses in the certificate, and a mandatory prerequisite for the in-person capstone project.
-```
--->
+# 💡 Building a "Hello World" for self-driving labs
 
 ```{include} ./hardware-note.md
 ```
@@ -18,12 +6,68 @@
 ```{include} description.md
 ```
 
+```{toctree}
+Hello World Overview <overview>
+```
+
+## Modules
+
+::::{tab-set}
+:sync-group: category
+
+:::{tab-item} W 2024
+:sync: key1
+
+Content 1
+:::
+
+:::{tab-item} Sp/Su 2024
+:sync: key2
+
+Content 2
+:::
+
+::::
+
+::::{tab-set}
+:sync-group: category
+
+:::{tab-item} W 2024
+:sync: key1
+
+Content 1
+:::
+
+:::{tab-item} Sp/Su 2024
+:sync: key2
+
+Content 2
+:::
+
+::::
+
+## Module 1
+
+### Tutorial
+
 ```{nbgallery}
 1.1-running-the-demo.ipynb
+```
+
+### Quiz
+
+### Assignment
+
+## Module 2
+
+```{nbgallery}
 1.2-blink-and-read.ipynb
 1.3-bayesian-optimization.ipynb
 1.4-hardware-software-communication.ipynb
 1.5-data-logging.ipynb
+```
+
+```{nbgallery}
 1.6-connecting-the-pieces.ipynb
 ```
 
