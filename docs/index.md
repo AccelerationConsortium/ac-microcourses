@@ -31,41 +31,50 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 
 |  | Course Title | Learning Outcome | Registration Link | Students |
 |--------|--------------|-------------|------------------| -------- |
-| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/overview.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
-| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/overview.md) | Write Python scripts to iteratively optimize materials and log results to a database | TBD | N/A |
-| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/overview.md) | Write Python scripts to control robots and orchestrate workflows | TBD | N/A |
-| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/overview.md) | Leverage software development tools and implement best practices | TBD | N/A |
-| 🏢    | [AC Training Lab Design Project](courses/capstone/overview.md) | Develop, defend, and execute a project proposal | TBD | N/A |
+| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
+| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md) | Write Python scripts to iteratively optimize materials and log results to a database | TBD | N/A |
+| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md) | Write Python scripts to control robots and orchestrate workflows | TBD | N/A |
+| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | TBD | N/A |
+| 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | TBD | N/A |
 
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown in the figure below. While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
 
 ![flowchart](course-flowchart-black-border.png)
 
-```{toctree}
-:maxdepth: 1
-:hidden:
-
-💡 Hello, World! <courses/hello-world/overview>
-📈 Data Science <courses/data-science/overview>
-🦾 Robotics <courses/robotics/overview>
-🧑‍💻 Software Development <courses/software-dev/overview>
-🏢 Design Project <courses/capstone/overview>
-```
-
+<!--
 ```{toctree}
 :hidden:
 :maxdepth: 1
 
 📚 Course Content <course-content>
 ```
+-->
+
+## 🚀 Getting Started
+
+These courses are integrated with coding exercises via GitHub Classroom, so you will need [a GitHub account](https://github.com/join) (naming convention: John H. Smith → `jhsmith` or Jane M. Doe → `jane-doe`).
+
+**👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page.
+
+**👉 Second Step**: Complete the [🔗 Intro to GitHub Classroom tutorial](https://github.com/AC-Classroom/intro-github-classroom) to familarize yourself with the assignment structure and keep everyone on the same page.
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
+courses/hello-world/index
+courses/data-science/index
+courses/robotics/index
+courses/software-dev/index
+courses/capstone/index
+```
+
+```{toctree}
+:maxdepth: 1
 :hidden:
 
-🛠️ Developer Resources <dev-resources>
-🌐 GitHub Source <https://github.com/AccelerationConsortium/ac-microcourses>
+Developer Resources <dev-resources>
 ```
+
+<!-- 🛠️ -->
 
 [Sphinx]: http://www.sphinx-doc.org/
 [Markdown]: https://daringfireball.net/projects/markdown/
@@ -76,3 +85,19 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <script src="_static/fetch_student_count.js"></script>
+
+
+
+
+<!--
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+💡 Hello, World! <courses/hello-world/overview>
+📈 Data Science <courses/data-science/overview>
+🦾 Robotics <courses/robotics/overview>
+🧑‍💻 Software Development <courses/software-dev/overview>
+🏢 Design Project <courses/capstone/overview>
+```
+-->
