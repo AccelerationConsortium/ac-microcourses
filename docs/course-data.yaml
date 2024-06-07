@@ -72,7 +72,7 @@ hello-world:
         # - "Pytest: Check that source code from a zip file is copy-pasted into a certain file"
         # - "Pytest: Check that a 'test' demo database entry exists that contains their course identifier"
         - "Pytest: Check for a test entry with their course identifier from the public database"
-    - module_name: "2. Blink and Read"
+    - module_name: "2. Blink and read"
       topics:
         - "Microcontrollers"
         - "MicroPython"
@@ -180,7 +180,7 @@ hello-world:
     #   assessments:
     #     - "Quiz: Match terms with definitions (workflow orchestration, Prefect, flow, task, state, schedule, trigger, parameter, parameterized, flow run, flow run ID, flow run state, flow run log, flow run result, flow run artifact, flow run parameter, flow run parameter value)"
     #     - "Quiz: Fill-in-the-blank statements (x calls y, y calls z)"
-    - module_name: "6. Module integration"
+    - module_name: "6. Connecting the pieces"
       topics:
         - "Systems design"
       learning_outcomes:
