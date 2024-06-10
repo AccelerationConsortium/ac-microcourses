@@ -267,6 +267,7 @@ html_theme_options = {
     "launch_buttons": {"colab_url": "https://colab.research.google.com"},
     "home_page_in_toc": True,
     "show_navbar_depth": 1,  # Adjust based on your structure
+    "navigation_with_keys": True,
 }
 
 # html_theme = "pydata_sphinx_theme"
