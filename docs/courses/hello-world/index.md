@@ -1,74 +1,60 @@
-# 💡 Building a "Hello World" for self-driving labs
+# Introduction to AI for Discovery using Self-driving Labs
 
-```{include} ./hardware-note.md
+<!-- In this course, you will build a minimal working example for a self-driving lab, starting with dimmable LEDs and a light sensor for a color-matching task and progressing through modules on microcontroller programming, Bayesian optimization, hardware/software communication, and database integration. This introductory course prepares you for advanced studies in data science, robotics, software development, and system design in later microcourses. -->
+
+::::{grid} 3
+:::{grid-item-card}  Registration
+Register to gain access to quizzes and assignments.
++++
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections
+:color: info
+:expand:
+:click-parent:
+Register {octicon}`link-external;1em`
 ```
 
-```{include} description.md
+:::
+:::{grid-item-card}  Overview
+View prerequisites, learning outcomes, and topics.
++++
+```{button-ref} overview
+:color: info
+:expand:
+:click-parent:
+Explore
 ```
+:::
+:::{grid-item-card}  Course Content
+Begin working through modules, one-by-one.
++++
+```{button-ref} modules
+:color: info
+:expand:
+:click-parent:
+Begin
+```
+:::
+::::
+
+```{include} ./overview.md
+```
+
 
 ```{toctree}
-Hello World Overview <overview>
+:hidden:
+
+Overview <overview>
+Content <modules>
 ```
 
-## Modules
 
-::::{tab-set}
-:sync-group: category
-
-:::{tab-item} W 2024
-:sync: key1
-
-Content 1
-:::
-
-:::{tab-item} Sp/Su 2024
-:sync: key2
-
-Content 2
-:::
-
-::::
-
-::::{tab-set}
-:sync-group: category
-
-:::{tab-item} W 2024
-:sync: key1
-
-Content 1
-:::
-
-:::{tab-item} Sp/Su 2024
-:sync: key2
-
-Content 2
-:::
-
-::::
-
-## Module 1
-
-### Tutorial
-
+<!--
 ```{nbgallery}
 1.1-running-the-demo.ipynb
-```
-
-### Quiz
-
-### Assignment
-
-## Module 2
-
-```{nbgallery}
 1.2-blink-and-read.ipynb
 1.3-bayesian-optimization.ipynb
 1.4-hardware-software-communication.ipynb
 1.5-data-logging.ipynb
-```
-
-```{nbgallery}
 1.6-connecting-the-pieces.ipynb
 ```
-
-<!-- courses/hello-world/1.7-convert-to-a-lab-sensor-system.ipynb -->
+-->
