@@ -2,12 +2,6 @@
 
 # 📜 Autonomous Systems for Discovery
 
-```{warning}
-This project is under development. If you would like to participate or are interested in contributing, please [introduce yourself](https://github.com/AccelerationConsortium/ac-microcourses/discussions/2) or reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
-```
-
-Advanced materials hold the potential to improve our lives and our world, but traditional methods of discovery are slow and expensive. "Self-driving" laboratories (SDLs) have the power to fast-track materials discovery by using AI and robotics to run lab experiments autonomously. State-of-the-art SDLs require interdisciplinary teams and skillsets that traditional degree-based programs do not provide. To address this gap, the [Acceleration Consortium @ University of Toronto](https://acceleration.utoronto.ca/) presents the *Autonomous Systems for Discovery* certificate containing short, hands-on courses that will provide familiarity with the terminology, principles, and tools of SDLs.
-
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
 data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
 AccelerationConsortium/ac-microcourses on GitHub">Star</a>
@@ -22,12 +16,12 @@ data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
 aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Discuss</a>
 
-<!-- Alan's YouTube video, either here or as part of the Hello, World! course -->
-<!-- description of the microcredentials, and the difference between the microcourse content and the microcredentials certificate -->
+Advanced materials hold the potential to improve our lives and our world, but traditional methods of discovery are slow and expensive. "Self-driving" laboratories (SDLs) have the power to fast-track materials discovery by using AI and robotics to run lab experiments autonomously. State-of-the-art SDLs require interdisciplinary teams and skillsets that traditional degree-based programs do not provide. To address this gap, the [Acceleration Consortium @ University of Toronto](https://acceleration.utoronto.ca/) presents the *Autonomous Systems for Discovery* certificate containing short, hands-on courses that will provide familiarity with the terminology, principles, and tools of SDLs.
 
-## 🎓 Microcourses
 
-The *Autonomous Systems for Discovery* certificate consists of five core microcourses and corresponding learning outcomes:
+The certificate consists of five microcourses:
+
+<!-- ## 🎓 Microcourses -->
 
 |  | Course Title | Learning Outcome | Registration Link | Students |
 |--------|--------------|-------------|------------------| -------- |
@@ -37,7 +31,7 @@ The *Autonomous Systems for Discovery* certificate consists of five core microco
 | 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | TBD | N/A |
 | 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | TBD | N/A |
 
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown in the figure below. While the first four courses are fully remote and asychronous, the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown below. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
 
 ![flowchart](course-flowchart-black-border.png)
 
@@ -50,21 +44,17 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 ```
 -->
 
-## 🚀 Getting Started
+## Content
 
-These courses are integrated with coding exercises via GitHub Classroom, so you will need [a GitHub account](https://github.com/join) (naming convention: John H. Smith → `jhsmith` or Jane M. Doe → `jane-doe`).
-
-**👉 First Step**: Complete the [🔗 GitHub starter tutorial](https://github.com/AC-Classroom/github-starter-course) to familarize yourself with the assignment structure and keep everyone on the same page.
-
-**👉 Second Step**: Complete the [🔗 Intro to GitHub Classroom tutorial](https://github.com/AC-Classroom/intro-github-classroom) to familarize yourself with the assignment structure and keep everyone on the same page.
+Find below an outline of the content within this website.
 
 ```{toctree}
-:maxdepth: 1
-courses/hello-world/index
-courses/data-science/index
-courses/robotics/index
-courses/software-dev/index
-courses/capstone/index
+:maxdepth: 5
+💡 Course 1: Hello World <courses/hello-world/index>
+📈 Course 2: Data Science <courses/data-science/index>
+🦾 Course 3: Robotics <courses/robotics/index>
+🧑‍💻 Course 4: Software Dev. <courses/software-dev/index>
+🏢 Course 5: Capstone Project <courses/capstone/index>
 ```
 
 ```{toctree}
