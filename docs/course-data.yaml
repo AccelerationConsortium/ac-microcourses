@@ -3,15 +3,15 @@ hello-world:
   course_title: "Introduction to AI for Discovery using Self-driving Labs"
   course_emoji: "💡"
   registration_link: "https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs"
-  description: "Self-driving laboratories (SDLs) incorporate AI and automation into scientific laboratories to speed up the discovery of new materials for applications such as clean energy and cancer drugs. Discover the essential principles of SDLs by building a 'Hello World' SDL from scratch. In this asynchronous, remote course, you will build a self-driving color matcher using dimmable LEDs and a light sensor. This introduction will help you implement hardware/software communication, database integration, microcontroller programming, and Bayesian optimization. Each of these are important components of an SDL, and you will get a taste of these in the course modules. In the final module, you will piece together the individual components to create your very own SDL demo. This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses."
-  media_command: "![](./images/clslab-light.gif)"
-  media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
-  recommended_prerequisites: |
-
-    ```{include} ./hardware-note.md
+  description: "In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming with a Pico W (Module 2), Bayesian optimization with the Ax Platform (Module 3), hardware/software communication with MQTT (Module 4), and database integration with MongoDB (Module 5). Finally, you will piece together the individual components to create your very own SDL demo (Module 6). This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses."
+  media_command: |
+    ```{image} ./images/clslab-light.gif
+    :align: center
+    :scale: 35 %
     ```
-
-    For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
+    <br>
+  media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
+  recommended_prerequisites: For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
   learning_outcomes:
     - "Define and explain key terms and principles of self-driving labs to demonstrate understanding"
