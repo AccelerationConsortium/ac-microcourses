@@ -1,9 +1,12 @@
-# 📈 Data Science for Self-Driving Labs
+# 📈 Course 2: Data Science for Self-Driving Labs
 
-```{include} description.md
+```{include} ./overview.md
 ```
 
 ## Modules
+
+```{include} ./../getting-started.md
+```
 
 ```{nbgallery}
 2.1-gentle-intro-bayesian.ipynb

@@ -1,9 +1,12 @@
-# 🧑‍💻 Software Development for Self-Driving Labs
+# 🧑‍💻 Course 4: Software Development for Self-Driving Labs
 
-```{include} description.md
+```{include} ./overview.md
 ```
 
 ## Modules
+
+```{include} ./../getting-started.md
+```
 
 ```{nbgallery}
 4.1-vscode-setup.ipynb

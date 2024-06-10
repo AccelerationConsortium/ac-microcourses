@@ -1,9 +1,12 @@
-# 🦾 Robotics for Self-Driving Labs
+# 🦾 Course 3: Robotics for Self-Driving Labs
 
-```{include} description.md
+```{include} ./overview.md
 ```
 
 ## Modules
+
+```{include} ./../getting-started.md
+```
 
 ```{nbgallery}
 3.1-pumps-and-pipettes.ipynb
