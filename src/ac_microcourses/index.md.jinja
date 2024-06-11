@@ -1,0 +1,61 @@
+# {{ course_title }}
+
+{{description}}
+
+::::{grid} 1 2 3 3
+{% if registration_link %}
+:::{grid-item-card}  Registration
+Register to gain access to quizzes and assignments.
++++
+```{button-link} {{ registration_link }}
+:color: info
+:expand:
+:click-parent:
+Register {octicon}`link-external;1em`
+```
+{% else %}
+:::{grid-item-card}  Registration
+Sign up to be notified when registration opens.
++++
+```{button-link} {{ waitlist_link }}
+:color: info
+:expand:
+:click-parent:
+Waitlist {octicon}`link-external;1em`
+```
+{% endif %}
+:::
+:::{grid-item-card}  Overview
+View prerequisites, learning outcomes, and topics.
++++
+```{button-ref} overview
+:color: info
+:expand:
+:click-parent:
+Explore
+```
+:::
+:::{grid-item-card}  Course Content
+Begin working through modules, one-by-one.
++++
+```{button-ref} modules
+:color: info
+:expand:
+:click-parent:
+Begin
+```
+:::
+::::
+
+
+```{toctree}
+:hidden:
+
+{% if registration_link %}
+Register {octicon}`link-external;1em` <{{ registration_link }}>
+{% else %}
+Waitlist {octicon}`link-external;1em` <{{ waitlist_link }}>
+{% endif %}
+Overview <overview>
+Content <modules>
+```
