@@ -2,7 +2,7 @@
 
 <!-- In this course, you will build a minimal working example for a self-driving lab, starting with dimmable LEDs and a light sensor for a color-matching task and progressing through modules on microcontroller programming, Bayesian optimization, hardware/software communication, and database integration. This introductory course prepares you for advanced studies in data science, robotics, software development, and system design in later microcourses. -->
 
-::::{grid} 3
+::::{grid} 1 2 3 3
 :::{grid-item-card}  Registration
 Register to gain access to quizzes and assignments.
 +++
