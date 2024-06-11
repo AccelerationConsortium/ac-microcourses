@@ -465,7 +465,7 @@ robotics:
         - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
 
 software-dev:
-  course_shortname: "Software Dev."
+  course_shortname: "Software Development"
   course_title: "Software Development for Self-driving Labs"
   course_emoji: "👩‍💻"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs"
