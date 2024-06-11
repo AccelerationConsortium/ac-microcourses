@@ -4,7 +4,7 @@
 edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
 or modify src/ac_microcourses/overview.jinja.md. --->
 
-# Autonomous Systems for Self-driving Labs
+# Robotics: Course Overview
 
 
 

@@ -4,7 +4,7 @@
 edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
 or modify src/ac_microcourses/overview.jinja.md. --->
 
-# AI and Materials Databases for Self-driving Labs
+# Data Science: Course Overview
 
 
 
