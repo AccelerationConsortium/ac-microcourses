@@ -470,6 +470,7 @@ software-dev:
   course_emoji: "👩‍💻"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs"
   waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551&notify=section&_gl=1*uy3jqu*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDEuMTgwMDIzMTk5Ni4xNzE4MTE3NzM4LjE3MTgxMTc5NTY.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc5ODYuNDUuMC4w"
+  short_description: ""
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
   media_command: ""
   media_caption: ""
