@@ -21,8 +21,6 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 
 The certificate consists of five microcourses:
 
-<!-- ## 🎓 Microcourses -->
-
 |  | Course Title | Learning Outcome | Registration Link | Students |
 |--------|--------------|-------------|------------------| -------- |
 | 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
@@ -35,34 +33,21 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ![flowchart](course-flowchart-black-border.png)
 
-<!--
-```{toctree}
-:hidden:
-:maxdepth: 1
-
-📚 Course Content <course-content>
-```
--->
-
 ## Content
 
 ```{toctree}
-:maxdepth: 5
+:maxdepth: 3
+:includehidden:
 💡 Course 1: Hello World <courses/hello-world/index>
 📈 Course 2: Data Science <courses/data-science/index>
 🦾 Course 3: Robotics <courses/robotics/index>
 🧑‍💻 Course 4: Software Dev. <courses/software-dev/index>
 🏢 Course 5: Capstone Project <courses/capstone/index>
 ```
-
 ```{toctree}
 :maxdepth: 1
-:hidden:
-
 Developer Resources <dev-resources>
 ```
-
-<!-- 🛠️ -->
 
 [Sphinx]: http://www.sphinx-doc.org/
 [Markdown]: https://daringfireball.net/projects/markdown/
