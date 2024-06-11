@@ -14,7 +14,8 @@ with open(
 
 # Define the Jinja2 environment and load the template
 env = Environment(
-    loader=FileSystemLoader(os.path.join(script_dir, "../src/ac_microcourses"))
+    loader=FileSystemLoader(os.path.join(script_dir, "../src/ac_microcourses")),
+    keep_trailing_newline=True,
 )
 overview_template = env.get_template("overview.md.jinja")
 index_template = env.get_template("index.md.jinja")
