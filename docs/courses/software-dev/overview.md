@@ -1,16 +1,16 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.jinja.md. --->
 
+# Software Development for Self-driving Labs
 
 
 
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
 
-```{margin}
 
-```
 
 
 
@@ -18,8 +18,7 @@ Elevate your software development skills in the context of self-driving laborato
 ````{dropdown} 🔑 Prerequisites
 :open:
 
-```{include} ./hardware-note.md
-```
+
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
@@ -183,7 +182,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
 
 ```{dropdown} ⚖️ Course Assessments and Grading Schema
 
-<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
 ```
 

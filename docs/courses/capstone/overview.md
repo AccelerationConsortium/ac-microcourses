@@ -1,16 +1,16 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.jinja.md. --->
 
+# AC Training Lab Design Project
 
 
 
 Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base.
 
-```{margin}
 
-```
 
 
 
@@ -18,8 +18,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 ````{dropdown} 🔑 Prerequisites
 :open:
 
-```{include} ./hardware-note.md
-```
+
 
 💡 Introduction to AI for Discovery using Self-driving Labs<br>📈 AI and Materials Databases for Self-driving Labs<br>🦾 Autonomous Systems for Self-driving Labs<br>🧑‍💻 Software Development for Self-driving Labs
 

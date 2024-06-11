@@ -1,22 +1,25 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.jinja.md. --->
+
+# Introduction to AI for Discovery using Self-driving Labs
 
 
-
-````{margin}
 ```{note}
-[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs)! Course quizzes and grades are available at https://q.utoronto.ca/.
+:class: margin
+[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections)! Course quizzes and grades are available at https://q.utoronto.ca/.
 ```
-````
 
 
 In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming with a Pico W (Module 2), Bayesian optimization with the Ax Platform (Module 3), hardware/software communication with MQTT (Module 4), and database integration with MongoDB (Module 5). Finally, you will piece together the individual components to create your very own SDL demo (Module 6). This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
 
+
 ```{margin}
 Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself.
 ```
+
 
 ```{image} ./images/clslab-light.gif
 :align: center
@@ -29,8 +32,10 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 ````{dropdown} 🔑 Prerequisites
 :open:
 
+
 ```{include} ./hardware-note.md
 ```
+
 
 For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
@@ -140,7 +145,7 @@ The orientation modules are intended to be completed in under one hour in total.
 
 ```{dropdown} ⚖️ Course Assessments and Grading Schema
 
-<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
 ```
 

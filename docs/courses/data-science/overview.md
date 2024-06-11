@@ -1,16 +1,20 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
 
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.jinja.md. --->
 
+# AI and Materials Databases for Self-driving Labs
 
 
 
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms.
 
+
 ```{margin}
 *Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*
 ```
+
 
 ![](./images/ax-repo/bo_1d_opt.gif)
 
@@ -18,8 +22,7 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 ````{dropdown} 🔑 Prerequisites
 :open:
 
-```{include} ./hardware-note.md
-```
+
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
@@ -146,7 +149,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
 
 ```{dropdown} ⚖️ Course Assessments and Grading Schema
 
-<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
 ```
 
