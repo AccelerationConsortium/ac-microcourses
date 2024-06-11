@@ -51,11 +51,11 @@ Begin
 ```{toctree}
 :hidden:
 
-{% if registration_link %}
-Register {octicon}`link-external;1em` <{{ registration_link }}>
+{%- if registration_link %}
+Register <{{ registration_link }}>
 {% else %}
-Waitlist {octicon}`link-external;1em` <{{ waitlist_link }}>
-{% endif %}
+Waitlist <{{ waitlist_link }}>
+{% endif -%}
 Overview <overview>
-Content <modules>
+Modules <modules>
 ```
