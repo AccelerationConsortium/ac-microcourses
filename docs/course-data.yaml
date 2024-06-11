@@ -1,8 +1,9 @@
 hello-world:
   # course_title: "Building a 'Hello World' for self-driving labs"
+  course_shortname: "Hello World"
   course_title: "Introduction to AI for Discovery using Self-driving Labs"
   course_emoji: "💡"
-  registration_link: "https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs"
+  registration_link: "https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections"
   description: "In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming with a Pico W (Module 2), Bayesian optimization with the Ax Platform (Module 3), hardware/software communication with MQTT (Module 4), and database integration with MongoDB (Module 5). Finally, you will piece together the individual components to create your very own SDL demo (Module 6). This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses."
   media_command: |
     ```{image} ./images/clslab-light.gif
@@ -204,15 +205,17 @@ hello-world:
     #     - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
     #     - "Pytest: verify that a capped collection has been set up per instructions"
     #     - "Pytest: verify that the data is being actively logged to the database and validate the schema"
-  course_assessments_and_grading_schema: "<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>"
+  course_assessments_and_grading_schema: "<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>"
 
   developers:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 data-science:
+  course_shortname: "Data Science"
   course_title: "AI and Materials Databases for Self-driving Labs"
   course_emoji: "📊"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs"
+  waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261&notify=section&_gl=1*17hect6*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDE.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc2MDIuNTMuMC4w"
   description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms."
   media_command: "![](./images/ax-repo/bo_1d_opt.gif)"
   media_caption: "*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*"
@@ -384,9 +387,11 @@ data-science:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 robotics:
+  course_shortname: "Robotics"
   course_title: "Autonomous Systems for Self-driving Labs"
   course_emoji: "🦾"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs"
+  waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513&notify=section&_gl=1*1htp84v*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDEuMTgwMDIzMTk5Ni4xNzE4MTE3NzM4LjE3MTgxMTc3Mzg.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc3NTUuNTIuMC4w"
   description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a microcontroller, a motor driver, and a workflow orchestration package. You'll also learn to control mobile cobots and perform spatial referencing and ID recognition via computer vision. The course will conclude with a solid sample transfer workflow using a multi-axis robot. Remotely accessible resources will be provided as necessary."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
   media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
@@ -460,9 +465,11 @@ robotics:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 software-dev:
+  course_shortname: "Software Dev."
   course_title: "Software Development for Self-driving Labs"
   course_emoji: "👩‍💻"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs"
+  waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551&notify=section&_gl=1*uy3jqu*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDEuMTgwMDIzMTk5Ni4xNzE4MTE3NzM4LjE3MTgxMTc5NTY.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc5ODYuNDUuMC4w"
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
   media_command: ""
   media_caption: ""
@@ -609,9 +616,11 @@ software-dev:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 capstone:
+  course_shortname: "Design Project"
   course_title: "AC Training Lab Design Project"
   course_emoji: "🏢"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4134-acceleration-consortium-training-lab-design-project"
+  waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796&notify=section&_gl=1*vxlhna*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDEuMTgwMDIzMTk5Ni4xNzE4MTE3NzM4LjE3MTgxMTgwMDM.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTgwMzUuNjAuMC4w"
   description: "Turn your self-driving lab expertise into a real-world project. During this course, you will propose, design, and build a self-driving laboratory at the AC training lab equipped with education- and research-grade equipment including liquid handlers, solid dispensers, Cartesian-axis systems, and mobile robotic arms. Prior to arrival, you'll create schematic figures, write white papers, and present your proposals to a team of scientists. During a week-long in-person experience, you'll implement your proposal and document your progress. After the visit, you will share your designs, data, and documentation to contribute to the public knowledge base."
   media_command: ""
   media_caption: ""
