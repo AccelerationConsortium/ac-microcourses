@@ -1,23 +1,26 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
-{# The above note is so that people know not to edit the overview.md files directly.
+{# The note below is so that people know not to edit the overview.md files directly.
 It does not refer to this (overview.md.jinja) file #}
 
-{# # {{ course_emoji }} {{ course_title }} #}
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.jinja.md. --->
+
+# {{ course_title }}
 
 {% if registration_link %}
-````{margin}
 ```{note}
+:class: margin
 [Registration is live]({{ registration_link }})! Course quizzes and grades are available at https://q.utoronto.ca/.
 ```
-````
 {% endif %}
 
 {{description}}
 
+{% if media_caption %}
 ```{margin}
 {{ media_caption }}
 ```
+{% endif %}
 
 {{ media_command }}
 
@@ -25,8 +28,10 @@ It does not refer to this (overview.md.jinja) file #}
 ````{dropdown} 🔑 Prerequisites
 :open:
 
+{% if course_key == "hello-world" %}
 ```{include} ./hardware-note.md
 ```
+{% endif %}
 
 {{ recommended_prerequisites }}
 
