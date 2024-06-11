@@ -33,8 +33,6 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ![flowchart](course-flowchart-black-border.png)
 
-## Content
-
 ```{toctree}
 :maxdepth: 3
 :includehidden:
