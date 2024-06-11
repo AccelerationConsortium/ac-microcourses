@@ -7,7 +7,7 @@ In this course, you will build a minimal working example for a self-driving lab,
 :::{grid-item-card}  Registration
 Register to gain access to quizzes and assignments.
 +++
-```{button-link} https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs
 :color: info
 :expand:
 :click-parent:
@@ -40,10 +40,7 @@ Begin
 
 ```{toctree}
 :hidden:
-
-
-Register {octicon}`link-external;1em` <https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections>
-
+Register <https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs>
 Overview <overview>
-Content <modules>
+Modules <modules>
 ```

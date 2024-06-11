@@ -9,7 +9,7 @@ or modify src/ac_microcourses/overview.jinja.md. --->
 
 ```{note}
 :class: margin
-[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs#sections)! Course quizzes and grades are available at https://q.utoronto.ca/.
+[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs)! Course quizzes and grades are available at https://q.utoronto.ca/.
 ```
 
 

@@ -40,10 +40,7 @@ Begin
 
 ```{toctree}
 :hidden:
-
-
-Waitlist {octicon}`link-external;1em` <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261&notify=section&_gl=1*17hect6*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDE.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc2MDIuNTMuMC4w>
-
+Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261&notify=section&_gl=1*17hect6*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDE.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc2MDIuNTMuMC4w>
 Overview <overview>
-Content <modules>
+Modules <modules>
 ```
