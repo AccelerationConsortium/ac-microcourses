@@ -46,8 +46,6 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 
 ## Content
 
-Find below an outline of the content within this website.
-
 ```{toctree}
 :maxdepth: 5
 💡 Course 1: Hello World <courses/hello-world/index>
