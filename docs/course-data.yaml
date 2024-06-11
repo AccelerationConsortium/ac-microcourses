@@ -33,6 +33,7 @@ hello-world:
   orientation:
     - "Course overview"
     - "Certificate overview" # TODO: Where does Alan's YouTube video fit in, if at all? Certificate overview perhaps?
+  course_assessments_and_grading_schema: "<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>"
   module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 3-4 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
     - module_name: "0. Orientation"
@@ -205,7 +206,6 @@ hello-world:
     #     - "Quiz: match the data type with the name of each sensor (e.g., AS7341)"
     #     - "Pytest: verify that a capped collection has been set up per instructions"
     #     - "Pytest: verify that the data is being actively logged to the database and validate the schema"
-  course_assessments_and_grading_schema: "<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>"
 
   developers:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
@@ -231,6 +231,9 @@ data-science:
     - "Advanced Bayesian optimization"
     - "Workflow orchestration"
     - "Benchmarking"
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
+  developers:
+    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Intro to Bayesian optimization"
@@ -382,9 +385,6 @@ data-science:
         - "Quiz: Provide a link to the HuggingFace model (TBD)"
         - "Pytest: Download a user's dataset via a DOI link and verify that the data is of the correct type and follows the correct schema"
         - "Pytest: Verify that the HuggingFace model can be accessed to return results"
-  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
-  developers:
-    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 robotics:
   course_shortname: "Robotics"
@@ -412,6 +412,9 @@ robotics:
     - "Robotic simulation"
     - "Computer vision"
     - "Automated solid handlers"
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
+  developers:
+    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Controlling pumps and pipettes"
@@ -460,9 +463,6 @@ robotics:
         - "Multi-axis robotics"
       learning_outcomes:
         - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
-  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
-  developers:
-    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 software-dev:
   course_shortname: "Software Dev."
@@ -490,6 +490,9 @@ software-dev:
     - "Documentation"
     - "Compute hardware"
     - "Cloud computing"
+  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
+  developers:
+    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "Deep dive into Git and GitHub"
@@ -611,9 +614,6 @@ software-dev:
       learning_outcomes:
         - "Run an on-demand cloud simulation"
         - "Integrate a cloud simulation into a materials discovery campaign"
-  course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
-  developers:
-    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
 
 capstone:
   course_shortname: "Design Project"
@@ -637,6 +637,9 @@ capstone:
     - "Systems design"
     - "Dissemination"
     - "Interdisciplinary teamwork"
+  course_assessments_and_grading_schema: "Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points."
+  developers:
+    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "This course is expected to take approximately 40 hours to complete."
   modules:
     - module_name: "Project proposal"
@@ -663,6 +666,3 @@ capstone:
         - "Data and documentation"
       learning_outcomes:
         - "Share the designs, data, and documentation publicly"
-  course_assessments_and_grading_schema: "Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points."
-  developers:
-    - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
