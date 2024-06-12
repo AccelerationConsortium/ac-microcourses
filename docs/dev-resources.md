@@ -1,5 +1,7 @@
 # Developer Resources
 
+Find below information related to the development and maintenance of these courses.
+
 ```{toctree}
 :maxdepth: 2
 
