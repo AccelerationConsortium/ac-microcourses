@@ -1,5 +1,3 @@
-<!-- ![](logos/ac-uot-logo.svg) -->
-
 # 📜 Autonomous Systems for Discovery
 
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
@@ -18,8 +16,12 @@ aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 
 Advanced materials hold the potential to improve our lives and our world, but traditional methods of discovery are slow and expensive. "Self-driving" laboratories (SDLs) have the power to fast-track materials discovery by using AI and robotics to run lab experiments autonomously. State-of-the-art SDLs require interdisciplinary teams and skillsets that traditional degree-based programs do not provide. To address this gap, the [Acceleration Consortium @ University of Toronto](https://acceleration.utoronto.ca/) presents the *Autonomous Systems for Discovery* certificate containing short, hands-on courses that will provide familiarity with the terminology, principles, and tools of SDLs.
 
+```{note}
+:class: margin
+If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
+```
 
-The certificate consists of five microcourses:
+## List of Microcourses
 
 |  | Course Title | Learning Outcome | Registration Link | Students |
 |--------|--------------|-------------|------------------| -------- |
@@ -29,9 +31,22 @@ The certificate consists of five microcourses:
 | 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | TBD | N/A |
 | 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | TBD | N/A |
 
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown below. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the AC training lab, where participants will have access to both educational and research-grade equipment.
+## Course Flowchart
 
-![flowchart](course-flowchart-black-border.png)
+```{figure} course-flowchart-light.svg
+:class: only-light
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
+```
+```{figure} course-flowchart-dark.svg
+:class: only-dark
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
+```
+
+## Table of Contents
+
+```{tip}
+You can navigate between pages using the left and right arrow keys.
+```
 
 ```{toctree}
 :maxdepth: 3
@@ -41,9 +56,6 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 🦾 Course 3: Robotics <courses/robotics/index>
 🧑‍💻 Course 4: Software Dev. <courses/software-dev/index>
 🏢 Course 5: Capstone Project <courses/capstone/index>
-```
-```{toctree}
-:maxdepth: 1
 Developer Resources <dev-resources>
 ```
 
