@@ -155,6 +155,13 @@ nb_execution_excludepatterns = [
     "5.*",  # TODO: Capstone notebooks
 ]  # list of patterns
 
+if os.getenv("SMOKE_TEST"):
+    nb_execution_excludepatterns += [
+        "1.3.1-ax-service-api.ipynb",
+        "1.3.2-ax-service-basic.ipynb",
+        "1.5.1-pymongo.ipynb",
+    ]
+
 # with open("variables.json", "r") as f:
 #     myst_substitutions = json.load(f)
 
