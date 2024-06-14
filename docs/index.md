@@ -16,23 +16,22 @@ aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 
 Advanced materials hold the potential to improve our lives and our world, but traditional methods of discovery are slow and expensive. "Self-driving" laboratories (SDLs) have the power to fast-track materials discovery by using AI and robotics to run lab experiments autonomously. State-of-the-art SDLs require interdisciplinary teams and skillsets that traditional degree-based programs do not provide. To address this gap, the [Acceleration Consortium @ University of Toronto](https://acceleration.utoronto.ca/) presents the *Autonomous Systems for Discovery* certificate containing short, hands-on courses that will provide familiarity with the terminology, principles, and tools of SDLs.
 
+## List of Microcourses
+
 ```{note}
 :class: margin
 If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
 ```
 
-## List of Microcourses
-
-|  | Course Title | Learning Outcome | Registration Link | Students |
+|  | Course Title | Learning Outcome | Link | Students |
 |--------|--------------|-------------|------------------| -------- |
 | 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
-| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md) | Write Python scripts to iteratively optimize materials and log results to a database | TBD | N/A |
-| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md) | Write Python scripts to control robots and orchestrate workflows | TBD | N/A |
-| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | TBD | N/A |
-| 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | TBD | N/A |
+| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md) | Write Python scripts to iteratively optimize materials and log results to a database | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261) | N/A |
+| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md) | Write Python scripts to control robots and orchestrate workflows | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513) | N/A |
+| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551) | N/A |
+| 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A |
 
 ## Course Flowchart
-
 ```{figure} course-flowchart-light.svg
 :class: only-light
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
