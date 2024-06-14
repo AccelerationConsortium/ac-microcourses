@@ -21,6 +21,8 @@ import subprocess
 # Run the generate_overview.py script (blocking)
 subprocess.run(["python", "../scripts/generate_overviews.py"])
 
+sleep(2.0)
+
 # -- Path setup --------------------------------------------------------------
 
 __location__ = os.path.dirname(__file__)
@@ -155,10 +157,12 @@ nb_execution_excludepatterns = [
     "5.*",  # TODO: Capstone notebooks
 ]  # list of patterns
 
-if os.getenv("SMOKE_TEST"):
+# SMOKE_TEST = os.getenv("SMOKE_TEST")
+SMOKE_TEST = True
+if SMOKE_TEST:
     nb_execution_excludepatterns += [
         "1.3.1-ax-service-api.ipynb",
-        "1.3.2-ax-service-basic.ipynb",
+        "1.3.2-ax-service-api-basic.ipynb",
         "1.5.1-pymongo.ipynb",
     ]
 
@@ -245,21 +249,19 @@ todo_emit_warnings = True
 # look and feel of a theme further.  For a list of options available for each
 # theme, see the documentation.
 
-# if os.getenv("NAV"):
-#     # tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
-#     html_theme = "sphinx_rtd_theme"
-#     html_theme_options = {
-#         "navigation_depth": 2,
-#         "collapse_navigation": False,
-#         # "prev_next_buttons_location": "both",
-#     }
-# else:
-#     html_theme = "alabaster"
-#     html_theme_options = {
-#         # "sidebar_width": "300px",
-#         # "page_width": "1200px",
-#         "nosidebar": True,
-#     }
+# tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
+# html_theme = "sphinx_rtd_theme"
+# html_theme_options = {
+#     "navigation_depth": 2,
+#     "collapse_navigation": False,
+#     "prev_next_buttons_location": "both",
+# }
+
+# html_theme = "alabaster"
+# html_theme_options = {
+#     # "sidebar_width": "300px",
+#     # "page_width": "1200px",
+# }
 
 html_theme = "sphinx_book_theme"
 html_theme_options = {
@@ -275,13 +277,14 @@ html_theme_options = {
     "home_page_in_toc": True,
     "show_navbar_depth": 1,  # Adjust based on your structure
     "navigation_with_keys": True,
+    # "navbar_center": ["navbar-nav"], # adds Course 1 / Course 2 buttons at top
 }
 
-# html_theme = "pydata_sphinx_theme"
 # html_sidebars = {
 #     "path/to/page": [],
 # }
-# html_theme_options = {"show_prev_next": False, "nosidebar": True}
+# html_theme = "pydata_sphinx_theme"
+# html_theme_options = {"show_prev_next": True, "nosidebar": False}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -320,6 +323,26 @@ html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+
+# Function to add custom CSS for specific pages
+def setup(app):
+    app.add_css_file("default.css")  # This will be your default CSS
+    # Inject custom CSS conditionally based on the page
+    app.connect("html-page-context", add_custom_css)
+
+
+def add_custom_css(app, pagename, templatename, context, doctree):
+    if (
+        pagename == "courses/hello-world/1.1-running-the-demo"
+    ):  # Replace 'specific_page' with your actual page name
+        app.add_css_file("custom.css")
+
+
+# Custom CSS files
+html_css_files = [
+    "default.css",
+]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.

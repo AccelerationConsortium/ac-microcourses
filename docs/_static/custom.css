@@ -1,0 +1,16 @@
+.rubric {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+h1.dummy-heading {
+    font-size: 0.1rem;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
