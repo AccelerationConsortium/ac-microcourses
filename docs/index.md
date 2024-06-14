@@ -18,11 +18,6 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 
 ## List of Microcourses
 
-```{note}
-:class: margin
-If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
-```
-
 |  | Course Title | Learning Outcome | Link | Students |
 |--------|--------------|-------------|------------------| -------- |
 | 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
@@ -39,6 +34,11 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 ```{figure} course-flowchart-dark.svg
 :class: only-dark
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
+```
+
+```{note}
+:class: margin
+If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
 ```
 
 ## Table of Contents
