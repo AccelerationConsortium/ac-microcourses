@@ -27,15 +27,7 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 | 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A |
 
 ## Course Flowchart
-```{figure} course-flowchart-light.svg
-:class: only-light
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
-```
-```{figure} course-flowchart-dark.svg
-:class: only-dark
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
-```
-
+<br>
 ```{note}
 :class: margin
 If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
@@ -45,6 +37,16 @@ If you have questions about these courses, feel free to reach out to [sterling.b
 
 ```{tip}
 You can navigate between pages using the left and right arrow keys.
+```
+
+
+```{figure} course-flowchart-light.svg
+:class: only-light
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
+```
+```{figure} course-flowchart-dark.svg
+:class: only-dark
+The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
 ```
 
 ```{toctree}
