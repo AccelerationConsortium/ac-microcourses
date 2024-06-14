@@ -2,6 +2,13 @@
 
 ## Getting Started
 
+% ```{toctree}
+% :caption: Module 1 - Running the Demo
+% running-the-demo/quiz.md
+% running-the-demo/tutorial.ipynb
+% running-the-demo/assignment.md
+% ```
+
 ```{include} ./../getting-started.md
 ```
 
@@ -39,10 +46,7 @@ Content 2
 
 ::::
 
-## Module 1
-
-### Tutorial
-
+<!--
 ```{nbgallery}
 1.1-running-the-demo.ipynb
 1.2-blink-and-read.ipynb
@@ -51,3 +55,19 @@ Content 2
 1.5-data-logging.ipynb
 1.6-connecting-the-pieces.ipynb
 ```
+-->
+
+<!---
+```{toctree}
+./running-the-demo/index.md
+```
+--->
+
+<!--
+```{toctree}
+:caption: Module 1 - Running the Demo
+running-the-demo/quiz.md
+running-the-demo/tutorial.ipynb
+running-the-demo/assignment.md
+```
+-->

@@ -1,3 +1,8 @@
+
+
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/index.md.jinja. --->
 # AI and Materials Databases for Self-driving Labs
 
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms.
@@ -7,7 +12,7 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 :::{grid-item-card}  Registration
 Sign up to be notified when registration opens.
 +++
-```{button-link} https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261&notify=section&_gl=1*17hect6*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDE.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc2MDIuNTMuMC4w
+```{button-link} https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261
 :color: info
 :expand:
 :click-parent:
@@ -40,7 +45,8 @@ Begin
 
 ```{toctree}
 :hidden:
-Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261&notify=section&_gl=1*17hect6*_gcl_au*MTM3NDA3OTgxLjE3MTc3ODk2MDE.*_ga*NTcwMDY4ODE3LjE2ODkyODk3MTE.*_ga_Z9DCN0QW9H*MTcxODExNzMzNC41My4xLjE3MTgxMTc2MDIuNTMuMC4w>
-Overview <overview>
-Modules <modules>
+Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
+🗺️ Overview <overview>
+🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
+
 ```

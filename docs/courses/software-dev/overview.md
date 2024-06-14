@@ -2,7 +2,7 @@
 
 <!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
 edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
-or modify src/ac_microcourses/overview.jinja.md. --->
+or modify src/ac_microcourses/overview.md.jinja. --->
 
 # 👩‍💻 Software Development: Course Overview
 
