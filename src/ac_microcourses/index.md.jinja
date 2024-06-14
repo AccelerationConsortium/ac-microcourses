@@ -1,3 +1,9 @@
+{# The note below is so that people know not to edit the overview.md files directly.
+It does not refer to this (index.md.jinja) file #}
+
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/index.md.jinja. --->
 # {{ course_title }}
 
 {{description}}
@@ -56,6 +62,8 @@ Register <{{ registration_link }}>
 {% else %}
 Waitlist <{{ waitlist_link }}>
 {% endif -%}
-Overview <overview>
-Modules <modules>
+
+🗺️ Overview <overview>
+🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
+{# Modules <modules> #}
 ```
