@@ -1,7 +1,7 @@
 
 
 <!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
-edit in docs/course-data.yaml and run the [`scripts/generate_overviews.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fsterg%2FDocuments%2FGitHub%2FAccelerationConsortium%2Fac-microcourses%2Fscripts%2Fgenerate_overviews.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\sterg\Documents\GitHub\AccelerationConsortium\ac-microcourses\scripts\generate_overviews.py") file
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
 or modify src/ac_microcourses/overview.md.jinja. --->
 
 # 💡 Hello World: Course Overview
