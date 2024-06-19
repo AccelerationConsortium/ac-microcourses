@@ -45,8 +45,15 @@ Begin
 
 ```{toctree}
 :hidden:
-Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
 🗺️ Overview <overview>
-🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
-
+🧩 Intro to Bayesian optimization <>
+🧩 Mechanics <>
+🧩 Multi-objective optimization <>
+🧩 Constrained optimization <>
+🧩 High-dimensional optimization <>
+🧩 Batch/asynchronous optimization <>
+🧩 Featurization <>
+🧩 Multi-fidelity/multi-task <>
+🧩 Benchmark datasets/models <>
 ```

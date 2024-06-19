@@ -1,7 +1,7 @@
 
 
 <!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
-edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+edit in docs/course-data.yaml and run the [`scripts/generate_overviews.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fsterg%2FDocuments%2FGitHub%2FAccelerationConsortium%2Fac-microcourses%2Fscripts%2Fgenerate_overviews.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\sterg\Documents\GitHub\AccelerationConsortium\ac-microcourses\scripts\generate_overviews.py") file
 or modify src/ac_microcourses/overview.md.jinja. --->
 
 # 📊 Data Science: Course Overview
@@ -19,16 +19,14 @@ Unleash the power of data science in the realm of self-driving laboratories. Thi
 ![](./images/ax-repo/bo_1d_opt.gif)
 
 
-````{dropdown} 🔑 Prerequisites
-:open:
+## 🔑 Prerequisites
 
 
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
 
-````
 
-```{dropdown} 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 
 - Describe and categorize a materials discovery task using data science language and concepts
@@ -40,9 +38,8 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 - Develop and execute a program to upload a dataset to a public database, construct a benchmark model, and deploy it online, illustrating proficiency in data sharing and model hosting
 
 
-```
 
-```{dropdown} 🛠️ Competencies/Skills
+## 🛠️ Competencies/Skills
 
 
 - Data science literacy
@@ -56,9 +53,8 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 - Benchmarking
 
 
-```
 
-```{dropdown} 🧩 Modules
+## 🧩 Modules
 
 Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met.
 
@@ -147,16 +143,12 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
 
 ```
 
-```{dropdown} ⚖️ Course Assessments and Grading Schema
+## ⚖️ Course Assessments and Grading Schema
 
 <p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
-```
 
-```{dropdown} 👤 Course developer(s)
+## 👤 Course developer(s)
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
-
-
-```

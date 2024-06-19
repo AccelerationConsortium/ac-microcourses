@@ -45,8 +45,9 @@ Begin
 
 ```{toctree}
 :hidden:
-Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796>
 🗺️ Overview <overview>
-🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
-
+🧩 Project proposal <>
+🧩 Design and execution <>
+🧩 Dissemination <>
 ```

@@ -1,7 +1,7 @@
 
 
 <!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
-edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+edit in docs/course-data.yaml and run the [`scripts/generate_overviews.py`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fsterg%2FDocuments%2FGitHub%2FAccelerationConsortium%2Fac-microcourses%2Fscripts%2Fgenerate_overviews.py%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\sterg\Documents\GitHub\AccelerationConsortium\ac-microcourses\scripts\generate_overviews.py") file
 or modify src/ac_microcourses/overview.md.jinja. --->
 
 # 💡 Hello World: Course Overview
@@ -29,8 +29,7 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 
 
 
-````{dropdown} 🔑 Prerequisites
-:open:
+## 🔑 Prerequisites
 
 
 ```{include} ./hardware-note.md
@@ -39,9 +38,8 @@ Animated schematic diagram of the 'Hello World' demo: A microcontroller controls
 
 For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
 
-````
 
-```{dropdown} 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 
 - Define and explain key terms and principles of self-driving labs to demonstrate understanding
@@ -57,9 +55,8 @@ For participants to complete this course within the expected timeframe (approx. 
 - Integrate the individual SDL components to orchestrate the full 'Hello World' workflow
 
 
-```
 
-```{dropdown} 🛠️ Competencies/Skills
+## 🛠️ Competencies/Skills
 
 
 - Basic self-driving lab literacy
@@ -75,9 +72,8 @@ For participants to complete this course within the expected timeframe (approx. 
 - Workflow orchestration
 
 
-```
 
-```{dropdown} 🧩 Modules
+## 🧩 Modules
 
 The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 3-4 hours each, assuming that the recommended prerequisites from above have been met.
 
@@ -88,7 +84,7 @@ The orientation modules are intended to be completed in under one hour in total.
   - Topics
   - Learning Outcomes
 
-* - 0. Orientation
+* - 1.0 Orientation
   - * Git
     * GitHub
     * Version control
@@ -100,7 +96,7 @@ The orientation modules are intended to be completed in under one hour in total.
     * Run a unit test and fix a simple Python function
     * Define continuous integration
 
-* - 1. Running the SDL demo
+* - 1.1 Run the Demo
   - * Database management
     * Bayesian optimization
     * Microcontrollers
@@ -108,13 +104,13 @@ The orientation modules are intended to be completed in under one hour in total.
     * Preview an end-to-end self-driving lab
     * Upload software to a microcontroller
 
-* - 2. Blink and read
+* - 1.2 Blink and read
   - * Microcontrollers
     * MicroPython
   - * Write MicroPython scripts
     * Use a microcontroller
 
-* - 3. Bayesian optimization
+* - 1.3 Bayesian optimization
   - * Design of experiments
     * Bayesian optimization
     * Data visualization
@@ -122,20 +118,20 @@ The orientation modules are intended to be completed in under one hour in total.
     * Compare Bayesian optimization with other search methods
     * Visualize optimization efficiency
 
-* - 4. Device communication
+* - 1.4 Device communication
   - * MQTT
     * Broker/client
   - * Send commands to a microcontroller
     * Receive sensor data from a microcontroller
 
-* - 5. Data logging
+* - 1.5 Data logging
   - * MongoDB
     * Database management
   - * Set up a MongoDB account and database
     * Upload data directly from microcontroller
     * Extract and collate data from database
 
-* - 6. Connecting the pieces
+* - 1.6 Connecting the pieces
   - * Systems design
   - * Describe how individual components of an SDL can be integrated
     * Perform system-level debugging and troubleshooting
@@ -143,16 +139,12 @@ The orientation modules are intended to be completed in under one hour in total.
 
 ```
 
-```{dropdown} ⚖️ Course Assessments and Grading Schema
+## ⚖️ Course Assessments and Grading Schema
 
 <p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
 
-```
 
-```{dropdown} 👤 Course developer(s)
+## 👤 Course developer(s)
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
-
-
-```

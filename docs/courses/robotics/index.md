@@ -45,8 +45,12 @@ Begin
 
 ```{toctree}
 :hidden:
-Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
 🗺️ Overview <overview>
-🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
-
+🧩 Controlling pumps and pipettes <>
+🧩 Serial communication <>
+🧩 Automated liquid handlers <>
+🧩 Mobile robotics <>
+🧩 Computer vision <>
+🧩 Solid sample transfer <>
 ```

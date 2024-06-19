@@ -45,8 +45,15 @@ Begin
 
 ```{toctree}
 :hidden:
-Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
 🗺️ Overview <overview>
-🧩 Module 1: Run the Demo <1.1-running-the-demo.ipynb>
-
+🧩 Deep dive into Git and GitHub <>
+🧩 Setting up VS Code <>
+🧩 Debugging in VS Code <>
+🧩 Unit testing <>
+🧩 Automated documentation <>
+🧩 Continuous integration (CI) <>
+🧩 Project templates <>
+🧩 Launching a free cloud server <>
+🧩 On-demand cloud simulations <>
 ```
