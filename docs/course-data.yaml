@@ -36,7 +36,7 @@ hello-world:
   course_assessments_and_grading_schema: "<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>"
   module_note: "The orientation modules are intended to be completed in under one hour in total. The modules after are intended to take approximately 3-4 hours each, assuming that the recommended prerequisites from above have been met."
   modules:
-    - module_name: "0. Orientation"
+    - module_name: "1.0 Orientation"
       topics:
         - "Git"
         - "GitHub"
@@ -49,12 +49,13 @@ hello-world:
         - "Commit, push, and pull changes"
         - "Run a unit test and fix a simple Python function"
         - "Define continuous integration"
+      tutorial_file: 1.0-orientation.md
       assessments:
         - "Quiz: Enter your GitHub classroom ID and your GitHub username"
         - "Quiz: Match terms with definitions"
         - "Pytest: Update a Python file to return the correct string"
         - "Quiz: Self-report the overall GitHub Classroom score"
-    - module_name: "1. Running the SDL demo"
+    - module_name: "1.1 Run the Demo"
       topics:
         - "Database management"
         - "Bayesian optimization"
@@ -63,6 +64,7 @@ hello-world:
         - "Describe key terms and principles of self-driving labs"
         - "Preview an end-to-end self-driving lab"
         - "Upload software to a microcontroller"
+      tutorial_file: 1.1-running-the-demo.ipynb
       tutorial:
         - "Video: build instructions for the SDL demo https://youtu.be/D54yfxRSY6s?si=fjS6yxr-mKb3yBEp"
         - "Building a hello world for self-driving labs: https://doi.org/10.1016/j.xpro.2023.102329"
@@ -74,13 +76,14 @@ hello-world:
         # - "Pytest: Check that source code from a zip file is copy-pasted into a certain file"
         # - "Pytest: Check that a 'test' demo database entry exists that contains their course identifier"
         - "Pytest: Check for a test entry with their course identifier from the public database"
-    - module_name: "2. Blink and read"
+    - module_name: "1.2 Blink and read"
       topics:
         - "Microcontrollers"
         - "MicroPython"
       learning_outcomes:
         - "Write MicroPython scripts"
         - "Use a microcontroller"
+      tutorial_file: 1.2-blink-and-read.ipynb
       tutorial:
         - "Blink LED on Pico W tutorial (Getting started with the Pico W or similar)"
         - "NeoPixel tutorial"
@@ -95,7 +98,7 @@ hello-world:
         - "Pytest: Verify that a filled in function (that uses a dummy class for AS7341) returns the expected data"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that blinks an LED"
         # - "Quiz & ungraded pytest: Check that some command line output (that users copy-pasted from Thonny terminal) matches the answer key for a script that reads the sensor data"
-    - module_name: "3. Bayesian optimization"
+    - module_name: "1.3 Bayesian optimization"
       topics:
         - "Design of experiments"
         - "Bayesian optimization"
@@ -104,6 +107,7 @@ hello-world:
         - "Adapt a Bayesian optimization script to perform color-matching"
         - "Compare Bayesian optimization with other search methods"
         - "Visualize optimization efficiency"
+      tutorial_file: 1.3-bayesian-optimization.ipynb
       tutorial:
         - "Video: A gentle introduction to Bayesian optimization | https://youtu.be/IVaWl2tL06c?si=P5dQFs4pX5TxsYxS"
         - "grid vs. random vs. Bayes (sort of from scratch) tutorial: https://towardsdatascience.com/grid-search-vs-random-search-vs-bayesian-optimization-2e68f57c3c46"
@@ -121,13 +125,14 @@ hello-world:
         - "Pytest: Verify that the filled in code for random search with a specific set of seeds reaches a particular outcome (i.e., match the numbers) for Branin function."
         - "Pytest: Verify that the filled in code for Bayesian optimization with a specific set of seeds and a fixed Ax version reaches a particular outcome (i.e., match the numbers)  for Branin function."
         - "Pytest: Verify that the data to be placed in a matplotlib figure for 'best result so far' vs. iteration number matches the answer key for a specific set of seeds for Branin function"
-    - module_name: "4. Device communication"
+    - module_name: "1.4 Device communication"
       topics:
         - "MQTT"
         - "Broker/client"
       learning_outcomes:
         - "Send commands to a microcontroller"
         - "Receive sensor data from a microcontroller"
+      tutorial_file: 1.4-hardware-software-communication.ipynb
       tutorial:
         - "Video: What is MQTT? (or some equivalent, keep it to ~5 minutes maybe? Could be part 1 of HiveMQ MQTT essentials https://www.youtube.com/playlist?list=PLRkdoPznE1EMXLW6XoYLGd4uUaB6wB0wd)"
         - "Create a HiveMQ account and broker"
@@ -142,7 +147,7 @@ hello-world:
         # - "Pytest: Verify the broker is working by running it with the pre-built CLSLab:Light demo (reuse the 'running the demo' pytest)."
         - "Pytest: Verify that a message can be sent using the HiveMQ secrets that were supplied, and that it's not the one provided publicly by me. Have it be the sending and receiving of the onboard LED command and the onboard temperature, respectively."
         - "Pytest: Verify that a user-implemented CLSLab:Light message gets sent/received properly (i.e., adapted optimization pytest from 'running the demo' or just a simple message)"
-    - module_name: "5. Data logging"
+    - module_name: "1.5 Data logging"
       topics:
         - "MongoDB"
         - "Database management"
@@ -150,6 +155,7 @@ hello-world:
         - "Set up a MongoDB account and database"
         - "Upload data directly from microcontroller"
         - "Extract and collate data from database"
+      tutorial_file: 1.5-data-logging.ipynb
       tutorial:
         - "Video: What is FAIR data"
         - "What does FAIR data look like in chemistry and materials science?"
@@ -182,9 +188,10 @@ hello-world:
     #   assessments:
     #     - "Quiz: Match terms with definitions (workflow orchestration, Prefect, flow, task, state, schedule, trigger, parameter, parameterized, flow run, flow run ID, flow run state, flow run log, flow run result, flow run artifact, flow run parameter, flow run parameter value)"
     #     - "Quiz: Fill-in-the-blank statements (x calls y, y calls z)"
-    - module_name: "6. Connecting the pieces"
+    - module_name: "1.6 Connecting the pieces"
       topics:
         - "Systems design"
+      tutorial_file: 1.6-connecting-the-pieces.ipynb
       learning_outcomes:
         - "Describe how individual components of an SDL can be integrated"
         - "Perform system-level debugging and troubleshooting"
