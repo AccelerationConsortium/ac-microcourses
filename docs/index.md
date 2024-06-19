@@ -27,19 +27,10 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 | 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A |
 
 ## Course Flowchart
-<br>
 ```{note}
 :class: margin
 If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
 ```
-
-## Table of Contents
-
-```{tip}
-You can navigate between pages using the left and right arrow keys.
-```
-
-
 ```{figure} course-flowchart-light.svg
 :class: only-light
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
@@ -49,8 +40,14 @@ The microcourses progress in three stages—introduction, deeper dives, and caps
 The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Training Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
 ```
 
+## Table of Contents
+
+```{tip}
+You can navigate between pages using the left and right arrow keys.
+```
+
 ```{toctree}
-:maxdepth: 3
+:maxdepth: 2
 :includehidden:
 💡 Course 1: Hello World <courses/hello-world/index>
 📈 Course 2: Data Science <courses/data-science/index>
