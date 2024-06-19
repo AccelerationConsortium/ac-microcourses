@@ -25,8 +25,7 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 {{ media_command }}
 
 
-````{dropdown} 🔑 Prerequisites
-:open:
+## 🔑 Prerequisites
 
 {% if course_key == "hello-world" %}
 ```{include} ./hardware-note.md
@@ -35,25 +34,22 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 
 {{ recommended_prerequisites }}
 
-````
 
-```{dropdown} 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 {% for outcome in learning_outcomes %}
 - {{ outcome }}
 {% endfor %}
 
-```
 
-```{dropdown} 🛠️ Competencies/Skills
+## 🛠️ Competencies/Skills
 
 {% for skill in competencies_skills %}
 - {{ skill }}
 {% endfor %}
 
-```
 
-```{dropdown} 🧩 Modules
+## 🧩 Modules
 
 {{ module_note }}
 
@@ -76,16 +72,13 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 {% endfor %}
 ```
 
-```{dropdown} ⚖️ Course Assessments and Grading Schema
+## ⚖️ Course Assessments and Grading Schema
 
 {{ course_assessments_and_grading_schema }}
 
-```
 
-```{dropdown} 👤 Course developer(s)
+## 👤 Course developer(s)
 
 {% for developer in developers %}
 - {{ developer }}
 {% endfor %}
-
-```
