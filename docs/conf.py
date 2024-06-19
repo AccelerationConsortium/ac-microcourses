@@ -12,6 +12,7 @@ import sys
 import shutil
 from time import sleep
 import subprocess
+import re
 
 # import json
 
@@ -325,24 +326,19 @@ html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
 html_static_path = ["_static"]
 
 
-# Function to add custom CSS for specific pages
-def setup(app):
-    app.add_css_file("default.css")  # This will be your default CSS
-    # Inject custom CSS conditionally based on the page
-    app.connect("html-page-context", add_custom_css)
-
-
-def add_custom_css(app, pagename, templatename, context, doctree):
-    if (
-        pagename == "courses/hello-world/1.1-running-the-demo"
-    ):  # Replace 'specific_page' with your actual page name
-        app.add_css_file("custom.css")
-
-
-# Custom CSS files
-html_css_files = [
-    "default.css",
-]
+# # Function to add custom CSS for specific pages
+# def setup(app):
+#     app.add_css_file("default.css")  # This will be your default CSS
+#     # Inject custom CSS conditionally based on the page
+#     app.connect("html-page-context", add_custom_css)
+# def add_custom_css(app, pagename, templatename, context, doctree):
+#     pattern = re.compile(r"courses/.+/\d+\.\d+(\.\d+)?-.*")
+#     if pattern.match(pagename):
+#         app.add_css_file("custom.css")
+# # Custom CSS files
+# html_css_files = [
+#     "default.css",
+# ]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -447,34 +443,3 @@ intersphinx_mapping = {
 }
 
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
-
-
-# %% Code Graveyard
-
-# # Old code for dynamically getting thumbnail images for nbsphinx, easier to hard-code for now
-
-# # Specify the root directory
-# root_dir = 'courses'
-
-# # Initialize the dictionary
-# nbsphinx_thumbnails = {}
-
-# # Walk through the directory
-# for dirpath, dirnames, filenames in os.walk(root_dir):
-#     for filename in filenames:
-#         # Check if the file is a notebook
-#         if filename.endswith('.ipynb'):
-#             # Construct the key by removing the root directory and the file extension
-#             key = os.path.join(dirpath, filename)[len(root_dir)+1:-len('.ipynb')]
-#             # Construct the value by replacing the slashes with dashes and adding the directory and extension
-#             value = '_static/' + key.replace('/', '-') + '.png'
-#             # Add the key-value pair to the dictionary
-#             nbsphinx_thumbnails[key] = value
-
-# # Print the dictionary
-# print("nbsphinx_thumbnails = ", nbsphinx_thumbnails)
-
-# nbsphinx_thumbnails = {myst
-#     "courses/hello-world/1.1-running-the-demo": "_static/1.1-running-the-demo.png",
-#     ...
-# }
