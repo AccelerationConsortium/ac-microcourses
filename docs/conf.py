@@ -99,6 +99,8 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
+# maybe unnecessary now (NOTE: I renamed 2.* files, but have not updated them
+# below - not sure if this affects whether these will run or not)
 nbsphinx_thumbnails = {
     "courses/hello-world/1.1-running-the-demo": "_static/sdl-demo/star-protocols-graphical-abstract.png",
     "courses/hello-world/1.2-blink-and-read": "_static/sdl-demo/green-led.jpg",
