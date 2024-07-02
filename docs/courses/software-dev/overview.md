@@ -1,7 +1,10 @@
-<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead, edit
-in docs/course-data.yaml and run the `scripts/generate_overviews.py` file. --->
 
-# 👩‍💻 Software Development for Self-driving Labs
+
+<!--- WARNING: THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Instead,
+edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
+or modify src/ac_microcourses/overview.md.jinja. --->
+
+# 👩‍💻 Software Development: Course Overview
 
 
 
@@ -10,33 +13,52 @@ Elevate your software development skills in the context of self-driving laborato
 
 
 
-## 🔑 Recommended Prerequisites
+
+
+## 🔑 Prerequisites
+
+
 
 The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
-
 
 
 ## 🎯 Learning Outcomes
 
 
 - Enumerate and explain software development best practices along with their corresponding benefits, demonstrating understanding and recall
+
 - Identify and evaluate various productivity tools for developers, highlighting how they enhance efficiency, to demonstrate analytical and selection skill
+
 - Compose and execute unit tests using pytest to validate code functionality, demonstrating application and analysis skills in software testing
+
 - Generate comprehensive Python documentation utilizing Sphinx and Read The Docs, illustrating proficiency in documentation practices and tools
+
 - Design and deploy a continuous integration (CI) pipeline using GitHub Actions, showcasing the ability to integrate and automate software development processes
+
 - Construct a reusable project template using PyScaffold, demonstrating skills in enhancing project setup efficiency and standardization
+
 - Initiate and manage a cloud or local hardware server to execute a materials discovery campaign, demonstrating capabilities in server management and deployment for scientific computing
+
 - Set up and execute an offline simulation on a cloud hosting service, illustrating the ability to leverage cloud resources for complex computational tasks
+
+
 
 ## 🛠️ Competencies/Skills
 
 
 - Software development literacy
+
 - Version control
+
 - Unit testing
+
 - Documentation
+
 - Compute hardware
+
 - Cloud computing
+
+
 
 ## 🧩 Modules
 
@@ -156,16 +178,10 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
 
 ## ⚖️ Course Assessments and Grading Schema
 
-<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by six subsequent modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
+<p>Each student is required to complete various quizzes and GitHub Classroom assignments. The course is structured into an orientation module followed by several modules. The course is graded on a pass/fail basis with 70% as the threshold for passing. Here is the breakdown of the points for each part of the course:</p><ul><li>🧭 Orientation Module: Worth 15 points.</li><li>📚 Modules 1-6: Each includes:<ul><li>🧭 A guided notebook tutorial (ungraded)</li><li>📓 A knowledge check (graded, 5 points)</li><li>🛠️ A GitHub Classroom assignment (graded, 10 points*)</li></ul></li></ul><p>*The final module's GitHub Classroom assignment is worth 30 points.</p><p>Note that partial points are available on certain assignments.</p>
+
 
 ## 👤 Course developer(s)
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
-
-
-<div align="center">
-
-[⬅️ Return to list of microcourses](../../index.md#microcourses)
-
-</div>
