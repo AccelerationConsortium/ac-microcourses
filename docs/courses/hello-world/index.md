@@ -30,16 +30,18 @@ View prerequisites, learning outcomes, and topics.
 Explore
 ```
 :::
+
 :::{grid-item-card}  Course Content
 Begin working through modules, one-by-one.
 +++
-```{button-ref} modules
+```{button-ref} 1.0-orientation
 :color: info
 :expand:
 :click-parent:
 Begin
 ```
 :::
+
 ::::
 
 
