@@ -8,7 +8,6 @@ myst-nb
 # under `install_requires` in `setup.cfg` is also listed here!
 myst-parser[linkify]
 nbsphinx
-nbsphinx
 nbsphinx-link
 numpy # for 1.3 notebook
 paho-mqtt # for 1.4.1 notebook
