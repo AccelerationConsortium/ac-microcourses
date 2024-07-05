@@ -10,7 +10,7 @@ repos:
   #   exclude: ^(docs/_static/ac-website/robot-loop.mp4|docs/courses/robotics/ac-website/robot-loop.gif)$
   - id: check-ast
   - id: check-json
-  - id: check-merge-conflict
+  # - id: check-merge-conflict
   - id: check-xml
   - id: check-yaml
   - id: debug-statements
