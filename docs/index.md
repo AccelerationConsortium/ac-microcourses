@@ -20,13 +20,13 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 
 ## List of Microcourses
 
-|  | Course Title | Learning Outcome | Link | Students |
-|--------|--------------|-------------|------------------| -------- |
-| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> |
-| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md) | Write Python scripts to iteratively optimize materials and log results to a database | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261) | N/A |
-| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md) | Write Python scripts to control robots and orchestrate workflows | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513) | N/A |
-| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551) | N/A |
-| 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A |
+|  | Course Title | Learning Outcome | Link | Students | Completions |
+|--------|--------------|-------------|------------------| -------- | ----------- |
+| 💡    | [Introduction to AI for Discovery using Self-driving Labs](courses/hello-world/index.md) | Recreate a color-matching SDL from scratch using LEDs and a light sensor | [Register](https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs) | <span id="helloWorldStudentCount" class="student-count">Loading...</span> | <span id="helloWorldCompletionCount" class="completion-count">Loading...</span> |
+| 📈    | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md) | Write Python scripts to iteratively optimize materials and log results to a database | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261) | N/A | N/A |
+| 🦾    | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md) | Write Python scripts to control robots and orchestrate workflows | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513) | N/A | N/A |
+| 🧑‍💻    | [Software Development for Self-driving Labs](courses/software-dev/index.md) | Leverage software development tools and implement best practices | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551) | N/A | N/A |
+| 🏢    | [AC Training Lab Design Project](courses/capstone/index.md) | Develop, defend, and execute a project proposal | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A | N/A |
 
 ## Course Flowchart
 ```{note}
