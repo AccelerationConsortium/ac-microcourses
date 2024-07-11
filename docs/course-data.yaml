@@ -53,7 +53,7 @@ hello-world:
         - "Quiz: Match terms with definitions"
         - "Pytest: Update a Python file to return the correct string"
         - "Quiz: Self-report the overall GitHub Classroom score"
-    - module_name: "1.1 Run the Demo"
+    - module_name: "1.1 Run the demo"
       topics:
         - "Database management"
         - "Bayesian optimization"
