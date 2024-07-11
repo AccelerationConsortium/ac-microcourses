@@ -9,16 +9,6 @@ In this course, you will build a minimal working example for a self-driving lab,
 
 ::::{grid} 1 2 3 3
 
-:::{grid-item-card}  Registration
-Register to gain access to quizzes and assignments.
-+++
-```{button-link} https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs
-:color: info
-:expand:
-:click-parent:
-Register {octicon}`link-external;1em`
-```
-
 :::
 :::{grid-item-card}  Overview
 View prerequisites, learning outcomes, and topics.
@@ -30,6 +20,16 @@ View prerequisites, learning outcomes, and topics.
 Explore
 ```
 :::
+
+:::{grid-item-card}  Registration
+Register to gain access to quizzes and assignments.
++++
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs
+:color: info
+:expand:
+:click-parent:
+Register {octicon}`link-external;1em`
+```
 
 :::{grid-item-card}  Course Content
 Begin working through modules, one-by-one.
