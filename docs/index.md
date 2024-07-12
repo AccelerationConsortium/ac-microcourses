@@ -1,6 +1,6 @@
 # 📜 Autonomous Systems for Discovery
 
-Short-form courses to learn about AI and automation for scientific discovery.
+_AC Microcourses are short-form courses to learn about AI and automation for scientific discovery_
 
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
 data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
