@@ -8,6 +8,16 @@ or modify src/ac_microcourses/index.md.jinja. --->
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
 
 ::::{grid} 1 2 3 3
+:::{grid-item-card}  Overview
+View prerequisites, learning outcomes, and topics.
++++
+```{button-ref} overview
+:color: info
+:expand:
+:click-parent:
+Explore
+```
+:::
 
 :::{grid-item-card}  Registration
 Sign up to be notified when registration opens.
@@ -19,16 +29,6 @@ Sign up to be notified when registration opens.
 Waitlist {octicon}`link-external;1em`
 ```
 
-:::
-:::{grid-item-card}  Overview
-View prerequisites, learning outcomes, and topics.
-+++
-```{button-ref} overview
-:color: info
-:expand:
-:click-parent:
-Explore
-```
 :::
 
 ::::

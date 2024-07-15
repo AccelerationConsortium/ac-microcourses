@@ -96,7 +96,7 @@ The orientation modules are intended to be completed in under one hour in total.
     * Run a unit test and fix a simple Python function
     * Define continuous integration
 
-* - 1.1 Run the Demo
+* - 1.1 Run the demo
   - * Database management
     * Bayesian optimization
     * Microcontrollers
@@ -148,3 +148,4 @@ The orientation modules are intended to be completed in under one hour in total.
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
+
