@@ -18,6 +18,7 @@ dependencies:
   - conda-forge::pymongo
   - pip:
      - -e .  # install git checkout of ac-microcourses in editable mode
+     - -r docs/requirements.txt  # install docs dependencies
      # add here only pip-packages that are not available in conda/conda-forge! E.g.:
      - pyscaffold[all]
      - black[jupyter] # not sure if this syntax works for conda
