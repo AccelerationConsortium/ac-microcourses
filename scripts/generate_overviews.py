@@ -35,6 +35,9 @@ for course_key, course_data in courses.items():
         )
         # e.g., replace {{ hello-world }} with title of hello-world course
 
+    # Strip trailing new lines
+    overview = overview.rstrip() + "\n"
+
     # Write the overview markdown to a file
     with open(
         os.path.join(script_dir, f"../docs/courses/{course_key}/overview.md"),
