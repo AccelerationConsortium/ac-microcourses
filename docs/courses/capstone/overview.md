@@ -95,4 +95,3 @@ Performance in this course is assessed via rubrics that evaluate the quality of 
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
-

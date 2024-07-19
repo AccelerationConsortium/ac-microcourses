@@ -148,4 +148,3 @@ The orientation modules are intended to be completed in under one hour in total.
 
 
 - Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)
-
