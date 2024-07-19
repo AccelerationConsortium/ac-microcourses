@@ -423,7 +423,23 @@ robotics:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
-    - module_name: "Controlling pumps and pipettes"
+    - module_name: "3.0 Orientation"
+      topics:
+        - "Git"
+        - "GitHub"
+        - "Version control"
+        - "GitHub Classroom"
+        - "Codespaces"
+      learning_outcomes:
+        - "Describe the purpose of Git and GitHub"
+        - "Create a GitHub account and a repository"
+        - "Commit, push, and pull changes"
+        - "Run a unit test and fix a simple Python function"
+        - "Define continuous integration"
+      tutorial_file: 3.0-orientation.md
+
+    - module_name: "3.1 Pumps and Pipettes"
+      tutorial_file: "3.1-pumps-and-pipettes.md"
       topics:
         - "Workflow orchestration"
         - "Microcontrollers"
@@ -433,6 +449,7 @@ robotics:
       learning_outcomes:
         - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
         - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
+
     - module_name: "Serial communication"
       topics:
         - "Mass balance"
@@ -440,6 +457,7 @@ robotics:
         - "Reading data"
       learning_outcomes:
         - "Design and execute software to read data from a mass balance using serial communication"
+
     - module_name: "Automated liquid handlers"
       topics:
         - "Workflow orchestration"
@@ -447,6 +465,7 @@ robotics:
         - "Opentrons"
       learning_outcomes:
         - "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)"
+
     - module_name: "Mobile robotics"
       topics:
         - "ROS"
@@ -455,12 +474,14 @@ robotics:
       learning_outcomes:
         - "Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim"
         - "Define asynchrony in the context of hardware control for automonous laboratories"
+
     - module_name: "Computer vision"
       topics:
         - "OpenCV"
         - "AprilTags"
       learning_outcomes:
         - "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
+
     - module_name: "Solid sample transfer"
       topics:
         - "Workflow orchestration"
