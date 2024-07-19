@@ -38,7 +38,8 @@ Waitlist {octicon}`link-external;1em`
 :hidden:
 🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
 🗺️ Overview <overview>
-🧩 Controlling pumps and pipettes <>
+🧩 3.0 Orientation <3.0-orientation.md>
+🧩 3.1 Pumps and Pipettes <3.1-pumps-and-pipettes.md>
 🧩 Serial communication <>
 🧩 Automated liquid handlers <>
 🧩 Mobile robotics <>
