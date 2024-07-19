@@ -184,7 +184,7 @@ master_doc = "index"
 
 # General information about the project.
 project = "ac-microcourses"
-author = "Sterling Baird"
+author = "Sterling G. Baird"
 copyright = "2023, Sterling G. Baird"
 
 # The version info for the project you're documenting, acts as replacement for
