@@ -36,8 +36,10 @@ Waitlist {octicon}`link-external;1em`
 
 ```{toctree}
 :hidden:
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796>
+
 🗺️ Overview <overview>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796>
+
 🧩 Project proposal <>
 🧩 Design and execution <>
 🧩 Dissemination <>

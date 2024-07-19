@@ -36,8 +36,10 @@ Waitlist {octicon}`link-external;1em`
 
 ```{toctree}
 :hidden:
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
+
 🗺️ Overview <overview>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
+
 🧩 Deep dive into Git and GitHub <>
 🧩 Setting up VS Code <>
 🧩 Debugging in VS Code <>

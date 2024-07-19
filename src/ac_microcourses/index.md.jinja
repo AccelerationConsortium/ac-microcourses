@@ -59,13 +59,13 @@ Begin
 ```{toctree}
 :hidden:
 
+🗺️ Overview <overview>
 {%- if registration_link %}
 🎓 Register <{{ registration_link }}>
 {% else %}
 🎓 Waitlist <{{ waitlist_link }}>
 {% endif -%}
 
-🗺️ Overview <overview>
 {%- for module in modules %}
 🧩 {{ module.module_name }} <{{ module.tutorial_file }}>
 {%- endfor %}

@@ -47,8 +47,10 @@ Begin
 
 ```{toctree}
 :hidden:
-🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs>
+
 🗺️ Overview <overview>
+🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs>
+
 🧩 1.0 Orientation <1.0-orientation.md>
 🧩 1.1 Run the demo <1.1-running-the-demo.ipynb>
 🧩 1.2 Blink and read <1.2-blink-and-read.ipynb>

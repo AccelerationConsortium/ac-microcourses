@@ -36,13 +36,15 @@ Waitlist {octicon}`link-external;1em`
 
 ```{toctree}
 :hidden:
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
+
 🗺️ Overview <overview>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
+
 🧩 3.0 Orientation <3.0-orientation.md>
 🧩 3.1 Pumps and Pipettes <3.1-pumps-and-pipettes.md>
-🧩 Serial communication <>
-🧩 Automated liquid handlers <>
-🧩 Mobile robotics <>
-🧩 Computer vision <>
-🧩 Solid sample transfer <>
+🧩 3.2 Serial communication <3.2-serial-communication.md>
+🧩 3.3 Liquid Handlers <3.3-liquid-handlers.md>
+🧩 3.4 Mobile robotics <>
+🧩 3.5 Computer vision <>
+🧩 3.6 Solid sample transfer <>
 ```

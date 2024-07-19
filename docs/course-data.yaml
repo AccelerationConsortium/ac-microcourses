@@ -406,7 +406,7 @@ robotics:
   learning_outcomes:
     - "Design and execute software to manage a peristaltic pump's operations using a microcontroller and motor driver, demonstrating application and integration skills"
     - "Construct the \"Digital Pipette\" and develop software to manipulate the linear actuator, showcasing capabilities in hardware assembly and software programming"
-    - "Operate an automated liquid handler, such as Jubilee or Opentrons, to accurately transfer liquid between vials, demonstrating proficiency in laboratory automation techniques"
+    - "Operate an automated liquid handler, such as Science Jubilee or Opentrons, to accurately transfer liquid between vials, demonstrating proficiency in laboratory automation techniques"
     - "Exhibit the ability to control a mobile collaborative robot (cobot) using the ROS framework, reflecting advanced understanding and operational skills in robotics"
     - "Showcase the use of OpenCV and AprilTags for spatial referencing and ID lookup, illustrating advanced skills in computer vision and object identification"
     - "Configure and utilize ROS, AprilTags, and a multi-axis robot to execute solid sample transfers, demonstrating integrated skills in robotics programming and operation"
@@ -424,6 +424,7 @@ robotics:
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "3.0 Orientation"
+      tutorial_file: 3.0-orientation.md
       topics:
         - "Git"
         - "GitHub"
@@ -436,7 +437,6 @@ robotics:
         - "Commit, push, and pull changes"
         - "Run a unit test and fix a simple Python function"
         - "Define continuous integration"
-      tutorial_file: 3.0-orientation.md
 
     - module_name: "3.1 Pumps and Pipettes"
       tutorial_file: "3.1-pumps-and-pipettes.md"
@@ -450,7 +450,8 @@ robotics:
         - "Implement software to control a peristaltic pump via a microcontroller and a motor driver"
         - "Build the \"Digital Pipette\" and implement software to control the linear actuator"
 
-    - module_name: "Serial communication"
+    - module_name: "3.2 Serial communication"
+      tutorial_file: 3.2-serial-communication.md
       topics:
         - "Mass balance"
         - "Serial communication"
@@ -458,15 +459,16 @@ robotics:
       learning_outcomes:
         - "Design and execute software to read data from a mass balance using serial communication"
 
-    - module_name: "Automated liquid handlers"
+    - module_name: "3.3 Liquid Handlers"
+      tutorial_file: 3.3-liquid-handlers.md
       topics:
         - "Workflow orchestration"
         - "Jubilee"
         - "Opentrons"
       learning_outcomes:
-        - "Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)"
+        - "Perform liquid transfer between vials with an automated liquid handler (Science Jubilee or Opentrons)"
 
-    - module_name: "Mobile robotics"
+    - module_name: "3.4 Mobile robotics"
       topics:
         - "ROS"
         - "Isaac Sim"
@@ -475,14 +477,14 @@ robotics:
         - "Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim"
         - "Define asynchrony in the context of hardware control for automonous laboratories"
 
-    - module_name: "Computer vision"
+    - module_name: "3.5 Computer vision"
       topics:
         - "OpenCV"
         - "AprilTags"
       learning_outcomes:
         - "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
 
-    - module_name: "Solid sample transfer"
+    - module_name: "3.6 Solid sample transfer"
       topics:
         - "Workflow orchestration"
         - "ROS"

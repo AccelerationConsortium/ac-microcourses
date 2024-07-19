@@ -47,8 +47,10 @@ Begin
 
 ```{toctree}
 :hidden:
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
+
 🗺️ Overview <overview>
+🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
+
 🧩 Intro to Bayesian optimization <>
 🧩 Mechanics <>
 🧩 Multi-objective optimization <>
