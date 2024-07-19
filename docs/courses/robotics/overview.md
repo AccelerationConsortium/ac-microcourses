@@ -73,7 +73,19 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
-* - Controlling pumps and pipettes
+* - 3.0 Orientation
+  - * Git
+    * GitHub
+    * Version control
+    * GitHub Classroom
+    * Codespaces
+  - * Describe the purpose of Git and GitHub
+    * Create a GitHub account and a repository
+    * Commit, push, and pull changes
+    * Run a unit test and fix a simple Python function
+    * Define continuous integration
+
+* - 3.1 Pumps and Pipettes
   - * Workflow orchestration
     * Microcontrollers
     * Peristaltic pumps
