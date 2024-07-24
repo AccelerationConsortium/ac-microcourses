@@ -12,14 +12,17 @@ import sys
 import shutil
 from time import sleep
 import subprocess
+import re
 
 # import json
 
-import sphinx_rtd_theme  # noqa
+# import sphinx_rtd_theme  # noqa
 
 # -- Custom Python script ----------------------------------------------------
 # Run the generate_overview.py script (blocking)
 subprocess.run(["python", "../scripts/generate_overviews.py"])
+
+sleep(2.0)
 
 # -- Path setup --------------------------------------------------------------
 
@@ -82,8 +85,10 @@ extensions = [
     "sphinx.ext.ifconfig",
     "sphinx.ext.mathjax",
     "sphinx.ext.napoleon",
-    "sphinx_rtd_theme",
+    # "sphinx_rtd_theme",
+    "sphinx_book_theme",
     "sphinx_copybutton",
+    "sphinx_design",
     "nbsphinx",
     "nbsphinx_link",
     "sphinx_gallery.load_style",
@@ -94,6 +99,8 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
 
+# maybe unnecessary now (NOTE: I renamed 2.* files, but have not updated them
+# below - not sure if this affects whether these will run or not)
 nbsphinx_thumbnails = {
     "courses/hello-world/1.1-running-the-demo": "_static/sdl-demo/star-protocols-graphical-abstract.png",
     "courses/hello-world/1.2-blink-and-read": "_static/sdl-demo/green-led.jpg",
@@ -153,6 +160,15 @@ nb_execution_excludepatterns = [
     "5.*",  # TODO: Capstone notebooks
 ]  # list of patterns
 
+# SMOKE_TEST = os.getenv("SMOKE_TEST")
+SMOKE_TEST = True
+if SMOKE_TEST:
+    nb_execution_excludepatterns += [
+        "1.3.1-ax-service-api.ipynb",
+        "1.3.2-ax-service-api-basic.ipynb",
+        "1.5.1-pymongo.ipynb",
+    ]
+
 # with open("variables.json", "r") as f:
 #     myst_substitutions = json.load(f)
 
@@ -168,7 +184,8 @@ master_doc = "index"
 
 # General information about the project.
 project = "ac-microcourses"
-copyright = "2023, Sterling G. Baird"
+author = "Sterling G. Baird"
+copyright = ["2023, Acceleration Consortium", "2023, Sterling G. Baird"]
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -236,27 +253,42 @@ todo_emit_warnings = True
 # look and feel of a theme further.  For a list of options available for each
 # theme, see the documentation.
 
-if os.getenv("NAV"):
-    # tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
-    html_theme = "sphinx_rtd_theme"
-    html_theme_options = {
-        "navigation_depth": 2,
-        "collapse_navigation": False,
-        # "prev_next_buttons_location": "both",
-    }
-else:
-    html_theme = "alabaster"
-    html_theme_options = {
-        # "sidebar_width": "300px",
-        # "page_width": "1200px",
-        "nosidebar": True,
-    }
+# tags.add("navigation") # not needed, since ":hidden:" doesn't affect the sidebar
+# html_theme = "sphinx_rtd_theme"
+# html_theme_options = {
+#     "navigation_depth": 2,
+#     "collapse_navigation": False,
+#     "prev_next_buttons_location": "both",
+# }
 
-# html_theme = "pydata_sphinx_theme"
+# html_theme = "alabaster"
+# html_theme_options = {
+#     # "sidebar_width": "300px",
+#     # "page_width": "1200px",
+# }
+
+html_theme = "sphinx_book_theme"
+html_theme_options = {
+    "repository_provider": "github",
+    "repository_url": "https://github.com/AccelerationConsortium/ac-microcourses",
+    "path_to_docs": "docs",
+    "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_source_button": True,
+    "use_issues_button": True,
+    "use_download_button": True,
+    "launch_buttons": {"colab_url": "https://colab.research.google.com"},
+    "home_page_in_toc": True,
+    "show_navbar_depth": 1,  # Adjust based on your structure
+    "navigation_with_keys": True,
+    # "navbar_center": ["navbar-nav"], # adds Course 1 / Course 2 buttons at top
+}
+
 # html_sidebars = {
 #     "path/to/page": [],
 # }
-# html_theme_options = {"show_prev_next": False, "nosidebar": True}
+# html_theme = "pydata_sphinx_theme"
+# html_theme_options = {"show_prev_next": True, "nosidebar": False}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
@@ -295,6 +327,21 @@ html_favicon = "logos/ac-vector-tunnel-color-black-background-32x32.ico"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+
+# # Function to add custom CSS for specific pages
+# def setup(app):
+#     app.add_css_file("default.css")  # This will be your default CSS
+#     # Inject custom CSS conditionally based on the page
+#     app.connect("html-page-context", add_custom_css)
+# def add_custom_css(app, pagename, templatename, context, doctree):
+#     pattern = re.compile(r"courses/.+/\d+\.\d+(\.\d+)?-.*")
+#     if pattern.match(pagename):
+#         app.add_css_file("custom.css")
+# # Custom CSS files
+# html_css_files = [
+#     "default.css",
+# ]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -399,34 +446,3 @@ intersphinx_mapping = {
 }
 
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
-
-
-# %% Code Graveyard
-
-# # Old code for dynamically getting thumbnail images for nbsphinx, easier to hard-code for now
-
-# # Specify the root directory
-# root_dir = 'courses'
-
-# # Initialize the dictionary
-# nbsphinx_thumbnails = {}
-
-# # Walk through the directory
-# for dirpath, dirnames, filenames in os.walk(root_dir):
-#     for filename in filenames:
-#         # Check if the file is a notebook
-#         if filename.endswith('.ipynb'):
-#             # Construct the key by removing the root directory and the file extension
-#             key = os.path.join(dirpath, filename)[len(root_dir)+1:-len('.ipynb')]
-#             # Construct the value by replacing the slashes with dashes and adding the directory and extension
-#             value = '_static/' + key.replace('/', '-') + '.png'
-#             # Add the key-value pair to the dictionary
-#             nbsphinx_thumbnails[key] = value
-
-# # Print the dictionary
-# print("nbsphinx_thumbnails = ", nbsphinx_thumbnails)
-
-# nbsphinx_thumbnails = {myst
-#     "courses/hello-world/1.1-running-the-demo": "_static/1.1-running-the-demo.png",
-#     ...
-# }

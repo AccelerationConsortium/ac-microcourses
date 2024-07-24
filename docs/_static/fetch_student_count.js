@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Assuming the API returns an object like { hello_world_student_count: 100, ... }
             // Update the student count and remove the loading message/spinner
             document.getElementById('helloWorldStudentCount').innerText = data.hello_world_student_count || 'N/A';
+            document.getElementById('helloWorldCompletionCount').innerText = data.hello_world_completion_count || 'N/A';
             // Repeat for other courses, matching their respective IDs
         } catch (error) {
             console.error('Failed to fetch student counts:', error);
