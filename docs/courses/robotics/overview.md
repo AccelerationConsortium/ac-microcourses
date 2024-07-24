@@ -33,7 +33,7 @@ The **recommended prerequisite** for this course is Introduction to AI for Disco
 
 - Construct the "Digital Pipette" and develop software to manipulate the linear actuator, showcasing capabilities in hardware assembly and software programming
 
-- Operate an automated liquid handler, such as Jubilee or Opentrons, to accurately transfer liquid between vials, demonstrating proficiency in laboratory automation techniques
+- Operate an automated liquid handler, such as Science Jubilee or Opentrons, to accurately transfer liquid between vials, demonstrating proficiency in laboratory automation techniques
 
 - Exhibit the ability to control a mobile collaborative robot (cobot) using the ROS framework, reflecting advanced understanding and operational skills in robotics
 
@@ -73,7 +73,19 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
-* - Controlling pumps and pipettes
+* - 3.0 Orientation
+  - * Git
+    * GitHub
+    * Version control
+    * GitHub Classroom
+    * Codespaces
+  - * Describe the purpose of Git and GitHub
+    * Create a GitHub account and a repository
+    * Commit, push, and pull changes
+    * Run a unit test and fix a simple Python function
+    * Define continuous integration
+
+* - 3.1 Pumps and Pipettes
   - * Workflow orchestration
     * Microcontrollers
     * Peristaltic pumps
@@ -82,31 +94,31 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - * Implement software to control a peristaltic pump via a microcontroller and a motor driver
     * Build the "Digital Pipette" and implement software to control the linear actuator
 
-* - Serial communication
+* - 3.2 Serial communication
   - * Mass balance
     * Serial communication
     * Reading data
   - * Design and execute software to read data from a mass balance using serial communication
 
-* - Automated liquid handlers
+* - 3.3 Liquid Handlers
   - * Workflow orchestration
     * Jubilee
     * Opentrons
-  - * Perform liquid transfer between vials with an automated liquid handler (Jubilee or Opentrons)
+  - * Perform liquid transfer between vials with an automated liquid handler (Science Jubilee or Opentrons)
 
-* - Mobile robotics
+* - 3.4 Mobile robotics
   - * ROS
     * Isaac Sim
     * Asynchronous task execution
   - * Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim
     * Define asynchrony in the context of hardware control for automonous laboratories
 
-* - Computer vision
+* - 3.5 Computer vision
   - * OpenCV
     * AprilTags
   - * Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
 
-* - Solid sample transfer
+* - 3.6 Solid sample transfer
   - * Workflow orchestration
     * ROS
     * AprilTags

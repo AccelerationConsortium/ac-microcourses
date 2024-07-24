@@ -9,6 +9,16 @@ or modify src/ac_microcourses/index.md.jinja. --->
 {{description}}
 
 ::::{grid} 1 2 3 3
+:::{grid-item-card}  Overview
+View prerequisites, learning outcomes, and topics.
++++
+```{button-ref} overview
+:color: info
+:expand:
+:click-parent:
+Explore
+```
+:::
 {% if registration_link %}
 :::{grid-item-card}  Registration
 Register to gain access to quizzes and assignments.
@@ -31,16 +41,6 @@ Waitlist {octicon}`link-external;1em`
 ```
 {% endif %}
 :::
-:::{grid-item-card}  Overview
-View prerequisites, learning outcomes, and topics.
-+++
-```{button-ref} overview
-:color: info
-:expand:
-:click-parent:
-Explore
-```
-:::
 {% if orientation_ref %}
 :::{grid-item-card}  Course Content
 Begin working through modules, one-by-one.
@@ -59,13 +59,13 @@ Begin
 ```{toctree}
 :hidden:
 
+🗺️ Overview <overview>
 {%- if registration_link %}
 🎓 Register <{{ registration_link }}>
 {% else %}
 🎓 Waitlist <{{ waitlist_link }}>
 {% endif -%}
 
-🗺️ Overview <overview>
 {%- for module in modules %}
 🧩 {{ module.module_name }} <{{ module.tutorial_file }}>
 {%- endfor %}
