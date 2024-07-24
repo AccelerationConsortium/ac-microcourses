@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python>=3.6
+  - python>=3.6,<3.12
   - pip
   # BASICS
   - numpy
@@ -23,6 +23,7 @@ dependencies:
      - pyscaffold[all]
      - black[jupyter] # not sure if this syntax works for conda
      - self-driving-lab-demo
+     - -r docs/requirements.txt
 
   # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
   - pytest
