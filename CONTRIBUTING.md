@@ -1,30 +1,3 @@
-```{todo} THIS IS SUPPOSED TO BE AN EXAMPLE. MODIFY IT ACCORDING TO YOUR NEEDS!
-
-   The document assumes you are using a source repository service that promotes a
-   contribution model similar to [GitHub's fork and pull request workflow].
-   While this is true for the majority of services (like GitHub, GitLab,
-   BitBucket), it might not be the case for private repositories (e.g., when
-   using Gerrit).
-
-   Also notice that the code examples might refer to GitHub URLs or the text
-   might use GitHub specific terminology (e.g., *Pull Request* instead of *Merge
-   Request*).
-
-   Please make sure to check the document having these assumptions in mind
-   and update things accordingly.
-```
-
-```{todo} Provide the correct links/replacements at the bottom of the document.
-```
-
-```{todo} You might want to have a look on [PyScaffold's contributor's guide],
-
-   especially if your project is open source. The text should be very similar to
-   this template, but there are a few extra contents that you might decide to
-   also include, like mentioning labels of your issue tracker or automated
-   releases.
-```
-
 # Contributing
 
 Welcome to `ac-microcourses` contributor's guide.
@@ -64,32 +37,26 @@ you help us to identify the root cause of the issue.
 You can help improve `ac-microcourses` docs by making them more readable and coherent, or
 by adding missing information and correcting mistakes.
 
-`ac-microcourses` documentation uses [Sphinx] as its main documentation compiler.
-This means that the docs are kept in the same repository as the project code, and
-that any documentation update is done in the same way was a code contribution.
+`ac-microcourses` documentation uses [Sphinx] as its main documentation
+compiler. This means that the docs are kept in the same repository as the
+project code, and that any documentation update is done in the same way was a
+code contribution. The markup language used is [CommonMark] with [MyST]
+extensions.
 
-```{todo} Don't forget to mention which markup language you are using.
+:::{tip}
+   Please notice that the [GitHub web interface] provides a quick way of
+   propose changes in `ac-microcourses`'s files. While this mechanism can
+   be tricky for normal code contributions, it works perfectly fine for
+   contributing to the docs, and can be quite handy.
 
-    e.g.,  [reStructuredText] or [CommonMark] with [MyST] extensions.
-```
-
-```{todo} If your project is hosted on GitHub, you can also mention the following tip:
-
-   :::{tip}
-      Please notice that the [GitHub web interface] provides a quick way of
-      propose changes in `ac-microcourses`'s files. While this mechanism can
-      be tricky for normal code contributions, it works perfectly fine for
-      contributing to the docs, and can be quite handy.
-
-      If you are interested in trying this method out, please navigate to
-      the `docs` folder in the source [repository], find which file you
-      would like to propose changes and click in the little pencil icon at the
-      top, to open [GitHub's code editor]. Once you finish editing the file,
-      please write a message in the form at the bottom of the page describing
-      which changes have you made and what are the motivations behind them and
-      submit your proposal.
-   :::
-```
+   If you are interested in trying this method out, please navigate to
+   the `docs` folder in the source [repository], find which file you
+   would like to propose changes and click in the little pencil icon at the
+   top, to open [GitHub's code editor]. Once you finish editing the file,
+   please write a message in the form at the bottom of the page describing
+   which changes have you made and what are the motivations behind them and
+   submit your proposal.
+:::
 
 When working on documentation changes in your local machine, you can
 compile them using [tox] :
@@ -107,12 +74,19 @@ python3 -m http.server --directory 'docs/_build/html'
 
 ## Code Contributions
 
-```{todo} Please include a reference or explanation about the internals of the project.
+Courses are divided into modules, where each module typically contains a
+tutorial, a quiz, and an assignment. Tutorials contain text and video resources
+and often a hands-on and bare bones implementation of the concept being covered.
+The tutorial also provides links to quizzes which are hosted on Quercus, and
+links to assignments which are hosted through GitHub Classroom.
 
-   An architecture description, design principles or at least a summary of the
-   main concepts will make it easy for potential contributors to get started
-   quickly.
-```
+Most of the content in this repo is contained within the `docs` folder. Each
+course has it's own folder within `docs/courses/` (e.g.,
+`docs/courses/hello-world`).
+
+Index and overview files are generated automatically via Jinja2 templates
+contained within `src/ac_microcourses` via `scripts/generate_overviews.py`. This
+script is run automatically via the Makefile when building the docs.
 
 ### Submit an issue
 
@@ -197,9 +171,6 @@ conda activate ac-microcourses
 
    to record your changes in [git].
 
-   ```{todo} if you are not using pre-commit, please remove the following item:
-   ```
-
    Please make sure to see the validation messages from [pre-commit] and fix
    any eventual issues.
    This should automatically use [flake8]/[black] to check/fix the code style
@@ -241,13 +212,9 @@ conda activate ac-microcourses
 2. Go to the web page of your fork and click "Create pull request"
    to send your changes for review.
 
-   ```{todo} if you are using GitHub, you can uncomment the following paragraph
-
-      Find more detailed information in [creating a PR]. You might also want to open
-      the PR as a draft first and mark it as ready for review after the feedbacks
-      from the continuous integration (CI) system or any required fixes.
-
-   ```
+   Find more detailed information in [creating a PR]. You might also want to open
+   the PR as a draft first and mark it as ready for review after the feedbacks
+   from the continuous integration (CI) system or any required fixes.
 
 ### Troubleshooting
 
@@ -306,12 +273,6 @@ package:
 
 ### Releases
 
-```{todo} This section assumes you are using PyPI to publicly release your package.
-
-   If instead you are using a different/private package index, please update
-   the instructions accordingly.
-```
-
 If you are part of the group of maintainers and have correct user permissions
 on [PyPI], the following steps can be used to release a new version for
 `ac-microcourses`:
@@ -334,92 +295,6 @@ on [PyPI], the following steps can be used to release a new version for
     communities, the general ideas behind collaborating with other developers
     to collectively create software are general and can be applied to all sorts
     of environments, including private companies and proprietary code bases.
-
-### Updating the Clickable SVG
-
-The SVG is created using PowerPoint (select all objects, right click, save as picture -> change file format to SVG) and saved to `course-flowchart.svg`. Note that I put 99% transparent white boxes in front of the locations I want to be clickable. Kind of hacky, but with minimal effect. To make it easier to identify objects, these can be renamed either in PowerPoint or in Inkscape.
-
-After opening the SVG file in Inkscape:
-1. click on the mostly transparent rectangle object (might need to double click)
-2. right click and select "Link Properties.." (or create link)
-3. Insert the absolute or relative link into the href field
-  - `courses/hello-world/overview.html`
-  - `courses/data-science/overview.html`
-  - `courses/robotics/overview.html`
-  - `courses/software-dev/overview.html`
-  - `courses/capstone/overview.html`
-4. Save
-5. Open the SVG file (i.e., raw code) in a text editor such as VS Code
-6. Replace:
-
-```html
-   width="XXXX"
-   height="YYYY"
-```
-
-
-with the following:
-
-```html
-   viewBox="0 0 XXXX YYYY"
-   width="100%"
-   height="100%"
-```
-
-For example, replace:
-
-```html
-   width="2965"
-   height="1876"
-```
-
-with:
-
-```html
-   viewBox="0 0 2965 1876"
-   width="100%"
-   height="100%"
-```
-
-1. To add a hover fill effect, add the following to each of the transparent rectangles:
-
-```html
-         onmouseover="evt.target.setAttribute('fill', 'blue'); evt.target.setAttribute('fill-opacity', '0.25');"
-         onmouseout="evt.target.setAttribute('fill', 'white'); evt.target.setAttribute('fill-opacity', '0.01');"
-```
-
-For example, replace:
-
-```html
-       xlink:href="courses/data-science/overview.html"><rect
-         x="1909"
-         y="690"
-         width="388"
-         height="389"
-         fill="#FFFFFF"
-         fill-opacity="0.0117647"
-         id="rect85" /></a><a
-```
-
-with the following:
-
-```html
-       xlink:href="courses/data-science/overview.html"><rect
-         x="1909"
-         y="690"
-         width="388"
-         height="389"
-         fill="#FFFFFF"
-         fill-opacity="0.0117647"
-         onmouseover="evt.target.setAttribute('fill', 'blue'); evt.target.setAttribute('fill-opacity', '0.25');"
-         onmouseout="evt.target.setAttribute('fill', 'white'); evt.target.setAttribute('fill-opacity', '0.01');"
-         id="rect85" /></a><a
-```
-8. Save, build docs to verify, and commit/push to GitHub.
-
-You can search for `hello-world`, `data-science`, etc. to find corresponding locations.
-
-See also https://app.screencast.com/yIypgQZ22BO83 and https://stackoverflow.com/questions/39203857/scaling-svg-produced-with-inkscape
 
 [black]: https://pypi.org/project/black/
 [commonmark]: https://commonmark.org/
@@ -447,10 +322,6 @@ See also https://app.screencast.com/yIypgQZ22BO83 and https://stackoverflow.com/
 [tox]: https://tox.readthedocs.io/en/stable/
 [virtual environment]: https://realpython.com/python-virtual-environments-a-primer/
 [virtualenv]: https://virtualenv.pypa.io/en/stable/
-
-
-```{todo} Please review and change the following definitions:
-```
 
 [repository]: https://github.com/AccelerationConsortium/ac-microcourses
 [issue tracker]: https://github.com/AccelerationConsortium/ac-microcourses/issues
