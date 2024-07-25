@@ -68,12 +68,12 @@ Begin
 🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4010-introduction-ai-discovery-using-self-driving-labs>
 
 🧩 1.0 Orientation <1.0-orientation.md>
-🧩 1.1 Run the demo <1.1-running-the-demo.ipynb>
-🧩 1.2 Blink and read <1.2-blink-and-read.ipynb>
+🧩 1.1 Run the demo <1.1-running-the-demo.md>
+🧩 1.2 Blink and read <1.2-blink-and-read.md>
 🧩 1.3 Bayesian optimization <1.3-bayesian-optimization.ipynb>
-🧩 1.4 Device communication <1.4-hardware-software-communication.ipynb>
-🧩 1.5 Database Management <1.5-data-logging.ipynb>
-🧩 1.6 Connecting the pieces <1.6-connecting-the-pieces.ipynb>
+🧩 1.4 Device communication <1.4-hardware-software-communication.md>
+🧩 1.5 Database Management <1.5-data-logging.md>
+🧩 1.6 Connecting the pieces <1.6-connecting-the-pieces.md>
 ```
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>

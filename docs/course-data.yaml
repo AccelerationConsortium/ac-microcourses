@@ -62,7 +62,7 @@ hello-world:
         - "Describe key terms and principles of self-driving labs"
         - "Preview an end-to-end self-driving lab"
         - "Upload software to a microcontroller"
-      tutorial_file: 1.1-running-the-demo.ipynb
+      tutorial_file: 1.1-running-the-demo.md
       tutorial:
         - "Video: build instructions for the SDL demo https://youtu.be/D54yfxRSY6s?si=fjS6yxr-mKb3yBEp"
         - "Building a hello world for self-driving labs: https://doi.org/10.1016/j.xpro.2023.102329"
@@ -81,7 +81,7 @@ hello-world:
       learning_outcomes:
         - "Write MicroPython scripts"
         - "Use a microcontroller"
-      tutorial_file: 1.2-blink-and-read.ipynb
+      tutorial_file: 1.2-blink-and-read.md
       tutorial:
         - "Blink LED on Pico W tutorial (Getting started with the Pico W or similar)"
         - "NeoPixel tutorial"
@@ -130,7 +130,7 @@ hello-world:
       learning_outcomes:
         - "Send commands to a microcontroller"
         - "Receive sensor data from a microcontroller"
-      tutorial_file: 1.4-hardware-software-communication.ipynb
+      tutorial_file: 1.4-hardware-software-communication.md
       tutorial:
         - "Video: What is MQTT? (or some equivalent, keep it to ~5 minutes maybe? Could be part 1 of HiveMQ MQTT essentials https://www.youtube.com/playlist?list=PLRkdoPznE1EMXLW6XoYLGd4uUaB6wB0wd)"
         - "Create a HiveMQ account and broker"
@@ -154,7 +154,7 @@ hello-world:
         - "Set up a MongoDB account and database"
         - "Upload data directly from microcontroller"
         - "Extract and collate data from database"
-      tutorial_file: 1.5-data-logging.ipynb
+      tutorial_file: 1.5-data-logging.md
       tutorial:
         - "Video: What is FAIR data"
         - "What does FAIR data look like in chemistry and materials science?"
@@ -190,7 +190,7 @@ hello-world:
     - module_name: "1.6 Connecting the pieces"
       topics:
         - "Systems design"
-      tutorial_file: 1.6-connecting-the-pieces.ipynb
+      tutorial_file: 1.6-connecting-the-pieces.md
       learning_outcomes:
         - "Describe how individual components of an SDL can be integrated"
         - "Perform system-level debugging and troubleshooting"
