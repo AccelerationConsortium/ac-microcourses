@@ -5,7 +5,23 @@ edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
 or modify src/ac_microcourses/index.md.jinja. --->
 # Introduction to AI for Discovery using Self-driving Labs
 
-In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming with a Pico W (Module 2), Bayesian optimization with the Ax Platform (Module 3), hardware/software communication with MQTT (Module 4), and database integration with MongoDB (Module 5). Finally, you will piece together the individual components to create your very own SDL demo (Module 6). This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
+data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
+AccelerationConsortium/ac-microcourses on GitHub">Star</a>
+<a class="github-button"
+href="https://github.com/AccelerationConsortium" data-size="large" data-show-count="true"
+aria-label="Follow @AccelerationConsortium on GitHub">Follow @AccelerationConsortium</a>
+<a class="github-button"
+href="https://github.com/sgbaird" data-size="large" data-show-count="true"
+aria-label="Follow @sgbaird on GitHub">Follow @sgbaird</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/issues"
+data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
+aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions/categories/hello-world" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Get Help</a>
+
+
+
+In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming via a Pico W, Bayesian optimization via the Ax Platform, device communication via MQTT, and database integration via MongoDB. Finally, you will piece together the individual components to complete your self-driving lab. This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
 
 ::::{grid} 1 2 3 3
 :::{grid-item-card}  Overview
@@ -59,3 +75,5 @@ Begin
 🧩 1.5 Database Management <1.5-data-logging.ipynb>
 🧩 1.6 Connecting the pieces <1.6-connecting-the-pieces.ipynb>
 ```
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -13,7 +13,7 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 ```
 
 
-In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming with a Pico W (Module 2), Bayesian optimization with the Ax Platform (Module 3), hardware/software communication with MQTT (Module 4), and database integration with MongoDB (Module 5). Finally, you will piece together the individual components to create your very own SDL demo (Module 6). This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
+In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming via a Pico W, Bayesian optimization via the Ax Platform, device communication via MQTT, and database integration via MongoDB. Finally, you will piece together the individual components to complete your self-driving lab. This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
 
 
 ```{margin}

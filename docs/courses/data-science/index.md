@@ -5,6 +5,22 @@ edit in docs/course-data.yaml and run the `scripts/generate_overviews.py` file
 or modify src/ac_microcourses/index.md.jinja. --->
 # AI and Materials Databases for Self-driving Labs
 
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses"
+data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star
+AccelerationConsortium/ac-microcourses on GitHub">Star</a>
+<a class="github-button"
+href="https://github.com/AccelerationConsortium" data-size="large" data-show-count="true"
+aria-label="Follow @AccelerationConsortium on GitHub">Follow @AccelerationConsortium</a>
+<a class="github-button"
+href="https://github.com/sgbaird" data-size="large" data-show-count="true"
+aria-label="Follow @sgbaird on GitHub">Follow @sgbaird</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/issues"
+data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
+aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
+<a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions/categories/data-science" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Get Help</a>
+
+
+
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms.
 
 ::::{grid} 1 2 3 3
@@ -61,3 +77,5 @@ Begin
 🧩 Multi-fidelity/multi-task <>
 🧩 Benchmark datasets/models <>
 ```
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
