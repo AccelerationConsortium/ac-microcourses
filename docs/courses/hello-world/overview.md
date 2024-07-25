@@ -124,9 +124,10 @@ The orientation modules are intended to be completed in under one hour in total.
   - * Send commands to a microcontroller
     * Receive sensor data from a microcontroller
 
-* - 1.5 Data logging
+* - 1.5 Database Management
   - * MongoDB
-    * Database management
+    * JSON
+    * PyMongo
   - * Set up a MongoDB account and database
     * Upload data directly from microcontroller
     * Extract and collate data from database
