@@ -15,5 +15,5 @@ You will need access to a 2.4 GHz WPA2-personal wireless network (i.e., WiFi nam
 ![Wifi Help](wifi-help.png)
 
 ```{tip}
-If you need a quick solution that can be standalone and dedicated, we have tested the [Cudy AC1200 SIM-enabled Router](https://www.amazon.com/Cudy-Unlocked-1200Mbps-EC25-AFX-Cloudflare/dp/B089JW8H4N) with a [Hologram IoT SIM Card](https://store.hologram.io/products/single-core-global-euicc-iot-sim-card) and [pay-as-you-go plan](https://www.hologram.io/pricing/), though pay-as-you-go data is expensive at US$100/GB (US$0.10/MB) and intended for low-bandwidth data transfer.
+If you need a quick solution that can be standalone and dedicated, we have tested the [Cudy AC1200 SIM-enabled Router](https://www.amazon.com/Cudy-Unlocked-1200Mbps-EC25-AFX-Cloudflare/dp/B089JW8H4N) with a [Hologram IoT SIM Card](https://store.hologram.io/products/single-core-global-euicc-iot-sim-card) and [pay-as-you-go plan](https://www.hologram.io/pricing/), though pay-as-you-go data is expensive at US\$100/GB (US\$0.10/MB) and intended for low-bandwidth data transfer.
 ```
