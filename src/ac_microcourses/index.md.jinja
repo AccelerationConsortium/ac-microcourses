@@ -24,6 +24,14 @@ aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 
 <span id="helloWorldCompletionCount" class="completion-count">Loading...</span> #}
 
+{%- if welcome_video_url %}
+```{note}
+:class: margin
+If you haven't already, watch [the welcome video]({{ welcome_video_url }}) below to learn about the course and its structure.
+<iframe width="195" height="110" src="{{ welcome_video_url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+{% endif -%}
+
 {{description}}
 
 ::::{grid} 1 2 3 3
