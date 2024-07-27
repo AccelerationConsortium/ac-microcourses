@@ -19,8 +19,6 @@ data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
 aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions/categories/software-dev" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Get Help</a>
 
-
-
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
 
 ::::{grid} 1 2 3 3

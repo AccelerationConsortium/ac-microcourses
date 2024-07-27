@@ -19,8 +19,6 @@ data-icon="octicon-issue-opened" data-size="large" data-show-count="true"
 aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions/categories/robotics" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Get Help</a>
 
-
-
 Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a microcontroller, a motor driver, and a workflow orchestration package. You'll also learn to control mobile cobots and perform spatial referencing and ID recognition via computer vision. The course will conclude with a solid sample transfer workflow using a multi-axis robot. Remotely accessible resources will be provided as necessary.
 
 ::::{grid} 1 2 3 3

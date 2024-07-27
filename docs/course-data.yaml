@@ -14,6 +14,7 @@ hello-world:
     <br>
   media_caption: "Animated schematic diagram of the 'Hello World' demo: A microcontroller controls the LEDs and reads sensor data. The difference between the target color and the measured color is fed into an adaptive experimentation algorithm, and the process repeats itself."
   recommended_prerequisites: For participants to complete this course within the expected timeframe (approx. 25 hours), at least beginner proficiency in Python programming is recommended. Those with advanced programming expertise will likely require a significantly shorter amount of time, whereas those with no prior programming experience may require 50 hours or more.
+  welcome_video_url: https://www.youtube.com/embed/videoseries?si=Dt-C256m6yvzfnYT&amp;list=PLKFxDV1Aoxg6dBasfkbG-zFQoy2RDOidX&t=623s
 
   learning_outcomes:
     - "Define and explain key terms and principles of self-driving labs to demonstrate understanding"

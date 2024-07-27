@@ -20,7 +20,11 @@ aria-label="Issue AccelerationConsortium/ac-microcourses on GitHub">Issue</a>
 <a class="github-button" href="https://github.com/AccelerationConsortium/ac-microcourses/discussions/categories/hello-world" data-icon="octicon-comment-discussion" data-size="large" aria-label="Discuss AccelerationConsortium/ac-microcourses on GitHub">Get Help</a>
 
 
-
+```{note}
+:class: margin
+If you haven't already, watch [the welcome video](https://www.youtube.com/embed/videoseries?si=Dt-C256m6yvzfnYT&amp;list=PLKFxDV1Aoxg6dBasfkbG-zFQoy2RDOidX&t=623s) below to learn about the course and its structure.
+<iframe width="195" height="110" src="https://www.youtube.com/embed/videoseries?si=Dt-C256m6yvzfnYT&amp;list=PLKFxDV1Aoxg6dBasfkbG-zFQoy2RDOidX&t=623s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
 In this course, you will build a minimal working example for a self-driving lab, using dimmable LEDs and a light sensor to perform a color-matching task. This introduction will help you implement microcontroller programming via a Pico W, Bayesian optimization via the Ax Platform, device communication via MQTT, and database integration via MongoDB. Finally, you will piece together the individual components to complete your self-driving lab. This introductory course will prepare you for deeper dives in data science, robotics, software development, and system design in later microcourses.
 
 ::::{grid} 1 2 3 3
