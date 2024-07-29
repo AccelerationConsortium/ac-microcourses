@@ -65,15 +65,12 @@ Begin
 🗺️ Overview <overview>
 🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
 
-🧩 Intro to Bayesian optimization <>
-🧩 Mechanics <>
-🧩 Multi-objective optimization <>
-🧩 Constrained optimization <>
-🧩 High-dimensional optimization <>
-🧩 Batch/asynchronous optimization <>
-🧩 Featurization <>
-🧩 Multi-fidelity/multi-task <>
-🧩 Benchmark datasets/models <>
+🧩 2.1 Single-objective <2.1-single-objective.md>
+🧩 2.2 Multi-objective <2.2-multi-objective.md>
+🧩 2.3 Batch Optimization <2.3-batch.md>
+🧩 2.4 Featurization <>
+🧩 2.5 Multi-fidelity <>
+🧩 Benchmarking <>
 ```
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>

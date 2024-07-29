@@ -65,22 +65,17 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
-* - Intro to Bayesian optimization
+* - 2.1 Single-objective
   - * Design of experiments
     * Quasi-random search methods
-    * Bayesian optimization
+    * Bayesian optimization (BO)
     * Expected improvement (EI)
     * Ax Platform
     * Honegumi template generator
   - * Describe a materials discovery task using data science language and concepts
     * Adapt a Bayesian optimization script to find an optimal chocolate chip cookie recipe
 
-* - Mechanics
-  - * Attaching existing data
-    * Human-in-the-loop
-  - * Utilize the 'plumbing' needed by optimization scripts in real-world lab settings
-
-* - Multi-objective optimization
+* - 2.2 Multi-objective
   - * Pareto fronts
     * Hypervolume
     * qNEHVI
@@ -89,21 +84,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Compare simple scalarization with expected hypervolume improvement
     * Explore the effect of setting objective thresholds
 
-* - Constrained optimization
-  - * Linear constraints
-    * Nonlinear constraints
-    * Compositional constraints
-    * Order constraints
-  - * Provide examples of materials discovery tasks with constraints
-    * Adapt a Bayesian optimization script to include constraints
-
-* - High-dimensional optimization
-  - * Curse of dimensionality
-    * SAASBO
-  - * Explain the curse of dimensionality
-    * Compare the efficiency of expected improvement and SAASBO as a function of dimensionality
-
-* - Batch/asynchronous optimization
+* - 2.3 Batch Optimization
   - * Conditioning
     * Batch optimization
     * Asynchronous optimization
@@ -113,7 +94,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Adapt a Bayesian optimization script to use batch optimization
     * Adapt a Bayesian optimization script to use asynchronous optimization
 
-* - Featurization
+* - 2.4 Featurization
   - * Domain knowledge integration
     * Contextual variables
     * Predefined candidates
@@ -121,7 +102,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Adapt a Bayesian optimization script to use predefined candidates with featurization
     * Adapt a Bayesian optimization script to use contextual variables
 
-* - Multi-fidelity/multi-task
+* - 2.5 Multi-fidelity
   - * Cost-fidelity tradeoffs
     * Knowledge gradient
   - * Explain the effect of cost-fidelity tradeoffs on optimization
@@ -129,7 +110,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient
     * Adapt a Bayesian optimization script to use a knowledge gradient
 
-* - Benchmark datasets/models
+* - Benchmarking
   - * Benchmarks
     * Surrogate models
     * Random forest regression

@@ -244,11 +244,12 @@ data-science:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
-    - module_name: "Intro to Bayesian optimization"
+    - module_name: "2.1 Single-objective"
+      tutorial_file: 2.1-single-objective.md
       topics:
         - "Design of experiments"
         - "Quasi-random search methods"
-        - "Bayesian optimization"
+        - "Bayesian optimization (BO)"
         - "Expected improvement (EI)"
         - "Ax Platform"
         - "Honegumi template generator"
@@ -265,19 +266,20 @@ data-science:
         - "Pytest: assert required modules are present"
         - "Pytest: assert the the Ax object is instantiated correctly"
         - "Pytest: assert that the best parameters are correct for a fixed seed"
-    - module_name: "Mechanics"
-      topics:
-        - "Attaching existing data"
-        - "Human-in-the-loop"
-      learning_outcomes:
-        - "Utilize the 'plumbing' needed by optimization scripts in real-world lab settings"
-      assessments:
-        - "Quiz: How do the needs of typical optimization packages differ from that of wetlab experiments?"
-        - "Quiz: Match terms with definitions (e.g., human-in-the-loop, attaching existing data)"
-        - "Quiz: What is the name of the row from honegumi for attaching existing data?"
-        - "Pytest: Verify that data that was provided to the users is attached to an AxClient and that the suggested new experiment matches what's expected"
-        - "Pytest: Verify that manually added data to a dictionary at the beginning of an optimization script (made by rerunning the script and manually adding) contains the experiments that should have been suggested"
-    - module_name: "Multi-objective optimization"
+    # - module_name: "Mechanics"
+    #   topics:
+    #     - "Attaching existing data"
+    #     - "Human-in-the-loop"
+    #   learning_outcomes:
+    #     - "Utilize the 'plumbing' needed by optimization scripts in real-world lab settings"
+    #   assessments:
+    #     - "Quiz: How do the needs of typical optimization packages differ from that of wetlab experiments?"
+    #     - "Quiz: Match terms with definitions (e.g., human-in-the-loop, attaching existing data)"
+    #     - "Quiz: What is the name of the row from honegumi for attaching existing data?"
+    #     - "Pytest: Verify that data that was provided to the users is attached to an AxClient and that the suggested new experiment matches what's expected"
+    #     - "Pytest: Verify that manually added data to a dictionary at the beginning of an optimization script (made by rerunning the script and manually adding) contains the experiments that should have been suggested"
+    - module_name: "2.2 Multi-objective"
+      tutorial_file: 2.2-multi-objective.md
       topics:
         - "Pareto fronts"
         - "Hypervolume"
@@ -296,34 +298,38 @@ data-science:
         - "Pytest: Verify correct imports"
         - "Pytest: Verify that a Pareto frontier plot is generated using the right function (e.g., the output is a plotly figure)"
         - "Pytest: Verify syntax for setting objective thresholds"
-    - module_name: "Constrained optimization"
-      topics:
-        - "Linear constraints"
-        - "Nonlinear constraints"
-        - "Compositional constraints"
-        - "Order constraints"
-      learning_outcomes:
-        - "Provide examples of materials discovery tasks with constraints"
-        - "Adapt a Bayesian optimization script to include constraints"
-      tutorial:
-        - "Degrees-of-freedom, compositional linear constraint: https://chat.openai.com/share/841f8f67-2ee9-4546-a4d6-681f0e7c04fd (https://github.com/facebook/Ax/issues/727)"
-      assessments:
-        - "Quiz: Match terms with examples"
-        - "Pytest: Verify that certain parameter sets pass or fail the constraint (i.e., check in the vicinity of the constraint)"
-        - "Quiz: Report the optimized value for a given seed"
-    - module_name: "High-dimensional optimization"
-      topics:
-        - "Curse of dimensionality"
-        - "SAASBO"
-      learning_outcomes:
-        - "Explain the curse of dimensionality"
-        - "Compare the efficiency of expected improvement and SAASBO as a function of dimensionality"
-      assessments:
-        - "Quiz: Match terms with definitions (SAASBO, curse of dimensionality, discrepancy)"
-        - "Quiz: Report the final efficiencies for EI and SAASBO for a given seed for three different dimensionalities"
-        - "Pytest: Verify that the optimization history matches for a fixed seed"
-        - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
-    - module_name: "Batch/asynchronous optimization"
+
+    # - module_name: "Constrained optimization"
+    #   topics:
+    #     - "Linear constraints"
+    #     - "Nonlinear constraints"
+    #     - "Compositional constraints"
+    #     - "Order constraints"
+    #   learning_outcomes:
+    #     - "Provide examples of materials discovery tasks with constraints"
+    #     - "Adapt a Bayesian optimization script to include constraints"
+    #   tutorial:
+    #     - "Degrees-of-freedom, compositional linear constraint: https://chat.openai.com/share/841f8f67-2ee9-4546-a4d6-681f0e7c04fd (https://github.com/facebook/Ax/issues/727)"
+    #   assessments:
+    #     - "Quiz: Match terms with examples"
+    #     - "Pytest: Verify that certain parameter sets pass or fail the constraint (i.e., check in the vicinity of the constraint)"
+    #     - "Quiz: Report the optimized value for a given seed"
+
+    # - module_name: "High-dimensional optimization"
+    #   topics:
+    #     - "Curse of dimensionality"
+    #     - "SAASBO"
+    #   learning_outcomes:
+    #     - "Explain the curse of dimensionality"
+    #     - "Compare the efficiency of expected improvement and SAASBO as a function of dimensionality"
+    #   assessments:
+    #     - "Quiz: Match terms with definitions (SAASBO, curse of dimensionality, discrepancy)"
+    #     - "Quiz: Report the final efficiencies for EI and SAASBO for a given seed for three different dimensionalities"
+    #     - "Pytest: Verify that the optimization history matches for a fixed seed"
+    #     - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
+
+    - module_name: "2.3 Batch Optimization"
+      tutorial_file: 2.3-batch.md
       topics:
         - "Conditioning"
         - "Batch optimization"
@@ -341,7 +347,8 @@ data-science:
         - "Quiz: Input the final optimized values for three cases: sequential, batch, and asynchronous optimization with fixed seeds"
         - "Pytest: Verify that the optimization history matches for a fixed seed"
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
-    - module_name: "Featurization"
+
+    - module_name: "2.4 Featurization"
       topics:
         - "Domain knowledge integration"
         - "Contextual variables"
@@ -359,7 +366,8 @@ data-science:
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
         - "Quiz: Input the final optimized values for three cases: without a contextual variable, with an important contextual variable, and with a red-herring contextual variable (could use one of the matsci-opt benchmarks or Vickers hardness, etc.)."
         - "Compare the optimization efficiency, runtime, and resource utilization for three cases: small number of predefined candidates, large number of predefined candidates, and continuous optimization"
-    - module_name: "Multi-fidelity/multi-task"
+
+    - module_name: "2.5 Multi-fidelity" # / multi-task
       topics:
         - "Cost-fidelity tradeoffs"
         - "Knowledge gradient"
@@ -373,7 +381,8 @@ data-science:
         - "Quiz: Select the cases that have multiple fidelities (i.e., variables where as cost increases, fidelity is expected to increase)"
         - "Quiz: Categorize several cases as multi-fidelity vs. multi-task per guidelines in https://github.com/facebook/Ax/issues/1038"
         - "Quiz: Input the final optimized values after a certain budget is used up for the following cases: fidelity fixed to lowest, fidelity fixed to middle, fidelity fixed to highest, variable fidelity via knowledge gradient"
-    - module_name: "Benchmark datasets/models"
+
+    - module_name: "Benchmarking"
       topics:
         - "Benchmarks"
         - "Surrogate models"

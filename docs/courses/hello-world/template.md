@@ -1,4 +1,4 @@
-# 🧩 2.2 Multi-objective Optimization
+# 🧩 #.# Title
 
 ```{contents}
 :depth: 2
@@ -6,30 +6,6 @@
 
 ## 🔰 Tutorial
 
-% TODO: Add side-by-side buttons!
-
-::::{grid} 1 2 2 2
-:::{grid-item-card}  Concept Doc
-Single- vs. Multi-objective Optimization
-+++
-```{button-link} https://honegumi.readthedocs.io/en/latest/curriculum/concepts/sobo-vs-mobo/sobo-vs-mobo.html
-:color: info
-:expand:
-:click-parent:
-Concept Doc
-```
-:::
-:::{grid-item-card}  Coding Tutorial
-Optimizing a Polymer Compound for Strength and Density
-+++
-```{button-link} https://honegumi.readthedocs.io/en/latest/curriculum/tutorials/mobo/mobo-tutorial.html
-:color: info
-:expand:
-:click-parent:
-Coding Tutorial
-```
-:::
-::::
 
 ## 🚀 Quiz
 
