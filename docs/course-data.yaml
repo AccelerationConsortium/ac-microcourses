@@ -349,6 +349,7 @@ data-science:
         - "Pytest: Verify that the optimization traces are correct by checking the figure return type and accessing the raw data"
 
     - module_name: "2.4 Featurization"
+      tutorial_file: 2.4-featurization.md
       topics:
         - "Domain knowledge integration"
         - "Contextual variables"
@@ -368,6 +369,7 @@ data-science:
         - "Compare the optimization efficiency, runtime, and resource utilization for three cases: small number of predefined candidates, large number of predefined candidates, and continuous optimization"
 
     - module_name: "2.5 Multi-task" # / multi-task
+      tutorial_file: 2.5-multi-task.md
       topics:
         - "Multi-task optimization"
         - "Cost-fidelity tradeoffs"
@@ -385,6 +387,7 @@ data-science:
         - "Quiz: Input the final optimized values after a certain budget is used up for the following cases: fidelity fixed to lowest, fidelity fixed to middle, fidelity fixed to highest, variable fidelity via knowledge gradient"
 
     - module_name: "2.6 Benchmarking"
+      tutorial_file: 2.6-benchmarking.md
       topics:
         - "Benchmarks"
         - "Surrogate models"

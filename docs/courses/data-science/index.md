@@ -68,9 +68,9 @@ Begin
 🧩 2.1 Single-objective <2.1-single-objective.md>
 🧩 2.2 Multi-objective <2.2-multi-objective.md>
 🧩 2.3 Batch Optimization <2.3-batch.md>
-🧩 2.4 Featurization <>
-🧩 2.5 Multi-task <>
-🧩 2.6 Benchmarking <>
+🧩 2.4 Featurization <2.4-featurization.md>
+🧩 2.5 Multi-task <2.5-multi-task.md>
+🧩 2.6 Benchmarking <2.6-benchmarking.md>
 ```
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
