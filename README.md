@@ -28,3 +28,8 @@ This project has been set up using [PyScaffold] 4.5 and the [dsproject extension
 [Google style]: http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings
 [PyScaffold]: https://pyscaffold.org/
 [dsproject extension]: https://github.com/pyscaffold/pyscaffoldext-dsproject
+
+## Course-specific Organizations
+
+1. [ACC-HelloWorld](https://github.com/ACC-HelloWorld)
+2. [ACC-DataScience](https://github.com/ACC-DataScience)
