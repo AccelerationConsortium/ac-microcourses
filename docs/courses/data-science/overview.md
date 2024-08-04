@@ -102,15 +102,14 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Adapt a Bayesian optimization script to use predefined candidates with featurization
     * Adapt a Bayesian optimization script to use contextual variables
 
-* - 2.5 Multi-fidelity
-  - * Cost-fidelity tradeoffs
-    * Knowledge gradient
+* - 2.5 Multi-task
+  - * Multi-task optimization
+    * Cost-fidelity tradeoffs
   - * Explain the effect of cost-fidelity tradeoffs on optimization
-    * Explain when to use multi-fidelity vs. multi-task optimization
-    * Assess the efficiency of expected improvement at fixed fidelities vs. knowledge gradient
-    * Adapt a Bayesian optimization script to use a knowledge gradient
+    * Explain when to use multi-fidelity vs. multi-task optimization vs. contextual optimization
+    * Adapt a Bayesian optimization script to leverage data from a related task
 
-* - Benchmarking
+* - 2.6 Benchmarking
   - * Benchmarks
     * Surrogate models
     * Random forest regression
