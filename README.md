@@ -17,6 +17,8 @@ This repository houses the framework for the microcredentials courses being deve
 
 Please navigate to the [documentation](https://ac-microcourses.readthedocs.io/) for more information.
 
+Private assignment repositories are hosted on the respective AC Classroom GitHub organization: [ACC-HelloWorld](https://github.com/ACC-HelloWorld), [ACC-DataScience](https://github.com/ACC-DataScience), ACC-Robotics, ACC-SoftwareDev, ACC-Design.
+
 ## Note
 
 This project has been set up using [PyScaffold] 4.5 and the [dsproject extension] 0.7.2.
