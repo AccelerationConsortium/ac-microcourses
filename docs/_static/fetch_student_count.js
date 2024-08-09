@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
             // Update the student count and remove the loading message/spinner
             document.getElementById('helloWorldStudentCount').innerText = data.hello_world_student_count || 'N/A';
             document.getElementById('helloWorldCompletionCount').innerText = data.hello_world_completion_count || 'N/A';
+            document.getElementById('dataScienceStudentCount').innerText = data.data_science_student_count;
+            document.getElementById('dataScienceCompletionCount').innerText = data.data_science_completion_count;
             // Repeat for other courses, matching their respective IDs
         } catch (error) {
             console.error('Failed to fetch student counts:', error);
