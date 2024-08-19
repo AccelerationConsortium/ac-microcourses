@@ -34,13 +34,13 @@ Explore
 :::
 
 :::{grid-item-card}  Registration
-Sign up to be notified when registration opens.
+Register to gain access to quizzes and assignments.
 +++
-```{button-link} https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs
 :color: info
 :expand:
 :click-parent:
-Waitlist {octicon}`link-external;1em`
+Register {octicon}`link-external;1em`
 ```
 
 :::
@@ -63,7 +63,7 @@ Begin
 :hidden:
 
 🗺️ Overview <overview>
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035261>
+🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs>
 
 🧩 2.1 Single-objective <2.1-single-objective.md>
 🧩 2.2 Multi-objective <2.2-multi-objective.md>

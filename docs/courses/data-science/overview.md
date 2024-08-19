@@ -7,6 +7,11 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 # 📊 Data Science: Course Overview
 
 
+```{note}
+:class: margin
+[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs)! Course quizzes and grades are available at https://q.utoronto.ca/.
+```
+
 
 Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms.
 
