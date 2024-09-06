@@ -244,6 +244,20 @@ data-science:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
+    - module_name: "2.0 Orientation"
+      tutorial_file: 2.0-orientation.md
+      topics:
+        - "Git"
+        - "GitHub"
+        - "Version control"
+        - "GitHub Classroom"
+        - "Codespaces"
+      learning_outcomes:
+        - "Describe the purpose of Git and GitHub"
+        - "Create a GitHub account and a repository"
+        - "Commit, push, and pull changes"
+        - "Run a unit test and fix a simple Python function"
+        - "Define continuous integration"
     - module_name: "2.1 Single-objective"
       tutorial_file: 2.1-single-objective.md
       topics:
