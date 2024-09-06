@@ -482,15 +482,17 @@ robotics:
         - "Jubilee"
         - "Opentrons"
       learning_outcomes:
-        - "Perform liquid transfer between vials with an automated liquid handler (Science Jubilee or Opentrons)"
+        - "Perform liquid transfer between vials with an automated liquid handler (Science Jubilee and OT-2)"
 
     - module_name: "3.4 Mobile robotics"
       topics:
         - "ROS"
         - "Isaac Sim"
         - "Asynchronous task execution"
+        - "Prefect"
       learning_outcomes:
         - "Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim"
+        - "Use a workflow orchestration package to manage asynchronous tasks"
         - "Define asynchrony in the context of hardware control for automonous laboratories"
 
     - module_name: "3.5 Computer vision"
@@ -499,6 +501,7 @@ robotics:
         - "AprilTags"
       learning_outcomes:
         - "Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags"
+        - "Use a motorized microscope and OpenCV to search for regions of interest in a sample"
 
     - module_name: "3.6 Solid sample transfer"
       topics:
@@ -507,7 +510,7 @@ robotics:
         - "AprilTags"
         - "Multi-axis robotics"
       learning_outcomes:
-        - "Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer"
+        - "Use ROS, AprilTags, a multi-axis robot, and a workflow orchestration platform to perform solid sample transfer"
 
 software-dev:
   course_shortname: "Software Development"
