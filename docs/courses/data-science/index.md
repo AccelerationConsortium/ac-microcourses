@@ -65,6 +65,7 @@ Begin
 🗺️ Overview <overview>
 🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs>
 
+🧩 2.0 Orientation <2.0-orientation.md>
 🧩 2.1 Single-objective <2.1-single-objective.md>
 🧩 2.2 Multi-objective <2.2-multi-objective.md>
 🧩 2.3 Batch Optimization <2.3-batch.md>

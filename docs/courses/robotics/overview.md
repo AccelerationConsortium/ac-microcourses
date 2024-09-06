@@ -104,26 +104,29 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - * Workflow orchestration
     * Jubilee
     * Opentrons
-  - * Perform liquid transfer between vials with an automated liquid handler (Science Jubilee or Opentrons)
+  - * Perform liquid transfer between vials with an automated liquid handler (Science Jubilee and OT-2)
 
 * - 3.4 Mobile robotics
   - * ROS
     * Isaac Sim
     * Asynchronous task execution
+    * Prefect
   - * Demonstrate control of a mobile cobot using frameworks such as the Robot Operating System (ROS) and Isaac Sim
+    * Use a workflow orchestration package to manage asynchronous tasks
     * Define asynchrony in the context of hardware control for automonous laboratories
 
 * - 3.5 Computer vision
   - * OpenCV
     * AprilTags
   - * Demonstrate spatial referencing and ID lookup by using OpenCV and AprilTags
+    * Use a motorized microscope and OpenCV to search for regions of interest in a sample
 
 * - 3.6 Solid sample transfer
   - * Workflow orchestration
     * ROS
     * AprilTags
     * Multi-axis robotics
-  - * Use ROS, AprilTags, and a multi-axis robot to perform solid sample transfer
+  - * Use ROS, AprilTags, a multi-axis robot, and a workflow orchestration platform to perform solid sample transfer
 
 ```
 
