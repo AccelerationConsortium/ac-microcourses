@@ -59,7 +59,7 @@ You can navigate between pages using the left and right arrow keys.
 📈 Course 2: Data Science <courses/data-science/index>
 🦾 Course 3: Robotics <courses/robotics/index>
 🧑‍💻 Course 4: Software Dev. <courses/software-dev/index>
-🏢 Course 5: Capstone Project <courses/capstone/index>
+🏢 Course 5: Design Project <courses/capstone/index>
 Developer Resources <dev-resources>
 ```
 
