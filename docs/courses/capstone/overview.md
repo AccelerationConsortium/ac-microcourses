@@ -31,7 +31,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 
 - Deliver a persuasive and clear presentation of the self-driving lab proposal to a team of scientists
 
-- Develop and implement a capstone project at the AC Training Lab, demonstrating applied knowledge, problem-solving, and project management skills
+- Develop and implement a design project at the AC Training Lab, demonstrating applied knowledge, problem-solving, and project management skills
 
 - Compile a detailed project update, including proposed next steps, to demonstrate strategic planning and the ability to evaluate ongoing progress
 
