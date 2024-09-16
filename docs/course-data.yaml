@@ -529,7 +529,7 @@ robotics:
 software-dev:
   course_shortname: "Software Development"
   course_title: "Software Development for Self-driving Labs"
-  course_emoji: "👩‍💻"
+  course_emoji: "🧑‍💻"
   # registration_link: "https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs"
   waitlist_link: "https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551"
   short_description: ""
@@ -692,7 +692,7 @@ capstone:
     - "Create and illustrate a detailed schematic figure to propose a self-driving lab"
     - "Compose a concise white paper on the self-driving laboratory"
     - "Deliver a persuasive and clear presentation of the self-driving lab proposal to a team of scientists"
-    - "Develop and implement a capstone project at the AC Training Lab, demonstrating applied knowledge, problem-solving, and project management skills"
+    - "Develop and implement a design project at the AC Training Lab, demonstrating applied knowledge, problem-solving, and project management skills"
     - "Compile a detailed project update, including proposed next steps, to demonstrate strategic planning and the ability to evaluate ongoing progress"
     - "Exhibit and disseminate the project's designs, data, and documentation publicly"
   competencies_skills:
