@@ -71,13 +71,24 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
   - Topics
   - Learning Outcomes
 
+* - 4.0 Orientation
+  - * Git
+    * GitHub
+    * Version control
+    * GitHub Classroom
+    * Codespaces
+  - * Describe the purpose of Git and GitHub
+    * Create a GitHub account and a repository
+    * Commit, push, and pull changes
+    * Run a unit test and fix a simple Python function
+    * Define continuous integration
+
 * - Deep dive into Git and GitHub
   - * GitHub issues
     * Pull requests
     * Collaborative coding
     * Branches
     * Merge conflicts
-    * Project management
   - * Open a GitHub issue on a repository
     * Create a new branch
     * Merge a GitHub pull request
