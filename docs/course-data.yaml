@@ -558,20 +558,36 @@ software-dev:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
+    - module_name: "4.0 Orientation"
+      tutorial_file: 4.0-orientation.md
+      topics:
+        - "Git"
+        - "GitHub"
+        - "Version control"
+        - "GitHub Classroom"
+        - "Codespaces"
+      learning_outcomes:
+        - "Describe the purpose of Git and GitHub"
+        - "Create a GitHub account and a repository"
+        - "Commit, push, and pull changes"
+        - "Run a unit test and fix a simple Python function"
+        - "Define continuous integration"
     - module_name: "Deep dive into Git and GitHub"
+      tutorial_file: 4.1-github-deep-dive.md
       topics:
         - "GitHub issues"
         - "Pull requests"
         - "Collaborative coding"
         - "Branches"
         - "Merge conflicts"
-        - "Project management"
+        # - "Project management"
       learning_outcomes:
         - "Open a GitHub issue on a repository"
         - "Create a new branch"
         - "Merge a GitHub pull request"
         - "Resolve a merge conflict"
     - module_name: "Setting up VS Code"
+      tutorial_file: 4.2-vscode-setup.md
       topics:
         - "IDEs"
         - "Miniconda"
@@ -587,6 +603,7 @@ software-dev:
         - "Install Miniconda"
         - "Install VS Code extensions"
     - module_name: "Debugging in VS Code"
+      tutorial_file: 4.3-vscode-debugging.md
       topics:
         - "Print statements"
         - "Setting breakpoints"
@@ -602,6 +619,7 @@ software-dev:
         - "Use the debug console"
         - "Set up debug configurations"
     - module_name: "Unit testing"
+      tutorial_file: 4.4-unit-testing.md
       topics:
         - "pytest"
         - "Test result interpretation"
@@ -618,6 +636,7 @@ software-dev:
     # Linting and code formatting? (e.g., black, flake8, isort, etc., especially VS Code Extensions)
     # VS Code extensions? (e.g., Python, Jupyter, Git, etc.)
     - module_name: "Automated documentation"
+      tutorial_file: 4.5-automated-docs.md
       topics:
         - "Markdown"
         - "Documentation as code"
@@ -632,6 +651,7 @@ software-dev:
       tutorial:
         - "GitHub-flavored Markdown tutorial"
     - module_name: "Continuous integration (CI)"
+      tutorial_file: 4.6-continuous-integration.md
       topics:
         - "Continuous integration"
         - "GitHub actions"
@@ -642,6 +662,7 @@ software-dev:
         - "Set up a GitHub actions workflow"
         - "Run unit tests and documentation builds on GitHub actions"
     - module_name: "Project templates"
+      tutorial_file: 4.7-project-templates.md
       topics:
         - "PyScaffold"
         - "Cookiecutter"
@@ -656,6 +677,7 @@ software-dev:
         - "Publish a Python package to PyPI"
         - "Outline the key benefits of dependency management during software development"
     - module_name: "Launching a free cloud server"
+      tutorial_file: 4.8-cloud-server.md
       topics:
         - "Serverless computing"
         - "PythonAnywhere"
@@ -667,6 +689,7 @@ software-dev:
         - "Create a container"
         - "Deploy a materials discovery campaign on a cloud server"
     - module_name: "On-demand cloud simulations"
+      tutorial_file: 4.9-cloud-simulations.md
       topics:
         - "Cloud computing"
         - "Setting up an AWS account"
