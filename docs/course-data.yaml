@@ -556,6 +556,7 @@ software-dev:
   course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
   developers:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
+    - "Sissi Feng, PhD Electrical and Computer Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
     - module_name: "4.0 Orientation"
