@@ -21,3 +21,5 @@ sphinx-gallery
 # sphinx_rtd_theme
 sphinx_book_theme
 sphinx_copybutton
+sphinxcontrib-applehelp>=2
+sphinxcontrib-htmlhelp>=2.1
