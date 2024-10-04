@@ -499,6 +499,7 @@ robotics:
         - "Perform liquid transfer between vials with an automated liquid handler (Science Jubilee and OT-2)"
 
     - module_name: "3.4 Mobile robotics"
+      tutorial_file: 3.4-mobile-robotics.md
       topics:
         - "ROS"
         - "Isaac Sim"
@@ -510,6 +511,7 @@ robotics:
         - "Define asynchrony in the context of hardware control for automonous laboratories"
 
     - module_name: "3.5 Computer vision"
+      tutorial_file: 3.5-computer-vision.md
       topics:
         - "OpenCV"
         - "AprilTags"
@@ -518,6 +520,7 @@ robotics:
         - "Use a motorized microscope and OpenCV to search for regions of interest in a sample"
 
     - module_name: "3.6 Solid sample transfer"
+      tutorial_file: 3.6-solid-sample-transfer.md
       topics:
         - "Workflow orchestration"
         - "ROS"
