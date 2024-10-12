@@ -576,7 +576,7 @@ software-dev:
         - "Commit, push, and pull changes"
         - "Run a unit test and fix a simple Python function"
         - "Define continuous integration"
-    - module_name: "Deep dive into Git and GitHub"
+    - module_name: "4.1 Deep dive into Git and GitHub"
       tutorial_file: 4.1-github-deep-dive.md
       topics:
         - "GitHub issues"
@@ -590,7 +590,7 @@ software-dev:
         - "Create a new branch"
         - "Merge a GitHub pull request"
         - "Resolve a merge conflict"
-    - module_name: "Setting up VS Code"
+    - module_name: "4.2 Setting up VS Code"
       tutorial_file: 4.2-vscode-setup.md
       topics:
         - "IDEs"
@@ -606,7 +606,7 @@ software-dev:
         - "Set up VS Code"
         - "Install Miniconda"
         - "Install VS Code extensions"
-    - module_name: "Debugging in VS Code"
+    - module_name: "4.3 Debugging in VS Code"
       tutorial_file: 4.3-vscode-debugging.md
       topics:
         - "Print statements"
@@ -622,7 +622,7 @@ software-dev:
         - "Step through code"
         - "Use the debug console"
         - "Set up debug configurations"
-    - module_name: "Unit testing"
+    - module_name: "4.4 Unit testing"
       tutorial_file: 4.4-unit-testing.md
       topics:
         - "pytest"
@@ -639,7 +639,7 @@ software-dev:
     # Coding best practices? (e.g., modularity, readability, PEP8, object-oriented programming, etc.)
     # Linting and code formatting? (e.g., black, flake8, isort, etc., especially VS Code Extensions)
     # VS Code extensions? (e.g., Python, Jupyter, Git, etc.)
-    - module_name: "Automated documentation"
+    - module_name: "4.5 Automated docs"
       tutorial_file: 4.5-automated-docs.md
       topics:
         - "Markdown"
@@ -654,7 +654,7 @@ software-dev:
         - "Set up a readthedocs account and publish a readthedocs page"
       tutorial:
         - "GitHub-flavored Markdown tutorial"
-    - module_name: "Continuous integration (CI)"
+    - module_name: "4.6 Continuous integration"
       tutorial_file: 4.6-continuous-integration.md
       topics:
         - "Continuous integration"
@@ -665,7 +665,7 @@ software-dev:
         - "Explain the purpose of continuous integration"
         - "Set up a GitHub actions workflow"
         - "Run unit tests and documentation builds on GitHub actions"
-    - module_name: "Project templates"
+    - module_name: "4.7 Project templates"
       tutorial_file: 4.7-project-templates.md
       topics:
         - "PyScaffold"
@@ -680,7 +680,7 @@ software-dev:
         - "Add project content"
         - "Publish a Python package to PyPI"
         - "Outline the key benefits of dependency management during software development"
-    - module_name: "Launching a free cloud server"
+    - module_name: "4.8 Launching a free cloud server"
       tutorial_file: 4.8-cloud-server.md
       topics:
         - "Serverless computing"
@@ -692,7 +692,7 @@ software-dev:
         - "Use a container"
         - "Create a container"
         - "Deploy a materials discovery campaign on a cloud server"
-    - module_name: "On-demand cloud simulations"
+    - module_name: "4.9 On-demand cloud simulations"
       tutorial_file: 4.9-cloud-simulations.md
       topics:
         - "Cloud computing"

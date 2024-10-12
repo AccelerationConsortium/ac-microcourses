@@ -83,7 +83,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Run a unit test and fix a simple Python function
     * Define continuous integration
 
-* - Deep dive into Git and GitHub
+* - 4.1 Deep dive into Git and GitHub
   - * GitHub issues
     * Pull requests
     * Collaborative coding
@@ -94,7 +94,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Merge a GitHub pull request
     * Resolve a merge conflict
 
-* - Setting up VS Code
+* - 4.2 Setting up VS Code
   - * IDEs
     * Miniconda
     * VS Code extensions
@@ -108,7 +108,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Install Miniconda
     * Install VS Code extensions
 
-* - Debugging in VS Code
+* - 4.3 Debugging in VS Code
   - * Print statements
     * Setting breakpoints
     * Inspecting variables
@@ -122,7 +122,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Use the debug console
     * Set up debug configurations
 
-* - Unit testing
+* - 4.4 Unit testing
   - * pytest
     * Test result interpretation
     * Debugging
@@ -132,7 +132,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Run and interpret unit tests to fix code
     * Explain test-driven development
 
-* - Automated documentation
+* - 4.5 Automated docs
   - * Markdown
     * Documentation as code
     * Docstrings
@@ -143,7 +143,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Write a docstring for a Python function
     * Set up a readthedocs account and publish a readthedocs page
 
-* - Continuous integration (CI)
+* - 4.6 Continuous integration
   - * Continuous integration
     * GitHub actions
     * Unit tests
@@ -152,7 +152,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Set up a GitHub actions workflow
     * Run unit tests and documentation builds on GitHub actions
 
-* - Project templates
+* - 4.7 Project templates
   - * PyScaffold
     * Cookiecutter
     * Project initialization
@@ -165,7 +165,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Publish a Python package to PyPI
     * Outline the key benefits of dependency management during software development
 
-* - Launching a free cloud server
+* - 4.8 Launching a free cloud server
   - * Serverless computing
     * PythonAnywhere
     * Hugging Face
@@ -175,7 +175,7 @@ Each module is intended to take approximately 3-4 hours, assuming that the recom
     * Create a container
     * Deploy a materials discovery campaign on a cloud server
 
-* - On-demand cloud simulations
+* - 4.9 On-demand cloud simulations
   - * Cloud computing
     * Setting up an AWS account
     * AWS Lambda

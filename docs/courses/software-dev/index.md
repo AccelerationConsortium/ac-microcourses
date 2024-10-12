@@ -55,15 +55,15 @@ Waitlist {octicon}`link-external;1em`
 🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
 
 🧩 4.0 Orientation <4.0-orientation.md>
-🧩 Deep dive into Git and GitHub <4.1-github-deep-dive.md>
-🧩 Setting up VS Code <4.2-vscode-setup.md>
-🧩 Debugging in VS Code <4.3-vscode-debugging.md>
-🧩 Unit testing <4.4-unit-testing.md>
-🧩 Automated documentation <4.5-automated-docs.md>
-🧩 Continuous integration (CI) <4.6-continuous-integration.md>
-🧩 Project templates <4.7-project-templates.md>
-🧩 Launching a free cloud server <4.8-cloud-server.md>
-🧩 On-demand cloud simulations <4.9-cloud-simulations.md>
+🧩 4.1 Deep dive into Git and GitHub <4.1-github-deep-dive.md>
+🧩 4.2 Setting up VS Code <4.2-vscode-setup.md>
+🧩 4.3 Debugging in VS Code <4.3-vscode-debugging.md>
+🧩 4.4 Unit testing <4.4-unit-testing.md>
+🧩 4.5 Automated docs <4.5-automated-docs.md>
+🧩 4.6 Continuous integration <4.6-continuous-integration.md>
+🧩 4.7 Project templates <4.7-project-templates.md>
+🧩 4.8 Launching a free cloud server <4.8-cloud-server.md>
+🧩 4.9 On-demand cloud simulations <4.9-cloud-simulations.md>
 ```
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
