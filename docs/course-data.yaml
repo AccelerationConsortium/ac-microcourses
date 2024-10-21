@@ -227,7 +227,7 @@ data-science:
   description: "Unleash the power of data science in the realm of self-driving laboratories. This remote, asynchronous course empowers you to apply data science concepts to materials discovery tasks. You'll create Bayesian optimization scripts, explore advanced optimization topics, and adapt templates to create an advanced optimization setup for a materials discovery task. Topics will include multi-objective, constrained, high-dimensional, multi-fidelity, batch, asynchronous, and domain-aware Bayesian optimization. Additionally, you'll learn to share your findings by uploading datasets to a data repository, creating benchmark models, and hosting models on data science platforms."
   media_command: "![](./images/ax-repo/bo_1d_opt.gif)"
   media_caption: "*Animation of 1D Bayesian Optimization: A Gaussian Process surrogate model can be used with an acquisition function to seamlessly transition from exploration to optimization in noisy settings. Source: [https://ax.dev/docs/bayesopt.html](https://ax.dev/docs/bayesopt.html)*"
-  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }} (Course 1: Hello World)"
   learning_outcomes:
     - "Describe and categorize a materials discovery task using data science language and concepts"
     - "Customize a Bayesian optimization script to systematically identify the optimal chocolate chip cookie recipe, demonstrating practical application of optimization techniques"
@@ -431,7 +431,7 @@ robotics:
   description: "Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a microcontroller, a motor driver, and a workflow orchestration package. You'll also learn to control mobile cobots and perform spatial referencing and ID recognition via computer vision. The course will conclude with a solid sample transfer workflow using a multi-axis robot. Remotely accessible resources will be provided as necessary."
   media_command: "<video width='100%' controls autoplay muted><source src='./../../_static/ac-website/robot-loop.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
   media_caption: "Self-driving lab robotic platforms. 1. ADA at the University of British Columbia (C. Berlinguette, J. Hein, A. Aspuru-Guzik); 2. Artificial Chemist (M. Abolhasani, NC State University); 3. Robotically reconfigurable flow chemistry platform (C. Coley, MIT); 4. Chemputer (L. Cronin, University of Glasgow); 5. Mobile robot chemist (A. Cooper, University of Liverpool). Source: [https://acceleration.utoronto.ca/maps](https://acceleration.utoronto.ca/maps)"
-  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }} (Course 1: Hello  World)"
   # I am also thinking about adding: **This course requires physical hardware and a 2.4 GHz WPA-2 wireless network**. If you do not have the hardware, you will need to purchase the physical hardware associated with “Introduction to AI for Discovery using Self-driving Labs” and the the [required components](https://github.com/ac-rad/digital-pipette) for the “Digital Pipette”, replacing the 6V DC power supply with the correct style for your country (e.g., European type C), if necessary. If you do not have the required wireless network, you can use a mobile hotspot in extended compatibility mode or a SIM-enabled router (see [recommendations](https://github.com/sparks-baird/self-driving-lab-demo/discussions/83) for more information).
   learning_outcomes:
     - "Design and execute software to manage a peristaltic pump's operations using a microcontroller and motor driver, demonstrating application and integration skills"
@@ -499,6 +499,7 @@ robotics:
         - "Perform liquid transfer between vials with an automated liquid handler (Science Jubilee and OT-2)"
 
     - module_name: "3.4 Mobile robotics"
+      tutorial_file: 3.4-mobile-robotics.md
       topics:
         - "ROS"
         - "Isaac Sim"
@@ -510,6 +511,7 @@ robotics:
         - "Define asynchrony in the context of hardware control for automonous laboratories"
 
     - module_name: "3.5 Computer vision"
+      tutorial_file: 3.5-computer-vision.md
       topics:
         - "OpenCV"
         - "AprilTags"
@@ -518,6 +520,7 @@ robotics:
         - "Use a motorized microscope and OpenCV to search for regions of interest in a sample"
 
     - module_name: "3.6 Solid sample transfer"
+      tutorial_file: 3.6-solid-sample-transfer.md
       topics:
         - "Workflow orchestration"
         - "ROS"
@@ -536,7 +539,7 @@ software-dev:
   description: "Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting."
   media_command: ""
   media_caption: ""
-  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }}"
+  recommended_prerequisites: "The **recommended prerequisite** for this course is {{ hello-world }} (Course 1: Hello World)"
   learning_outcomes:
     - "Enumerate and explain software development best practices along with their corresponding benefits, demonstrating understanding and recall"
     - "Identify and evaluate various productivity tools for developers, highlighting how they enhance efficiency, to demonstrate analytical and selection skill"
@@ -556,22 +559,39 @@ software-dev:
   course_assessments_and_grading_schema: "{{ courses.hello-world.course_assessments_and_grading_schema }}"
   developers:
     - "Sterling Baird, PhD Materials Science and Engineering (Acceleration Consortium)"
+    - "Sissi Feng, PhD Electrical and Computer Engineering (Acceleration Consortium)"
   module_note: "Each module is intended to take approximately 3-4 hours, assuming that the recommended prerequisites have been met."
   modules:
-    - module_name: "Deep dive into Git and GitHub"
+    - module_name: "4.0 Orientation"
+      tutorial_file: 4.0-orientation.md
+      topics:
+        - "Git"
+        - "GitHub"
+        - "Version control"
+        - "GitHub Classroom"
+        - "Codespaces"
+      learning_outcomes:
+        - "Describe the purpose of Git and GitHub"
+        - "Create a GitHub account and a repository"
+        - "Commit, push, and pull changes"
+        - "Run a unit test and fix a simple Python function"
+        - "Define continuous integration"
+    - module_name: "4.1 Deep dive into Git and GitHub"
+      tutorial_file: 4.1-github-deep-dive.md
       topics:
         - "GitHub issues"
         - "Pull requests"
         - "Collaborative coding"
         - "Branches"
         - "Merge conflicts"
-        - "Project management"
+        # - "Project management"
       learning_outcomes:
         - "Open a GitHub issue on a repository"
         - "Create a new branch"
         - "Merge a GitHub pull request"
         - "Resolve a merge conflict"
-    - module_name: "Setting up VS Code"
+    - module_name: "4.2 Setting up VS Code"
+      tutorial_file: 4.2-vscode-setup.md
       topics:
         - "IDEs"
         - "Miniconda"
@@ -586,7 +606,8 @@ software-dev:
         - "Set up VS Code"
         - "Install Miniconda"
         - "Install VS Code extensions"
-    - module_name: "Debugging in VS Code"
+    - module_name: "4.3 Debugging in VS Code"
+      tutorial_file: 4.3-vscode-debugging.md
       topics:
         - "Print statements"
         - "Setting breakpoints"
@@ -601,7 +622,8 @@ software-dev:
         - "Step through code"
         - "Use the debug console"
         - "Set up debug configurations"
-    - module_name: "Unit testing"
+    - module_name: "4.4 Unit testing"
+      tutorial_file: 4.4-unit-testing.md
       topics:
         - "pytest"
         - "Test result interpretation"
@@ -617,7 +639,8 @@ software-dev:
     # Coding best practices? (e.g., modularity, readability, PEP8, object-oriented programming, etc.)
     # Linting and code formatting? (e.g., black, flake8, isort, etc., especially VS Code Extensions)
     # VS Code extensions? (e.g., Python, Jupyter, Git, etc.)
-    - module_name: "Automated documentation"
+    - module_name: "4.5 Automated docs"
+      tutorial_file: 4.5-automated-docs.md
       topics:
         - "Markdown"
         - "Documentation as code"
@@ -631,7 +654,8 @@ software-dev:
         - "Set up a readthedocs account and publish a readthedocs page"
       tutorial:
         - "GitHub-flavored Markdown tutorial"
-    - module_name: "Continuous integration (CI)"
+    - module_name: "4.6 Continuous integration"
+      tutorial_file: 4.6-continuous-integration.md
       topics:
         - "Continuous integration"
         - "GitHub actions"
@@ -641,7 +665,8 @@ software-dev:
         - "Explain the purpose of continuous integration"
         - "Set up a GitHub actions workflow"
         - "Run unit tests and documentation builds on GitHub actions"
-    - module_name: "Project templates"
+    - module_name: "4.7 Project templates"
+      tutorial_file: 4.7-project-templates.md
       topics:
         - "PyScaffold"
         - "Cookiecutter"
@@ -655,7 +680,8 @@ software-dev:
         - "Add project content"
         - "Publish a Python package to PyPI"
         - "Outline the key benefits of dependency management during software development"
-    - module_name: "Launching a free cloud server"
+    - module_name: "4.8 Launching a free cloud server"
+      tutorial_file: 4.8-cloud-server.md
       topics:
         - "Serverless computing"
         - "PythonAnywhere"
@@ -666,7 +692,8 @@ software-dev:
         - "Use a container"
         - "Create a container"
         - "Deploy a materials discovery campaign on a cloud server"
-    - module_name: "On-demand cloud simulations"
+    - module_name: "4.9 On-demand cloud simulations"
+      tutorial_file: 4.9-cloud-simulations.md
       topics:
         - "Cloud computing"
         - "Setting up an AWS account"

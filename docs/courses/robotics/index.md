@@ -58,11 +58,9 @@ Waitlist {octicon}`link-external;1em`
 🧩 3.1 Pumps and Pipettes <3.1-pumps-and-pipettes.md>
 🧩 3.2 Serial communication <3.2-serial-communication.md>
 🧩 3.3 Liquid Handlers <3.3-liquid-handlers.md>
-🧩 3.4 Mobile robotics <>
-🧩 3.5 Computer vision <>
-🧩 3.6 Solid sample transfer <>
+🧩 3.4 Mobile robotics <3.4-mobile-robotics.md>
+🧩 3.5 Computer vision <3.5-computer-vision.md>
+🧩 3.6 Solid sample transfer <3.6-solid-sample-transfer.md>
 ```
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
