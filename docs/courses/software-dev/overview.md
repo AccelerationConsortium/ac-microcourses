@@ -7,6 +7,11 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 # 🧑‍💻 Software Development: Course Overview
 
 
+```{note}
+:class: margin
+[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs)! Course quizzes and grades are available at https://q.utoronto.ca/.
+```
+
 
 Elevate your software development skills in the context of self-driving laboratories. This asynchronous, remote course introduces software development concepts and best practices and productivity tools such as integrated development environments (IDEs) with VS Code, unit testing with pytest, continuous integration via GitHub actions, and documentation creation using Sphinx and Read the Docs. You'll also learn to deploy materials discovery campaigns on cloud servers or dedicated hardware and run offline simulations using cloud hosting.
 
@@ -19,7 +24,7 @@ Elevate your software development skills in the context of self-driving laborato
 
 
 
-The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
+The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs (Course 1: Hello World)
 
 
 ## 🎯 Learning Outcomes

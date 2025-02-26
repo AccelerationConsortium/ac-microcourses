@@ -34,15 +34,26 @@ Explore
 :::
 
 :::{grid-item-card}  Registration
-Sign up to be notified when registration opens.
+Register to gain access to quizzes and assignments.
 +++
-```{button-link} https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs
 :color: info
 :expand:
 :click-parent:
-Waitlist {octicon}`link-external;1em`
+Register {octicon}`link-external;1em`
 ```
 
+:::
+
+:::{grid-item-card}  Course Content
+Begin working through modules, one-by-one.
++++
+```{button-ref} 4.0-orientation
+:color: info
+:expand:
+:click-parent:
+Begin
+```
 :::
 
 ::::
@@ -52,7 +63,7 @@ Waitlist {octicon}`link-external;1em`
 :hidden:
 
 🗺️ Overview <overview>
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035551>
+🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs>
 
 🧩 4.0 Orientation <4.0-orientation.md>
 🧩 4.1 Deep dive into Git and GitHub <4.1-github-deep-dive.md>

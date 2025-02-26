@@ -34,15 +34,26 @@ Explore
 :::
 
 :::{grid-item-card}  Registration
-Sign up to be notified when registration opens.
+Register to gain access to quizzes and assignments.
 +++
-```{button-link} https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513
+```{button-link} https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs
 :color: info
 :expand:
 :click-parent:
-Waitlist {octicon}`link-external;1em`
+Register {octicon}`link-external;1em`
 ```
 
+:::
+
+:::{grid-item-card}  Course Content
+Begin working through modules, one-by-one.
++++
+```{button-ref} 3.0-orientation
+:color: info
+:expand:
+:click-parent:
+Begin
+```
 :::
 
 ::::
@@ -52,7 +63,7 @@ Waitlist {octicon}`link-external;1em`
 :hidden:
 
 🗺️ Overview <overview>
-🎓 Waitlist <https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035513>
+🎓 Register <https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs>
 
 🧩 3.0 Orientation <3.0-orientation.md>
 🧩 3.1 Pumps and Pipettes <3.1-pumps-and-pipettes.md>

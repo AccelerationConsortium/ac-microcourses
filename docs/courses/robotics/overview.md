@@ -7,6 +7,11 @@ or modify src/ac_microcourses/overview.md.jinja. --->
 # 🦾 Robotics: Course Overview
 
 
+```{note}
+:class: margin
+[Registration is live](https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs)! Course quizzes and grades are available at https://q.utoronto.ca/.
+```
+
 
 Embark on a journey into the world of robotics and automation for self-driving laboratories. This asynchronous, remote course equips you with the skills to control peristaltic pumps, linear actuators, automated liquid handlers, and solid dispensers using a microcontroller, a motor driver, and a workflow orchestration package. You'll also learn to control mobile cobots and perform spatial referencing and ID recognition via computer vision. The course will conclude with a solid sample transfer workflow using a multi-axis robot. Remotely accessible resources will be provided as necessary.
 
@@ -23,7 +28,7 @@ Self-driving lab robotic platforms. 1. ADA at the University of British Columbia
 
 
 
-The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs
+The **recommended prerequisite** for this course is Introduction to AI for Discovery using Self-driving Labs (Course 1: Hello  World)
 
 
 ## 🎯 Learning Outcomes
