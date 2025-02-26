@@ -154,7 +154,7 @@ nb_execution_excludepatterns = [
     "1.4-hardware-software-communication.ipynb",  # MicroPython code
     "1.4.1-onboard-led-temp.ipynb",  # assumes a MCU is actively receiving
     "1.5-data-logging.ipynb",  # MicroPython code
-    "1.5.1-aws-lambda-read.ipynb",  # just not tested
+    "1.5.3-aws-lambda-read.ipynb",  # just not tested
     "2.*",  # TODO: Bayes opt notebooks
     "3.*",  # TODO: Robotics notebooks
     "4.*",  # TODO: Software dev notebooks
