@@ -37,8 +37,12 @@ document.addEventListener("DOMContentLoaded", function() {
             // Update the student count and remove the loading message/spinner
             document.getElementById('helloWorldStudentCount').innerText = data.hello_world_student_count || 'N/A';
             document.getElementById('helloWorldCompletionCount').innerText = data.hello_world_completion_count || 'N/A';
-            document.getElementById('dataScienceStudentCount').innerText = data.data_science_student_count;
-            document.getElementById('dataScienceCompletionCount').innerText = data.data_science_completion_count;
+            document.getElementById('dataScienceStudentCount').innerText = data.data_science_student_count || 'N/A';
+            document.getElementById('dataScienceCompletionCount').innerText = data.data_science_completion_count || 'N/A';
+            document.getElementById('roboticsStudentCount').innerText = data.robotics_student_count || 'N/A';
+            document.getElementById('roboticsCompletionCount').innerText = data.robotics_completion_count || 'N/A';
+            document.getElementById('softwareDevStudentCount').innerText = data.software_dev_student_count || 'N/A';
+            document.getElementById('softwareDevCompletionCount').innerText = data.software_dev_completion_count || 'N/A';
             // Repeat for other courses, matching their respective IDs
         } catch (error) {
             console.error('Failed to fetch student counts:', error);
