@@ -17,7 +17,7 @@ This repository houses the framework for the microcredentials courses being deve
 
 Please navigate to the [documentation](https://ac-microcourses.readthedocs.io/) for more information.
 
-Private assignment repositories are hosted on the respective AC Classroom GitHub organization: [ACC-HelloWorld](https://github.com/ACC-HelloWorld), [ACC-DataScience](https://github.com/ACC-DataScience), [ACC-Robotics](https://github.com/ACC-Robotics), [ACC-SoftwareDev](https://github.com/ACC-SoftwareDev), [ACC-Design](https://github.com/ACC-Design).
+Private assignment repositories are hosted on the respective AC Classroom GitHub organization: [ACC-HelloWorld](https://github.com/ACC-HelloWorld), [ACC-DataScience](https://github.com/ACC-DataScience), [ACC-Robotics](https://github.com/ACC-Robotics), [ACC-SoftwareDev](https://github.com/ACC-SoftwareDev), [ACC-DesignProject](https://github.com/ACC-DesignProject).
 
 ## Note
 
