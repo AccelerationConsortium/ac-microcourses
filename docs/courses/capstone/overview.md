@@ -54,7 +54,7 @@ Turn your self-driving lab expertise into a real-world project. During this cour
 
 ## 🧩 Modules
 
-This course is expected to take approximately 40 hours to complete.
+This course is expected to take approximately 50 hours to complete (5 prep, 40 in-person, 5 post-project).
 
 ```{list-table}
 :header-rows: 1
@@ -88,7 +88,7 @@ This course is expected to take approximately 40 hours to complete.
 
 ## ⚖️ Course Assessments and Grading Schema
 
-Performance in this course is assessed via rubrics that evaluate the quality of the proposal, design/build, and stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The design rubric evaluates the design, implementation, and documentation. The build rubric evaluates the build, implementation, and documentation. Each module is worth 100 points.
+Performance in this course is assessed via rubrics that evaluate the quality of the proposal, build, and dissemination stages. The proposal rubric evaluates the schematic figure, white paper, and presentation. The build rubric evaluates the design, implementation, and documentation. The dissemination rubric evaluates a final write-up. Module 1 is worth 25 points. Module 2 is worth 50 points. Module 3 is worth 25 points.
 
 
 ## 👤 Course developer(s)
