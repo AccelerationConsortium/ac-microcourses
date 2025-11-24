@@ -2,7 +2,7 @@
 This course requires physical hardware and a 2.4 GHz WPA2-Personal wireless network
 ```
 
-If you do not have the hardware, you will need to purchase [the required components](https://www.digikey.ca/short/3m5nn9vn), replacing the USB power adapter with the correct style for your country (e.g., [European type C](https://www.digikey.de/en/products/detail/cui-inc/SWI5-5-E-I38/5287193)), if necessary. You may also refer to ["Before you Begin"](https://www.sciencedirect.com/science/article/pii/S2666166723002964?via%3Dihub#sec1).
+If you do not have the hardware, you will need to purchase [the required components](https://www.digikey.com/short/3m5nn9vn), replacing the USB power adapter with the correct style for your country (e.g., [European type C](https://www.digikey.de/en/products/detail/cui-inc/SWI5-5-E-I38/5287193)), if necessary. You may also refer to ["Before you Begin"](https://www.sciencedirect.com/science/article/pii/S2666166723002964?via%3Dihub#sec1).
 
 ![Hardware annotated](hardware-annotated.png)
 
