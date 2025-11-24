@@ -43,7 +43,7 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 ## Course Flowchart
 ```{note}
 :class: margin
-If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca).
+If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca) or [gurpaul.kochhar@utoronto.ca](mailto:gurpaul.kochhar@utoronto.ca).
 ```
 ```{figure} course-flowchart-light.svg
 :class: only-light
