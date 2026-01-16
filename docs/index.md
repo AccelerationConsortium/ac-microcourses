@@ -79,4 +79,4 @@ Developer Resources <dev-resources>
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-<script src="_static/fetch_student_count.js"></script>
+## <script src="_static/fetch_student_count.js"></script>
