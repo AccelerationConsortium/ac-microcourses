@@ -1,4 +1,5 @@
 ax-platform # for 1.3 notebook
+docutils>=0.20,<0.22
 ipykernel
 jinja2 # for generate_overviews.py script
 matplotlib # for 1.4.1 notebook
