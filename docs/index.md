@@ -24,7 +24,6 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 - Acquire multidisciplinary skills in data science, robotics, and software development
 - Develop advanced technical proficiencies in AI, database management, and workflow orchestration
 - Implement software development best practices through state-of-the-art software development tools
-- Develop, defend, and execute a project proposal for self-driving labs at an in-person training facility
 
 ## List of Microcourses
 
@@ -34,7 +33,6 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 | 📈   | [AI and Materials Databases for Self-driving Labs](courses/data-science/index.md)        | Write Python scripts to iteratively optimize materials and log results to a database | [Register](https://learn.utoronto.ca/programs-courses/courses/4131-ai-and-materials-databases-self-driving-labs)             | <span id="dataScienceStudentCount" class="student-count">Loading...</span> | <span id="dataScienceCompletionCount" class="completion-count">Loading...</span> |
 | 🦾   | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md)                    | Write Python scripts to control robots and orchestrate workflows                     | [Register](https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs)                     | <span id="roboticsStudentCount" class="student-count">Loading...</span>    | <span id="roboticsCompletionCount" class="completion-count">Loading...</span>    |
 | 🧑‍💻   | [Software Development for Self-driving Labs](courses/software-dev/index.md)              | Leverage software development tools and implement best practices                     | [Register](https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs)                   | <span id="softwareDevStudentCount" class="student-count">Loading...</span> | <span id="softwareDevCompletionCount" class="completion-count">Loading...</span> |
-| 🏢   | [AC Training Lab Design Project](courses/capstone/index.md)                              | Develop, defend, and execute a project proposal                                      | [Waitlist](https://2learn.utoronto.ca/public/student/studentRequestInformation.do?method=edit&type=0&courseNumber=134035796) | N/A                                                                        | N/A                                                                              |
 
 ## Course Flowchart
 ```{note}
