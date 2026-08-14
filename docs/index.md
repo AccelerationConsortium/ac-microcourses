@@ -34,20 +34,6 @@ Advanced materials hold the potential to improve our lives and our world, but tr
 | 🦾   | [Autonomous Systems for Self-driving Labs](courses/robotics/index.md)                    | Write Python scripts to control robots and orchestrate workflows                     | [Register](https://learn.utoronto.ca/programs-courses/courses/4132-autonomous-systems-self-driving-labs)                     | <span id="roboticsStudentCount" class="student-count">Loading...</span>    | <span id="roboticsCompletionCount" class="completion-count">Loading...</span>    |
 | 🧑‍💻   | [Software Development for Self-driving Labs](courses/software-dev/index.md)              | Leverage software development tools and implement best practices                     | [Register](https://learn.utoronto.ca/programs-courses/courses/4133-software-development-self-driving-labs)                   | <span id="softwareDevStudentCount" class="student-count">Loading...</span> | <span id="softwareDevCompletionCount" class="completion-count">Loading...</span> |
 
-## Course Flowchart
-```{note}
-:class: margin
-If you have questions about these courses, feel free to reach out to [sterling.baird@utoronto.ca](mailto:sterling.baird@utoronto.ca) or [gurpaul.kochhar@utoronto.ca](mailto:gurpaul.kochhar@utoronto.ca).
-```
-```{figure} course-flowchart-light.svg
-:class: only-light
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Dev Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
-```
-```{figure} course-flowchart-dark.svg
-:class: only-dark
-The microcourses progress in three stages—introduction, deeper dives, and capstone—as shown. Courses #1-#4 are fully remote and asychronous, and the final capstone course will be conducted in-person at the [AC Dev Lab](https://ac-training-lab.readthedocs.io/), where participants will have access to both educational and research-grade equipment.
-```
-
 ## Table of Contents
 
 ```{tip}
@@ -61,7 +47,6 @@ You can navigate between pages using the left and right arrow keys.
 📈 Course 2: Data Science <courses/data-science/index>
 🦾 Course 3: Robotics <courses/robotics/index>
 🧑‍💻 Course 4: Software Dev. <courses/software-dev/index>
-🏢 Course 5: Design Project <courses/capstone/index>
 Developer Resources <dev-resources>
 ```
 
