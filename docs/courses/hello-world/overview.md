@@ -88,7 +88,6 @@ The orientation modules are intended to be completed in under one hour in total.
   - * Git
     * GitHub
     * Version control
-    * GitHub Classroom
     * Codespaces
   - * Describe the purpose of Git and GitHub
     * Create a GitHub account and a repository
